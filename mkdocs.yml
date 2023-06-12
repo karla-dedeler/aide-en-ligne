@@ -6,6 +6,7 @@ theme:
   #navigation_depth: 6
   features:
     - navigation.sections
+    - navigation.indexes
 plugins:
   - search
   - mkdocstrings:
@@ -29,13 +30,14 @@ nav:
   - Société:
     - Menu Société: 'Societe/Menu/Menu_SOCIETE.md'
     - Nouvelle société: 
-      - Créer une nouvelle société: Societe/Nouvelle/1/CreerNouvelleSociete.md
-      - ... Nouvelle société: 'Societe/Nouvelle/1/NouvelleSociete.md'
-      - ... Base de données: 'Societe/Nouvelle/1/BaseDonnees.md'
-      - ... Raison sociale et adresse: 'Societe/Nouvelle/1/RaisonSocialeAdresse.md'
-      - ... Exercices comptables: 'Societe/Nouvelle/1/ExercicesComptables.md'
-      - ... Tableau des périodes d'exercices comptables: 'Societe/Nouvelle/1/TableauPeriodes.md'
-      - ... Données par défaut: 'Societe/Nouvelle/1/DonneesDefaut.md'
+      - Créer une nouvelle société: 
+        - Societe/Nouvelle/1/CreerNouvelleSociete.md
+        - Nouvelle société: 'Societe/Nouvelle/1/NouvelleSociete.md'
+        - Base de données: 'Societe/Nouvelle/1/BaseDonnees.md'
+        - Raison sociale et adresse: 'Societe/Nouvelle/1/RaisonSocialeAdresse.md'
+        - Exercices comptables: 'Societe/Nouvelle/1/ExercicesComptables.md'
+        - Tableau des périodes d'exercices comptables: 'Societe/Nouvelle/1/TableauPeriodes.md'
+        - Données par défaut: 'Societe/Nouvelle/1/DonneesDefaut.md'
       - Dupliquer une société: 'Societe/Nouvelle/2/DupliquerBaseDonnees.md'
       - Paramétrages après la création d'une société: 'Societe/Nouvelle/3/ParametragesApresCreationSociete.md'
     - Ouvrir une société:
