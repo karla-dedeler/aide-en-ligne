@@ -20,7 +20,7 @@ Les CLS prévalent sur tout documents émis par les clients.
 Le présent contrat est soumis aux Conditions Générales de Ventes (CGV), consultables : [http://ww.gestimum.com/fr/cgv.pdf](http://www.gestimum.com/fr/cgv.pdf).
 
 
-## Définitions
+## DEFINITIONS
 
 
 CLS ou CONTRAT : désigne le présent contrat, à l’exclusion de tout autre.
