@@ -58,10 +58,10 @@ Important !! toutes les fenêtres du logiciel devront être fermées pour
  modifier ces paramètres :
 
 
-* [Nom et utilisateur de la nouvelle société]('Societe/Nouvelle/1/NouvelleSociete.md')
-* [Choix de la base]('Societe/Nouvelle/1/BaseDonnees.md')
-* [Informations société]('Societe/Nouvelle/1/RaisonSocialeAdresse.md')
-* [Informations comptables]('Societe/Nouvelle/1/ExercicesComptables.md')
-* [Création des fichiers]('Societe/Nouvelle/1/DonneesDefaut.md')
+* [Nom et utilisateur de la nouvelle société](...\NouvelleSociete.md)
+* [Choix de la base](.../BaseDonnees.md)
+* [Informations société](.../RaisonSocialeAdresse.md)
+* [Informations comptables](.../ExercicesComptables.md)
+* [Création des fichiers](.../DonneesDefaut.md)
 
 
