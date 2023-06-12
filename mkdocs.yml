@@ -1,4 +1,4 @@
-#site_name: Aide en ligne
+site_name: Aide en ligne
 logo: "docs\favicon.png" 
 theme:
   name: readthedocs
