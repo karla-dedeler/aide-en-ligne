@@ -18,7 +18,3 @@ mkdocs:
 python:
    install:
    - requirements: docs/requirements.txt
-
-
-toctree:
-    - maxdepth: 3
