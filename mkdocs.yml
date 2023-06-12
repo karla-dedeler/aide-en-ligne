@@ -4,6 +4,7 @@ theme:
   name: readthedocs
   highlightjs: true
   navigation_depth: 4
+extra_css: [extra.css]
 plugins:
   - search
   - mkdocstrings:
