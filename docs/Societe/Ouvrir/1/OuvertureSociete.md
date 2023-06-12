@@ -11,7 +11,7 @@
 
 
 Pour ouvrir une société, il faut tout d'abord [fermer 
- la société](../../Fermer/FermerSociete.htm) en cours (menu SOCIETE) puis lancer la commande "Ouvrir 
+ la société](../../Fermer/FermerSociete.md) en cours (menu SOCIETE) puis lancer la commande "Ouvrir 
  une société" qui est alors active.
 
 
@@ -33,7 +33,7 @@ Pour sélectionner la société à ouvrir, vous devez soit  :
  sur le bouton Ouvrir ou double-cliquer directement sur le raccourci.
 * Sélectionner l’icône 
  permet d’ouvrir l'[assistant 
- de connexion](../2/AssistantConnexion.htm) afin de créer le raccourci pour ouvrir la société.
+ de connexion](../2/AssistantConnexion.md) afin de créer le raccourci pour ouvrir la société.
 
 
 ## Options

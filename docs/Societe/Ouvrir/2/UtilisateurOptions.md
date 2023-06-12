@@ -55,9 +55,6 @@ Cette partie permet de :
 
 
 C’est le chemin de l’emplacement du fichier "\*.Gestimum". 
- Ce chemin est modifiable par le bouton ![image\Gest0005_wmf.gif](../../assets/images/Ouvrir/2/Boutons.gif "image\Gest0005_wmf.gif")
-
-
- .
+ Ce chemin est modifiable par le bouton ![image\Gest0005_wmf.gif](../../assets/images/Ouvrir/2/Boutons.gif "image\Gest0005_wmf.gif").
 
 
