@@ -329,7 +329,7 @@ En outre, le CLIENT / l’INTÉGRATEUR reconnaît que la fourniture des services
 L’ASSISTANCE n’inclue aucun support sur site et ne se substitue pas aux prestations d’un INTÉGRATEUR de proximité (voir ci-dessous).
 
 
-## Assistance de proximité sur le site
+### Assistance de proximité sur le site
 
 
 Le CLIENT doit pouvoir faire appel à un professionnel de l’informatique et de la gestion, et/ou un INTÉGRATEUR pour s’assurer que son infrastructure reste adaptée, que la solution correspond à ses attentes, effectuer ou modifier des paramétrages, dénouer sur le site une difficulté technique dont la cause n’aurait pas pu être déterminée ou résolue par l’ASSISTANCE téléphonique, effectuer les tests avant MISES À JOUR, réaliser les migrations et la formation des utilisateurs, automatiser les sauvegardes, et intervenir sur site chaque fois que nécessaire. Pour ce faire, il reconnaît avoir conclu avec un tel professionnel de l’informatique une convention pour l’assister sur site en cas de besoin. Cette convention fixe les conditions d’intervention de ce professionnel. GESTIMUM ne peut être rendu responsable d’un défaut d’accord ou des conséquences d’un non-respect des obligations réciproques des parties convenues dans cette convention tierce.
