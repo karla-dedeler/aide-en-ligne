@@ -16,9 +16,8 @@ markdown_extensions:
 nav:
   - Bienvenue: 'index.md'
   - CLS : 'CLS.md'
-  - Notes de version : \Notes de Version
-  - Bienvenue : \Notes de Version\Racine\Bienvenue.md
-  - Mise en Garde : \Notes de Version\Racine\MiseGarde.md
-  - Dénomination des versions : \Notes de Version\Racine\DenominationVersion.md
-  - Développement sur mesure : \Notes de Version\Racine\PFD.md
-  - Préconisations d'utilisation et d'installation : \Notes de Version\Racine\PreconisationsUtilisationInstallation8.md
+  - Bienvenue : Notes de Version/Racine/Bienvenue.md
+  - Mise en Garde : Notes de Version/Racine/MiseGarde.md
+  - Dénomination des versions : Notes de Version/Racine/DenominationVersion.md
+  - Développement sur mesure :  Notes de Version/Racine/PFD.md
+  - Préconisations d'utilisation et d'installation :  Notes de Version/Racine/PreconisationsUtilisationInstallation8.md
