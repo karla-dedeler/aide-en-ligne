@@ -2,7 +2,9 @@
 
 
 
-# Conditions de licence des progiciels GESTIMUM et d'utilisation des services associés au 15/11/2019
+Conditions de licence des progiciels GESTIMUM et d'utilisation des services associés au 15/11/2019
+==================================================================================================
+
 
 
 
