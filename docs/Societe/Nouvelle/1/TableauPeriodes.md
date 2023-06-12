@@ -5,8 +5,7 @@
 
 
 
-Tableau des périodes d'exercices comptables
-===========================================
+# Tableau des périodes d'exercices comptables
 
 
 

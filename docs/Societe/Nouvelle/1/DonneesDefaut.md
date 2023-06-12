@@ -6,8 +6,8 @@
 
 
 
-Données par défaut
-==================
+# Données par défaut
+
 
 
 Le logiciel propose d'initialiser différents fichiers de base optionnels 
