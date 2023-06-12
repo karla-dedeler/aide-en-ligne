@@ -16,7 +16,7 @@ markdown_extensions:
 nav:
   - Bienvenue: 'index.md'
   - Conditions de licence des progiciels GESTIMUM et d'utilisation des services associés au 15/11/2019 : 'CLS.md'
-  - Notes de Version : 'Notes de Version'
+  - Notes de Version :
     - Bienvenue : 'Notes de Version/Racine/Bienvenue.md'
     - Mise en Garde : 'Notes de Version/Racine/MiseGarde.md'
     - Dénomination des versions : 'Notes de Version/Racine/DenominationVersion.md'
