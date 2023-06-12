@@ -63,5 +63,5 @@ Important !! toutes les fenêtres du logiciel devront être fermées pour
 * [Informations société](RaisonSocialeAdresse.md)
 * [Informations comptables](ExercicesComptables.md)
 * [Création des fichiers](DonneesDefaut.md)
-
+* [Tableau des périodes d'exercices comptables](TableauPeriodes.md)
 
