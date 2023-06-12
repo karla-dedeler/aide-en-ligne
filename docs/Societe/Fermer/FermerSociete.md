@@ -1,12 +1,4 @@
-
-
-
-
-
-
-
-
-Fermer la société
+# Fermer la société
 
 
 
@@ -30,7 +22,7 @@ Le menu SOCIETE | Fermer permet
 
 
 La fermeture de la société vous permet de lancer ensuite l’[ouverture 
- d'une autre société](../Ouvrir/1/OuvertureSociete.htm).
+ d'une autre société](../Ouvrir/1/OuvertureSociete.md).
 
 
  
