@@ -4,6 +4,8 @@ theme:
   name: readthedocs
   highlightjs: true
   #navigation_depth: 6
+  features:
+    - navigation.sections
 plugins:
   - search
   - mkdocstrings:
