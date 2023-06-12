@@ -7,7 +7,7 @@
 
 
 Ouverture de société
-
+===
 
 
 Pour ouvrir une société, il faut tout d'abord [fermer 
@@ -21,7 +21,7 @@ Pour ouvrir une société, il faut tout d'abord [fermer
 ![](../../assets/images/Ouvrir/1/OuvertureSociete.png)
 
 
-# Société
+## Société
 
 
 Pour sélectionner la société à ouvrir, vous devez soit  :
@@ -36,7 +36,7 @@ Pour sélectionner la société à ouvrir, vous devez soit  :
  de connexion](../2/AssistantConnexion.htm) afin de créer le raccourci pour ouvrir la société.
 
 
-# Options
+## Options
 
 
 Ce bouton permet de :
@@ -52,14 +52,14 @@ Ce bouton permet de :
  la vérification de la base à l’ouverture.
 
 
-# Utilisateur
+## Utilisateur
 
 
 Le nom d'un utilisateur doit obligatoirement être saisi. Le logiciel 
  propose automatiquement le dernier utilisateur connecté.
 
 
-# Mot de passe
+## Mot de passe
 
 
 Sans le mot de passe associé à l'utilisateur, la société ne pourra pas 

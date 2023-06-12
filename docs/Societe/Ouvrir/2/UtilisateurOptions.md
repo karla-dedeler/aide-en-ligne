@@ -6,7 +6,7 @@
 
 
 Utilisateur et options
-
+=====
 
 
 
@@ -20,7 +20,7 @@ Cette page vous permet de paramétrer l’utilisateur qui se connecte à
 ![](../../assets/images/Ouvrir/2/AssistantConnexionUtilisateur.png)
 
 
-# Utilisateur
+## Utilisateur
 
 
 Le nom de l'utilisateur du poste est proposé par défaut. La saisie de 
@@ -28,14 +28,14 @@ Le nom de l'utilisateur du poste est proposé par défaut. La saisie de
  à partir de ce moment.
 
 
-# Mot de passe
+## Mot de passe
 
 
 Si un mot de passe existe pour cet utilisateur, vous devez le saisir. 
  Ce mot de passe peut être changé à tout moment.
 
 
-# Options de connexion
+## Options de connexion
 
 
 Cette partie permet de :
@@ -51,7 +51,7 @@ Cette partie permet de :
  la vérification de la base à l’ouverture
 
 
-# Enregistrement du fichier de paramétrage
+## Enregistrement du fichier de paramétrage
 
 
 C’est le chemin de l’emplacement du fichier "\*.Gestimum". 
