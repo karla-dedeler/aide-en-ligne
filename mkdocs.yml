@@ -36,3 +36,9 @@ nav:
       - ... Données par défaut: 'Societe/Nouvelle/1/DonneesDefaut.md'
       - Dupliquer une société: 'Societe/Nouvelle/2/DupliquerBaseDonnees.md'
       - Paramétrages après la création d'une société: 'Societe/Nouvelle/3/ParametragesApresCreationSociete.md'
+    - Ouvrir une société:
+      - Ouverture de société: 'Societe/Ouvrir/1/OuvertureSociete.md'
+      - Assistant de création d'une connexion à une société existante:
+        - Assistant de connexion: 'Societe/Ouvrir/2/AssistantConnexion.md'
+        - ... Base de données: 'Societe/Ouvrir/2/BaseDonnees.md'
+        - ... Utilisateur et options: 'Societe/Ouvrir/2/UtilisateurOptions.md'
