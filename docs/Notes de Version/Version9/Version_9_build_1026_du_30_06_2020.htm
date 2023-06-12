@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="fr-FR"/>
+<meta name="topic-status" content="Envoyé en révision"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Version 9 build 1026 du 30/06/2020</title>
+<link rel="StyleSheet" href="../assets/css/GMNotesVersion.css" type="text/css"/>
+</head>
+
+<body>
+<h2 style="color: #f2771e;">ÉVOLUTIONS PRINCIPALES</h2>
+<p>Cette version intègre :</p>
+<p> </p>
+<ul style="list-style: disc;">
+	<li style="font-weight: bold;"><p>une refonte de la gestion des échéances 
+	 dans les documents d&#39;achats et de ventes :</p></li>
+</ul>
+<p> </p>
+<p style="margin-left: 40px;">Les montant des échéances des documents d&#39;origine, 
+ ne sont plus transférés partiellement sur les documents suivants.</p>
+<p style="margin-left: 40px;">Chaque document est propriétaire de son ou 
+ ses échéances, seule la facture peut porter les échéances des documents 
+ qui lui sont rattachés, en plus de ses propres échéances. <br/>
+</p>
+<ul style="list-style: disc;">
+	<li style="font-weight: bold;"><p>la mise en place des documents d&#39;acompte 
+	 en achats et en ventes :</p></li>
+</ul>
+<p> </p>
+<p style="margin-left: 40px;">Il est maintenant possible de créer des documents 
+ d&#39;acomptes directement depuis les documents d&#39;achats et de ventes, ou 
+ de manière séparée depuis la liste des documents d&#39;acomptes.</p>
+<p style="margin-left: 40px;">Une zone dédiée est présente dans le nouvel 
+ onglet &quot;Échéances / Acomptes&quot; des documents d&#39;achats et de ventes. 
+ </p>
+<p style="margin-left: 40px;">Il est possible d&#39;affecter N documents d&#39;acomptes 
+ à un document d&#39;achat /vente.</p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 0px;">Pour cela, nous avons revu le visuel de l&#39;échéancier 
+ des documents, qui est maintenant un onglet constitué de 3 zones : Échéances 
+ du documents, Documents d&#39;acompte et Échéances antérieures. </p>
+<p style="margin-left: 40px;"> </p>
+<p style="margin-left: 40px;"><img src="../assets/images/Version9/Images/Onglet__Ech.png" alt="" style="border: none;" border="0"/></p>
+<p> </p>
+<h2 style="color: #f2771e;">Autres évolutions &amp; correctifs (n° de ticket)</h2>
+<p>* Les numéros de tickets en <span style="color: #f2771e;">orange</span> 
+ correspondent à des évolutions de l&#39;ERP</p>
+<h3 class="Ticket_Module_GesCo">DOCUMENTATION ERP</h3>
+<p class="Ticket_Module_GesCo"><span style="color: #f2771e;">#25624</span> 
+ - Mise en place d&#39;une documentation au format HTML 5 utilisant le navigateur 
+ par défaut du poste utilisateur, lors de son ouverture.</p>
+<h3 class="Ticket_Module_GesCo">ACHAT ET VENTE</h3>
+<p>#18323 - Les documents à &#39;0&#39; ne génèrent plus d&#39;échéance à &#39;0&#39;.</p>
+<p>#19647 - Réactivation de l&#39;alerte à mi-vie des lots sur les composants 
+ d&#39;articles composés.</p>
+<p>#25811 - Ajout du champ LIG_LIB &quot;Désignation&quot; dans la personnalisation 
+ de la liste du détail des ventes et des achats par article.</p>
+<p><span style="color: #f2771e;">#25874</span> -<span class="expandtext"> 
+ </span>Refonte du fonctionnement des échéances dans les transferts de 
+ documents d&#39;achats et de ventes.</p>
+<p><span style="color: #f2771e;">#25882</span> - Refonte du visuel de la 
+ gestion des échéances dans les documents d&#39;achats et de ventes avec la 
+ création d&#39;un onglet &quot;Échéances / acomptes&quot;.</p>
+<p><span style="color: #f2771e;">#25896</span> - Mise en place des documents 
+ d&#39;acompte en achats et en ventes.</p>
+<p><span style="color: #f2771e;">#25907</span> - Mise en place d&#39;une liste 
+ de documents d&#39;acompte en achats et en ventes.</p>
+<p><span style="color: #f2771e;">#26059</span> - Les frais de port par 
+ paliers se cumulent dans le pied du document lors d&#39;un regroupement.</p>
+<h3 class="Ticket_Module_GesCo">CHAMPS PERSONNALISÉS</h3>
+<p>#23532 - Correction du mode de fonctionnement des conditions de visibilité 
+ des champs personnalisés, sur les sous-types de documents.</p>
+<p>#25884 - Les nouvelles adresses de tiers s&#39;enregistrent lors de l&#39;utilisation 
+ de champs personnalisés dans les adresses de tiers.</p>
+<p>#25964 - Le menu contextuel dans les conditions de visibilité des champs 
+ personnalisés permet de tout sélectionner ou de tout désélectionner.</p>
+<p>#25965 - Refonte du fonctionnement des conditions de visibilité sur 
+ les champs personnalisés des achats et des ventes.</p>
+<p>#26066 - Les filtres contenant un champ personnalisé en première position, 
+ ne sont plus impactés par la création de nouveaux champs personnalisés.</p>
+<p><span style="color: #f2771e;">#26242 </span>-<span style="color: #f2771e;"> 
+ </span>Mise en place de la sélection Ctrl+A dans les zones de texte illimité 
+ des champs personnalisés.</p>
+<h3 class="Ticket_Module_GesCo">ENCAISSEMENTS ET DÉCAISSEMENTS</h3>
+<p>#25469 - La modification d&#39;une échéance d&#39;avoir par la fenêtre de relances 
+ n&#39;en modifie plus son sens dans l’échéancier.</p>
+<p>#25646 - Correction de l&#39;erreur &quot;Les données de chaînes ou binaires 
+ seront tronquées&quot; dans toutes les générations d&#39;écritures de comptabilisation 
+ automatique, si le code journal contient plus de 4 caractères.</p>
+<p><span style="color: #f2771e;">#26385</span> - Mise en place de 3 champs 
+ supplémentaires dans les échéances (ECH_DATINI &quot;Echéance initiale&quot;; 
+ ECH_DTMJPR &quot;Échéance initiale modifiée par&quot; ; ECH_DTMJLE &quot;Échéance 
+ initiale modifiée le&quot;) permettant d’historiser la date d&#39;échéance 
+ d&#39;origine du document lorsque cette dernière est modifiée à l&#39;aide du 
+ module de relance.</p>
+<h3 class="Ticket_Module_GesCo">ERGONOMIE</h3>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25990 </span>-<span style="color: #f2771e;"> </span>Ajout du niveau de compatibilité 150 
+ de SQL Server 2019 dans la fenêtre &quot;Informations sur la base de données&quot;.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25989</span> 
+ - Affichage &quot;SQL Server 2019&quot; tout en bas à droite de la fenêtre 
+ principale, lorsque l&#39;on utilise SQL Server 2019.</p>
+<p style="text-align: justify;">#25481 - Prise en compte des libellés avec 
+ apostrophe dans les listes déroulantes.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25887</span> 
+ - Le texte de la zone &quot;Client&quot; dans les documents de vente est 
+ affichée en rouge lorsque l&#39;encours maximum est dépassé, plutôt que le 
+ fond de la zone.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#26199</span> 
+ - Affichage des noms des fichiers de configuration dans les préférences 
+ utilisateurs.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#26201</span> 
+ - L&#39;onglet &quot;Avancé&quot; des préférences utilisateur est maintenant 
+ séparé en 2 onglets distincts : &quot;Fichiers de configuration&quot; 
+ &amp; &quot;Base de données&quot;.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#26430</span> 
+ - Mise en place de la sélection Ctrl+A dans les zones de textes multi-lignes 
+ comme dans les zones de textes simples.</p>
+<h3 class="Ticket_Module_GesCo">EXPORT XML</h3>
+<p class="Ticket_Module_GesCo"><span style="color: #f2771e;">#25790</span> 
+ - Ajout des codes de types de coordonnées bancaires dans le schéma de 
+ tables exportables depuis l&#39;ERP.</p>
+<h3 class="Ticket_Module_GesCo">IMPORTS</h3>
+<p><span style="color: #f2771e;">#25415</span> - Ajout des champs d&#39;adresses 
+ de facturation et de livraison dans l&#39;import de documents d&#39;achats et 
+ de ventes.</p>
+<p><span style="color: #f2771e;">#25703</span> - Ajout du champs DOC_PIECE 
+ &quot;N° de pièce&quot; dans l&#39;import de documents de stock.</p>
+<p><span style="color: #f2771e;">#25708</span> - Suppression du champ DOC_TYPE 
+ de la liste des champs importables des achats et ventes.</p>
+<p>#25972 - Correction de l&#39;intégration des valeurs de gammes dans l&#39;import 
+ de documents de stock.</p>
+<h3 class="Ticket_Module_GesCo">IMPRESSIONS</h3>
+<p>#24562 - Correction des modèles d&#39;impressions des préférences de gestion.</p>
+<h3 class="Ticket_Module_GesCo">MODES DE RÈGLEMENTS</h3>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25894</span> 
+ - Suppression de l&#39;option de calcul des échéances sur le HT dans les modes 
+ de règlement.</p>
+<h3 class="Ticket_Module_GesCo">PORTEFEUILLE DES COMMANDES</h3>
+<p style="text-align: justify;"><span style="color: #f2771e;">#24069</span> 
+ - Reprise du N° de pièce d&#39;origine lors d&#39;un transfert d&#39;Accusé de Réception 
+ en Bon de Livraison, en passant par le portefeuille des commandes.</p>
+<h3 class="Ticket_Module_GesCo">STOCKS</h3>
+<p>#25839 - Lors de la suppression d&#39;un document d’écart de stock, les 
+ mouvements de stocks s&#39;actualisent correctement.</p>
+<h3 class="Ticket_Module_GesCo">TARIFS ET PROMOTIONS</h3>
+<p>#25486 - Lors de l&#39;utilisation de l&#39;outil de diminution ou d&#39;augmentation 
+ de prix en pourcentage dans les grilles de tarifs et promotions, le résultat 
+ est arrondi à 2 décimales.</p>
+<h3 class="Ticket_Module_GesCo">TRANSFERT COMPTABLE</h3>
+<p>#26341 - Correction de l&#39;erreur bloquante lors du transfert en comptabilité 
+ de remises en banque ou émissions de paiement contenant uniquement plusieurs 
+ factures, vers un fichier au format QuadraCompta.</p>
+<h3 class="Ticket_Module_GesCo">TIERS</h3>
+<p><span style="color: #f2771e;">#25833</span> - Mise en place d&#39;une nouvelle 
+ option dans les préférences utilisateurs permettant de choisir soit d&#39;afficher 
+ le code soit le libellé.</p>
+<p>#25852 - Correction de la recherche de tiers sur la raison sociale.</p>
+<p>#26082 - Correction de l&#39;erreur &quot;Nom de colonne PCF_TYPE ambigu 
+ &quot; en ouvrant la recherche de tiers depuis la duplication  d&#39;un 
+ document d&#39;achat / vente.</p>
+<h3 class="Ticket_Module_GesCo">VILLES</h3>
+<p><span style="color: #f2771e;">#25818</span> - Mise à jour de la liste 
+ des codes postaux.</p>
+<h3 class="Ticket_Modules_GesCo">EDI CHORUS</h3>
+<p style="text-align: justify;"><span style="color: #f2771e;">#24514 </span>-<span style="color: #f2771e;"> </span>L&#39;export d&#39;une facture au format CHORUS 
+ peut s&#39;effectuer depuis le menu contextuel des factures de vente et celui 
+ de la liste des documents de vente.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25830</span> 
+ - Mise en place d&#39;un contrôle sur la présence du code pays dans l&#39;adresse 
+ de livraison des documents de vente lors de l&#39;export au format CHORUS.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25914</span> 
+ - Ajout d&#39;une zone &quot;N° d&#39;engagement&quot; permettant de saisir le 
+ N° d&#39;engagement Chorus dans les documents de vente.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25915</span> 
+ - Ajout d&#39;une zone &quot;N° de bon de commande&quot; permettant de saisir 
+ le n° de bon de commande Chorus dans les documents de vente.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25917</span> 
+ - Mise en place d&#39;un nœud XML &quot;ContractDocumentReference&quot; dans 
+ le fichier d&#39;export au format CHORUS avec le N° d&#39;engagement et le type 
+ &quot;Engagement&quot;.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25918</span> 
+ - Mise en place d&#39;un nœud XML &quot;ContractDocumentReference&quot; dans 
+ le fichier d&#39;export au format CHORUS avec le N° de bon de commande et 
+ le type &quot;Bon de commande&quot;.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25919</span> 
+ - Mise en place d&#39;un contrôle sur le n° d&#39;engagement et le n° de bon de 
+ commande dans la fenêtre d&#39;export des factures et avoirs clients au format 
+ Chorus, permettant de s&#39;assurer que seule l&#39;une des 2 occurrences est 
+ remplie. </p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25922</span> 
+ - Le nœud XML &quot;Billingreference&quot; du fichier au format Chorus 
+ apparaît uniquement pour les avoirs afin d&#39;y renseigner le n° de la facture 
+ d&#39;origine quand cette information des connue.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25924</span> 
+ - Mise en place dans le fichier d&#39;export au format CHORUS d&#39;un nœud &quot;InvoiceLine&quot; 
+ avec un sous-noeud &quot;AdditionalItemProperty&quot; ayant la valeur 
+ &quot;Regroupement&quot;, permettant de remonter les lignes de sous-total 
+ ou total.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25949</span> 
+ - Le nœud XML &quot;Invoice\BillingReference&quot; n&#39;est pas créé dans 
+ le fichier au format Chorus s&#39;il est vide.</p>
+<h3 class="Ticket_G-CHANGE">G-CHANGE</h3>
+<p>#25265 - Le numéro de lot est importé lors d&#39;un transfert de document 
+ avec un import de fichier contenant le champs LIG_NUMERO en tâche en ligne 
+ de commande ou par transfert avec import de quantités, si le dossier est 
+ paramétré en multi-lots.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25622</span> 
+ - Import des immobilisations par tâche en ligne de commande et Web Service.</p>
+<p style="text-align: justify;">#25793 - Correction de l&#39;erreur &quot;&#39;&#39; 
+ n&#39;est pas une valeur en virgule flottante correcte&quot; quand on crée 
+ une grille de tarifs avec des remises par import en ligne de commande.</p>
+<p style="text-align: justify;">#25835 - La demande d&#39;impression de commande 
+ client via message Windows WM_COPYDATA ne provoque plus de violation d&#39;accès.</p>
+<p style="text-align: justify;">#25741 - Correction de la tâche en ligne 
+ de commande d&#39;import de contacts.</p>
+<p style="text-align: justify;">#26207 - Correction du blocage dans l&#39;import 
+ de comptes de tiers contenant des champs personnalisés non présents dans 
+ les tiers.</p>
+<p style="text-align: justify;"><span style="color: #f2771e;">#26335</span> 
+ - Dans l&#39;import de compte, la valeur contenue dans le champs PCF_RS &quot;Raison 
+ sociale&quot; ne se substitue plus à la valeur contenue dans le CPT_LIB 
+ &quot;Libellé du compte&quot;.</p>
+<p style="text-align: justify;">#26337 - En l&#39;absence de valeur dans les 
+ différents champs importables dans le fichier de mise à jour de compte, 
+ l&#39;import ne remplace plus la valeur présente dans le compte par la valeur 
+ par défaut du champ.</p>
+<p style="text-align: justify;">#26409 - La mise à jours du champ CPT_ECH 
+ des comptes comptables est maintenant prise en compte via import, tâche 
+ en ligne de commande et Webservice.        </p>
+<h3 class="Ticket_COMPTA">ÉCRITURES</h3>
+<p style="text-align: justify;">#25657 - Le traitement &quot;Générer les 
+ écritures de conversion...&quot; ne modifie plus le cours enregistré dans 
+ le Report à nouveau.</p>
+<p style="text-align: justify;">#25849 - La mise à jour d&#39;un champ d&#39;une 
+ ligne d&#39;écriture avec une date d&#39;échéance ne supprime plus la date d&#39;échéance 
+ de celle-ci.</p>
+<p style="text-align: justify;">#26343 - Le journal de trésorerie en devise 
+ n&#39;est plus déséquilibré lorsqu&#39;une écriture de plus de 2 lignes est saisie.</p>
+<h3 class="Ticket_COMPTA">GUIDES D&#39;ÉCRITURES</h3>
+<p class="Ticket_COMPTA">#25649 - La répartition analytique saisie dans 
+ un guide d&#39;écriture est bien prise en compte en saisie guidée.</p>
+<h3 class="Ticket_COMPTA">IMPORT DES ÉCRITURES COMPTABLES</h3>
+<p>#25309 - La phase de test d&#39;analyse de l&#39;analytique dans l&#39;import d&#39;écriture 
+ n&#39;incrémente plus les n° de pièce et n° d&#39;ordre.</p>
+<p>#25766 - Il est possible d&#39;importer plusieurs plans pour une même ligne 
+ dans une écriture.</p>
+<p>#25952 - La numérotation automatique des écritures, paramétrée dans 
+ les journaux ne s’incrémente plus lors du test d&#39;importation.</p>
+<h3 class="Ticket_COMPTA">IMPRESSIONS</h3>
+<p>#24562 - Correction des modèles d&#39;impressions des préférences de comptabilité.</p>
+<h3 class="Ticket_COMPTA">LETTRAGE</h3>
+<p><span style="color: #f2771e;">#25688</span> - Activation par défaut 
+ de l&#39;option &#39;Solder automatiquement les échéances correspondantes&quot; 
+ dans les fenêtre de lettrage, et de l&#39;option &quot;Désolder automatiquement 
+ les échéances&quot; dans les fenêtres de délettrage.</p>
+<p>#26339 - Correction des problématiques de lettrage issues du transfert 
+ en comptabilité des encaissements / décaissements depuis la Gestion Commerciale, 
+ sur des écritures ayant fait l&#39;objet d&#39;au moins 2 reports à nouveau.</p>
+<h3 class="Ticket_COMPTA">SOLDES INTERMÉDIAIRES DE GESTION (SIG)</h3>
+<p class="Ticket_COMPTA">#25534 - Correction du modèle détaillé des SIG 
+ afin qu&#39;il puisse interpréter les soldes de comptes négatifs par rapport 
+ à leur sens d&#39;origine.</p>
+<h3 class="Ticket_Module_COMPTA" style="font-family: &#39;Segoe UI&#39;, sans-serif; 
+	 font-weight: normal;">IMMOBILISATIONS</h3>
+<p style="text-align: justify;"><span style="color: #f2771e;">#25687</span> 
+ - Mise en forme du format d&#39;impression du plan d&#39;amortissement, accessible 
+ via clic droit dans l&#39;onglet amortissement de l&#39;immobilisation.</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: center;"><img alt="" src="../assets/images/Version7/Images/Modules_de_l_ERP.png" style="border: none;" border="0"/></p>
+<p> </p>
+<p> </p>
+
+
+</body></html>

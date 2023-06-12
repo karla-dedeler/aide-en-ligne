@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="fr-FR" />
+  <meta name="topic-status" content="Envoyé en révision" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Version 9.4</title>
+  <link rel="StyleSheet" href="../assets/css/GMNotesVersion.css" type="text/css" />
+</head>
+<body>
+  <h1 class="Titre_Bienvenue" style="color: #F2771E">Version 9.4.3 Build 1153 du 17/10/2022</h1>
+  <p>Cette version apporte des corrections dans les environnements suivants :</p>
+  <p> </p>
+  <h3 class="Ticket_Module_GesCo">ACHAT ET VENTE</h3>
+  <p>#28494 - Les modifications opérées dans une commande issue d&#39;un devis, impactant la valeur du document, entraîne l&#39;actualisation du montant restant sur le total des échéances initiales du devis d&#39;origine.</p>
+  <p>#28517 - Le changement du type d&#39;échéance, dans l&#39;échéancier d&#39;un document d&#39;achat ou de vente, actualise le montant restant sur le total des échéances initiales.</p>
+  <p>#28552 - Le regroupement d&#39;un ensemble d&#39;accusés de réceptions contenant chacun un ensemble d&#39;échéances en un seul accusé de réception, tient compte des différents montants, types et modes de règlements présents dans l&#39;échéancier des documents d&#39;origine.</p>
+  <p>#28597 - Le montant restant sur le total des échéances initiales de la commande s&#39;actualise après modification des quantités présentes dans le bon de livraison issu de cette commande.</p>
+  <h3 class="Ticket_Module_GesCo">STOCK</h3>
+  <p>#26121 &amp; #28153 - Correction du message &quot;Conversion de type variant incorrecte&quot; lors de la validation d&#39;inventaire, pendant le calcul des quantités commandées à partir des composants de lignes de type Nomenclature ou Forfait.</p>
+  <h3 class="Ticket_Module_COMPTA" style="font-family: &#39;Segoe UI&#39;, sans-serif; 
+	 font-weight: normal;">IMMOBILISATIONS</h3>
+  <p style="text-align: justify;">#28571 - L&#39;absence de compte fournisseur dans l&#39;onglet &quot;Entrée&quot; de la fiche immobilisation ne bloque pas la comptabilisation de la cession de l&#39;immobilisation.</p>
+  <p> </p>
+  <h1 class="Titre_Bienvenue" style="color: #F2771E">Version 9.4.2 Build 1143 du 13/01/2022</h1>
+  <p>Cette version apporte les corrections suivantes :</p>
+  <h3 class="Ticket_Module_GesCo">ACHAT ET VENTE</h3>
+  <p>#28045 - Correction de l&#39;erreur &quot;Erreur lors de la lecture de l&#39;échéance 0.&quot; à l&#39;enregistrement d&#39;une modification dans un BL issu d&#39;un regroupement d&#39;AR dont 1 AR avec une valeur totale de 0.</p>
+  <p>#28073 - Lors de la duplication d&#39;un document dans un même sous-type de document, l&#39;option &quot;Sélectionner manuellement les quantités à copier&quot; est disponible.</p>
+  <p>#28106 - Lors d&#39;un regroupement de plusieurs commandes en bon de livraison, si l&#39;une des commandes est au statut &quot;transféré partiellement&quot;, cette dernière sera également regroupée.</p>
+  <p>#28117 - Le statut d&#39;une commande passée au statut &quot;Transféré&quot; suite à un abandon de reliquat après avoir été transférée partiellement en bon de livraison, ne s&#39;actualise pas lors de la mise à jour du bon de livraison associé. </p>
+  <p>#28122 - L&#39;échéance du document s&#39;actualise après modification des lignes dans une facture issue d&#39;un regroupement de bons de livraison.</p>
+  <h3 class="Ticket_Module_GesCo">ENCAISSEMENTS ET DÉCAISSEMENTS</h3>
+  <p>#28058 - La colonne &quot;Devise&quot; des échéanciers reprend le code devise du document associé.</p>
+  <h3 class="Ticket_Module_GesCo">REPORTBUILDER</h3>
+  <p>#28128 - La fonction CalculTVAPied prend en charge la case à cocher &quot;En TTC&quot; présente dans les documents d&#39;achats / ventes.</p>
+  <h3 class="Ticket_COMPTA">EXTRAITS DE COMPTES</h3>
+  <p>#27948 - La case à cochée &quot;Exclure les comptes non mouvementés&quot; n&#39;exclut plus les comptes mouvementés, entièrement lettrés et avec un solde égal à 0 sur le même exercice. Le filtre sur le lettrage présent dans la fenêtre est maintenant pris en compte.</p>
+  <p> </p>
+  <h1 class="Titre_Bienvenue" style="color: #F2771E">Version 9.4.1 Build 1140 du 07/10/2021</h1>
+  <p>Cette version apporte les corrections suivantes :</p>
+  <h3 class="Ticket_Module_GesCo">ACHAT ET VENTE</h3>
+  <p>#27994 - L&#39;échéance de la facture n&#39;est plus supprimée lors de la saisie d&#39;une retenue de garantie si un document d&#39;acompte est présent dans le chaînage de document.</p>
+  <p>#27997 - L&#39;échéance de la facture issue d&#39;un regroupement de bons de livraison contenant des échéances antérieures se calcule correctement.</p>
+  <p>#28012 - La date d&#39;échéance de la retenue de garantie se calcule bien à J + 1 an.</p>
+  <h3 class="Ticket_COMPTA" style="color: rgb(94, 96, 96);"><span style="color:#FFFFFF">ÉCRITURES</span></h3>
+  <p style="text-align: justify;">#27995 - Correction de l&#39;affichage de l&#39;échéancier de l&#39;écriture comptable issue d&#39;un transfert de facture associée à une échéance d&#39;acompte.</p>
+  <p style="text-align: justify;">#27996 - Correction de l&#39;affichage de l&#39;échéancier de l&#39;écriture comptable issue d&#39;un transfert de facture associée à une échéance de retenue de garantie.</p>
+  <p style="text-align: justify;"> </p>
+  <h1 class="Titre_Bienvenue" style="color: rgb(242, 119, 30);">Version 9.4.0 Build 1136 du 15/09/2021</h1>
+  <h3 style="color: rgb(242, 119, 30);">ÉVOLUTIONS PRINCIPALES</h3>
+  <p>Cette version intègre :</p>
+  <ul class="Disc">
+    <li>une quasi refonte du module immobilisations</li>
+    <li>de nouveaux composants ReportBuilder</li>
+  </ul>
+  <h3 style="color: rgb(242, 119, 30);">Autres évolutions &amp; correctifs (n° de ticket)</h3>
+  <p>* Les numéros de tickets en <span style="color: #f2771e;">orange</span> correspondent à des évolutions de l&#39;ERP</p>
+  <h3 class="Ticket_Module_GesCo">ACHAT ET VENTE</h3>
+  <p>#27187 - Correction de la violation d&#39;accès présente dans la suppression d&#39;un document d&#39;acompte depuis un document d&#39;achat vente, lorsque l&#39;acompte a un montant égal à celui du document auquel il est rattaché.</p>
+  <p>#27188 - L&#39;actualisation de l&#39;échéance à la facture, lors de l&#39;affectation d&#39;un acompte sur un bon de livraison s&#39;effectue correctement.</p>
+  <p>#27189 - La création / affectation d&#39;une facture d&#39;acompte égale à 100% du document supprime bien l&#39;échéance sur un document de sous-type facture issu d&#39;un transfert.</p>
+  <p><span style="color: #f2771e;">#27265</span> - Intégration de la gestion du regroupement partiel de commandes dans le nouveau mode de gestion des échéances.</p>
+  <p><span style="color: #f2771e;">#27309</span> - Il n&#39;est plus possible de regrouper partiellement des commandes en une seule commande en achat et en vente.</p>
+  <p>#27317 - L&#39;objet (FAA_OBJET) et les commentaires (FAA_MEMO) des documents d&#39;acomptes s&#39;affichent dans l&#39;onglet &quot;Échéances / Acomptes&quot; des documents d&#39;achat / vente.</p>
+  <p>#27402 - La division sélectionnée dans les documents est conservée lors d&#39;un transfert, regroupement ou duplication. </p>
+  <p>#27405 - La facture d&#39;acompte impacte bien l&#39;échéance d&#39;un document issu d&#39;un transfert.</p>
+  <p><span style="color: #f2771e;">#27406 <span style="color:#000000;">- Mise en place d&#39;un contrôle dans l&#39;onglet échéance &amp; acomptes des documents d&#39;achat / vente, pour ne pas que le total des échéances et acomptes dépasse le montant du document.</span></span></p>
+  <p>#27421 - Amélioration de l&#39;affectation des factures d&#39;acompte depuis la liste de sélection des factures d&#39;acompte.</p>
+  <p>#27422 - Les totaux de pied de l&#39;onglet Échéances des documents se mettent correctement à jour lors de la suppression de toutes les lignes des tableaux.</p>
+  <p><span style="color: #f2771e;">#27428 <span style="color:#000000;">- </span></span>Les échéances de retenue de garantie, sont totalisées avec les autres échéances dans les documents Achat / Vente.</p>
+  <p><span style="color: #f2771e;">#27435 <span style="color:#000000;">- </span></span>Lors d&#39;un regroupement de documents, une seule ligne d’échéance est créée dans le document de destination par mode de règlement. Les critères de regroupement sont : le mode de règlement, la date d&#39;échéance et le type d&#39;échéance.</p>
+  <p>#27447 - Correction du mode d&#39;actualisation du &quot;montant restant sur le total des échéances initiales&quot; lors de la modification des quantités dans un Bon de Livraison. </p>
+  <p>#27449 - Mise en place de l&#39;actualisation du montant restant sur le total des échéances initiales lors de l&#39;ajout d&#39;une ligne article dans un bon de livraison créé par transfert.</p>
+  <p>#27450 - Le montant restant sur le total des échéances initiales n&#39;est plus impacté par le modification d&#39;une date d&#39;échéance ou la saisie de texte dans les lignes du document.</p>
+  <p>#27452 - Mise en place d&#39;un contrôle sur le montant total des échéances à la facture afin que l&#39;ajout d&#39;échéance sur une facture issue d&#39;un transfert, ne puisse pas fausser le total des échéances du document.</p>
+  <p>#27493 - Le montant restant sur le total des échéances initiales du devis est actualisé lorsque les lignes d&#39;accusé de réception issues de ce devis sont modifiées.</p>
+  <p>#27644 - L&#39;annulation du transfert d&#39;une commande en bon de réception pour code affaire manquant n&#39;alimente plus le stock des articles de manière artificielle.</p>
+  <p>#27689 - Le montant de l&#39;échéance de retenue de garantie se met à jour en cas de modification de la valeur du document et il est également possible d&#39;en modifier le montant via la ligne d&#39;échéance. Dans ce cas le pied de document sera mis à jour.</p>
+  <h3 class="Ticket_Module_GesCo">ACTIONS</h3>
+  <p><span style="color: #f2771e;"></span><span style="color: #f2771e;">#27435 <span style="color:#000000;">- On peut accéder à l&#39;affaire depuis une action ou la liste des actions à partir du menu contextuel.</span></span></p>
+  <h3 class="Ticket_Module_GesCo">ARTICLES</h3>
+  <p><span style="color: #f2771e;"></span><span style="color: #f2771e;">#27364 <span style="color:#000000;">- Mise à disposition, en lecture seule, des 20 zones de l&#39;onglet &quot;Conditionnement&quot; ainsi que la zone de commentaires de l&#39;onglet &quot;Infos&quot; des articles, dans l&#39;affichage de la liste des composants d&#39;un article composé.</span></span></p>
+  <p><span style="color: #f2771e;">#27386 <span style="color:#000000;">- Ajout d&#39;une colonne &quot;Commentaires&quot; (PRD_MEMO) de type &quot;texte illimité&quot; saisissable à la ligne de composant dans les fiches article.</span></span></p>
+  <h3 class="Ticket_Module_GesCo">IMPORTS</h3>
+  <p><span style="color: #f2771e;">#25620 <span style="color:#000000;">- Le mode de règlement (REG_CODE) est importable dans les documents de vente et d&#39;achat.</span></span></p>
+  <p><span style="color: #f2771e;"></span>#27773 - Le champs référence (DOC_REFPCF) s&#39;importe correctement lorsque un n° de pièce (DOC_PIECE) est imposé dans le fichier d&#39;import de documents d&#39;achat / vente.</p>
+  <p>#27774 - Lors de l&#39;import de documents, les numéros de pièce sont transformés en majuscules.</p>
+  <p>#27775 - Il n&#39;y a plus de message d&#39;avertissement lors de l&#39;import de documents si la date de livraison n&#39;est pas présente dans le fichiers d&#39;import.</p>
+  <h3 class="Ticket_Module_GesCo">REPORTBUILDER</h3>
+  <p><span style="color: #f2771e;">#27846 <span style="color:#000000;">- Ajout d&#39;une fonction &quot;SelectFromTableAsCurrency&quot; dans ReportBuilder pour récupérer par requête un montant dans la base de données.</span></span></p>
+  <p><span style="color: #f2771e;">#27905 <span style="color:#000000;">- Ajout d&#39;une fonction &quot;DateToSQL&quot; dans ReportBuilder pour passer en paramètre une date au bon format dans une requête SQL dynamique.</span></span></p>
+  <p><span style="color: #f2771e;">#27907 <span style="color:#000000;">- Ajout d&#39;une fonction &quot;StrToSQL&quot; dans ReportBuilder pour passer en paramètre une chaîne de caractères au bon format dans une requête SQL dynamique.</span></span></p>
+  <p><span style="color: #f2771e;">#27914 <span style="color:#000000;">- Ajout d&#39;un composant dans la palette ReportBuilder permettant d&#39;afficher le n° de page courant et le nombre total de pages.</span></span></p>
+  <p><span style="color: #f2771e;">#27917 <span style="color:#000000;">- Ajout d&#39;un composant dans la palette ReportBuilder permettant d&#39;afficher &quot;Dossier en ...&quot; avec le nom de la devise société.</span></span></p>
+  <p><span style="color: #f2771e;">#27918 <span style="color:#000000;">- Ajout d&#39;un composant dans la palette ReportBuilder permettant d&#39;afficher &quot;Imprimé le ... par ...&quot;.</span></span></p>
+  <p><span style="color: #f2771e;">#27919 <span style="color:#000000;">- Ajout d&#39;un composant dans la palette ReportBuilder permettant d&#39;afficher la raison sociale de la société.</span></span></p>
+  <p><span style="color: #f2771e;">#27925 <span style="color:#000000;">- Les boutons &quot;Suivant&quot; et &quot;Précédent&quot; dans l&#39;aperçu avant impression d&#39;un modèle ReportBuilder ne sont pas accessibles quand on est sur la dernière page ou la 1ère page de l&#39;édition.</span></span></p>
+  <h3 class="Ticket_Module_GesCo">TARIFS</h3>
+  <p><span style="color: #f2771e;"></span>#27645 - Harmonisation du mode d&#39;alimentation du champs &quot;Modifié le&quot; (TAR_DTMAJ) des grilles de tarifs, que la modification soit faite manuellement ou par import.</p>
+  <h3 class="Ticket_Module_GesCo">VILLES</h3>
+  <p>#27738 - Suppression des doublons dans la dernière version du fichier des villes du 13/01/2020, utilisé lors de la création de société.</p>
+  <p><span style="color: #f2771e;">#27831 <span style="color:#000000;">- Ajout de la latitude et la longitude dans le fichier des villes utilisé par la création de société.</span></span></p>
+  <p><span style="color: #f2771e;">#27840 <span style="color:#000000;">- Mise à disposition avec le fichier &quot;Villes.fr&quot; d&#39;un script &quot;Villes.fr.sql&quot; permettant dans les bases de données existantes d&#39;effacer et recréer toutes les villes avec les dernières mises à jours.</span></span></p>
+  <h3 class="Ticket_COMPTA">ÉCRITURES</h3>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27267 <span style="color:#000000;">- Les écritures correspondantes aux remises en banque et Emissions de paiements sont accessibles depuis la comptabilité, via un clic droit | Ecriture(s) de remise en banque ou Ecriture(s) d&#39;écart(s) sur le remise en banque ou l&#39;émission de paiement concernée.</span></span></p>
+  <p style="text-align: justify;">#27404 - Modification de la fenêtre de gestion des échéances dans les écritures afin de faire apparaître tous les éléments issus de la Gestion Commerciale, suite à la refonte de des échéances effectuée en Gestion commerciale.</p>
+  <p style="text-align: justify;">#27721 - Les centralisateurs et cumuls de comptes ne sont plus mis à jour en cas d&#39;erreurs lors de la création d&#39;écritures d&#39;immobilisations.</p>
+  <h3 class="Ticket_COMPTA">ERGONOMIE</h3>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27873 <span style="color:#000000;">- Homogénéisation du vocabulaire dans les menus contextuels permettant de voir l&#39;écriture comptable correspondante. (Échéances &amp; Immobilisations).</span></span></p>
+  <h3 class="Ticket_COMPTA">GUIDES</h3>
+  <p style="text-align: justify;">#27951 - L&#39;analytique du compte est repris dans l&#39;écriture créée à l&#39;aide d&#39;un guide, directement utilisé dans un journal ou par génération d&#39;abonnement.</p>
+  <h3 class="Ticket_COMPTA">OUTILS</h3>
+  <p style="text-align: justify;">#27747 - Actualisation des contrôles effectués dans l&#39;outil de &quot;traitement des écritures en simulation&quot;, lors du lancement de la suppression d&#39;écritures de simulation.</p>
+  <h3 class="Ticket_Module_COMPTA" style="font-family: &#39;Segoe UI&#39;, sans-serif; 
+	 font-weight: normal;">IMMOBILISATIONS</h3>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#21483</span> - Le bouton &quot;Comptabiliser la dotation&quot; dans l&#39;onglet Amortissement, est grisé lorsqu&#39;une ligne de dotation déjà comptabilisée est sélectionnée.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#22040</span> - Il est possible d&#39;effectuer une sortie d&#39;immobilisation alors que la dotation de l&#39;année a déjà été comptabilisée.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#22920</span> - Les immobilisations dont l&#39;acquisition a déjà été comptabilisée, sont exclues de la fenêtre &quot;Comptabiliser les acquisitions&quot;.</p>
+  <p style="text-align: justify;">#25344 - Correction du calcul de la première dotation en amortissement linéaire avec un exercice de 18 mois.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#25457</span> - Mise en place d&#39;un modèle d&#39;impression &quot;État des immobilisations&quot;.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#25488</span> - Refonte du calcul du prorata temporis en mode 360 jours.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#25584</span> - Refonte du calcul du prorata temporis en mode 365 jours.</p>
+  <p style="text-align: justify;">#25983 - Correction de l&#39;erreur &quot;Argument incorrect pour l&#39;encodage de date&quot; lorsque l&#39;on change le mode d&#39;amortissement d&#39;une immobilisation avec une date de fin d&#39;exercice au 29/02/N.</p>
+  <p style="text-align: justify;">#27093 - Ajout d&#39;un contrôle sur le paramétrage du journal des dotations pour qu&#39;il refuse la génération des écritures si ce dernier n&#39;est pas conforme.</p>
+  <p style="text-align: justify;">#27354 - Dans le cas d&#39;une mise en service d&#39;une immobilisation sur un exercice clos, il faut maintenant passer par un import de tableau d&#39;amortissement.</p>
+  <p style="text-align: justify;">#27368 - La date de fin d&#39;amortissement est recalculée lors de la modification de la date de mise en service.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27378</span> - Il n&#39;est pas possible de saisir une date de mise en service antérieure au 1er jour d&#39;un exercice comptable de - de 12 mois.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27392</span> - Mise en place d&#39;un import des tableaux d&#39;amortissement.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27396</span> - La génération du tableau d&#39;amortissement  est bloquée dans le cas où :</p>
+  <ul class="Disc">
+    <li style="text-align: justify;">
+      <p> l&#39;exercice en cours fait plus de 12 mois, et que les exercices sont décalés par rapport à une année civile, </p>
+    </li>
+    <li style="text-align: justify;">
+      <p> la date de mise en service est antérieure à la date de début de l&#39;exercice en cours. </p>
+    </li>
+  </ul>
+  <p>Dans ces cas, il faudra passer par un import de tableau d&#39;amortissement. Le logiciel n&#39;a pas assez de données pour calculer un plan d&#39;amortissement cohérent. Vous devez alors passer par l&#39;import de lignes d&#39;amortissement.</p>
+  <p>#27403 - Le mode d&#39;amortissement ne peut plus être modifié dès lors qu&#39;une dotation a été comptabilisée.</p>
+  <p>#27420 - Les dotations aux amortissements peuvent être comptabilisées en masse quand l&#39;immobilisation est une reprise.</p>
+  <p><span style="color: #f2771e;">#27437 <span style="color:#000000;">- Mise en place d&#39;un modèle d&#39;impression &quot;Sorties de l’exercice&quot;.</span></span></p>
+  <p><span style="color: #f2771e;">#27438 <span style="color:#000000;">- Mise en place d&#39;un modèle d&#39;impression &quot;Acquisitions de l’exercice&quot;.</span></span></p>
+  <p>#27507 - Correction du message &quot;Aucune donnée à imprimer&quot; quand on choisit &quot;Toutes les périodes&quot; dans la fenêtre d&#39;impression &quot;Dotations des immobilisations&quot;.</p>
+  <p><span style="color: #f2771e;">#27508 <span style="color:#000000;">- </span></span>Mise en place d&#39;une nouvelle fenêtre d&#39;impression &quot;Etat des immobilisations&quot; accessible depuis le menu IMPRESSIONS|IMMOBILISATIONS ou le menu contextuel de la liste des immobilisations.</p>
+  <p>#27565 - L&#39;écriture de dotation complémentaire générée lors de cession d&#39;une immobilisation est accessible depuis l&#39;onglet &quot;Sortie&quot; à l&#39;aide du bouton &quot;Voir l&#39;écriture de sortie&quot;.</p>
+  <p>#27566 - Les notions de +/- value ne sont plus mises à 0 après la comptabilisation de la cession et la sortie d&#39;une immobilisation.</p>
+  <p><span style="color: #f2771e;">#27571 </span>- Ajout d&#39;une zone de saisie du Numéro de pièce dans la boite de dialogue de comptabilisation des acquisitions.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27572 </span>- Ajout d&#39;une zone de saisie du Numéro de pièce dans la boite de dialogue de comptabilisation des sorties.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27581</span> - Mise en place de la comptabilisation de l&#39;acquisition des immobilisations financières.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27585<span style="color:#000000;"> - Les immobilisations dont la sortie a déjà été comptabilisée, sont exclues de la fenêtre &quot;Comptabiliser la sortie et la cession&quot;.</span></span></p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27586<span style="color:#000000;"> - La comptabilisation de la sortie d&#39;une immobilisation n&#39;est plus bloquée lorsque le montant de l&#39;amortissement complémentaire trouvé est nul.</span></span></p>
+  <p style="text-align: justify;">#27590 - L&#39;import d&#39;immobilisations ne permet plus l&#39;utilisation de minuscules dans les numéros de pièces.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27595</span> - La comptabilisation de sortie d&#39;immobilisation utilise le paramétrage du journal de dotation sélectionné dans l&#39;immobilisation pour intégrer un N° de pièce dans l&#39;écriture d&#39;amortissement complémentaire.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27598<span style="color:#000000;"> - Ajout de la fonction &quot;Voir l&#39;écriture de sortie&quot; dans le menu contextuel de la liste des immobilisations.</span></span></p>
+  <p style="text-align: justify;">#27600 - La préférence de comptabilité &quot;Périodicité de comptabilisation&quot; pour les dotations aux amortissements s&#39;initialise à &quot;Annuelle&quot; lors de la création d&#39;une société.</p>
+  <p style="text-align: justify;">#27605 - Le module immobilisation ne génère plus de lignes sans montant dans les écritures.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27606<span style="color:#000000;"> - </span></span>Mise en place de la comptabilisation de sortie d&#39;immobilisation Financière ayant fait l&#39;objet d&#39;une comptabilisation d&#39;acquisition ou d&#39;une reprise.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27608<span style="color:#000000;"> - Mise en place de contrôles lors de l&#39;import de lignes d&#39;amortissement visant à vérifier la présence des éléments suivants dans la fiche immobilisation :</span></span></p>
+  <ul class="Disc">
+    <li style="text-align: justify;">
+      <p>la date d&#39;acquisition</p>
+    </li>
+    <li style="text-align: justify;">
+      <p><span style="color: #f2771e;"><span style="color:#000000;">la date de mise en service</span></span></p>
+    </li>
+    <li style="text-align: justify;">
+      <p><span style="color: #f2771e;"><span style="color:#000000;">le mode d&#39;amortissement</span></span></p>
+    </li>
+    <li style="text-align: justify;">
+      <p><span style="color: #f2771e;"><span style="color:#000000;">le nombre de mois d&#39;amortissements</span></span></p>
+    </li>
+    <li style="text-align: justify;">
+      <p><span style="color: #f2771e;"><span style="color:#000000;">la base amortissable</span></span></p>
+    </li>
+    <li style="text-align: justify;">
+      <p><span style="color: #f2771e;"><span style="color:#000000;">l&#39;état de l&#39;immobilisation</span></span></p>
+    </li>
+  </ul>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27609<span style="color:#000000;"> - Mise en place d&#39;un contrôle de cohérence dans l&#39;import de lignes d&#39;amortissements entre le nombre de lignes importées la durée d&#39;amortissement du bien.</span></span></p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27610<span style="color:#000000;"> - Mise en place d&#39;un contrôle de cohérence dans l&#39;import de lignes d&#39;amortissement, entre la date de fin d&#39;amortissement présente dans la fiche de l&#39;immobilisation et la date de fin de la dernière ligne de dotation importée.</span></span></p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27617<span style="color:#000000;"> - Mise en place de cession d&#39;immobilisation non amortissable.</span></span></p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27632<span style="color:#000000;"> - Modification du visuel du tableau d&#39;amortissement dans la fiche d&#39;immobilisation.</span></span></p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27651<span style="color:#000000;"> - Actualisation du modèle d&#39;impression de dotations aux amortissements par compte.</span></span></p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27653<span style="color:#000000;"> - Actualisation du modèle d&#39;impression de dotations aux amortissements par code.</span></span></p>
+  <p style="text-align: justify;">#27657 - Le calcul des +/- values de cession s&#39;appuie sur la date d&#39;acquisition, afin de déterminer le court ou long terme, peu importe le mode d&#39;amortissement.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27659<span style="color:#000000;"> - Refonte du mode de calcul des +/- values de cessions d&#39;immobilisations.</span></span></p>
+  <p style="text-align: justify;">#27662 - Modification du calcul de la +/- value de cession des biens non amortissables.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27665<span style="color:#000000;"> - Mise à jour du modèle d&#39;impression des dotations par compte d&#39;immobilisation.</span></span></p>
+  <p style="text-align: justify;">#27666 - Le mode d&#39;amortissement d&#39;un bien non amortissable est figé après une sortie du bien.</p>
+  <p style="text-align: justify;">#27671 - Les filtres ajoutés dans les 2 listes déroulantes d&#39;immobilisations, dans les comptabilisations en masse sont respectés quand on clique directement sur &quot;Comptabiliser&quot;.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27680<span style="color:#000000;"> - Une immobilisation ne peut pas être mise en sommeil tant qu&#39;elle n&#39;a pas fait l&#39;objet d&#39;une sortie du patrimoine de l&#39;entreprise.</span></span></p>
+  <p style="text-align: justify;">#27704 - Lors de la comptabilisation d&#39;une cession, si la date d&#39;écriture de cession n&#39;est pas comprise dans la période saisissable, les écritures ne sont pas générées et le tableau d&#39;amortissement n&#39;est plus grisé (soldé).</p>
+  <p style="text-align: justify;">#27705 - La comptabilisation des dotations tient compte de la date de mise en service lors de l&#39;éclatement de son montant, avec un paramétrage de périodicité de comptabilisation mensuelle.</p>
+  <p style="text-align: justify;">#27714 - Modification du calcul de prorata temporis sur la dotation de cession d&#39;immobilisation.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27743<span style="color:#000000;"> - Mise en place d&#39;un log d&#39;import de lignes d&#39;amortissement.</span></span></p>
+  <p style="text-align: justify;">#27749 - Mise en place d&#39;un contrôle de cohérence dans l&#39;import d&#39;immobilisations sur les montants HT, TVA et TTC.</p>
+  <p style="text-align: justify;">#27772 - On ne peut plus supprimer un journal comptable qui est utilisé dans une immobilisation.</p>
+  <p style="text-align: justify;">#27792 - La sélection d&#39;un journal de dotation n&#39;est plus attendue lors de la comptabilisation de la sortie d&#39;une immobilisation financière.</p>
+  <p style="text-align: justify;">#27801 - Il n&#39;est plus possible de supprimer une fiche d&#39;immobilisation ayant déjà fait l&#39;objet d&#39;une comptabilisation, depuis la fiche elle même.</p>
+  <p style="text-align: justify;">#27813 - Les 3 comptabilisations en masse des immobilisations fonctionnent lorsque l&#39;on renseigne un code immobilisation de début ou de fin.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27818<span style="color:#000000;"> - La comptabilisation en masse des dotations ne traite que les lignes dont la date de début est supérieure ou égale à l&#39;exercice en cours.</span></span></p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27819<span style="color:#000000;"> - La comptabilisation en masse des immobilisations ne s&#39;arrête plus après l&#39;erreur &quot;Aucun exercice et aucune période trouvés pour la date du ...&quot;.</span></span></p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27824<span style="color:#000000;"> - La comptabilisation en masse des immobilisations ne s&#39;arrête plus après l&#39;erreur &quot;Vous n&#39;avez pas l&#39;&#39;autorisation de créer&quot;. Les éléments sont détaillée à l&#39;utilisateur dans le log de fin de traitement.</span></span></p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27834<span style="color:#000000;"> - Mise en place d&#39;une nouvelle fenêtre d&#39;impression &quot;Acquisitions d&#39;immobilisations&quot; accessible depuis le menu IMPRESSIONS | IMMOBILISATIONS ou le menu contextuel de la liste des immobilisations.</span></span></p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27835<span style="color:#000000;"> - Mise en place d&#39;une nouvelle fenêtre d&#39;impression &quot;Sorties d&#39;immobilisations&quot; accessible depuis le menu IMPRESSIONS | IMMOBILISATIONS ou le menu contextuel de la liste des immobilisations.</span></span></p>
+  <p style="text-align: justify;">#27898 - Correction de la Violation d&#39;accès lors de la comptabilisation en masse d&#39;acquisitions d&#39;immobilisations quand il y a une date APRÈS l&#39;exercice supérieur.</p>
+  <p style="text-align: justify;">#27899 - Refonte du rapport de comptabilisation des acquisitions d&#39;immobilisations.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27906<span style="color:#000000;"> - </span></span>Les acquisitions et les sorties sont imprimables depuis le menu contextuel de la fiche immobilisation.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27911<span style="color:#000000;"> - Harmonisation du visuel des éditions dans les immobilisations.</span></span></p>
+  <p style="text-align: justify;"> </p>
+  <p style="text-align: justify;"> </p>
+  <p style="text-align: justify;"> </p>
+  <p style="text-align: center;"><img src="../assets/images/Version9/2021 map-g-change-contour-blanc.png" /></p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

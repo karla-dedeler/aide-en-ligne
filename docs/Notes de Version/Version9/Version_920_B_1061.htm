@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="fr-FR" />
+  <meta name="topic-status" content="En cours" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Version 9.2 build 1061 du 11/12/2020</title>
+  <link rel="StyleSheet" href="../assets/css/GMNotesVersion.css" type="text/css" />
+</head>
+<body>
+  <h2 style="color: #f2771e;">ÉVOLUTIONS PRINCIPALES</h2>
+  <p>Cette version intègre : </p>
+  <p> </p>
+  <ul style="list-style: disc;">
+    <li style="font-weight: bold;">
+      <p>La mise en place du transfert en comptabilité de l&#39;analytique de l&#39;affaire à la ligne de document en achat et en vente </p>
+    </li>
+    <li style="font-weight: bold;">
+      <p>La mise en place de l&#39;import de la main d&#39;œuvre dans le budgété et le réalisé des affaires via IHM et tâches en ligne de commande</p>
+    </li>
+    <li style="font-weight: bold;">
+      <p>La mise en place de l&#39;import des frais dans le budgété et le réalisé des affaires via IHM et tâches en ligne de commande</p>
+    </li>
+  </ul>
+  <p style="margin-left: 40px;"> </p>
+  <h2 style="color: #f2771e;">Autres évolutions &amp; correctifs (n° de ticket)</h2>
+  <p>* Les numéros de tickets en <span style="color: #f2771e;">orange</span> correspondent à des évolutions de l&#39;ERP</p>
+  <h3 class="Ticket_Module_GesCo">ACHAT ET VENTE</h3>
+  <p>#26520 - Correction de l&#39;affichage des adresses de facturation et livraison dans les documents d&#39;achat vente lorsque l&#39;option &quot;Afficher le code de la donnée sélectionnée dans les ...&quot; des préférences utilisateur est activée.</p>
+  <p><span style="color: #f2771e;">#26970</span> - Ajout d&#39;une option dans les préférences de Gestion en achat et en vente permettant de masquer les articles interdits à l&#39;achat et à la vente dans les documents d&#39;achat et de vente.</p>
+  <p><span style="color: #f2771e;">#26982</span> - Ajout dans les préférences de Gestion &quot;Ventes, achats, stocks&quot; d&#39;une option de transfert avec origine du document de type menu déroulant proposant les choix : Aucun, Référence, N° Pièce / Date, N° Pièce / Date / Référence. Si l&#39;option est activée avant migration, alors la valeur N° Pièce / Date / Référence sera mise en place, sinon l&#39;option sera mise par défaut sur &quot;Aucun&quot;.</p>
+  <p>#27019 - La date de livraison dans les commandes est accessible sans activer l&#39;option de modification des dates de livraison en achat et en vente.</p>
+  <p>#27091 - Correction de l&#39;erreur bloquante qui tenait compte uniquement des articles lottés lors du transfert de document avec import de fichier (via IHM ou tâche en ligne de commande) et ne traitait pas les autres types d&#39;articles.</p>
+  <p>#27116 - Le transfert de documents d&#39;achat et de vente, avec sélection multiple, ne crée plus d&#39;échéances supplémentaires.</p>
+  <h3 class="Ticket_Module_GesCo">STOCK</h3>
+  <p>#27048 - La duplication d&#39;une facture contenant un article interdit à la vente ou à l&#39;achat n&#39;impacte plus le stock de l&#39;article même si le document n&#39;est pas créé.</p>
+  <h3 class="Ticket_Module_GesCo">TIERS</h3>
+  <p>#27029 - L&#39;absence de saisie du commercial ou de la famille de tiers lors de la création d&#39;un compte tiers depuis le plan comptable n&#39;est plus bloquant même si l&#39;option de champs obligatoires est activée dans les préférences de gestion | Tiers | Champs obligatoires.</p>
+  <p>#27055 - L&#39;import de compte tiers sans indiquer la rue de l&#39;adresse de facturation alors qu&#39;elle est obligatoire, ne crée plus un compte tiers sans fiche tiers.</p>
+  <h3 class="Ticket_Module_GesCo">TRANSFERT COMPTABLE</h3>
+  <p>#26649 - Correction du calcul d&#39;arrondi effectué lors de la génération des écritures comptables de documents d&#39;achat / vente ayant fait l&#39;objet d&#39;une création avec une saisie en TTC.</p>
+  <h3 class="Ticket_Modules_GesCo">AFFAIRES</h3>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#26766</span> - Mise en place du transfert en comptabilité de l&#39;analytique de l&#39;affaire à la ligne de document en achat et en vente.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#26961</span> - Mise en place de l&#39;import de la main d&#39;œuvre dans le budgété et le réalisé des affaires.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#26964</span> - Le coût horaire saisi dans l&#39;onglet général de la fiche salarié est récupéré lors de la saisie du salarié dans l&#39;onglet &quot;Main d&#39;œuvre&quot; du budgété de l&#39;affaire.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#26969</span> - Mise en place de l&#39;import des Frais dans le budgété et le réalisé des affaires.</p>
+  <p style="text-align: justify;">#27041 - Mise en place de filtres sur les catégories d&#39;articles dans les frais et la main d&#39;œuvre du budgété et réalisé de l&#39;affaire, limitant aux catégories :</p>
+  <ul class="Disc">
+    <li style="text-align: justify;">
+      <p>&quot;Main d&#39;œuvre&quot; et &quot;Sous-traitance&quot; les articles saisissables dans les lignes de main d&#39;œuvre,</p>
+    </li>
+    <li style="text-align: justify;">
+      <p>&quot;Autre&quot; les articles saisissables dans les lignes de frais.</p>
+    </li>
+  </ul>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27064</span> - Mise en place d&#39;un identifiant unique de ligne dans les frais et la main d&#39;œuvre des affaires.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#27067</span> - Ajout des champs : créée le, Créée par, Créé via, Modifiée le, Modifiée par et Modifiée via dans les lignes de frais et de main d&#39;œuvre de l&#39;affaire. </p>
+  <h3 class="Ticket_G-CHANGE">G-CHANGE</h3>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#26985</span> - Mise en place d&#39;une tâche en ligne de commande d&#39;import de la main d&#39;œuvre du budgété et du réalisé de l&#39;affaire.</p>
+  <p style="text-align: justify;"><span style="color: #f2771e;">#26987</span> - Mise en place d&#39;une tâche en ligne de commande d&#39;import des frais du budgété et du réalisé de l&#39;affaire.</p>
+  <h3 class="Ticket_COMPTA">BUDGET</h3>
+  <p>#27039 - La liste des périodes ne s&#39;efface plus lorsque l&#39;on change de plan analytique dans un budget.</p>
+  <h3 class="Ticket_COMPTA">IMPORTS</h3>
+  <p>#27027 - Correction de l&#39;import de comptes, qui ne créait pas de compte tiers associé dans le cas où le champs PCF_RS n&#39;était pas présent dans le fichier d&#39;import.</p>
+  <p style="text-align: center;"><img alt="" border="0" height="630" src="../assets/images/Version7/Images/Modules_de_l_ERP.png" style="border: none;" width="720" /></p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>
