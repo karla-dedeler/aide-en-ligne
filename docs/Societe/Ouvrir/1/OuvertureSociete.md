@@ -6,8 +6,8 @@
 
 
 
-Ouverture de société
-===
+# Ouverture de société
+
 
 
 Pour ouvrir une société, il faut tout d'abord [fermer 
