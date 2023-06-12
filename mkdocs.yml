@@ -1,7 +1,9 @@
-site_name: MkDocs Aide en ligne Projet
+site_name: Aide en ligne
+logo: "docs\favicon.png" 
 theme:
   name: readthedocs
   highlightjs: true
+  navigation_depth: 2
 plugins:
   - search
   - mkdocstrings:
