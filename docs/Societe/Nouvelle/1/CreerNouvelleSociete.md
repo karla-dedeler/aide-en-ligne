@@ -7,7 +7,7 @@
 
 
 Créer une nouvelle société
-==========================
+===========================
 
 
 Pour créer une nouvelle société, il faut tout d'abord fermer la société 
