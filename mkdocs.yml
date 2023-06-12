@@ -15,10 +15,10 @@ markdown_extensions:
   - admonition
 nav:
   - Bienvenue: 'index.md'
-  - Conditions de licence des progiciels GESTIMUM et d'utilisation des services associés au 15/11/2019 : 'CLS.md'
-  - Notes de Version :
-    - Bienvenue : 'Bienvenue.md'
-    - Mise en Garde : 'MiseGarde.md'
-    - Dénomination des versions : 'DenominationVersion.md'
-    - Développement sur mesure :  'PFD.md'
-    - Préconisations d'utilisation et d'installation :  'PreconisationsUtilisationInstallation8.md'
+  - Conditions de licence des progiciels GESTIMUM et d'utilisation des services associés au 15/11/2019: 'CLS.md'
+  - Notes de Version:
+    - Bienvenue: 'Bienvenue.md'
+    - Mise en Garde: 'MiseGarde.md'
+    - Dénomination des versions: 'DenominationVersion.md'
+    - Développement sur mesure: 'PFD.md'
+    - Préconisations d'utilisation et d'installation: 'PreconisationsUtilisationInstallation8.md'
