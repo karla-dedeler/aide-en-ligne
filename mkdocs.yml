@@ -19,6 +19,6 @@ nav:
   - Notes de Version:
     - Bienvenue: 'NotesVersion/Racine/Bienvenue.md'
     - Mise en Garde: 'NotesVersion/Racine/MiseGarde.md'
-    - Dénomination des versions: 'NotesVersion/Racine/DenominationVersion.md'
+    - Dénomination des versions: 'docs/NotesVersion/Racine/DenominationVersions.md'
     - Développement sur mesure: 'NotesVersion/Racine/PFD.md'
     - Préconisations d'utilisation et d'installation: 'NotesVersion/Racine/PreconisationsUtilisationInstallation8.md'
