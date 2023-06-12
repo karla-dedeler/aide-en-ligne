@@ -7,7 +7,7 @@
 
 
 Données par défaut
-
+==================
 
 
 Le logiciel propose d'initialiser différents fichiers de base optionnels 
@@ -28,7 +28,7 @@ Les fichiers codes postaux et plan comptable dépendent du pays de la
  situé par défaut dans le dossier "Gestimum".
 
 
-# Tables de référence
+## Tables de référence
 
 
 Le logiciel propose de créer les tables de référence : unités de conditionnement, 
@@ -43,7 +43,7 @@ Les tables de référence devront être complétées par la commande SOCIETE | P
  après création de la société.
 
 
-# Codes postaux
+## Codes postaux
 
 
 Un fichier des codes postaux spécifique au pays de la société (département, 
@@ -70,7 +70,7 @@ Le nom de ce fichier doit-être Villes."code
 Exemples : Villes.be, Villes.lu.
 
 
-# Plan comptable
+## Plan comptable
 
 
 Le plan comptable proposé par défaut est celui du pays de la société.
@@ -84,7 +84,7 @@ Lorsque le pays de la société est France, les comptes de regroupement
  de TVA sont mises à jour dans les comptes correspondants.
 
 
-# Journaux comptables et natures comptables
+## Journaux comptables et natures comptables
 
 
 Le logiciel propose de créer automatiquement les journaux comptables 

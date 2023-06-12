@@ -7,7 +7,7 @@
 
 
 Nouvelle société
-
+================
 
 
 Le nom de la société permet de répertorier l'ensemble des fichiers ou 
@@ -20,7 +20,7 @@ Le nom de la société permet de répertorier l'ensemble des fichiers ou
 ![](../../assets/images/Nouvelle/1/Societe.png)
 
 
-# Nom de la société
+## Nom de la société
 
 
 En mode SQL (Microsoft SQL Server), le nom de la société correspond 
@@ -29,7 +29,7 @@ En mode SQL (Microsoft SQL Server), le nom de la société correspond
  (création au préalable de la base sur le serveur de données par l’administrateur).
 
 
-# Utilisateur
+## Utilisateur
 
 
 Le nom de l'utilisateur du poste est proposé par défaut. La saisie de 
@@ -37,19 +37,19 @@ Le nom de l'utilisateur du poste est proposé par défaut. La saisie de
  dans la base.
 
 
-# Mot de passe
+## Mot de passe
 
 
 Il n’est pas obligatoire. C’est le mot de passe de l’utilisateur.
 
 
-# Créer une société vide
+## Créer une société vide
 
 
 Création d’une société avec ou non les données de base.
 
 
-# Créer une société de démonstration
+## Créer une société de démonstration
 
 
 Création d’une société de démonstration avec des données (Tiers, Articles, 
@@ -57,7 +57,7 @@ Création d’une société de démonstration avec des données (Tiers, Articles
  de l’écran [choix de la base](BaseDonnees.htm).
 
 
-# Recopier une société
+## Recopier une société
 
 
 Ce champ vous permet de référencer le point Gestimum d’une société existante 
@@ -69,7 +69,7 @@ Lorsque vous renseignez ce champ, l’assistant détecte que vous être
  et vous propose les écrans de copie.
 
 
-# Fichier de connexion de la société
+## Fichier de connexion de la société
 
 
 C’est le chemin de l’emplacement du fichier Gestimum. Ce chemin est 

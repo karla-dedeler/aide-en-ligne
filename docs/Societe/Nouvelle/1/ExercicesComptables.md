@@ -6,7 +6,7 @@
 
 
 Exercices comptables
-
+====================
 
 
 
@@ -20,7 +20,7 @@ La gestion commerciale est indissociable de la gestion comptable, c'est
 ![](../../assets/images/Nouvelle/1/Exercices.png)
 
 
-# Exercices comptables
+## Exercices comptables
 
 
 Le logiciel propose par défaut un exercice comptable allant du premier 
@@ -34,7 +34,7 @@ Il propose également un exercice supérieur permettant d'enregistrer
  des écritures même si l'exercice comptable courant n'est pas encore clôturé.
 
 
-# Périodicité
+## Périodicité
 
 
 Dans la comptabilité française, les périodes de référence sont calquées 
@@ -52,7 +52,7 @@ L'assistant de création propose alors une étape supplémentaire afin
  d’adapter le nombre de périodes de la comptabilité à traiter.
 
 
-# Longueurs des comptes
+## Longueurs des comptes
 
 
 La longueur maximale d'un compte est de 15 caractères.

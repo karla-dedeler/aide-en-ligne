@@ -6,7 +6,7 @@
 
 
 Base de données
-
+===============
 
 
 
@@ -20,7 +20,7 @@ Cette fenêtre permet de paramétrer la structure de la base et l’emplacement
 ![](../../assets/images/Nouvelle/1/BaseDonnees.png)
 
 
-# Paramétrage de la base de données
+## Paramétrage de la base de données
 
 
 Le logiciel permet de créer une base de données de type SQL uniquement.
@@ -59,21 +59,21 @@ L'instance et les paramètres sont renseignés en fonction du protocole
  choisi.
 
 
-# Emplacement de la base de données
+## Emplacement de la base de données
 
 
 Pour créer une société SQL Server, vous devez obligatoirement renseigner 
  le nom du serveur, le nom de connexion et éventuellement un mot de passe.
 
 
-## Nom du serveur
+### Nom du serveur
 
 
 En MS-SQL SERVER, vous devez indiquer le nom du serveur de données sur 
  lequel la base SQL est/ou sera créée.
 
 
-## Type de connexion
+### Type de connexion
 
 
 Vous avez 2 possibilités d’authentification :
