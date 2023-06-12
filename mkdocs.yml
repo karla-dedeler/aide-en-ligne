@@ -17,8 +17,8 @@ nav:
   - Bienvenue: 'index.md'
   - Conditions de licence des progiciels GESTIMUM et d'utilisation des services associés au 15/11/2019 : 'CLS.md'
   - Notes de Version :
-    - Bienvenue : 'docs/Notes de Version/Racine/Bienvenue.md'
-    - Mise en Garde : 'docs/Notes de Version/Racine/MiseGarde.md'
-    - Dénomination des versions : 'docs/Notes de Version/Racine/DenominationVersion.md'
-    - Développement sur mesure :  'docs/Notes de Version/Racine/PFD.md'
-    - Préconisations d'utilisation et d'installation :  'docs/Notes de Version/Racine/PreconisationsUtilisationInstallation8.md'
+    - Bienvenue : 'Racine/Bienvenue.md'
+    - Mise en Garde : 'Racine/MiseGarde.md'
+    - Dénomination des versions : 'Racine/DenominationVersion.md'
+    - Développement sur mesure :  'Racine/PFD.md'
+    - Préconisations d'utilisation et d'installation :  'Racine/PreconisationsUtilisationInstallation8.md'
