@@ -56,10 +56,10 @@ UTILISATEUR : Désigne les personnes physiques salariés du CLIENT qui utilisent
 INTÉGRATEUR : désigne un professionnel de l’informatique et de la gestion d’entreprise, ayant une relation contractuelle avec les CLIENTS, dont la vocation est entre autre, d’acheter à GESTIMUM des PRODUITS et de les intégrer dans une offre globale de produits et services à destination des CLIENTS.
 
 
-# CONTRAT DE LICENCE
+## CONTRAT DE LICENCE
 
 
-## Objet
+### Objet
 
 
 Ce CONTRAT de LICENCE porte sur le PROGICIEL que le CLIENT a acheté, utilise ou que le CLIENT s’apprête à installer, ou à faire installer par un INTÉGRATEUR et sur les éventuelles MISES À JOUR ultérieures.
@@ -116,7 +116,7 @@ En outre, GESTIMUM se réserve le droit exclusif de procéder à la correction d
 GESTIMUM commercialise exclusivement la dernière version disponible de ses PROGICIELS. En cas d’achat de LICENCES complémentaires, et sauf cas particulier, le CLIENT qui n’est pas sous MAINTENANCE devra procéder préalablement à l’achat de la MISE À JOUR de sa configuration.
 
 
-## Conditions d’utilisation
+### Conditions d’utilisation
 
 
 Intégrité : Les composants du PROGICIEL sont concédés sous licence en tant qu’entité unique. Le CLIENT n’est pas autorisé à dissocier les composants et à les installer sur différents matériels.
@@ -179,7 +179,7 @@ Le CLIENT / l’INTÉGRATEUR s’interdit de :
 - mettre à disposition le PROGICIEL à un tiers à titre gracieux ou onéreux en service bureau.
 
 
-## Preuves – Données personnelles
+### Preuves – Données personnelles
 
 
 L’obtention du code de débridage du PROGICIEL nécessite l’envoi préalable par le CLIENT ou son INTÉGRATEUR de données personnelles et de ses conditions d’utilisation du PROGICIEL. Le CLIENT certifie que les informations fournies sont sincères. Les informations personnelles sont nécessaires au traitement des demandes du CLIENT, qui bénéficie d’un droit d’accès et de rectification auprès de GESTIMUM conformément à la loi 78-17 Informatique et Libertés.
@@ -191,7 +191,7 @@ Le code de débridage fournit par GESTIMUM, et les informations du système d’
 Le CLIENT autorise GESTIMUM à contrôler que l’utilisation faite par le CLIENT des PROGICIELS est conforme au CONTRAT.
 
 
-## Responsabilité du CLIENT / de l’INTÉGRATEUR
+### Responsabilité du CLIENT / de l’INTÉGRATEUR
 
 
 Le CLIENT reconnaît être un professionnel, ou être assisté par un professionnel dont il est seul responsable du choix, et avoir évalué le PROGICIEL de façon approfondie avant sa décision d’achat, notamment avoir vérifié qu’il est en adéquation avec ses besoins.
@@ -221,7 +221,7 @@ Le CLIENT / l’INTÉGRATEUR s’engage à ne pas nuire à la réputation de GES
 L’INTÉGRATEUR s’engage à garantir et indemniser GESTIMUM contre toute réclamation ou action en justice d’un CLIENT à l’encontre de GESTIMUM.
 
 
-## Accessibilité & propriété des données CLIENTS saisies dans les PROGICIELS
+### Accessibilité & propriété des données CLIENTS saisies dans les PROGICIELS
 
 
 GESTIMUM s’appuie sur une base de données ouverte Microsoft SQL Server. Toutes les tables et champs contenant des données sont librement accessibles, indépendamment des PROGICIELS. GESTIMUM communique gracieusement aux INTÉGRATEURS et CLIENTS le schéma directeur de la base de données.
@@ -230,13 +230,13 @@ GESTIMUM s’appuie sur une base de données ouverte Microsoft SQL Server. Toute
 GESTIMUM garanti ainsi aux CLIENTS la pleine propriété et accessibilité des données saisies dans GESTIMUM.
 
 
-## Absence d’utilisation à Risque
+### Absence d’utilisation à Risque
 
 
 Les PRODUITS fournis par GESTIMUM n’étant ni tolérant aux pannes, ni garantis, ni exempts d’erreurs ou d’interruptions, le CLIENT et/ou son INTÉGRATEUR ne sont pas autorisés à utiliser / installer les PROGICIELS dans un environnement ou une situation pouvant mettre en danger la vie ou provoquer des préjudices corporels, ou de graves dommages matériels ou à l’environnement.
 
 
-## Propriété Intellectuelle
+### Propriété Intellectuelle
 
 
 GESTIMUM conserve la propriété intellectuelle du PROGICIEL et de toutes les Informations Réservées associées. Le CLIENT / l’INTÉGRATEUR s'interdit de mettre à la disposition d'un tiers tout ou partie du PROGICIEL ou une copie de celui-ci.
@@ -251,13 +251,13 @@ En vertu de l'article L121-1 du Code de la Propriété Intellectuelle, le CLIENT
 GESTIMUM garantit qu'elle est le titulaire légitime de la propriété intellectuelle attachée au PROGICIEL ou le cas échéant qu'elle a acquis les droits suffisants pour en accorder une Licence au CLIENT.
 
 
-# MAINTENANCE
+## MAINTENANCE
 
 
 Le CLIENT / l’INTÉGRATEUR pourra souscrire auprès de GESTIMUM un contrat de MAINTENANCE permettant au CLIENT / INTÉGRATEUR de disposer des éventuelles MISES À JOUR du PROGICIEL et de la documentation correspondante, ainsi que d’une assistance par courriel (G-MAIL) ou téléphonique (G-TEL) assortie éventuellement d’une prise en main à distance (G-WEB) et de services associés : réparations et migrations de bases, formations …
 
 
-## Conditions de souscription
+### Conditions de souscription
 
 
 La MAINTENANCE est obligatoire pendant l’année qui suit l’achat du PROGICIEL ou d’une MISE À JOUR. Bien que fortement recommandée, notamment pour pouvoir bénéficier des MISES À JOUR correctives et évolutives, elle est ensuite facultative. Le CLIENT sans MAINTENANCE conserve la jouissance de sa version du PROGICIEL et peut à tout moment demander à re-souscrire à la MAINTENANCE. Il devra alors s’acquitter préalablement des frais de MISES À JOUR de son PROGICIEL.
@@ -266,7 +266,7 @@ La MAINTENANCE est obligatoire pendant l’année qui suit l’achat du PROGICIE
 Gestimum ERP étant un intégré de gestion fonctionnant sur une base unique, la MAINTENANCE ne peut être souscrite que pour l’ensemble de la configuration Gestimum ERP pour tous les modules.
 
 
-## Mises à jour
+### Mises à jour
 
 
 Les MISES À JOUR fournies par GESTIMUM (PROGICIELS, documentation, etc…) le sont « en l’état », et sans garantie d’aucune sorte. Il est de la responsabilité du CLIENT, ou de son INTÉGRATEUR, en prenant si nécessaire conseil auprès de l’assistance GESTIMUM, de vérifier l’opportunité d’installer les MISES À JOUR en tenant compte de la situation, de l’environnement et de l’utilisation particulière que fait le CLIENT du PROGICIEL. Certaines MISES À JOUR peuvent modifier le comportement du PROGICIEL et dans certains cas le résultat de certains calculs, ou nécessiter une modification des processus de gestion.
@@ -290,7 +290,7 @@ GESTIMUM ou ses fournisseurs ne seront en aucun cas responsables à raison de pr
 Gestimum ERP étant un intégré de gestion fonctionnant sur une base unique, toute MISE À JOUR concerne obligatoirement l’ensemble de sa configuration Gestimum ERP pour tous les modules.
 
 
-## Assistance
+### Assistance
 
 
 L’ASSISTANCE est ouverte à tout CLIENT sous MAINTENANCE et dont :
@@ -341,19 +341,19 @@ Le CLIENT doit pouvoir faire appel à un professionnel de l’informatique et de
 Le CLIENT est informé que l’assistance sur site ne fait pas partie de la MANTENANCE, et qu’il est donc de son devoir de faire appel à un professionnel de l’informatique et de la gestion pour dénouer sur site une difficulté technique dont la cause n’aurait pas pu être déterminée ou résolue par l’assistance de GESTIMUM.
 
 
-# PRESTATIONS DE SERVICE
+## PRESTATIONS DE SERVICE
 
 
 Les PRESTATIONS de services suivantes sont habituellement du ressort de l’INTÉGRATEUR, qui pourra si besoin demander le support de GESTIMUM : Etude préalable de mise en œuvre, maquettage, mise au format et intégration de données, aide au démarrage, pilotage, direction de projet, installation, paramétrage, aide au démarrage, formation, intégration, migration ou réparation de bases, création, réalisation ou adaptation d’états, de requêtes ou de déclencheurs.
 
 
-## Collaboration des Parties
+### Collaboration des Parties
 
 
 Le CLIENT ou son INTÉGRATEUR sont conscients que la réalisation de prestations de services personnalisées nécessite une collaboration active et régulière du CLIENT et de son INTÉGRATEUR et s’y engagent.
 
 
-## Périmètre d’intervention
+### Périmètre d’intervention
 
 
 Les interventions de GESTIMUM se limitent au PROGICIEL et à son intégration. GESTIMUM ne délivre pas de prestations de stratégie, définition d’indicateurs clés, maîtrise d’ouvrage, de maîtrise d’œuvre, d’organisation, de définition de processus, ni de prestations liées à l’infrastructure informatique (logicielle ou matérielle).
@@ -371,16 +371,16 @@ Le nombre de jours indiqués dans les devis GESTIMUM pour une tâche donnée, co
 Le CLIENT s’engage à mettre à la disposition de GESTIMUM l’environnement (matériel, logiciel, humain, …) nécessaire à la réalisation de la PRESTATION.
 
 
-# CLAUSES GÉNÉRALES
+## CLAUSES GÉNÉRALES
 
 
-## Absence de garantie – Limitation de responsabilité
+### Absence de garantie – Limitation de responsabilité
 
 
 Les PRODUITS fournis par GESTIMUM le sont « en l’état », et sans garantie d’aucune sorte. GESTIMUM n’assume que des obligations de moyens à l’exclusion de toute obligation de résultat. Tous les risques relatifs aux résultats et à la performance des PRODUITS sont assumés par le CLIENT et/ou son INTÉGRATEUR. La présente garantie est exclusive de toute autre garantie. GESTIMUM exclut toute autre garantie expresse ou implicite y compris, de manière non limitative, toute garantie de qualité ou d’adéquation à un besoin particulier, de conformité aux usages d’une profession, de bon fonctionnement en général, d’aptitude à une utilisation particulière, et en particulier sur un système utilisateur donné. L’utilisation des PRODUITS n’exonère pas le CLIENT de sa responsabilité vis-à-vis de ses obligations légales ou fiscales. Pour plus de précision concernant la responsabilité, se référer aux CGV.
 
 
-## Sauvegarde, sécurité et propriété des données
+### Sauvegarde, sécurité et propriété des données
 
 
 Le CLIENT reconnaît avoir été informé par GESTIMUM et/ou par son INTÉGRATEUR qu’il est prudent en terme de bonne gestion informatique, de procéder au moins une fois par vingt-quatre (24) heures, et plus si nécessaire, en fonction de la volumétrie particulière du CLIENT, à la sauvegarde des systèmes, programmes et fichiers de données, et que l’absence d’une telle sauvegarde réduit de manière significative ses chances de limiter l’impact des dommages qui pourraient résulter d’une irrégularité dans le fonctionnement de son système ou des PROGICIELS et peut réduire la portée des services de support fournis par GESTIMUM. Le CLIENT reconnaît qu’il est de sa responsabilité de mettre en œuvre une procédure pour assurer la récupération des données, fichiers ou programmes détruits, endommagés ou perdus. GESTIMUM ne saurait être tenue responsable en cas de perte de données.
@@ -389,7 +389,7 @@ Le CLIENT reconnaît avoir été informé par GESTIMUM et/ou par son INTÉGRATEU
 Le CLIENT s’engage à ne transmettre à GESTIMUM que des copies de ses données, qui auront été préalablement sauvegardées. Ainsi GESTIMUM ne pourra en aucun cas être tenu pour responsable de l’altération ou de la destruction de données confiées par le CLIENT.
 
 
-## Confidentialité
+### Confidentialité
 
 
 GESTIMUM s’engage à mettre en œuvre les moyens appropriés pour garder le secret le plus absolu sur les informations confidentielles des CLIENTS et INTÉGRATEURS auxquels elle aura accès à l’occasion de l’exécution du contrat.  
@@ -404,7 +404,7 @@ GESTIMUM reconnait que les bases qui lui sont confiées demeurent propriété ex
 GESTIMUM sera relevée de ses engagements vis-à-vis de toute information qui serait dans le domaine public en l’absence de toute faute incombant à GESTIMUM.
 
 
-## Modification
+### Modification
 
 
 GESTIMUM se réserve le droit de modifier sans préavis les présentes CLS, dont la dernière version est disponible : <http://www.gestimum.com/fr/cls.pdf>.
@@ -413,25 +413,25 @@ GESTIMUM se réserve le droit de modifier sans préavis les présentes CLS, dont
 Les CLS sont validées électroniquement à chaque installation / mise-à-jour.
 
 
-## Nullité
+### Nullité
 
 
 Si l'une quelconque des stipulations du présent CONTRAT s'avérait nulle au regard d'une règle de droit en vigueur ou d'une décision judiciaire devenue définitive, elle serait alors réputée non écrite, sans pour autant entraîner la nullité du CONTRAT ni altérer la validité de ses autres dispositions.
 
 
-## Renonciation
+### Renonciation
 
 
 Le fait que GESTIMUM ne revendique pas l’application d’une clause du CONTRAT ne pourra être interprété comme une renonciation aux droits découlant de ladite clause.
 
 
-## Résiliation
+### Résiliation
 
 
 En cas de manquement du CLIENT ou de l’INTÉGRATEUR à l'une de ses obligations déterminantes du présent CONTRAT, et après mise en demeure restée sans effet à l'expiration d'un délai de quinze jours, GESTIMUM pourra résilier le CONTRAT de plein droit à effet immédiat, par lettre recommandée avec accusé de réception, sans préjudice de tous dommages-intérêts auxquels elle pourrait prétendre. Le CLIENT s’engage alors à cesser d’utiliser le PROGICIEL et à retourner à ses frais à GESTIMUM tous les éléments relatifs à ce PROGICIEL en sa possession.
 
 
-## Droit applicable et différends
+### Droit applicable et différends
 
 
 Le présent CONTRAT ainsi que les actes qui en seront la conséquence sont soumis au droit français.

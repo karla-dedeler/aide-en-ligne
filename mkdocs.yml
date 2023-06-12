@@ -3,7 +3,7 @@ logo: "docs\favicon.png"
 theme:
   name: readthedocs
   highlightjs: true
-  navigation_depth: 2
+  navigation_depth: 3
 plugins:
   - search
   - mkdocstrings:
