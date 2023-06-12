@@ -1,5 +1,5 @@
 site_name: Aide en ligne
-logo: "docs\favicon.png" 
+logo: "docs/favicon.png" 
 theme:
   name: readthedocs
   highlightjs: true
