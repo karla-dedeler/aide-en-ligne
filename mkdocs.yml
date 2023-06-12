@@ -27,7 +27,7 @@ nav:
   - Société:
     - Menu Société: 'Societe/Menu/Menu_SOCIETE.md'
     - Nouvelle société: 
-      - Créer une nouvelle société: Societe/Nouvelle/1
+      - Créer une nouvelle société: 
         - Nouvelle société: 'Societe/Nouvelle/1/NouvelleSociete.md'
         - Base de données: 'Societe/Nouvelle/1/BaseDonnees.md'
         - Raison sociale et adresse: 'Societe/Nouvelle/1/RaisonSocialeAdresse.md'
