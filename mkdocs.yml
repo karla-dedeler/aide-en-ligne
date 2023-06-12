@@ -43,7 +43,8 @@ nav:
     - Ouvrir une société:
       - Ouverture de société: 'Societe/Ouvrir/1/OuvertureSociete.md'
       - Assistant de création d'une connexion à une société existante:
-        - Assistant de connexion: 'Societe/Ouvrir/2/AssistantConnexion.md'
-        - ... Base de données: 'Societe/Ouvrir/2/BaseDonnees.md'
-        - ... Utilisateur et options: 'Societe/Ouvrir/2/UtilisateurOptions.md'
+        - Assistant de connexion: 
+          - 'Societe/Ouvrir/2/AssistantConnexion.md'
+          - Base de données: 'Societe/Ouvrir/2/BaseDonnees.md'
+          - Utilisateur et options: 'Societe/Ouvrir/2/UtilisateurOptions.md'
     - Fermer la société: 'Societe/Fermer/FermerSociete.md'
