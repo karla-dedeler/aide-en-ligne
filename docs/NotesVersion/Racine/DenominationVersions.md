@@ -3,7 +3,8 @@
 
 
 
-Dénomination des versions
+#Dénomination des versions
+
 
 
 
@@ -16,7 +17,7 @@ Les notes de version ont vocation à donner
  de production.
 
 
-# Version Alpha
+## Version Alpha
 
 
 C'est la première phase de développement 
@@ -27,7 +28,7 @@ C'est la première phase de développement
  certaines fonctionnalités et contient un nombre de bugs encore important.
 
 
-# Version Bêta
+## Version Bêta
 
 
 Version du logiciel qui est en phase de 
@@ -37,7 +38,7 @@ Version du logiciel qui est en phase de
  tests, en aucun cas sur des bases de production.
 
 
-# Version admissible ou pré-release (RC)
+## Version admissible ou pré-release (RC)
 
 
 Une version admissible, bien que le terme 
@@ -48,7 +49,7 @@ Une version admissible, bien que le terme
  erreurs subsistant au sein de l’application.
 
 
-# Version finale ou stable
+## Version finale ou stable
 
 
 Quand un logiciel peut accomplir toutes 

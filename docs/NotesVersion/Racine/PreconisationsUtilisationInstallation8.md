@@ -4,11 +4,11 @@
 
 
 
-Préconisations d'utilisation et d'installation
+#Préconisations d'utilisation et d'installation
 
 
 
-# Débridage
+## Débridage
 
 
 Si vous ne disposez pas d'une version 9.x, un nouveau code de débridage est nécessaire.
@@ -20,7 +20,7 @@ Si vous ne disposez pas d'une version 9.x, un nouveau code de débridage est né
 Pour l’obtenir, solliciter debridage@gestimum.com via le menu SOCIÉTÉ | Paramétrage | Débrider mon ERP.
 
 
-# Compatibilité
+## Compatibilité
 
 
  Nous recommandons SQL Server 2019 avec Windows Server 2019 et Windows 10 ou Windows 11.
@@ -35,7 +35,7 @@ Pour l’obtenir, solliciter debridage@gestimum.com via le menu SOCIÉTÉ | Para
 ReportBuilder est compatible avec Windows 10.
 
 
-# Mise en garde
+## Mise en garde
 
 
 * Attention, la version 9.0 intègre de gros changements dans le fonctionnement des échéances, c'est pourquoi une attention particulière doit être portée dans l'utilisation des documents avec échéances, créés dans une version antérieure. Pour les clients utilisant le multi-échéance au document, une intervention sur la base peut être nécessaire avant utilisation des versions 9.x, dans ce cas contactez-nous avant migration.
@@ -65,13 +65,13 @@ ReportBuilder est compatible avec Windows 10.
 * Si vous utilisez un système d’exploitation Windows XP ou antérieur, vous devez installer la police d’écriture Segoe UI pour utiliser Gestimum ERP. Sans cette police d’écriture vous risquez de rencontrer des anomalies d’affichage.
 
 
-# Options activées par défaut lors de la migration
+## Options activées par défaut lors de la migration
 
 
  
 
 
-Gestion Commerciale
+### Gestion Commerciale
 
 
  
@@ -95,7 +95,7 @@ Gestion Commerciale
  
 
 
-Comptabilité
+### Comptabilité
 
 
  
