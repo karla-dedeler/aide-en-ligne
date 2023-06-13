@@ -17,7 +17,7 @@ Cette option génère sur le document, une ligne de commentaire pouvant indiquer
 
 
 * Aucun
-* Référence�
+* Référence
 * N° de pièce / Date
 * N° de pièce / Date / Référence
 
