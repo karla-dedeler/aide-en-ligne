@@ -3,7 +3,7 @@ site_name: Aide en ligne
 theme:
   name: readthedocs
   highlightjs: true
-  #navigation_depth: 6
+  navigation_depth: 6
   features:
     - navigation.sections
     - navigation.indexes
@@ -58,12 +58,12 @@ nav:
         - Comptabilité: 'Societe/PreferencesSociete/2-4/OngletComptabilite.md'
         - Transfert comptable: 'Societe/PreferencesSociete/2-4/OngletTransfertComptable.md'
         - Racines:
-          - 'docs\Societe\PreferencesSociete\2-5\OngletRacines.md'
-          - Immobilisations: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesImmoibilisations.md'
-          - Stocks: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesStocks.md'
-          - Tiers: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesTiers.md'
-          - Taxes: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesTaxes.md'
-          - Finances: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesFinances.md'
-          - Charges et Produits: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesChargesProduits.md'
-          - Autres: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesAutres.md'
+          - 'Societe/PreferencesSociete/2-5/OngletRacines.md'
+          - Immobilisations: 'Societe/PreferencesSociete/2-5/OngletRacinesImmoibilisations.md'
+          - Stocks: 'Societe/PreferencesSociete/2-5/OngletRacinesStocks.md'
+          - Tiers: 'Societe/PreferencesSociete/2-5/OngletRacinesTiers.md'
+          - Taxes: 'Societe/PreferencesSociete/2-5/OngletRacinesTaxes.md'
+          - Finances: 'Societe/PreferencesSociete/2-5/ngletRacinesFinances.md'
+          - Charges et Produits: 'Societe/PreferencesSociete/2-5/OngletRacinesChargesProduits.md'
+          - Autres: 'Societe/PreferencesSociete/2-5/OngletRacinesAutres.md'
 
