@@ -3,8 +3,8 @@ site_name: Aide en ligne
 theme:
   name: readthedocs
   highlightjs: true
-  features : 
-    - toc.integrate
+  features:
+    navigation.indexes
 plugins:
   - search
   - mkdocstrings:
