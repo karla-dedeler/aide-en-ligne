@@ -6,8 +6,7 @@ theme:
   features:
     - navigation.indexes
 plugins:
-  - search:
-    lang: fr
+  - search
   - mkdocstrings:
       handlers:
         python:
