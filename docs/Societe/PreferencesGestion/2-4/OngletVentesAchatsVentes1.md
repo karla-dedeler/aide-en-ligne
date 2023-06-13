@@ -182,7 +182,7 @@ L’affectation automatique des numéros de série est facultative sur les docum
 Cet option permet de contrôler que la date du document de vente affecté à l'affaire est bien comprise entre la date début et la date de fin paramétrées dans l'affaire. En fonction de l'option sélectionnée cela affichera une alerte (bloquante ou pas) l'affectation de l'affaire à un devis ou une commande et que la date de ce document est en dehors des périodes de l'affaire.
 
 
-### Sélection de l'affaire obligatoire à partir de�
+### Sélection de l'affaire obligatoire à partir de
 
 
 Permet de rendre obligatoire, la saisie du code affaire sur un document à partir d'un sous type de document choisi.
