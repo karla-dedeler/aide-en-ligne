@@ -168,6 +168,6 @@ Mise à jour dans les stocks  => Automatique,
 Sélection du prix de revient  => Du stock.
 
 
-## �
+
 
 
