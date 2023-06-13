@@ -4,7 +4,8 @@ theme:
   name: readthedocs
   highlightjs: true
   features:
-    navigation.indexes
+    - navigation.indexes
+    - search.highlight
 plugins:
   - search
   - mkdocstrings:
