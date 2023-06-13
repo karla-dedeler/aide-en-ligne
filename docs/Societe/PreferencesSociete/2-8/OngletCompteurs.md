@@ -11,16 +11,16 @@ Le numéro est basé sur un préfixe (composé de caractères alphabétiques uni
 ### Type de compteur paramétrable
 
 
-Pour chaque type de documents, une numérotation de pièce peut être programmée dans les onglets [ventes](OngletCompteursVentes.htm), [achats](OngletCompteursAchats.htm) et [stocks](OngletCompteursStocks.htm).
+Pour chaque type de documents, une numérotation de pièce peut être programmée dans les onglets [ventes](OngletCompteursVentes.md), [achats](OngletCompteursAchats.md) et [stocks](OngletCompteursStocks.md).
 
 
-Les onglets [Trésorerie](OngletCompteursTresorerie.htm) et Numéros permettent de paramétrer les numéros des documents de trésorerie et des relances, ainsi que les numéros de pièce des documents divers.
+Les onglets [Trésorerie](OngletCompteursTresorerie.md) et Numéros permettent de paramétrer les numéros des documents de trésorerie et des relances, ainsi que les numéros de pièce des documents divers.
 
 
 ### Remarque
 
 
-Les [compteurs numériques](OngletCompteursNumeriques.htm) indiquent le nombre total des traitements courants (Documents, écritures ...).
+Les [compteurs numériques](OngletCompteursNumeriques.md) indiquent le nombre total des traitements courants (Documents, écritures ...).
 
 
 ## Compteurs : ventes
@@ -145,15 +145,4 @@ Il vous est possible de voir le nombre total des compteurs suivants :
 
 
 ![](../../assets/images/PreferencesSociete/2-8/OngletCompteurs.png)
-
-
-
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
- FilePopupInit('a3');
- FilePopupInit('a4');
- FilePopupInit('a6');
-//]]>
 

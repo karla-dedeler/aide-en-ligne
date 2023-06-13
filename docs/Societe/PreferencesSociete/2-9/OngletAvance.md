@@ -11,7 +11,7 @@
 Le choix du mode de fonctionnement sert à accélérer les opérations les 
  plus courantes comme la recherche d’une donnée, l’ouverture d’une liste 
  de données, la création de fiches. Le mode SQL permet de plus, d'activer 
- le [mode Fiche](../Trier/ModeFiche.htm).
+ le [mode Fiche](../Trier/ModeFiche.md).
 
 
  

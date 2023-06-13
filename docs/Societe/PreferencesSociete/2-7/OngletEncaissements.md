@@ -31,7 +31,7 @@ Lorsque les options "Lettrage automatique lors du transfert comptable des règle
  
 
 
-Pour que le [lettrage se réalise](../Trier/LettrageAutomatiqueTransfertComptable.htm), il faut être dans les situations suivantes :
+Pour que le [lettrage se réalise](../Trier/LettrageAutomatiqueTransfertComptable.md), il faut être dans les situations suivantes :
 
 
 * L’option doit être cochée dans les préférences,

@@ -78,7 +78,7 @@ C'est le montant maximum d'écart de conversion d'une devise vers la devise soci
 ## Comptes d'escomptes obtenus et accordés
 
 
-Ces comptes sont automatiquement proposés et créés dans le plan comptable par défaut dès lors qu’une racine de compte a été indiquée dans Escomptes obtenus et escompte accordés (voir [l'onglet Racines](../2-5/OngletRacines.htm) + Charges et produits).
+Ces comptes sont automatiquement proposés et créés dans le plan comptable par défaut dès lors qu’une racine de compte a été indiquée dans Escomptes obtenus et escompte accordés (voir [l'onglet Racines](../2-5/OngletRacines.md) + Charges et produits).
 
 
  
