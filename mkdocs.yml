@@ -50,10 +50,10 @@ nav:
     - Fermer la société: 'Societe/Fermer/FermerSociete.md'
     - Paramétrage:
       - Préférences de société:
-        - PreferencesSociete/1/PreferencesSociete.md 
-        - Coordonnées: PreferencesSociete/2-1/OngletCoordonnees.md
-        - Logo: PreferencesSociete/2-1/OngletLogo.md
-        - Identité: PreferencesSociete/2-2/OngletIdentite.md
-        - Exercices: PreferencesSociete/2-3/OngletExercices.md
-        - Comptabilité: PreferencesSociete/2-4/OngletComptabilite.md
-        - Transfert comptable: PreferencesSociete/2-4/OngletTransfertComptable.md
+        - Societe/PreferencesSociete/1/PreferencesSociete.md 
+        - Coordonnées: Societe/PreferencesSociete/2-1/OngletCoordonnees.md
+        - Logo: Societe/PreferencesSociete/2-1/OngletLogo.md
+        - Identité: Societe/PreferencesSociete/2-2/OngletIdentite.md
+        - Exercices: Societe/PreferencesSociete/2-3/OngletExercices.md
+        - Comptabilité: Societe/PreferencesSociete/2-4/OngletComptabilite.md
+        - Transfert comptable: Societe/PreferencesSociete/2-4/OngletTransfertComptable.md
