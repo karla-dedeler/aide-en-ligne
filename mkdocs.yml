@@ -3,11 +3,6 @@ site_name: Aide en ligne
 theme:
   name: readthedocs
   highlightjs: true
-  navigation_depth: 6
-  features:
-    - navigation.sections
-    - navigation.indexes
-    - navigation.expand
 plugins:
   - search
   - mkdocstrings:
