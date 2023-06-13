@@ -6,7 +6,7 @@
 
 
 
-Le mode Fiche évite d’ouvrir continuellement la liste des données et donc d’accéder trop souvent à la base. Il s’active automatiquement lorsque vous sélectionnez [un mode de fonctionnement SQL](../2-9/OngletAvance.htm) (que vous ayez ou non le moteur SQL) dans Préférences de la société du menu SOCIETE.
+Le mode Fiche évite d’ouvrir continuellement la liste des données et donc d’accéder trop souvent à la base. Il s’active automatiquement lorsque vous sélectionnez [un mode de fonctionnement SQL](../2-9/OngletAvance.md) (que vous ayez ou non le moteur SQL) dans Préférences de la société du menu SOCIETE.
 
 
 ## Fonctionnement

@@ -80,3 +80,39 @@ nav:
         - Impression des préférences de la société: 'Societe/PreferencesSociete/3/Impression.md'
         - Lettrage automatique lors du transfert comptable: 'Societe/PreferencesSociete/3/LettrageAutomatiqueTransfertComptable.md'
         - Mode Fiche: 'Societe/PreferencesSociete/3/ModeFiche.md'
+      - Préférences de gestion :
+        - 'Societe/PreferencesGestion/1/PreferencesGestion.md'
+        - Articles: 
+          - Articles: 'Societe/PreferencesGestion/2-1/OngletArticles.md'
+          - Critères personnalisés: 'Societe/PreferencesGestion/2-1/OngletCriteresPersonnalises.md'
+          - Taxes parafiscales: 'Societe/PreferencesGestion/2-1/OngletTaxesParafiscales.md'
+        - Stocks:
+          - 'Societe/PreferencesGestion/2-2/OngletStocks.md'
+          - Numéros de lots: 'Societe/PreferencesGestion/2-2/OngletNumerosLots.md'
+          - Numéros de séries:  'Societe/PreferencesGestion/2-2/OngletNumerosSeries.md'
+        - Tiers:
+          - 'Societe/PreferencesGestion/2-3/OngletTiers.md'
+          - Critères personnalisés: 'Societe/PreferencesGestion/2-3/OngletCriteresPersonnalises.md'
+        - Ventes, achats, stocks:
+          - 'Societe/PreferencesGestion/2-4/OngletVentesAchatsStocks.md'
+          - Ventes: 'Societe/PreferencesGestion/2-4/OngletVentesAchatsVentes1.md'
+          - Achats:  'Societe/PreferencesGestion/2-4/OngletVentesAchatsAchats.md'
+          - Noms des documents:
+            - 'Societe/PreferencesGestion/2-4/Noms/OngletNomsDocuments.md'
+            - Ventes: 'Societe/PreferencesGestion/2-4/Noms/OngletNomsVentes.md'
+            - Achats: 'Societe/PreferencesGestion/2-4/Noms/OngletNomsAchats.md'
+            - Stocks: 'Societe/PreferencesGestion/2-4/Noms/OngletNomsStocks.md'
+          - Modèles par défaut:
+            - 'Societe/PreferencesGestion/2-4/Modeles/OngletVentesAchatsStocksModelesDefaut.md'
+            - Ventes: 'Societe/PreferencesGestion/2-4/Noms/OngletModelesVentes.md'
+            - Achats: 'Societe/PreferencesGestion/2-4/Noms/OngletModelesAchats.md'
+            - Stocks: 'Societe/PreferencesGestion/2-4/Noms/OngletModelesStocks.md'
+          - Mentions obligatoires: 'Societe/PreferencesGestion/2-4/OngletMentionsObligatoires.md'
+        - Affaires:
+          - 'Societe/PreferencesGestion/2-5/OngletAffaires.md'
+          - Ajouter les jours fériés: 'Societe/PreferencesGestion/2-5/AjouterJoursFeries.md'
+        - Salariés: 
+          - Critères personnalisés: 'Societe/PreferencesGestion/2-6/CriteresPersonnalises.md'
+        - Impression des préférences de gestion: 'Societe/PreferencesGestion/3/Impression.md'
+        - Messages d'avertissement ou bloquant: 'Societe/PreferencesGestion/Trier/MessagesAvertissementBloquant.md'
+        - Date de livraison: 'Societe/PreferencesGestion/Trier/DateLivraison.md'
