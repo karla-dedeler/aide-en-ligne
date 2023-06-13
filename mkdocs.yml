@@ -63,7 +63,7 @@ nav:
           - Stocks: 'Societe/PreferencesSociete/2-5/OngletRacinesStocks.md'
           - Tiers: 'Societe/PreferencesSociete/2-5/OngletRacinesTiers.md'
           - Taxes: 'Societe/PreferencesSociete/2-5/OngletRacinesTaxes.md'
-          - Finances: 'Societe/PreferencesSociete/2-5/ngletRacinesFinances.md'
+          - Finances: 'Societe/PreferencesSociete/2-5/OngletRacinesFinances.md'
           - Charges et Produits: 'Societe/PreferencesSociete/2-5/OngletRacinesChargesProduits.md'
           - Autres: 'Societe/PreferencesSociete/2-5/OngletRacinesAutres.md'
         - Comptes: 'Societe/PreferencesSociete/2-6/OngletComptes.md'
@@ -78,8 +78,8 @@ nav:
         - Styles: 'Societe/PreferencesSociete/2-9/OngletStyles.md'
         - Avancé: 'Societe/PreferencesSociete/2-9/OngletAvance.md'
         - Impression des préférences de la société: 'Societe/PreferencesSociete/3/Impression.md'
-        - Lettrage automatique lors du transfert comptable: 'Societe/PreferencesSociete/3/LettrageAutomatiqueTransfertComptable.md'
-        - Mode Fiche: 'Societe/PreferencesSociete/3/ModeFiche.md'
+        - Lettrage automatique lors du transfert comptable: 'Societe/PreferencesSociete/Trier/LettrageAutomatiqueTransfertComptable.md'
+        - Mode Fiche: 'Societe/PreferencesSociete/Trier/ModeFiche.md'
       - Préférences de gestion :
         - 'Societe/PreferencesGestion/1/PreferencesGestion.md'
         - Articles: 
@@ -104,9 +104,9 @@ nav:
             - Stocks: 'Societe/PreferencesGestion/2-4/Noms/OngletNomsStocks.md'
           - Modèles par défaut:
             - 'Societe/PreferencesGestion/2-4/Modeles/OngletVentesAchatsStocksModelesDefaut.md'
-            - Ventes: 'Societe/PreferencesGestion/2-4/Noms/OngletModelesVentes.md'
-            - Achats: 'Societe/PreferencesGestion/2-4/Noms/OngletModelesAchats.md'
-            - Stocks: 'Societe/PreferencesGestion/2-4/Noms/OngletModelesStocks.md'
+            - Ventes: 'Societe/PreferencesGestion/2-4/Modeles/OngletModelesVentes.md'
+            - Achats: 'Societe/PreferencesGestion/2-4/Modeles/OngletModelesAchats.md'
+            - Stocks: 'Societe/PreferencesGestion/2-4/Modeles/OngletModelesStocks.md'
           - Mentions obligatoires: 'Societe/PreferencesGestion/2-4/OngletMentionsObligatoires.md'
         - Affaires:
           - 'Societe/PreferencesGestion/2-5/OngletAffaires.md'
