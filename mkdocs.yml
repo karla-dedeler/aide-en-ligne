@@ -5,9 +5,9 @@ theme:
   highlightjs: true
   features:
     - navigation.indexes
-    - search.highlight
 plugins:
-  - search
+  - search:
+    lang: fr
   - mkdocstrings:
       handlers:
         python:
