@@ -44,7 +44,7 @@ Pour les échéances créées par erreur sur des comptes autres que les
 La gestion des quantités permet de gérer en plus du débit et du crédit, 
  une notion de quantité sur l'écriture (quantité de produits achetés, nombre 
  de SICAV,…). Le format des quantités est à déterminer dans [l'onglet 
- Général](../2-9/OngletAvance.htm).
+ Général](../2-9/OngletAvance.md).
 
 
 ## Gestion de l’analytique
@@ -119,7 +119,7 @@ En fonction des différents types (Factures, Avoirs, Règlement en portefeuille,
 
 La création des différents libellés s’effectue par le menu SOCIETE/Paramétrage/Tables 
  de Références - [Libellés 
- automatiques](../../TablesReferences/2/Comptabilite.htm).
+ automatiques](../../TablesReferences/2/Comptabilite.md).
 
 
  

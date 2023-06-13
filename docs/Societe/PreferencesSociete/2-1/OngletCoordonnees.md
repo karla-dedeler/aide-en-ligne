@@ -26,7 +26,7 @@ Le choix du pays où la société est installée est très important (par
 
 
 Cas particulier [la 
- création de société en devise Euro](../../Nouvelle/1/CreerNouvelleSociete.htm).
+ création de société en devise Euro](../../Nouvelle/1/CreerNouvelleSociete.md).
 
 
 ## E-mail et site Internet
