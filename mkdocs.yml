@@ -3,7 +3,7 @@ site_name: Aide en ligne
 theme:
   name: readthedocs
   highlightjs: true
-  navigation_depth: 1
+  navigation_depth: 4
   features:
     - navigation.sections
     - navigation.indexes
