@@ -179,7 +179,7 @@ Cet option permet de contrôler que la date du document d'achat affecté à l'a
 Cet option permet de contrôler que le montant des achats réalisés afféctés à l'affaire, ne dépasse pas son montant global budgété. En fonction de l'option selectionée, cela affichera une alerte (bloquante ou pas) à l'affectation de l'affaire sur le document.
 
 
-### Sélection de l'affaire obligatoire à partir de�
+### Sélection de l'affaire obligatoire à partir de
 
 
 Permet de rendre oblifatoire, la saisie du code affaire sur un document à partir d'un sous type de document choisi.
