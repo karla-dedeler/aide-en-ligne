@@ -50,10 +50,20 @@ nav:
     - Fermer la société: 'Societe/Fermer/FermerSociete.md'
     - Paramétrage:
       - Préférences de société:
-        - Societe/PreferencesSociete/1/PreferencesSociete.md 
-        - Coordonnées: Societe/PreferencesSociete/2-1/OngletCoordonnees.md
-        - Logo: Societe/PreferencesSociete/2-1/OngletLogo.md
-        - Identité: Societe/PreferencesSociete/2-2/OngletIdentite.md
-        - Exercices: Societe/PreferencesSociete/2-3/OngletExercices.md
-        - Comptabilité: Societe/PreferencesSociete/2-4/OngletComptabilite.md
-        - Transfert comptable: Societe/PreferencesSociete/2-4/OngletTransfertComptable.md
+        - 'Societe/PreferencesSociete/1/PreferencesSociete.md'
+        - Coordonnées: 'Societe/PreferencesSociete/2-1/OngletCoordonnees.md'
+        - Logo: 'Societe/PreferencesSociete/2-1/OngletLogo.md'
+        - Identité: 'Societe/PreferencesSociete/2-2/OngletIdentite.md'
+        - Exercices: 'Societe/PreferencesSociete/2-3/OngletExercices.md'
+        - Comptabilité: 'Societe/PreferencesSociete/2-4/OngletComptabilite.md'
+        - Transfert comptable: 'Societe/PreferencesSociete/2-4/OngletTransfertComptable.md'
+        - Racines:
+          - 'docs\Societe\PreferencesSociete\2-5\OngletRacines.md'
+          - Immobilisations: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesImmoibilisations.md'
+          - Stocks: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesStocks.md'
+          - Tiers: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesTiers.md'
+          - Taxes: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesTaxes.md'
+          - Finances: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesFinances.md'
+          - Charges et Produits: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesChargesProduits.md'
+          - Autres: 'docs\Societe\PreferencesSociete\2-5\OngletRacinesAutres.md'
+
