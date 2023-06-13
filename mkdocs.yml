@@ -2,15 +2,10 @@ site_name: Aide en ligne
 #logo: "docs/favicon.png" 
 
 theme:
-  #name: readthedocs
-  #highlightjs: true
-  #features:
-    #- navigation.indexes
-  language: fr
-  name: material
-  palette:
-      primary: indigo
-      accent: indigo
+  name: readthedocs
+  highlightjs: true
+  features:
+    - navigation.indexes
   
 plugins:
   - search
@@ -27,7 +22,7 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
-      
+
 nav:
   - Bienvenue: 'index.md'
   - Conditions de licence des progiciels GESTIMUM et d'utilisation des services associés au 15/11/2019: 'CLS.md'
