@@ -39,7 +39,7 @@ Le choix de la devise société Euro permet de sélectionner une devise
 
 
 Du choix du pays découle également la [création 
- des fichiers](DonneesDefaut.htm) par défaut comme les codes postaux spécifiques au pays, 
+ des fichiers](DonneesDefaut.md) par défaut comme les codes postaux spécifiques au pays, 
  le plan comptable (suisse, anglais, marocain, …) et les journaux comptables.
 
 

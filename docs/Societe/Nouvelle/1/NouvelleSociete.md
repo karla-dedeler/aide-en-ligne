@@ -54,7 +54,7 @@ Création d’une société avec ou non les données de base.
 
 Création d’une société de démonstration avec des données (Tiers, Articles, 
  Documents, Écritures…). Vous devez paramétrer uniquement les informations 
- de l’écran [choix de la base](BaseDonnees.htm).
+ de l’écran [choix de la base](BaseDonnees.md).
 
 
 ## Recopier une société
@@ -65,7 +65,7 @@ Ce champ vous permet de référencer le point Gestimum d’une société existan
 
 
 Lorsque vous renseignez ce champ, l’assistant détecte que vous être 
- en [copie de société](../2/DupliquerBaseDonnees.htm) 
+ en [copie de société](../2/DupliquerBaseDonnees.md) 
  et vous propose les écrans de copie.
 
 
