@@ -8,7 +8,6 @@ theme:
   titles_only: True
   sticky_navigation: False
 
-  
 plugins:
   - search
   - mkdocstrings:
