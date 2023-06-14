@@ -7,11 +7,9 @@ theme:
   titles_only: True
   sticky_navigation: False
 
-site_url: ""
-use_directory_urls: False
-
 plugins:
-  #- search
+  - search
+  - offline
   - mkdocstrings:
       handlers:
         python:
