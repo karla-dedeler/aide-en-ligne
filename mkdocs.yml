@@ -4,7 +4,6 @@ theme:
   name: readthedocs
   highlightjs: True
   prev_next_buttons_location: top
-  navigation_depth: 2
   titles_only: True
   sticky_navigation: False
 
