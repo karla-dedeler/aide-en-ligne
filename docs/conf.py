@@ -31,8 +31,9 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
-    'collapse_navigation': True,
-    'prev_next_buttons_location': 'None'
+    'collapse_navigation': False,
+    'prev_next_buttons_location': 'None',
+    'titles_only' : True
 }
 
 # -- Options for EPUB output
