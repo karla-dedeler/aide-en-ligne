@@ -14,7 +14,6 @@ plugins:
         python:
           options:
             docstring_style: sphinx
-  - print-site
 
 markdown_extensions:
   - admonition
