@@ -3,7 +3,12 @@ site_name: Aide en ligne
 theme:
   name: readthedocs
   highlightjs: True
-  favicon: favicon.png
+  logo: favicon.png
+  prev_next_buttons_location: top
+  navigation_depth: 1
+  titles_only: True
+  sticky_navigation: False
+
   
 plugins:
   - search
