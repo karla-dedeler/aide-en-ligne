@@ -6,6 +6,7 @@ theme:
   highlightjs: true
   features:
     - navigation.indexes
+    - navigation.tabs
   
 plugins:
   - search
