@@ -6,10 +6,6 @@ theme:
   prev_next_buttons_location: top
   titles_only: True
   sticky_navigation: False
-  features:
-    - navigation.indexes
-    - navigation.top
-    - navigation.sections
 
 plugins:
   - search
