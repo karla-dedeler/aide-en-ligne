@@ -1,9 +1,8 @@
 site_name: Aide en ligne
-#logo: "docs/favicon.png" 
 
 theme:
   name: readthedocs
-  highlightjs: true
+  #highlightjs: true
   features:
     - navigation.indexes
     - navigation.instant
