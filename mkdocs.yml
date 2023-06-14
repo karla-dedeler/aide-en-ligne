@@ -2,8 +2,9 @@ site_name: Aide en ligne
 
 theme:
   name: readthedocs
-  highlightjs: true
+  highlightjs: True
   titles_only: True
+  prev_next_buttons_location: top
   favicon: favicon.png
   
 plugins:
