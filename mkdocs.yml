@@ -307,3 +307,13 @@ nav:
       - Impression des dépôts: 'Societe/Depots/4/Impression.md'
       - Sélection des dépôts: 'Societe/Depots/6/SelectionDepots.md'
       - Dépôt principal: 'Societe/Depots/5/DepotPrincipal.md'
+    - Villes: 
+      - Introduction: 'Societe/Villes/1/Introduction.md'
+      - Liste des Villes: 'Societe/Villes/2/Liste.md'
+      - Import: 'Societe/Villes/3/Ville.md'
+      #  - Import de villes: 'Societe/Villes/3/Ville.md'
+      #  - Structure du fichier de villes: 
+      #  - Exemple: 
+      #    - Exemple de fichier de villes: 
+      #    - Exemple d'import de villes: 
+      - Impression des villes: 'Societe/Villes/4/Impression.md' 
