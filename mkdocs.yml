@@ -31,7 +31,7 @@ nav:
     - Dénomination des versions: 'NotesVersion/Racine/DenominationVersion.md'
     - Développement sur mesure: 'NotesVersion/Racine/PFD.md'
     - Préconisations d'utilisation et d'installation: 'NotesVersion/Racine/PreconisationsUtilisationInstallation8.md'
-  - Société:
+  - SOCIETE:
     - Menu Société: 'Societe/Menu/Menu_SOCIETE.md'
     - Nouvelle société: 
       - Créer une nouvelle société: 
@@ -372,18 +372,36 @@ nav:
             - Commentaires: 'Societe/Banques/2-2/CompteBancaireCommentaires.md'
             - Comptabilité: 'Societe/Banques/2-2/CompteBancaireComptabilite.md'
           - Impression des comptes bancaires: 'Societe/Banques/2-3/ImpressionComptesBancaires.md'
-        - Natures comptables:
-          - Natures comptables: 'Societe/NaturesComptable/1/NaturesComptables.md'
-          - Nature comptable: 
-            - Entête: 'Societe/NaturesComptable/2/Entete.md'
-            - TVA et TPF: 'Societe/NaturesComptable/2/TVATPF.md'
-          #- Import: 
-          #  - Import de natures comptables: 
-          #  - Type de fichier: 
-          #  - Structure du fichier de natures comptables:
-          #  - Exemple: 
-          #    - Exemple de fichier de natures comptables:
-          #    - Exemple d'import de natures comptables: 
-          - Impression des natures comptables: 'Societe/NaturesComptable/3/Impression.md'
-          - Utilisation des natures comptables: 'Societe/NaturesComptable/4/Utilisation.md'
+      - Natures comptables:
+         - Natures comptables: 'Societe/NaturesComptable/1/NaturesComptables.md'
+         - Nature comptable: 
+           - Entête: 'Societe/NaturesComptable/2/Entete.md'
+           - TVA et TPF: 'Societe/NaturesComptable/2/TVATPF.md'
+         #- Import: 
+         #  - Import de natures comptables: 
+         #  - Type de fichier: 
+         #  - Structure du fichier de natures comptables:
+         #  - Exemple: 
+         #    - Exemple de fichier de natures comptables:
+         #    - Exemple d'import de natures comptables: 
+         - Impression des natures comptables: 'Societe/NaturesComptable/3/Impression.md'
+         - Utilisation des natures comptables: 'Societe/NaturesComptable/4/Utilisation.md'
     - Quitter: 'Societe/Quitter/Quitter.md'
+  - EDITION:
+    - Menu EDITION: 'Edition/1/MenuEDITION.md'
+    - Nouveau: 
+      - 'Edition/2/Nouveau.md'
+      - Choix de type de document: 'Edition/2/ChoixTypeDocument.md'
+    - Ouvrir: 'Edition/3/Ouvrir.md'
+    - Enregistrer: 'Edition/4/Enregistrer.md'
+    - Imprimer: 'Edition/5/Imprimer.md'
+    - Aperçu avant impression: 'Edition/5/ApercuAvantImpression.md'
+    - Configuration de l'impression: 'Edition/5/ConfigurationImpression.md'
+    - Annuler: 'Edition/6/Annuler.md'
+    - Couper: 'Edition/7/Couper.md'
+    - Copier: 'Edition/7/Copier.md'
+    - Coller: 'Edition/7/Coller.md'
+    - Précédent: 'Edition/9/Precedent.md'
+    - Suivant: 'Edition/9/Suivant.md'
+    - Actualiser: 'Edition/8/Actualiser.md'
+    - Ouvrir la liste: 'Edition/10/OuvrirListe.md'
