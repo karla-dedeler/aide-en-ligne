@@ -34,7 +34,7 @@ Nous décrivons ci-dessous le comportement de votre logiciel en fonction
 | Fonctionnement en réseau | Conseillé | Conseillé |
 | Gestion des données en mode Liste | Oui | Non |
 | Gestion des données en [mode 
- Fiche](../Trier/ModeFiche.htm) | Non | Oui |
+ Fiche](../Trier/ModeFiche.md) | Non | Oui |
 | Recherche dans une liste déroulante | Oui | Oui |
 | Champs avec appel de liste image\Gest0117_wmf.gif | Oui | Non |
 | Accès à la liste complète | Avec image\Gest0119_wmf.gif | Avec l’icône Ouvrir sur une fiche |

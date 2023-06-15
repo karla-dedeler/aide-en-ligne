@@ -186,7 +186,7 @@ nav:
         - Dépôts: 'Societe/Salaries/3/OngletDepots.md'
         - Affaires: 'Societe/Salaries/3/OngletAffaires.md'
         - Absences: 'Societe/Salaries/3/OngletAbsences.md'
-        - Actions:  '/Societe/Salaries/3/OngletActions.md'
+        - Actions:  'Societe/Salaries/3/OngletActions.md'
         - Personnalisé: 'Societe/Salaries/3/OngletPersonnalise.md'
       #- Import:
       #  - Import de salariés:
@@ -245,4 +245,28 @@ nav:
           - Objectifs: 'Societe/Commerciaux/3/BaremeObjectifs.md'
           - Sélection: 'Societe/Commerciaux/3/BaremeSelection.md'
         - Impression des barèmes commerciaux: 'Societe/Commerciaux/3/Impression/ImpressionBaremesCommerciaux.md'
-      
+    - Devises: 
+      - Liste des devises: 'Societe/Devises/1/ListeDevises.md'
+      - Devise: 'Societe/Devises/2/Devise.md'
+      - Cotation "Au certain": 'Societe/Devises/2/CotationCertain.md'
+      - Cotation "A l'incertain": 'Societe/Devises/2/CotationIncertain.md'
+      - Devise locale: 'Societe/Devises/3/DeviseLocale.md'
+      - Devise société: 'Societe/Devises/3/DeviseSociete.md'
+      #- Import: 
+      #  - Import de devises: 
+      #  - Type de fichier: 
+      #  - Structure du fichier de devises: 
+      #  - Exemple : 
+      #    - Exemple de fichier de devises: 
+      #    - Exemple d'import de devises: 
+      - Impression des devises: 'Societe/Devises/5/ImpressionDevises.md'
+      - Outils: 
+        - Outils d'actualisation du certain et de l'incertain des devises: 'Societe/Devises/6/OutilActualisationCertainIncertain.md'
+        - Actualisation en ligne des cours des devises: 'Societe/Devises/6/ActualisationLigneCoursDevises.md'
+        - Actualisation manuelle des cours des devises: 'Societe/Devises/6/ActualisationManuelleCoursDevises.md'
+      - Devises de A à Z: 'Societe/Devises/7/DevisesAZ.md'
+      - Les devises: 'Societe/Devises/Trier/LesDevises.md'
+      - Devise d'un journal ou d'un compte: 'Societe/Devises/Trier/DeviseJournalCompte.md'
+      - Devise d'un tiers: 'Societe/Devises/Trier/DeviseTiers.md'
+      - Prix en devise: 'Societe/Devises/Trier/PrixDevise.md'
+      - Conversion de devise: 'Societe/Devises/Trier/ConversionDevise.md'
