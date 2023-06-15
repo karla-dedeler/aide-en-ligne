@@ -25,7 +25,7 @@ Allez dans "Documents d’achat et de vente"
  
 
 
-![](../../assets/images/ChampsPersonnalises/1/Fonctionnalités.png)
+![](../../assets/images/ChampsPersonnalises/1/Fonctionnalites.png)
 
 
  

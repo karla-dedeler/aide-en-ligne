@@ -1,7 +1,10 @@
 site_name: Aide en ligne
 
 theme:
-  name: readthedocs
+  name: material
+  features : 
+  - search
+  - search.highlight
   highlightjs: True
   prev_next_buttons_location: top
   titles_only: True
@@ -9,6 +12,7 @@ theme:
 
 plugins:
   - search
+  - offline
   - mkdocstrings:
       handlers:
         python:
@@ -42,7 +46,7 @@ nav:
       - Paramétrages après la création d'une société: 'Societe/Nouvelle/3/ParametragesApresCreationSociete.md'
     - Ouvrir une société:
       - Ouverture de société: 'Societe/Ouvrir/1/OuvertureSociete.md'
-      - Assistant de création d'une connexion à une société existante:
+      - Assistant de création d'unmk  e connexion à une société existante:
         - Assistant de connexion: 
           - 'Societe/Ouvrir/2/AssistantConnexion.md'
           - Base de données: 'Societe/Ouvrir/2/BaseDonnees.md'
@@ -172,3 +176,73 @@ nav:
         - Général: 'Societe/Services/2/OngletGeneral.md'
         - Divisions: 'Societe/Services/2/OngletDivisions.md'
       - Impression des services: 'Societe/Services/3/Impression.md'
+    - Salariés:
+      - Introduction: 'Societe/Salaries/1/Introduction.md'
+      - Liste des salariés: 'Societe/Salaries/2/Liste.md'
+      - Salariés:
+        - Salariés: 'Societe/Salaries/3/Salarie.md'
+        - Général: 'Societe/Salaries/3/OngletGeneral.md'
+        - Affectations: 'Societe/Salaries/3/OngletAffectations.md'
+        - Dépôts: 'Societe/Salaries/3/OngletDepots.md'
+        - Affaires: 'Societe/Salaries/3/OngletAffaires.md'
+        - Absences: 'Societe/Salaries/3/OngletAbsences.md'
+        - Actions:  '/Societe/Salaries/3/OngletActions.md'
+        - Personnalisé: 'Societe/Salaries/3/OngletPersonnalise.md'
+      #- Import:
+      #  - Import de salariés:
+      #  - Type de fichier:
+      #  - Structure du fichier de salariésorerie:
+      #  - Exemple:
+      #    - Exemple de fichier de salariés:
+      #    - Exemple d'import de salariés:
+      - Impression des salariés: 'Societe/Salaries/4/Impression.md'
+    - Utilisateurs:
+      - Introduction: 'Societe/Utilisateurs/1/Introduction.md'
+      - Paramétrage des utilisateurs: 'Societe/Utilisateurs/1/ParametrageUtilisateurs.md'
+      - Groupes:
+        - Liste des groupes d'utilisateurs: 'Societe/Utilisateurs/2/ListeGroupes.md'
+        - Groupe d'utilisateurs: 'Societe/Utilisateurs/2/Groupe.md'
+      - Utilisateurs:
+        - Liste des utilisateurs: 'Societe/Utilisateurs/3/ListeUtilisateurs.md'
+        - Utilisateur: 'Societe/Utilisateurs/3/Utilisateur.md'
+      - Autorisations: 
+        - Autorisations des utilisateurs et des groupes: 'Societe/Utilisateurs/4/Autorisations.md'
+        - Droits d'utilisation: 'Societe/Utilisateurs/5/DroitsUtilisation.md'
+      - Mot de passe: 
+        - Confirmation du mot de passe: 'Societe/Utilisateurs/6/ConfirmationMotPasse.md'
+        - Changer le mot de passe: 'Societe/Utilisateurs/6/ChangerMotPasse.md'
+      #- Import: 
+      #  - Import d'utilisateurs: 
+      #  - Type de fichier: 
+      #  - Structure du fichier d'utilisateurs:
+      #  - Exemple:
+      #    - Exemple de fichier d'utilisateurs:
+      #    - Exemple d'import d'utilisateurs:
+    - Commerciaux:
+      - Introduction: 'Societe/Commerciaux/1/Introduction1.md'
+      - Commerciaux:
+        - Introduction: 'Societe/Commerciaux/2/Introduction2.md'
+        - Liste des commerciaux: 'Societe/Commerciaux/2/ListeCommerciaux.md'
+        - Commercial: 
+          - Commercial: 'Societe/Commerciaux/2/Commercial.md'
+          - Coordonnées: 'Societe/Commerciaux/2/OngletCoordonnees.md'
+          - Autre: 'Societe/Commerciaux/2/OngletAutre.md'
+        #- Import: 
+        #  - Import de commerciaux: 
+        #  - Type de fichier: 
+        #  - Structure du fichier de commerciaux: 
+        #  - Exemple: 
+        #    - Exemple de fichier de commerciaux: 
+        #    - Exemple d'import de commerciaux: 
+        - Impression des commerciaux: 'Societe/Commerciaux/2/Impression/ImpressionCommerciaux.md'
+      - Filtres: 
+        - Filtres en fonction du commercial connecté: 'Societe/Commerciaux/4/FiltresCommercialConnecte.md'
+      - Barèmes de commissionnements: 
+        - Introduction: 'Societe/Commerciaux/3/Introduction3.md'
+        - Liste des barèmes: 'Societe/Commerciaux/3/ListeBaremes.md'
+        - Barème: 
+          - Barème: 'Societe/Commerciaux/3/Bareme.md'
+          - Objectifs: 'Societe/Commerciaux/3/BaremeObjectifs.md'
+          - Sélection: 'Societe/Commerciaux/3/BaremeSelection.md'
+        - Impression des barèmes commerciaux: 'Societe/Commerciaux/3/Impression/ImpressionBaremesCommerciaux.md'
+      

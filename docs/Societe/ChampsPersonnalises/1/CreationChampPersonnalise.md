@@ -24,7 +24,7 @@ Dans la fenêtre de paramétrage des champs personnalisés, vous devez ensuite s
  
 
 
-![](../../assets/images/ChampsPersonnalises/1/Fonctionnalités.png)
+![](../../assets/images/ChampsPersonnalises/1/Fonctionnalites.png)
 
 
 ## Création d’un champ personnalisé
