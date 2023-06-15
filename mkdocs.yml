@@ -405,6 +405,205 @@ nav:
     - Suivant: 'Edition/9/Suivant.md'
     - Actualiser: 'Edition/8/Actualiser.md'
     - Ouvrir la liste: 'Edition/10/OuvrirListe.md'
+  - Gestion Commerciale:
+    - Gestion Commerciale: 
+    - ARTICLES: 
+      - Articles: 
+        - Introduction: 
+        - Nouvel article: 
+        - Liste des articles: 
+        - Article: 
+          -  
+          - Général: 
+            -
+            - Type d'article: 
+            - Nomenclatures et forfaits: 
+            - Catégorie d'article: 
+            - Mise à jour du prix de revient: 
+            - Entraînant la modification:
+          - Autre: 
+            - 
+            - Mode de facturation: 
+              - 
+              - Au débit: 
+              - Au poids: 
+              - Au volume: 
+              - Exprimé en: 
+              - Prix au: 
+            - Nomenclature DEB:
+          - Compta:
+          - Conditionnement: 
+            -
+            - Exemple de conditionnement:
+          - Composants:
+            - Composants:
+            - Recalculer la nomenclature: 
+          - Stock: 
+            - 
+            - Type de stock: 
+              - DPA (stock en Dernier Prix d'Achat): 
+              - LIFO (Last In, First Out): 
+              - PMA (stock en Prix Moyen d'Achat): 
+              - PUMP (stock en Prix Unitaire Moyen Pondéré): 
+              - FIFO (First In, First Out):
+            - Mise à jour du prix de revient dans les stocks: 
+            - Gestion des numéros de série sur la fiche article: 
+            - Prix de revient automatique: 
+            - Sélection du prix de revient dans les documents: 
+            - Délai de commercialisation: 
+            - Prix de revient manuel:
+            - Prix de revient et valorisation du stock: 
+            - Gestion de la péremption: 
+            - Gestion des numéros de lots:
+          - Équivalences:
+          - Fournisseurs:
+          - Clients:
+          - Infos:
+          - Personnalisé:
+        - Import: 
+          - Imports d'articles:
+        - Modifier un code article: 
+        - Mise à jour des articles en masse: 
+          - 
+          - Filtres:  
+          - Sélection:
+          - Traitements:
+        - Mise à jour des nomenclatures et forfaits en masse: 
+          -
+          - Filtres:  
+          - Sélection:
+          - Traitements:
+        - Recherche d'articles: 
+        - Impression des articles: 
+        - Impression d'étiquettes:
+      - Familles d'articles: 
+        - Introduction: 
+        - Liste des familles d'articles: 
+        - Famille d'articles:
+          -
+          - Général:
+          - Autre:
+          - Compta: 
+          - Stock: 
+          - Equivalences:
+          - Fournisseurs: 
+          - Personnalisé:
+        - Import: 
+          - Import de familles d'articles:
+          - Type de fichier:
+          - Structure du fichier de familles d'articles: 
+          - Exemple: 
+            - Exemple de fichier de familles d'articles: 
+            - Exemple d'import de familles d'articles:
+        - Impression des familles d'articles: 
+        - Mise à jour des articles après modification d'une famille d'articles:
+          - Méthode de mise à jour des articles de la famille:
+          - Mise à jour manuelle des champs des articles de la famille:
+      - Sous-familles d'articles:
+        - Liste des sous-familles d'articles: 
+        - Sous-familles d'articles: 
+          -
+          - Général:
+          - Autre:
+          - Compta: 
+          - Stock: 
+          - Equivalences:
+          - Fournisseurs: 
+          - Personnalisé:
+        - Impression des sous-familles d'articles:
+        - Import: 
+          - Import de sous-familles d'articles:
+          - Type de fichier:
+          - Structure du fichier de sous-familles d'articles: 
+          - Exemple: 
+            - Exemple de fichier de sous-familles d'articles: 
+            - Exemple d'import de sous-familles d'articles:
+        - Mise à jour des articles après modification d'une sous-famille d'articles:
+          - Méthode de mise à jour des articles de la sous-famille:
+          - Mise à jour manuelle des champs des articles de la sous-famille:
+      - Gammes: 
+        - Introduction: 
+        - Étapes: 
+        - Gammes: 
+          - Liste des gammes: 
+          - Gamme: 
+            -
+            - Composition de la gamme: 
+            - Vues standard et cartésienne pour sélectionner des valeurs de composantes de gamme:
+          - Exemples de gammes: 
+          - Impression des gammes:
+        - Composantes de gammes: 
+          - Liste des composantes de gammes: 
+          - Composante de gamme: 
+          - Impression des composantes de gammes:
+        - Articles: 
+        - Sélection des valeurs de composantes de gammes:
+      - Mise à jour des tarifs articles: 
+        -
+        - Date de mise en application: 
+        - Portée de la mise à jour: 
+        - Calcul à effectuer: 
+        - Consultation et modification: 
+        - Exemple de mise à jour des tarifs articles:
+      - Mise à jour des tarifs fournisseurs: 
+        - 
+        - Calcul à effectuer: 
+        - Consultation et modification: 
+        - Sélection des données:
+      - Grilles de tarifs et promotions:
+        - Grilles de tarifs:
+          - Liste des grilles de tarifs: 
+          - Grille de tarifs: 
+          - Création d'une grille de tarifs: 
+          - Dupliquer la grille de tarifs dans une autre devise: 
+          - Tiers affectés: 
+          - Priorités entre les lignes dans une grille de tarifs: 
+          - Ajouter les lignes d'un document d'achat vente dans une grille de tarifs: 
+          - Import: 
+            - Import de grilles de tarifs:
+            - Type de fichier:
+          - Structure du fichier de grilles de tarifs: 
+          - Exemple: 
+            - Exemple de fichier de grilles de tarifs: 
+            - Exemple d'import de grilles de tarifs:
+          - Impression des grilles de tarifs: 
+          - Outil de modification des grilles de tarifs en masse:
+          - Grilles de tarifs de A à Z:
+        - Promotions: 
+          - Introduction:
+          - Liste des promotions: 
+          - Promotion: 
+          - Dupliquer la promotion dans une autre devise: 
+          - Impression des promotions:
+        - Outils sur les lignes de grilles de tarifs et promotions:
+          -
+          - Ajouter des lignes de grilles de tarifs et promotions: 
+          - Filtrer les lignes de grilles de tarifs et promotions: 
+          - Annuler le filtre sur les lignes de grilles de tarifs et promotions: 
+          - Modifier les lignes de grilles de tarifs et promotions :
+        - Tarifs: 
+          - Calcul du tarif d'un article: 
+          - Consultation des tarifs des articles: 
+          - Impression des tarifs des articles:
+        - Documents d'achat et vente:
+          - Réappliquer automatiquement les grilles de tarifs et promotions lors de l'enregistrement:
+
+    - STOCKS: 
+    - TIERS: 
+    - VENTES: 
+    - ACHATS: 
+    - Impression de l'échéancier: 
+    - Impression d'un relevé de factures:
+    - AFFAIRES:
+  - AFFICHAGE: 
+    - Menu AFFICHAGE: 'Affichage/1/MenuAFFICHAGE.md'
+    - Barre d'outils: 'Affichage/2/BarreOutils.md'
+    - Volet de raccourcis: 'Affichage/3/VoletRaccourcis.md'
+    - Volet d'informations contextuelles: 'Affichage/4/VoletInformationsContextuelles.md'
+    - Barre d'état: 'Affichage/5/BarreEtat.md'
+    - Fermer les fenêtres: 'Affichage/6/FermerFenetres.md'
+    - Réorganiser les fenêtres: 'Affichage/7/ReorganiserFenetres.md'
+    - Ergonomie et personnalisation: 'Affichage/8/ErgonomiePersonnalisation.md'
   - AIDE: 
     - A propos de: 'Aide/1/About.md'
     - Conseil du jour: 'Aide/2/ConseilJour.md'
