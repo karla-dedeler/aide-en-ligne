@@ -405,3 +405,11 @@ nav:
     - Suivant: 'Edition/9/Suivant.md'
     - Actualiser: 'Edition/8/Actualiser.md'
     - Ouvrir la liste: 'Edition/10/OuvrirListe.md'
+  - AIDE: 
+    - A propos de: 'Aide/1/About.md'
+    - Conseil du jour: 'Aide/2/ConseilJour.md'
+    - Partenaire Gestimum: 'Aide/3/PartenaireGestimum.md'
+    - Contacter l'assistance: 'Aide/4/ContacterAssistance.md'
+    - Me rappeler à la fin de la période d'assistance: 'Aide/5/MeRappelerFinPeriodeAssistance.md'
+    - Assistance en ligne: 'Aide/6/AssistanceLigne.md'
+    - www.gestimum.com: 'Aide/7/SiteInternet.md'
