@@ -353,3 +353,37 @@ nav:
       - Impression des glossaires: 'Societe/Glossaires/4/Impression.md'
       - Utilisation des glossaires: 'Societe/Glossaires/5/Utilisation.md'
       - Lexique: 'Societe/Glossaires/Trier/Lexique.md'
+    - Comptabilité: 
+      - Banques et comptes bancaires: 
+        - Banques: 
+          - Liste des banques: 'Societe/Banques/1-1/ListeBanques.md'
+          - Banque: 
+            - 'Societe/Banques/1-2/Banque.md'
+            - Coordonnées: 'Societe/Banques/1-2/BanqueCoordonnées.md'
+            - Transmissions bancaires: 'Societe/Banques/1-2/BanqueTransmissionsBancaires.md'
+            - Commentaires: 'Societe/Banques/1-2/BanqueCommentaires.md'
+          - Impression des banques: 'Societe/Banques/1-3/ImpressionBanques.md'
+        - Comptes bancaires:
+          - Liste des comptes bancaires: 'Societe/Banques/2-1/ListeComptesBancaires.md'
+          - Compte bancaire:
+            - 'Societe/Banques/2-2/CompteBancaire.md'
+            - Banques: 'Societe/Banques/2-2/CompteBancaireBanque.md'
+            - Compte bancaire: 'Societe/Banques/2-2/ComtpeBancaireCompteBancaire.md'
+            - Commentaires: 'Societe/Banques/2-2/CompteBancaireCommentaires.md'
+            - Comptabilité: 'Societe/Banques/2-2/CompteBancaireComptabilite.md'
+          - Impression des comptes bancaires: 'Societe/Banques/2-3/ImpressionComptesBancaires.md'
+        - Natures comptables:
+          - Natures comptables: 'Societe/NaturesComptable/1/NaturesComptables.md'
+          - Nature comptable: 
+            - Entête: 'Societe/NaturesComptable/2/Entete.md'
+            - TVA et TPF: 'Societe/NaturesComptable/2/TVATPF.md'
+          #- Import: 
+          #  - Import de natures comptables: 
+          #  - Type de fichier: 
+          #  - Structure du fichier de natures comptables:
+          #  - Exemple: 
+          #    - Exemple de fichier de natures comptables:
+          #    - Exemple d'import de natures comptables: 
+          - Impression des natures comptables: 'Societe/NaturesComptable/3/Impression.md'
+          - Utilisation des natures comptables: 'Societe/NaturesComptable/4/Utilisation.md'
+    - Quitter: 'Societe/Quitter/Quitter.md'
