@@ -295,3 +295,15 @@ nav:
       - Liste des transporteurs: 'Societe/Transporteurs/1/Transporteurs.md'
       - Transporteur: 'Societe/Transporteurs/2/Transporteur.md'
       - Impression des transporteurs: 'Societe/Transporteurs/3/Impression.md'
+    - Dépôts: 
+      - Introduction: 'Societe/Depots/1/Introduction.md'
+      - Liste des dépôts: 'Societe/Depots/2/Liste.md'
+      - Dépôt:
+        - 'Societe/Depots/3/Fiche.md'
+        - Adresse: 'Societe/Depots/3/OngletAdresse.md'
+        - Autre: 'Societe/Depots/3/OngletAutre.md'
+        - Inventaire: 'Societe/Depots/3/OngletInventaire.md'
+        - Stock: 'Societe/Depots/3/OngletStock.md'
+      - Impression des dépôts: 'Societe/Depots/4/Impression.md'
+      - Sélection des dépôts: 'Societe/Depots/6/SelectionDepots.md'
+      - Dépôt principal: 'Societe/Depots/5/DepotPrincipal.md'
