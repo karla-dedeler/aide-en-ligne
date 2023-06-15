@@ -333,3 +333,23 @@ nav:
       #    - Exemple d'import de pays: 
       - Impression des pays: 'Societe/Pays/3/Impression.md'
       - Création de société et création de tiers: 'Societe/Pays/Trier/CreationSocieteCreationTiers.md'
+    - Traduction des libellés:
+      - 'Societe/Traductions/1/TraductionsLibelles.md'
+      - Impressions:
+        - Impression des traductions d'articles: 'Societe/Traductions/2/ImpressionTraductionsArticles.md'
+        - Impression des traductions de frais: 'Societe/Traductions/3/ImpressionTraductionsFrais.md'
+        - Impression des traductions de modes de règlements: 'Societe/Traductions/4/ImpressionTraductionsModesReglements.md'
+    - Glossaires: 
+      - Introduction: 'Societe/Glossaires/1/Introduction.md'
+      - Liste des glossaires: 'Societe/Glossaires/2/Liste.md'
+      - Glossaire: 'Societe/Glossaires/3/Glossaire.md'
+      #- Import:
+      #  - Import de glossaires: 
+      #  - Type de fichier: 
+      #  - Structure du fichier de glossaires: 
+      #  - Exemple: 
+      #    - Exemple de fichier de glossaires: 
+      #    - Exemple d'import de glossaires:
+      - Impression des glossaires: 'Societe/Glossaires/4/Impression.md'
+      - Utilisation des glossaires: 'Societe/Glossaires/5/Utilisation.md'
+      - Lexique: 'Societe/Glossaires/Trier/Lexique.md'
