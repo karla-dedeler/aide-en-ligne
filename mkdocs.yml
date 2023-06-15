@@ -291,3 +291,7 @@ nav:
         - Comptabilité: 'Societe/Frais/2/OngletComptabilite.md'
       - Impression des frais: 'Societe/Frais/3/ImpressionFrais.md'
       - Frais complémentaires: 'Societe/Frais/Trier/Frais.md'
+    - Transporteurs: 
+      - Liste des transporteurs: 'Societe/Transporteurs/1/Transporteurs.md'
+      - Transporteur: 'Societe/Transporteurs/2/Transporteur.md'
+      - Impression des transporteurs: 'Societe/Transporteurs/3/Impression.md'
