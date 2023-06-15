@@ -283,3 +283,11 @@ nav:
       #    - Exemple de fichier de modes de règlements: 
       #    - Exemple d'import de modes de règlements: 
       - Impression des modes de règlements: 'Societe/ModesReglement/5/ImpressionModesReglements.md'
+    - Frais: 
+      - Liste des frais: 'Societe/Frais/1/ListeFrais.md'
+      - Frais : 
+        - 'Societe/Frais/2/Frais.md'
+        - Général: 'Societe/Frais/2/OngletGeneral.md'
+        - Comptabilité: 'Societe/Frais/2/OngletComptabilite.md'
+      - Impression des frais: 'Societe/Frais/3/ImpressionFrais.md'
+      - Frais complémentaires: 'Societe/Frais/Trier/Frais.md'
