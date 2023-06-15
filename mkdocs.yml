@@ -317,3 +317,19 @@ nav:
       #    - Exemple de fichier de villes: 
       #    - Exemple d'import de villes: 
       - Impression des villes: 'Societe/Villes/4/Impression.md' 
+    - Pays:
+      - Liste des pays: 'Societe/Pays/1/Liste.md'
+      - Pays: 
+        - 'Societe/Pays/2/Fiche.md'
+        - Général: 'Societe/Pays/2/OngletGeneral.md'
+        - Ventes et achats: 'Societe/Pays/2/OngletVentesAchats.md'
+        - Modèles d'impression par défaut: 'Societe/Pays/2/OngletModelesImpressionDefaut.md'
+      #- Import: 
+      #  - Import de pays: 
+      #  - Type de fichier: 
+      #  - Structure du fichier de pays: 
+      #  - Exemple:
+      #    - Exemple de fichier de pays: 
+      #    - Exemple d'import de pays: 
+      - Impression des pays: 'Societe/Pays/3/Impression.md'
+      - Création de société et création de tiers: 'Societe/Pays/Trier/CreationSocieteCreationTiers.md'
