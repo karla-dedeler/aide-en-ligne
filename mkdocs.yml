@@ -270,3 +270,16 @@ nav:
       - Devise d'un tiers: 'Societe/Devises/Trier/DeviseTiers.md'
       - Prix en devise: 'Societe/Devises/Trier/PrixDevise.md'
       - Conversion de devise: 'Societe/Devises/Trier/ConversionDevise.md'
+    - Mode de règlements:
+      - Introduction: 'Societe/ModesReglement/1/Introduction.md'
+      - Liste des modes de règlements: 'Societe/ModesReglement/2/ListeModesReglements.md'
+      - Mode de règlement: 'Societe/ModesReglement/3/ModeReglement.md'
+      - Règles de codification: 'Societe/ModesReglement/4/ReglesCodification.md'
+      #- Import: 
+      #  - Import de modes de règlements: 
+      #  - Type de fichier :
+      #  - Structure du fichier de modes de règlements :
+      #  - Exemple: 
+      #    - Exemple de fichier de modes de règlements: 
+      #    - Exemple d'import de modes de règlements: 
+      - Impression des modes de règlements: 'Societe/ModesReglement/5/ImpressionModesReglements.md'
