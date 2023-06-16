@@ -588,7 +588,127 @@ nav:
         - Documents d'achat et vente:
           - Réappliquer automatiquement les grilles de tarifs et promotions lors de l'enregistrement: '+GestionCommerciale/Articles/GrillesTarifsPromotions/5/AppliquerGrillePromotionQtesCumuleesDoc.md'
 
-  #  - STOCKS: 
+    - STOCKS:
+      - Introduction: '+GestionCommerciale/Stocks/1/Introduction.md'
+      - Documents de stock: 
+        - Nouveau document de stock:
+          - '+GestionCommerciale/Stocks/Documents/Nouveau/NouveauDocumentStock.md'
+          - Types de documents de stock: '+GestionCommerciale/Stocks/Documents/Nouveau/TypesDocumentsStock.md'
+          - Types de documents de stock:
+            - Inventaire de stock: '+GestionCommerciale/Stocks/Documents/Nouveau/Types/NouvelInventaireStock.md'
+            - Écart de stock: '+GestionCommerciale/Stocks/Documents/Nouveau/Types/NouvelEcartStock.md'
+            - Entrée en stock: '+GestionCommerciale/Stocks/Documents/Nouveau/Types/NouvelleEntreeStock.md'
+            - Sortie de stock: '+GestionCommerciale/Stocks/Documents/Nouveau/Types/NouvelleSortieStock.md'
+            - Sortie pour pertes: +GestionCommerciale/Stocks/Documents/Nouveau/Types/NouvelleSortiePertes.md
+            - Transfert de stock: '+GestionCommerciale/Stocks/Documents/Nouveau/Types/NouveauTransfertStock.md'
+            - Assemblage de nomenclatures: '+GestionCommerciale/Stocks/Documents/Nouveau/Types/NouvelAssemblageNomenclatures.md'
+        - Liste des documents de stock: 
+          - Liste des documents de stock: '+GestionCommerciale/Stocks/Documents/Liste/ListeDocumentsStock.md'
+          - Recherche dans la liste des documents de stock: '+GestionCommerciale/Stocks/Documents/Liste/RechercheListeDocumentsStock.md'
+          - Rechercher dans la liste des documents en stock: '+GestionCommerciale/Stocks/Documents/Liste/RechercherListeDocumentsStock.md'
+        - Document de stock: 
+          - '+GestionCommerciale/Stocks/Documents/Fiche/DocumentStock.md'
+          - Inventaire de stock: '+GestionCommerciale/Stocks/Documents/Fiche/FicheInventaireStock.md'
+          - Écart de stock: '+GestionCommerciale/Stocks/Documents/Fiche/FicheEcartStock.md'
+          - Entrée en stock: '+GestionCommerciale/Stocks/Documents/Fiche/FicheEntreeStock.md'
+          - Sortie de stock: '+GestionCommerciale/Stocks/Documents/Fiche/FicheSortieStock.md'
+          - Sortie pour pertes: '+GestionCommerciale/Stocks/Documents/Fiche/FicheSortiePertes.md'
+          - Transfert de stock: '+GestionCommerciale/Stocks/Documents/Fiche/FicheTransfertStock.md'
+          - Assemblage de nomenclatures: '+GestionCommerciale/Stocks/Documents/Fiche/Assemblage/FicheAssemblageNomenclatures.md'
+          - Nomenclatures: '+GestionCommerciale/Stocks/Documents/Fiche/Assemblage/Nomenclatures.md'
+          - Importer des nomenclatures assemblées: '+GestionCommerciale/Stocks/Documents/Fiche/Assemblage/ImporterNomenclaturesAssemblees.md'
+          - Composants: '+GestionCommerciale/Stocks/Documents/Fiche/Assemblage/Composants.md'
+          - Saisie d'article dans une pièce de stock: '+GestionCommerciale/Stocks/Documents/Fiche/SaisieArticlePieceStock.md' 
+          - Génération automatique des mouvements de stock: '+GestionCommerciale/Stocks/Documents/Fiche/GenerationAutomatiqueMouvementsStock.md'
+        #- Import: 
+        #  - Import de lignes de document de stock: 
+        #  - Structure du fichier de lignes de document de stock: 
+        #  - Exemple de fichier de lignes de document de stock: 
+        #  - Lignes: 
+        #    - Import de lignes de document de stock: 
+        #    - Structure du fichier de lignes de document de stock: 
+        #    - Exemple de fichier de lignes de document de stock: 
+        - Impression: 
+          - Impression d'un document de stock: '+GestionCommerciale/Stocks/Documents/Impression/1/ImpressionDocumentStock.md'
+          - Impression d'un ensemble de documents de stock: '+GestionCommerciale/Stocks/Documents/Impression/2/ImpressionDocumentsStock.md'
+          - Impression des autres documents de stock: '+GestionCommerciale/Stocks/Documents/Impression/3/ImpressionAutresDocumentsStock.md'
+          - Impression du journal des stocks:  '+GestionCommerciale/Stocks/Documents/Impression/4/ImpressionJournalStocks.md'
+        - Archivage de documents de stock:
+          - Archivage: 
+            - Archivage de documents d'achat, vente ou stock: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/1/Archivage.md'
+            - Documents de stock archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/2/DocumentsStockArchives.md'
+          - Purge: 
+            - Purge des documents d'achat, vente ou stock archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/3/Purge.md'
+            - Fichiers textes générés par la purge: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/3/FichiersTexteGeneresPurge.md'
+            - Exemples de situations de purge: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/3/ExemplesSituationsPurge.md'
+        - Colonne affaire dans les documents de stock: '+GestionCommerciale/Stocks/Documents/Affaire/ColonneAffaireDocumentsStock.md'
+        - Entrée en stock et commande client à l'aide d'une douchette: '+GestionCommerciale/Stocks/Documents/Douchette/EntreeStockCommandeClientDouchette.md'
+      - Mouvements de stock: 
+        - '+GestionCommerciale/Stocks/Mouvements/1/MouvementsStock.md'
+        - Impression des mouvements de stock: '+GestionCommerciale/Stocks/Mouvements/2/ImpressionMouvementsStock.md'
+      - Stock: 
+        - Stock: 
+          - '+GestionCommerciale/Stocks/Stock/1-1/Stock.md'
+          - Derniers mouvements de stock: '+GestionCommerciale/Stocks/Stock/1-1/OngletDerniersMouvementsStock.md'
+          - Stock des numéros de séries: '+GestionCommerciale/Stocks/Stock/1-1/OngletStockNumerosSeries.md'
+          - Impression du stock: '+GestionCommerciale/Stocks/Stock/1-2/ImpressionStock.md'
+        - Options de décomposition du stock: '+GestionCommerciale/Stocks/Stock/1-3/OptionsDecompositionStock.md'
+        - Recherche automatique dans le stock: '+GestionCommerciale/Stocks/Stock/1-3/RechercheAutomatiqueStock.md'
+        - Stocks calculés et stocks saisis: '+GestionCommerciale/Stocks/Stock/1-3/StocksCalculesStocksSaisis.md'
+        - Etat du stock: '+GestionCommerciale/Stocks/Stock/1-4/EtatStock.md'
+        - Recalculer le stock: '+GestionCommerciale/Stocks/Stock/3/RecalculerStock.md'
+        - Achats, ventes et stocks: 
+          - Sélection à partir du stock d'un article: '+GestionCommerciale/Stocks/Stock/4/SelectionPartirStockArticle.md'
+        - Stock prévisionnel:
+          - '+GestionCommerciale/Stocks/Stock/5-1/StockPrevisionnel.md'
+          - Stock prévisionnel depuis une commande client: '+GestionCommerciale/Stocks/Stock/5-2/StockPrevisionnelCommandeClient.md'
+      - Inventaire: 
+        - Préparation de l'inventaire: '+GestionCommerciale/Stocks/Inventaire/1/PreparationInventaire.md'
+        - Saisie d'un inventaire: '+GestionCommerciale/Stocks/Inventaire/1/SaisieInventaire.md'
+        - Génération automatique des lignes d'inventaire: '+GestionCommerciale/Stocks/Inventaire/1/GenerationAutomatiqueLignesInventaire.md'
+        #- Import de lignes de document d'inventaire: 
+        #  - Import de lignes de document d'inventaire: 
+        #  - Structure du fichier de lignes de document d'inventaire: 
+        #  - Exemple de fichier de lignes de document d'inventaire:
+        - Validation de l'inventaire: '+GestionCommerciale/Stocks/Inventaire/1/ValidationInventaire.md'
+        - Impression d'un bordereau d'inventaire: +GestionCommerciale/Stocks/Inventaire/2/ImpressionBordereauInventaire.md
+        - Impression des écarts de stock / inventaire : '+GestionCommerciale/Stocks/Inventaire/3/ImpressionEcartsStockInventaire.md'
+        - Inventaire de A à Z: '+GestionCommerciale/Stocks/Inventaire/4/InventaireAZ.md'
+        - Inventaire d'articles sérialisés: '+GestionCommerciale/Stocks/Inventaire/5/InventaireArticlesSerialises.md'
+      - Numéros de lot: 
+        - Sélection d'un numéro de lot dans un document: '+GestionCommerciale/Stocks/NumerosLots/Trier/Selection_d_un_numero_de_lot_dans_un_document.md'
+        - Article lot et péremption: '+GestionCommerciale/Stocks/NumerosLots/Trier/Article_lot_et_peremption.md'
+        - Article périmé: '+GestionCommerciale/Stocks/NumerosLots/Trier/ArticlePerime.md'
+        - Article périssable: '+GestionCommerciale/Stocks/NumerosLots/Trier/ArticlePerissable.md'
+        - Date de péremption: '+GestionCommerciale/Stocks/NumerosLots/Trier/DatePeremption.md'
+        - Épuration des gammes et/ou numéro de lot: '+GestionCommerciale/Stocks/NumerosLots/Trier/Epuration_des_gammes_et_ou_numero_de_lot.md'
+        - Fenêtre d'affectation d'une gamme et/ou numéro de lot: '+GestionCommerciale/Stocks/NumerosLots/Trier/Fenetre_d_affectation_d_une_gamme_et_ou_numero_de_lot.md'
+        - Gestion des lots par ancienneté: '+GestionCommerciale/Stocks/NumerosLots/Trier/Gestion_des_lots_par_anciennete.md'
+        - Étapes: '+GestionCommerciale/Stocks/NumerosLots/1/Etapes.md'
+        - Numéros de lots de A à Z: '+GestionCommerciale/Stocks/NumerosLots/2/Numéros_de_lots_de_A_à_Z.md'
+        - Liste des numéros de lots: '+GestionCommerciale/Stocks/NumerosLots/Trier/ListeNumerosLots.md'
+        - Champs disponibles pour la gestion de la péremption: '+GestionCommerciale/Stocks/NumerosLots/Trier/Champs_disponibles_pour_la_gestion_de_la_p_remption.md'
+        - Péremption - Champs disponibles dans tous les documents: '+GestionCommerciale/Stocks/NumerosLots/Trier/Peremption_Champs_disponibles_dans_tous_les_documents.md'
+        - Péremption - Champs disponibles dans les documents de stock: '+GestionCommerciale/Stocks/NumerosLots/Trier/Peremption_Champs_disponibles_dans_les_documents_de_stock.md'
+        - Document avec message de péremption: '+GestionCommerciale/Stocks/NumerosLots/Trier/Document_avec_message_de_peremption.md'
+      - Numéros de série: 
+        - Étapes pour la gestion de numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/1/EtapesGestionNumerosSeries.md'
+        - Préférences: 
+          - Paramétrage des numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/2/ParametrageNumerosSeries.md'
+        - Stock: 
+          - Stock des numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/3/StockNumerosSeries.md'
+          - Impression du stock des numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/3/Impression/ImpressionStockNumerosSeries.md'
+        - Mouvements de stock: 
+          - Mouvements de stock des numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/4/MouvementsStockNumerosSeries.md'
+          - Impression des mouvements de stock des numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/4/ImpressionMouvementsStockNumerosSeries.md'
+        - Disponibilité des numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/5/DisponibiliteNumerosSeries.md'
+        - Affectation des numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/5/AffectationNumerosSeries.md'
+        - Affectation des numéros de séries en sortie de stock: '+GestionCommerciale/Stocks/NumerosSeries/5/AffectationNumerosSeriesSortieStock.md'
+        - Réservation de numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/6/ReservationNumerosSeries.md'
+        - Sortie de numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/6/SortieNumerosSeries.md'
+        - Entrée de numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/6/EntreeNumerosSeries.md'
+      - Création d'une ligne dans le stock d'un article: '+GestionCommerciale/Stocks/Trier/CreationLigneStockArticle.md'
+      - Zone de sélection d'un ou plusieurs articles: '+GestionCommerciale/Stocks/Trier/ZoneSelectionUnPlusieursArticles.md'
   #  - TIERS: 
   #  - VENTES: 
   #  - ACHATS: 

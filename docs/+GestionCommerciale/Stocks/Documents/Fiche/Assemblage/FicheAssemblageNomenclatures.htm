@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" value="@COPYRIGHT Gestimum" content=""/>
+<meta name="topic-check-list" content="Index dynamique exécuté"/>
+<meta name="template" content="../../../../assets/masterpages/GMPageGestionCommerciale.htt"/>
+<meta http-equiv="Content-Language" content="fr-FR"/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Assemblage de nomenclatures</title>
+<link rel="StyleSheet" href="../../../../assets/css/GMStyles.css" type="text/css"/>
+
+</head>
+
+<body>
+
+<p>La fiche d’assemblage permet d’assembler des composants ou de désassembler 
+ une nomenclature gérée en stock.</p>
+<p> </p>
+<p> </p>
+<h1>Création d’une fiche d’assemblage</h1>
+<p>La création d’une fiche d’assemblage passe par la commande &quot;Nouveau 
+ document de stock&quot; + &quot;Fiche d’assemblage&quot; du menu Stock.</p>
+<p> </p>
+<p>Une nouvelle fiche peut également être créée à partir de la commande 
+ &quot;Documents de stock&quot; du menu &quot;Stock&quot;.</p>
+<p> </p>
+<p>Lorsque vous enregistrez un assemblage, le logiciel génère tous les 
+ mouvements correspondants : pour un assemblage, le logiciel augmente les 
+ entrées en stock de la nomenclature et les sorties des composants. Pour 
+ un désassemblage, le logiciel augmente les sorties en stock de la nomenclature 
+ et augmente les entrées des composants.</p>
+<p> </p>
+<p>Un assemblage peut ou non être valorisé. Le logiciel met à jour la valeur 
+ de votre stock en prenant en compte soit le prix de revient de votre article, 
+ soit le prix d’achat saisi en entrée.</p>
+<h1>Exemple</h1>
+<p><img src="../Assemblage.png" alt="" style="border: none;" border="0"/></p>
+<h1>Définition de la fiche</h1>
+<p>L’entête de la fiche d’assemblage comporte obligatoirement une date 
+ d’assemblage / désassemblage, un dépôt destination et éventuellement une 
+ référence ainsi que le salarié responsable de cette opération.</p>
+<h2>Choix du dépôt destination</h2>
+<p>C’est le dépôt dans lequel les mouvements d’entrées des nomenclatures 
+ (pour un assemblage) et les mouvements de sortie (pour un désassemblage), 
+ vont être comptabilisés.</p>
+<h2>Salarié</h2>
+<p>Permet le suivi qualité et la traçabilité de l’article assemblé.</p>
+<h2>Disponibilité</h2>
+<p>Ce champ Date de disponibilité théorique vous permettra d’affecter une 
+ date à vos fiches d’assemblage pour mieux gérer vos délais de fabrication.</p>
+<h2>État</h2>
+<p>Champ proposant une liste déroulante issu des Tables de référence/Assemblages/États. 
+ Les états disponibles sont : &quot; A réaliser &quot;, &quot; En cours 
+ &quot;, &quot; Terminé &quot;. Vous pouvez créer librement les états qui 
+ correspondent mieux à votre gestion pour le suivi de vos documents.</p>
+<h2>Référence</h2>
+<h2>Affaire</h2>
+<h1>Grille de nomenclature composée</h1>
+<p>La grille de nomenclature permet d’enregistrer toutes les nomenclatures 
+ gérées en stock que vous souhaitez assembler ou désassembler. La ligne 
+ de nomenclature est composée d’une référence article, d’un libellé, d’une 
+ quantité, d’un prix unitaire, du dépôt des composants et éventuellement 
+ d’un libellé de mouvement.</p>
+<p> </p>
+<p>Consulter le détail de la grille cliquer <a class="Lien" href="Nomenclatures.htm">ici</a>.</p>
+<h1>Grille des composants</h1>
+<p>La grille des composants reprend automatiquement les composants définis 
+ dans la fiche de la nomenclature courante. Le logiciel calcule la disponibilité 
+ de chaque composant dans le dépôt précisé sur la ligne de la nomenclature.</p>
+<p> </p>
+<p>Consulter le détail de la grille cliquer <a class="Lien" href="Composants.htm">ici</a>.</p>
+<h1>Visualisation du stock de la nomenclature et des composants</h1>
+<p>A droite de l’entête de la fiche, vous visualisez le stock de l’article 
+ nomemclaturé lorsque vous êtes sur sa grille (Stock Nomenc. En Unité) 
+ ou celui des composants lorsque vous êtes sur la ligne du composant (Stock 
+ Compos. En Unité)</p>
+<h1>Visualisation de la définition du composant</h1>
+<p>Cette visualisation est représenté sur une ligne contenant :</p>
+<ul class="CouleurPuces">
+	<li class="CouleurPuces"><p >Le code de l’article 
+	 de référence,</p></li>
+	<li class="CouleurPuces"><p >La quantité requise 
+	 (inscrite dans l’onglet nomenclature de la fiche article),</p></li>
+	<li class="CouleurPuces"><p >La quantité saisie.</p></li>
+</ul>
+<p > </p>
+<p>Lorsque la quantité saisie est inférieure ou supérieure à celle requise, 
+ celle-ci est de couleur Rouge et vous ne pourrez pas valider votre fiche 
+ d’assemblage.</p>
+<h1>Pied de document</h1>
+<p>Une zone commentaire vous permet de saisir du texte, des informations 
+ complémentaires concernant le document.</p>
+<h1>Suivi assemblage / désassemblage</h1>
+<p>Tous les mouvements générés par la fiche d’assemblage mettent à jour 
+ la fiche du ou des dépôt(s), la fiche des nomenclatures et des composants 
+ (onglet Stock). Ils sont consultables en &quot;<a href="../../../Mouvements/1/MouvementsStock.htm">Consultation 
+ des mouvements</a>&quot;.</p>
+
+
+
+</body></html>

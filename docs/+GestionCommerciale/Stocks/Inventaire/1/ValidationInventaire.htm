@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta name="template" content="../../../assets/masterpages/GMPageGestionCommerciale.htt"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" value="@COPYRIGHT Gestimum" content=""/>
+<meta name="topic-check-list" content="Index dynamique exécuté"/>
+<meta http-equiv="Content-Language" content="fr-FR"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Validation de l&#39;inventaire</title>
+<link rel="StyleSheet" href="../../../assets/css/GMStyles.css" type="text/css"/>
+
+</head>
+
+<body>
+
+<p>La validation de l’inventaire consiste à prendre en compte toutes les 
+ pièces d’inventaire enregistrées et à effectuer la mise à jour effective 
+ du stock Actuel de chacun des articles référencés dans l’inventaire.</p>
+<p> </p>
+<p>Important !! La validation est possible uniquement lorsque tous les 
+ documents BL, BR, Facture et Avoir de ventes ou d’achats réalisés avant 
+ la date de préparation de l’inventaire ont été comptabilisés (transférés 
+ en comptabilité).</p>
+<p> </p>
+<p>Lors du traitement de la valorisation de l’inventaire, vous obtenez 
+ un rapport listant les documents non comptabilisés et qui bloquent le 
+ traitement.</p>
+<h1>Différence entre inventaire complet et inventaire tournant</h1>
+<p>Pour un inventaire <span style="font-weight: bold;">Complet</span>, 
+ la validation génère un mouvement d’inventaire de type Comptabilisés, 
+ consultable à partir de la commande &quot;Mouvements de stock&quot; du 
+ menu STOCKS et met à jour le stock Inventaire. Le logiciel met également 
+ à jour les lignes de mouvements dans la fiche des articles et du dépôt.</p>
+<p> </p>
+<p>Pour un inventaire <span style="font-weight: bold;">Tournant</span>, 
+ le logiciel génère une pièce d’écart de stock dans laquelle il enregistre 
+ tous les écarts constatés entre le stock Actuel et le stock inventorié.</p>
+<h1>Calcul des quantités en stock</h1>
+<p>Les quantités saisies dans vos pièces d’inventaire sont automatiquement 
+ traitées et converties en quantité d’unité de conditionnement de vente 
+ si celles-ci sont saisies dans une unité de conditionnement différente.</p>
+<p> </p>
+<p>Si des mouvements de stock (ventes, achats, livraison, réception,…) 
+ ont été enregistrés entre la date d’inventaire et la date de validation, 
+ le logiciel les prend en compte afin que votre stock reste cohérent.</p>
+<h1>Exemple</h1>
+<p>A la date d’ouverture de l’inventaire au 31/12/2001, voici les quantités 
+ inventoriées :</p>
+<p style="margin-left: 40px;">10 Articles ART1 et 15 articles ART2</p>
+<p>Au 01/01/2002, les ventes suivantes sont réalisées :</p>
+<p style="margin-left: 40px;">1 Article ART1 et 2 articles ART2</p>
+<p>Au 02/01/2002, les achats suivants sont enregistrés :</p>
+<p style="margin-left: 40px;">2 articles ART1 et 1 article ART2</p>
+<p>Les quantités en stock après validation de l’inventaire au 03/01/2002 
+ seront les suivantes :</p>
+<p style="margin-left: 40px;">11 Articles ART1 (10–1+2) et 14 articles 
+ ART2 (15-2+1)</p>
+<h1>Comment votre stock est-il valorisé ?</h1>
+<p>Le logiciel prend automatiquement le dernier prix à la date de l’inventaire, 
+ soit le PMP, le DPA, le PMA, ou encore le prix moyen, suivant le <a href="../../../Articles/1/Article/OngletStock/ArticleOngletStock.htm">type 
+ de stock</a>. Lors d’un premier inventaire, si aucune entrée n’a encore 
+ été valorisée, le logiciel prend alors le prix de revient indiqué dans 
+ la fiche article.</p>
+<p> </p>
+<p><a class="Lien" href="javascript:RelatedTopic0.Click()">Voir aussi</a></p>
+
+<div class="seealso" data-seealso-targetid="seealso" data-type="seealso" style=""><p class="seealso-caption" data-close-text="" data-expanded="true" data-open-text="Voir aussi" data-type="seealso-caption" href="#" style="">Voir aussi (espace réservé)
+    </p><ol class="seealso-list" data-keywords="" data-type="seealso-list" style="">
+      <li><a class="seealso-list-item" href="#">Liste des rubriques</a></li>
+    </ol>
+  </div>
+
+ 
+
+
+
+</body></html>

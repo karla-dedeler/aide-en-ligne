@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+ <meta name="template" content="../../../assets/masterpages/GMPageGestionCommerciale.htt"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" value="@COPYRIGHT Gestimum" content=""/>
+<meta name="topic-check-list" content="Index dynamique exécuté"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Gestion des lots par ancienneté</title>
+<link rel="StyleSheet" href="../../../assets/css/GMStyles.css" type="text/css"/>
+
+ <meta http-equiv="Content-Language" content="fr-FR"/>
+<meta name="topic-status" content="En cours"/><meta name="condition-tags" content="Autres:NePasGenererPublier"/><meta name="robots" content="NOODP"/></head>
+<body>
+<p>Lors de l&#39;affectation manuelle du lot (Exemple : Lors du transfert d&#39;une commande client), il sélectionne désormais par défaut la première ligne qui vérifie les conditions suivantes :</p>
+<ul class="p">
+<li class="p">
+<p >Si périssable et pas de sélection explicite : Premier avec une date limite de consommation minimale et stock suffisant,</p>
+</li>
+<li class="p">
+<p >Si non trouvé et périssable : Premier avec une date limite de consommation minimale et stock non nul,</p>
+</li>
+<li class="p">
+<p >Si non trouvé et pas de sélection explicite : Premier avec stock suffisant,</p>
+</li>
+<li class="p">
+<p >Si non trouvé : Premier avec stock non nul,</p>
+</li>
+<li class="p">
+<p >Si non trouvé : Premier avec lot renseigné.</p>
+</li>
+</ul>
+<p > </p>
+<p>Par conséquent, l&#39;ordre dans lequel se trouve la grille est important (N° de lot, Dont création du lot, Stock disponible, Date de péremption, etc. ; Croissant ou décroissant).</p>
+<p> </p>
+<p>En fonction du contexte, l&#39;ordre par défaut est différent (Exemple : sélection pour affectation du N° de lot --&gt; Ordre par &quot;Date de création du lot&quot;).</p>
+
+
+
+</body></html>
