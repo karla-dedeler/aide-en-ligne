@@ -406,195 +406,195 @@ nav:
     - Actualiser: 'Edition/8/Actualiser.md'
     - Ouvrir la liste: 'Edition/10/OuvrirListe.md'
   - Gestion Commerciale:
-    - Gestion Commerciale: 
+    - Gestion Commerciale: '+GestionCommerciale/FenetrePrincipale/GestionCommerciale.md'
     - ARTICLES: 
       - Articles: 
-        - Introduction: 
-        - Nouvel article: 
-        - Liste des articles: 
+        - Introduction: '+GestionCommerciale/Articles/1/Introduction.md'
+        - Nouvel article: '+GestionCommerciale/Articles/1/NouvelArticle.md'
+        - Liste des articles: '+GestionCommerciale/Articles/1/ListeArticles.md'
         - Article: 
-          -  
+          - '/Articles/1/Article/Article.md'
           - Général: 
-            -
-            - Type d'article: 
-            - Nomenclatures et forfaits: 
-            - Catégorie d'article: 
-            - Mise à jour du prix de revient: 
-            - Entraînant la modification:
+            - '+GestionCommerciale/Articles/1/Article/OngletGeneral/ArticleOngletGeneral.md'
+            - Type d'article: '+GestionCommerciale/Articles/1/Article/OngletGeneral/TypeArticle.md'
+            - Nomenclatures et forfaits: '+GestionCommerciale/Articles/1/Article/OngletComposants/NomenclaturesForfaits.md'
+            - Catégorie d'article: '+GestionCommerciale/Articles/1/Article/OngletGeneral/CategorieArticle.md'
+            - Mise à jour du prix de revient: '+GestionCommerciale/Articles/1/Article/OngletGeneral/MiseJourPrixRevient.md'
+            - Entraînant la modification: '+GestionCommerciale/Articles/1/Article/OngletGeneral/EntrainantModification.md'
           - Autre: 
-            - 
+            - '+GestionCommerciale/Articles/1/Article/OngletAutre/ArticleOngletAutre.md'
             - Mode de facturation: 
-              - 
-              - Au débit: 
-              - Au poids: 
-              - Au volume: 
-              - Exprimé en: 
-              - Prix au: 
-            - Nomenclature DEB:
-          - Compta:
+              - '+GestionCommerciale/Articles/1/Article/OngletAutre/ModeFacturation/ModeFacturation.md'
+              - Au débit: '+GestionCommerciale/Articles/1/Article/OngletAutre/ModeFacturation/ModeFacturationAuDebit.md'
+              - Au poids: '+GestionCommerciale/Articles/1/Article/OngletAutre/ModeFacturation/ModeFacturationAuPoids.md'
+              - Au volume: '+GestionCommerciale/Articles/1/Article/OngletAutre/ModeFacturation/ModeFacturationAuVolume.md'
+              - Exprimé en: '+GestionCommerciale/Articles/1/Article/OngletAutre/ModeFacturation/ModeFacturationExprimeEn.md'
+              - Prix au: '+GestionCommerciale/Articles/1/Article/OngletAutre/ModeFacturation/ModeFacurationPrixAu.md'
+            - Nomenclature DEB: '+GestionCommerciale/Articles/1/Article/OngletAutre/ModeFacturation/ModeFacturation.md'
+          - Compta: '+GestionCommerciale/Articles/1/Article/OngletCompta/ArticleOngletCompta.md'
           - Conditionnement: 
-            -
-            - Exemple de conditionnement:
+            - '+GestionCommerciale/Articles/1/Article/OngletConditionnement/ArticleOngletConditionnement.md'
+            - Exemple de conditionnement: '+GestionCommerciale/Articles/1/Article/OngletConditionnement/ExempleConditionnement.md'
           - Composants:
-            - Composants:
-            - Recalculer la nomenclature: 
+            - Composants: '+GestionCommerciale/Articles/1/Article/OngletComposants/ArticleOngletComposants.md'
+            - Recalculer la nomenclature: '+GestionCommerciale/Articles/1/Article/OngletComposants/RecalculerNomenclature.md'
           - Stock: 
-            - 
+            - '+GestionCommerciale/Articles/1/Article/OngletStock/ArticleOngletStock.md'
             - Type de stock: 
-              - DPA (stock en Dernier Prix d'Achat): 
-              - LIFO (Last In, First Out): 
-              - PMA (stock en Prix Moyen d'Achat): 
-              - PUMP (stock en Prix Unitaire Moyen Pondéré): 
-              - FIFO (First In, First Out):
-            - Mise à jour du prix de revient dans les stocks: 
-            - Gestion des numéros de série sur la fiche article: 
-            - Prix de revient automatique: 
-            - Sélection du prix de revient dans les documents: 
-            - Délai de commercialisation: 
-            - Prix de revient manuel:
-            - Prix de revient et valorisation du stock: 
-            - Gestion de la péremption: 
-            - Gestion des numéros de lots:
-          - Équivalences:
-          - Fournisseurs:
-          - Clients:
-          - Infos:
-          - Personnalisé:
+              - DPA (stock en Dernier Prix d'Achat): '+GestionCommerciale/Articles/1/Article/OngletStock/Type_de_stock/DPA.md'
+              - LIFO (Last In, First Out): '+GestionCommerciale/Articles/1/Article/OngletStock/Type_de_stock/LIFO.md'
+              - PMA (stock en Prix Moyen d'Achat): '+GestionCommerciale/Articles/1/Article/OngletStock/Type_de_stock/PMA.md'
+              - PUMP (stock en Prix Unitaire Moyen Pondéré): '+GestionCommerciale/Articles/1/Article/OngletStock/Type_de_stock/PUMP.md'
+              - FIFO (First In, First Out): '+GestionCommerciale/Articles/1/Article/OngletStock/Type_de_stock/FIFO.md'
+            - Mise à jour du prix de revient dans les stocks: '+GestionCommerciale/Articles/1/Article/OngletStock/MiseJourPrixRevientStocks.md'
+            - Gestion des numéros de série sur la fiche article: '+GestionCommerciale/Articles/1/Article/OngletStock/GestionNumerosSeriesFicheArticle.md'
+            - Prix de revient automatique: '+GestionCommerciale/Articles/1/Article/OngletStock/PrixRevientAutomatique.md'
+            - Sélection du prix de revient dans les documents: '+GestionCommerciale/Articles/1/Article/OngletStock/MiseJourPrixRevientStocks.md'
+            - Délai de commercialisation: '+GestionCommerciale/Articles/1/Article/OngletStock/DelaiCommercialisation.md'
+            - Prix de revient manuel: '+GestionCommerciale/Articles/1/Article/OngletStock/PrixRevientManuel.md'
+            - Prix de revient et valorisation du stock: '+GestionCommerciale/Articles/1/Article/OngletStock/PrixRevientValorisationStock/PrixRevientValorisationStock.md'
+            - Gestion de la péremption: '+GestionCommerciale/Articles/1/Article/OngletStock/GestionPeremption.md'
+            - Gestion des numéros de lots: '+GestionCommerciale/Articles/1/Article/OngletStock/GestionNumerosLots.md'
+          - Équivalences: '+GestionCommerciale/Articles/1/Article/OngletEquivalences/ArticleOngletEquivalences.md'
+          - Fournisseurs: '+GestionCommerciale/Articles/1/Article/OngletFournisseurs/ArticleOngletFournisseurs.md'
+          - Clients: '+GestionCommerciale/Articles/1/Article/OngletClients/ArticleOngletClients.md'
+          - Infos: '+GestionCommerciale/Articles/1/Article/OngletInfos/ArticleOngletInfos.md'
+          - Personnalisé: '+GestionCommerciale/Articles/1/Article/OngletPersonnalise/ArticleOngletPersonnalise.md'
         - Import: 
-          - Imports d'articles:
-        - Modifier un code article: 
+          - Imports d'articles: '+GestionCommerciale/Articles/1/Import/ImportsArticles.md'
+        - Modifier un code article: '+GestionCommerciale/Articles/1/ModifierCodeArticle/ModifierCodeArticle.md'
         - Mise à jour des articles en masse: 
-          - 
-          - Filtres:  
-          - Sélection:
-          - Traitements:
+          - '+GestionCommerciale/Articles/1/MiseJourMasse/MiseJourArticlesMasse.md'
+          - Filtres: '+GestionCommerciale/Articles/1/MiseJourMasse/MiseJourArticlesMasseFiltres.md'
+          - Sélection: '+GestionCommerciale/Articles/1/MiseJourMasse/MiseJourArticlesMasseChamps.md'
+          - Traitements: '+GestionCommerciale/Articles/1/MiseJourMasse/MiseJourArticlesMasseTraitements.md'
         - Mise à jour des nomenclatures et forfaits en masse: 
-          -
-          - Filtres:  
-          - Sélection:
-          - Traitements:
-        - Recherche d'articles: 
-        - Impression des articles: 
-        - Impression d'étiquettes:
+          - '+GestionCommerciale/Articles/1/MiseJourNomenclaturesForfaits/MiseJourNomenclaturesForfaitsMasse.md'
+          - Filtres: '+GestionCommerciale/Articles/1/MiseJourNomenclaturesForfaits/Filtres.md'
+          - Sélection: '+GestionCommerciale/Articles/1/MiseJourNomenclaturesForfaits/Selection.md'
+          - Traitements: '+GestionCommerciale/Articles/1/MiseJourNomenclaturesForfaits/Traitements.md'
+        - Recherche d'articles: '+GestionCommerciale/Articles/1/Recherche/RechercheArticles.md'
+        - Impression des articles: '+GestionCommerciale/Articles/1/Impression/ImpressionArticles.md'
+        - Impression d'étiquettes: '+GestionCommerciale/Articles/1/ImpressionEtiquettes/ImpressionEtiquettes.md'
       - Familles d'articles: 
-        - Introduction: 
-        - Liste des familles d'articles: 
+        - Introduction: '+GestionCommerciale/Articles/2/Introduction.md'
+        - Liste des familles d'articles: '+GestionCommerciale/Articles/2/ListeFamillesArticles.md'
         - Famille d'articles:
-          -
-          - Général:
-          - Autre:
-          - Compta: 
-          - Stock: 
-          - Equivalences:
-          - Fournisseurs: 
-          - Personnalisé:
-        - Import: 
-          - Import de familles d'articles:
-          - Type de fichier:
-          - Structure du fichier de familles d'articles: 
-          - Exemple: 
-            - Exemple de fichier de familles d'articles: 
-            - Exemple d'import de familles d'articles:
-        - Impression des familles d'articles: 
+          - '+GestionCommerciale/Articles/2/FamilleArticles.md'
+          - Général: '+GestionCommerciale/Articles/2/FamilleArticlesOngletGeneral.md'
+          - Autre: '+GestionCommerciale/Articles/2/FamilleArticlesOngletAutre.md'
+          - Compta: '+GestionCommerciale/Articles/2/FamilleArticlesOngletCompta.md'
+          - Stock: '+GestionCommerciale/Articles/2/FamilleArticlesOngletStock.md'
+          - Equivalences: '+GestionCommerciale/Articles/2/FamilleArticlesOngletEquivalences.md'
+          - Fournisseurs: '+GestionCommerciale/Articles/2/FamilleArticlesOngletFournisseurs.md'
+          - Personnalisé: +GestionCommerciale/Articles/2/FamilleArticlesOngletPersonnalise.md
+        #- Import: 
+        #  - Import de familles d'articles:
+        #  - Type de fichier:
+        #  - Structure du fichier de familles d'articles: 
+        #  - Exemple: 
+        #    - Exemple de fichier de familles d'articles: 
+        #    - Exemple d'import de familles d'articles:
+        - Impression des familles d'articles: '+GestionCommerciale/Articles/2/Impression/ImpressionFamillesArticles.md'
         - Mise à jour des articles après modification d'une famille d'articles:
-          - Méthode de mise à jour des articles de la famille:
-          - Mise à jour manuelle des champs des articles de la famille:
+          - Méthode de mise à jour des articles de la famille: '+GestionCommerciale/Articles/2/MethodeMiseJourArticlesFamille.md'
+          - Mise à jour manuelle des champs des articles de la famille: '+GestionCommerciale/Articles/2/MiseJourManuelleChampsArticlesFamille.md'
       - Sous-familles d'articles:
-        - Liste des sous-familles d'articles: 
+        - Liste des sous-familles d'articles:  '+GestionCommerciale/Articles/3/ListeSousFamillesArticles.md'
         - Sous-familles d'articles: 
-          -
-          - Général:
-          - Autre:
-          - Compta: 
-          - Stock: 
-          - Equivalences:
-          - Fournisseurs: 
-          - Personnalisé:
-        - Impression des sous-familles d'articles:
-        - Import: 
-          - Import de sous-familles d'articles:
-          - Type de fichier:
-          - Structure du fichier de sous-familles d'articles: 
-          - Exemple: 
-            - Exemple de fichier de sous-familles d'articles: 
-            - Exemple d'import de sous-familles d'articles:
+          - '+GestionCommerciale/Articles/3/SousFamilleArticles.md'
+          - Général: '+GestionCommerciale/Articles/3/SousFamilleArticlesOngletGeneral.md'
+          - Autre: '+GestionCommerciale/Articles/3/SousFamilleArticlesOngletAutre.md'
+          - Compta: '+GestionCommerciale/Articles/3/SousFamilleArticlesOngletCompta.md'
+          - Stock: '+GestionCommerciale/Articles/3/SousFamilleArticlesOngletStock.md'
+          - Equivalences: '+GestionCommerciale/Articles/3/SousFamilleArticlesOngletEquivalences.md'
+          - Fournisseurs: '+GestionCommerciale/Articles/3/Sous-familleArticlesOngletFournisseurs.md'
+          - Personnalisé: '+GestionCommerciale/Articles/3/SousFamilleArticlesOngletPersonnalise.md'
+        - Impression des sous-familles d'articles: '+GestionCommerciale/Articles/3/Impression/ImpressionSousFamillesArticles.md'
+        #- Import: 
+        #  - Import de sous-familles d'articles:
+        #  - Type de fichier:
+        #  - Structure du fichier de sous-familles d'articles: 
+        #  - Exemple: 
+        #    - Exemple de fichier de sous-familles d'articles: 
+        #    - Exemple d'import de sous-familles d'articles:
         - Mise à jour des articles après modification d'une sous-famille d'articles:
-          - Méthode de mise à jour des articles de la sous-famille:
-          - Mise à jour manuelle des champs des articles de la sous-famille:
+          - Méthode de mise à jour des articles de la sous-famille: '+GestionCommerciale/Articles/3/MiseJourManuelleChampsArticlesSousFamille.md'
+          - Mise à jour manuelle des champs des articles de la sous-famille: '+GestionCommerciale/Articles/3/MethodeMiseJourArticlesSousFamille.md'
       - Gammes: 
-        - Introduction: 
-        - Étapes: 
+        - Introduction: '+GestionCommerciale/Articles/Gammes/1/Introduction.md'
+        - Étapes: '+GestionCommerciale/Articles/Gammes/1/Etapes.md'
         - Gammes: 
-          - Liste des gammes: 
+          - Liste des gammes: '+GestionCommerciale/Articles/Gammes/2/ListeGammes.md'
           - Gamme: 
-            -
-            - Composition de la gamme: 
-            - Vues standard et cartésienne pour sélectionner des valeurs de composantes de gamme:
-          - Exemples de gammes: 
-          - Impression des gammes:
-        - Composantes de gammes: 
-          - Liste des composantes de gammes: 
-          - Composante de gamme: 
-          - Impression des composantes de gammes:
-        - Articles: 
-        - Sélection des valeurs de composantes de gammes:
+            - '+GestionCommerciale/Articles/Gammes/2/Gamme/Gamme.md'
+            - Composition de la gamme: '+GestionCommerciale/Articles/Gammes/2/Gamme/CompositionGamme.md'
+            - Vues standard et cartésienne pour sélectionner des valeurs de composantes de gamme: '+GestionCommerciale/Articles/Gammes/2/Gamme/VuesStandardCartesienne.md'
+          - Exemples de gammes: '+GestionCommerciale/Articles/Gammes/2/Exemples/ExemplesGammes.md'
+          - Impression des gammes: '+GestionCommerciale/Articles/Gammes/2/Impression/ImpressionGammes.md'
+        - Composantes de gammes:
+          - Liste des composantes de gammes: '+GestionCommerciale/Articles/Gammes/3/ListeComposantesGammes.md'
+          - Composante de gamme: '+GestionCommerciale/Articles/Gammes/3/ComposanteGamme.md'
+          - Impression des composantes de gammes: '+GestionCommerciale/Articles/Gammes/3/Impression/ImpressionComposantesGammes.md'
+        - Articles: '+GestionCommerciale/Articles/Gammes/4/Articles.md'
+        - Sélection des valeurs de composantes de gammes: '+GestionCommerciale/Articles/Gammes/5/SelectionValeursComposantesGammes.md'
       - Mise à jour des tarifs articles: 
-        -
-        - Date de mise en application: 
-        - Portée de la mise à jour: 
-        - Calcul à effectuer: 
-        - Consultation et modification: 
-        - Exemple de mise à jour des tarifs articles:
+        - '+GestionCommerciale/Articles/4/MiseJourTarifsArticles.md'
+        - Date de mise en application: '+GestionCommerciale/Articles/4/DateMiseApplication.md'
+        - Portée de la mise à jour: '+GestionCommerciale/Articles/4/PorteeMiseJour.md'
+        - Calcul à effectuer: '+GestionCommerciale/Articles/4/CalculsEffectuer.md'
+        - Consultation et modification: '+GestionCommerciale/Articles/4/ConsultationModification.md'
+        - Exemple de mise à jour des tarifs articles: '+GestionCommerciale/Articles/4/ExempleMmiseJourTarifsArticles.md'
       - Mise à jour des tarifs fournisseurs: 
-        - 
-        - Calcul à effectuer: 
-        - Consultation et modification: 
-        - Sélection des données:
+        - '+GestionCommerciale/Articles/5/MiseJourTarifsFournisseurs.md'
+        - Calcul à effectuer: '+GestionCommerciale/Articles/5/CalculsEffectuer.md'
+        - Consultation et modification: '+GestionCommerciale/Articles/5/ConsultationModification.md'
+        - Sélection des données: '+GestionCommerciale/Articles/5/SelectionDonnees.md'
       - Grilles de tarifs et promotions:
         - Grilles de tarifs:
-          - Liste des grilles de tarifs: 
-          - Grille de tarifs: 
-          - Création d'une grille de tarifs: 
-          - Dupliquer la grille de tarifs dans une autre devise: 
-          - Tiers affectés: 
-          - Priorités entre les lignes dans une grille de tarifs: 
-          - Ajouter les lignes d'un document d'achat vente dans une grille de tarifs: 
-          - Import: 
-            - Import de grilles de tarifs:
-            - Type de fichier:
-          - Structure du fichier de grilles de tarifs: 
-          - Exemple: 
-            - Exemple de fichier de grilles de tarifs: 
-            - Exemple d'import de grilles de tarifs:
-          - Impression des grilles de tarifs: 
-          - Outil de modification des grilles de tarifs en masse:
-          - Grilles de tarifs de A à Z:
+          - Liste des grilles de tarifs: '+GestionCommerciale/Articles/GrillesTarifsPromotions/1/ListeGrillesTarifs.md'
+          - Grille de tarifs: '+GestionCommerciale/Articles/GrillesTarifsPromotions/1/Fiche.md'
+          - Création d'une grille de tarifs: '+GestionCommerciale/Articles/GrillesTarifsPromotions/1/CreationGrilleTarifs.md'
+          - Dupliquer la grille de tarifs dans une autre devise: '+GestionCommerciale/Articles/GrillesTarifsPromotions/1/DupliquerGrilleTarifsAutreDevise.md'
+          - Tiers affectés: '+GestionCommerciale/Articles/GrillesTarifsPromotions/1/TiersAffectes.md'
+          - Priorités entre les lignes dans une grille de tarifs: '+GestionCommerciale/Articles/GrillesTarifsPromotions/1/PrioritesLignesGrilleTarifs.md'
+          - Ajouter les lignes d'un document d'achat vente dans une grille de tarifs: '+GestionCommerciale/Articles/GrillesTarifsPromotions/1/AjouterLignesDocAVS/AjouterLignesDocumentAchatVente.md' 
+          #- Import: 
+          #  - Import de grilles de tarifs:
+          #  - Type de fichier:
+          #  - Structure du fichier de grilles de tarifs: 
+          #  - Exemple: 
+          #    - Exemple de fichier de grilles de tarifs: 
+          #    - Exemple d'import de grilles de tarifs:
+          - Impression des grilles de tarifs: '+GestionCommerciale/Articles/GrillesTarifsPromotions/1/Impression/ImpressionGrillesTarifs.md'
+          - Outil de modification des grilles de tarifs en masse: '+GestionCommerciale/Articles/GrillesTarifsPromotions/1/OutilModificationGrillesTarifsMasse.md'
+          - Grilles de tarifs de A à Z: '+GestionCommerciale/Articles/GrillesTarifsPromotions/1/AZ/GrillesTarifsAZ.md'
         - Promotions: 
-          - Introduction:
-          - Liste des promotions: 
-          - Promotion: 
-          - Dupliquer la promotion dans une autre devise: 
-          - Impression des promotions:
+          - Introduction: '+GestionCommerciale/Articles/GrillesTarifsPromotions/2/Introduction.md'
+          - Liste des promotions: '+GestionCommerciale/Articles/GrillesTarifsPromotions/2/ListePomotions.md'
+          - Promotion: '+GestionCommerciale/Articles/GrillesTarifsPromotions/2/Promotion.md'
+          - Dupliquer la promotion dans une autre devise: '+GestionCommerciale/Articles/GrillesTarifsPromotions/2/DupliquerPromotionAutreDevise.md'
+          - Impression des promotions: '+GestionCommerciale/Articles/GrillesTarifsPromotions/2/Impression/ImpressionPromotions.md'
         - Outils sur les lignes de grilles de tarifs et promotions:
-          -
-          - Ajouter des lignes de grilles de tarifs et promotions: 
-          - Filtrer les lignes de grilles de tarifs et promotions: 
-          - Annuler le filtre sur les lignes de grilles de tarifs et promotions: 
-          - Modifier les lignes de grilles de tarifs et promotions :
+          - '+GestionCommerciale/Articles/GrillesTarifsPromotions/3/OutilsLignesGrillesTarifsPromotions.md'
+          - Ajouter des lignes de grilles de tarifs et promotions: '+GestionCommerciale/Articles/GrillesTarifsPromotions/3/AjouterLignesGrillesTarifsPromotions.md'
+          - Filtrer les lignes de grilles de tarifs et promotions: '''+GestionCommerciale/Articles/GrillesTarifsPromotions/3/AnnulerFiltreLignesGrillesTarifsPromotions.md'
+          - Annuler le filtre sur les lignes de grilles de tarifs et promotions: '+GestionCommerciale/Articles/GrillesTarifsPromotions/3/AnnulerFiltreLignesGrillesTarifsPromotions.md'
+          - Modifier les lignes de grilles de tarifs et promotions : '+GestionCommerciale/Articles/GrillesTarifsPromotions/3/ModifierLignesGrillesTarifsPromotions.md'
         - Tarifs: 
-          - Calcul du tarif d'un article: 
-          - Consultation des tarifs des articles: 
-          - Impression des tarifs des articles:
+          - Calcul du tarif d'un article: '+GestionCommerciale/Articles/GrillesTarifsPromotions/4/CalculTarifArticle.md'
+          - Consultation des tarifs des articles: '+GestionCommerciale/Articles/GrillesTarifsPromotions/4/ConsultationTarifsArticles.md' 
+          - Impression des tarifs des articles: '+GestionCommerciale/Articles/GrillesTarifsPromotions/4/Impression/ImpressionTarifsArticles.md'
         - Documents d'achat et vente:
-          - Réappliquer automatiquement les grilles de tarifs et promotions lors de l'enregistrement:
+          - Réappliquer automatiquement les grilles de tarifs et promotions lors de l'enregistrement: '+GestionCommerciale/Articles/GrillesTarifsPromotions/5/AppliquerGrillePromotionQtesCumuleesDoc.md'
 
-    - STOCKS: 
-    - TIERS: 
-    - VENTES: 
-    - ACHATS: 
-    - Impression de l'échéancier: 
-    - Impression d'un relevé de factures:
-    - AFFAIRES:
+  #  - STOCKS: 
+  #  - TIERS: 
+  #  - VENTES: 
+  #  - ACHATS: 
+  #  - Impression de l'échéancier: 
+  #  - Impression d'un relevé de factures:
+  #  - AFFAIRES:
   - AFFICHAGE: 
     - Menu AFFICHAGE: 'Affichage/1/MenuAFFICHAGE.md'
     - Barre d'outils: 'Affichage/2/BarreOutils.md'
