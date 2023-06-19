@@ -1332,6 +1332,64 @@ nav:
         - Avis d'escompte reçus: 'EncaissementsDecaissements/Encaissements/Effets/AvisEscompte/AvisEscompteRecus.md'
         - Impression des avis d'escompte reçus: 'EncaissementsDecaissements/Encaissements/Effets/AvisEscompte/Impressions/ImpressionAvisEscompteRecus.md'
         - Avis d'escompte de A à Z: 'EncaissementsDecaissements/Encaissements/Effets/AvisEscompteAZ/AvisEscompteAZ.md'
+  - DÉCAISSEMENTS: 
+    - Échéances: 
+      - Échéances fournisseurs: 'EncaissementsDecaissements/Décaissements/Echéances/EcheancesFournisseurs.md'
+      - Échéance fournisseur: 'EncaissementsDecaissements/Décaissements/Echéances/EcheanceFournisseur.md'
+      - Impression des échéances fournisseurs: 'EncaissementsDecaissements/Décaissements/Echéances/ImpressionEcheancesFournisseurs.md'
+      - Échéances à payer: 'EncaissementsDecaissements/Décaissements/Echéances/EcheancesPayer.md'
+      - Échéance à payer: 'EncaissementsDecaissements/Décaissements/Echéances/EcheancePayer.md'
+      - Impression des échéances à payer: 'EncaissementsDecaissements/Décaissements/Echéances/ImpressionEcheancesPayer.md'
+    - Paiements: 
+      - Payer depuis les échéances: 
+        - Payer une échéance depuis la liste: 'EncaissementsDecaissements/Décaissements/Paiements/PayerListeEcheances.md'
+        - Paiement: 'EncaissementsDecaissements/Décaissements/Paiements/PayerListeEcheancesOngletPaiement.md'
+        - Coordonnées bancaires: 'EncaissementsDecaissements/Décaissements/Paiements/PayerListeEcheancesOngletCoordonneesBancaires.md'
+      - Enregistrement d'un paiement: 'EncaissementsDecaissements/Décaissements/Paiements/EnregistrementPaiement.md'
+      - Préparer les paiements: 'EncaissementsDecaissements/Décaissements/Paiements/PreparerPaiements.md'
+      - Paiements préparés: 'EncaissementsDecaissements/Décaissements/Paiements/PaiementsEmis.md'
+      - Impression des paiements préparés: 'EncaissementsDecaissements/Décaissements/Paiements/Impressions/ImpressionPaiementsPrepares.md'
+    - Émissions de paiements: 
+      - Émissions de paiements: 'EncaissementsDecaissements/Décaissements/Emissions/EmissionsPaiements.md'
+      - Émission de paiements: 'EncaissementsDecaissements/Décaissements/Emissions/EmissionPaimentsFiche.md'
+      - Fichier bancaire de virement international: 'EncaissementsDecaissements/Décaissements/Emissions/FichierBancaireVirementInternational.md'
+      - Impression d'une émission de paiements: 'EncaissementsDecaissements/Décaissements/Emissions/Impressions/1/ImpressionEmissionPaiements.md'
+      - Impression des émissions de paiements: 'EncaissementsDecaissements/Décaissements/Emissions/Impressions/N/ImpressionEmissionsPaiements.md'
+    - Décaissements de A à Z: 'EncaissementsDecaissements/Décaissements/AZ/DecaissementsAZ.md'
+  - DÉCISIONNEL: 
+    - Statistiques de vente: 
+      - Statistiques: 
+        - 'Decisionnel/StatistiquesVente/1/Statistiques.md'
+        - Paramètres: 'Decisionnel/StatistiquesVente/1/OngletParametres.md'
+        - Vue tabulaire: 'Decisionnel/StatistiquesVente/1/OngletVueTabulaire.md'
+        - Vue graphique: 'Decisionnel/StatistiquesVente/1/OngletVueGraphique.md'
+      - Valeur statistique: 'Decisionnel/StatistiquesVente/2/ValeurStatistique.md'
+      - Division du document: 'Decisionnel/StatistiquesVente/3/DivisionDocument.md'
+      - Mise à jour des statistiques: 'Decisionnel/StatistiquesVente/4/MiseJourStatistiques.md'
+      - Recalcul des statistiques: 
+        - Recalcul des statistiques de vente: 'Decisionnel/StatistiquesVente/5/RecalculStatistiquesVente.md'
+        - Rapport du recalcul des statistiques: 'Decisionnel/StatistiquesVente/5/RapportRecalculStatistiques.md'
+        - Exemple de rapport de recalcul des statistiques: 'Decisionnel/StatistiquesVente/5/ExempleRapportRecalculStatistiques.md'
+      - Impression des statistiques: 
+        - Impression des statistiques de vente: 'Decisionnel/StatistiquesVente/6/3/ImpressionStatistiquesVente.md'
+        - Impression du palmarès articles: 'Decisionnel/StatistiquesVente/6/1/ImpressionPalmaresArticles.md'
+        - Impression du palmarès clients: 'Decisionnel/StatistiquesVente/6/2/ImpressionPalmaresClients.md'
+    - Soldes intermédiaires de gestion: 
+      - 'Decisionnel/SoldesIntermediairesGestion/1/SoldesIntermediairesGestion.md'
+      - Modèle détaillé: 'Decisionnel/SoldesIntermediairesGestion/2/ModeleDetaille.md'
+      - Modèle simple "Service": 'Decisionnel/SoldesIntermediairesGestion/3-1/ModeleSimpleService.md'
+      - Modèle simple "Distribution": 'Decisionnel/SoldesIntermediairesGestion/3-2/ModeleSimpleDistribution.md'
+      - Modèle simple "Production": 'Decisionnel/SoldesIntermediairesGestion/3-3/ModeleSimpleProduction.md'
+    - Tableaux de bord: 
+      - 'Decisionnel/TableauxBord/1/1-1/TableauxBord.md'
+      - Liste: 'Decisionnel/TableauxBord/1/1-2/OngletListe.md'
+      - Tableau croisé: 'Decisionnel/TableauxBord/1/1-3/OngletTableauCroisé.md'
+      - Tableau: 'Decisionnel/TableauxBord/1/4/OngletTableau.md'
+      - Graphique: 'Decisionnel/TableauxBord/1/5/OngletGraphique.md'
+      - Conception: 'Decisionnel/TableauxBord/1/6/OngletConception.md'
+      - Jointures: 'Decisionnel/TableauxBord/1/7/Jointures.md'
+      - Exemple d'utilisation: 'Decisionnel/TableauxBord/2/ExempleUtilisation.md'
+      - Pack Décisionnel: 'Decisionnel/TableauxBord/4/PackDécisionnel.md'
   - AFFICHAGE: 
     - Menu AFFICHAGE: 'Affichage/1/MenuAFFICHAGE.md'
     - Barre d'outils: 'Affichage/2/BarreOutils.md'
