@@ -1390,6 +1390,42 @@ nav:
       - Jointures: 'Decisionnel/TableauxBord/1/7/Jointures.md'
       - Exemple d'utilisation: 'Decisionnel/TableauxBord/2/ExempleUtilisation.md'
       - Pack Décisionnel: 'Decisionnel/TableauxBord/4/PackDécisionnel.md'
+  - IMPRESSIONS: 
+    - Aperçu avant impression: 
+      - Aperçu avant impression: 'Impressions/1/ApercuAvantImpression.md'
+      - Impression de l'aperçu: 'Impressions/1/ImpressionApercu.md'
+    - Impressions: 'Impressions/2/Impressions.md'
+    - Nouveau modèle d'impression: 'Impressions/3/NouveauModeleImpression.md'
+    - Impressions personnalisées: 'Impressions/4/ImpressionsPersonnalisees1.md'
+    - Impression dans un fichier au format texte: 'Impressions/5/ImpressionFichierFormatTexte.md'
+    - Retouches des impressions: 'Impressions/6/RetouchesImpressions.md'
+    - Listes: 
+      - Ajouter des colonnes dans une liste avant de l'imprimer: 'Impressions/7/AjouterColonnesListeAvantImpression.md'
+    - Sauvegarde et restauration: 
+      - Paramètres, modèles et styles d'impression: 'Impressions/8/SauvegardeParametresModelesStylesImpression.md'
+    - ReportBuilder: 
+      - Introduction: 'ReportBuilder/Introduction/Introduction.md'
+      - Onglet "Données": 
+        - Assistant de requête: 'ReportBuilder/OngletDonnées/AssistantRequete/AssistantRequete.md'
+        - Concepteur de requête: 'ReportBuilder/OngletDonnées/ConcepteurRequete/ConcepteurRequete.md'
+        - Jointures SQL: 'ReportBuilder/OngletDonnées/JointuresSQL/JointuresSQL.md'
+        - Liens entre les vues: 'ReportBuilder/OngletDonnées/LiensEntreVues/LiensEntreVues.md'
+      - Onglet "Conception":
+        - Groupes: 'ReportBuilder/OngletConception/Groupes/Groupes.md'
+        - Barres d'outils: 'ReportBuilder/OngletConception/BarresOutils/BarresOutils.md'
+        - Objets statiques: 'ReportBuilder/OngletConception/ObjetsStatiques/ObjetsStatiques.md'
+        - Objets dynamiques: 'ReportBuilder/OngletConception/ObjetsDynamiques/ObjetsDynamiques.md'
+        - Objets d'organisation: 'ReportBuilder/OngletConception/ObjetsOrganisation/ObjetsOrganisation.md'
+        - Options de mise en page: 'ReportBuilder/OngletConception/OptionsMisePage/OptionsMisePage.md'
+      - Onglet "Calculs": 
+        - Principes de base: 'ReportBuilder/OngletCalculs/PrincipesBase.md'
+        - Variables et constantes: 'ReportBuilder/OngletCalculs/VariablesConstantes.md'
+        - Fonctions et procédures: 'ReportBuilder/OngletCalculs/FonctionsProcedures.md'
+        - Propriétés des objets: 'ReportBuilder/OngletCalculs/ProprietesObjets.md'
+        - Événements: 'ReportBuilder/OngletCalculs/Evenements.md'
+        - Ordre d'exécution des événements: 'ReportBuilder/OngletCalculs/OrdreExecutionEvenements.md'
+      - Comment faire ?: 
+        - Comment ajouter une image dans une impression ?: 'CommentFaire/CommentAjouterImage.md'
   - AFFICHAGE: 
     - Menu AFFICHAGE: 'Affichage/1/MenuAFFICHAGE.md'
     - Barre d'outils: 'Affichage/2/BarreOutils.md'
