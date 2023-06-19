@@ -1407,3 +1407,41 @@ nav:
     - Me rappeler à la fin de la période d'assistance: 'Aide/5/MeRappelerFinPeriodeAssistance.md'
     - Assistance en ligne: 'Aide/6/AssistanceLigne.md'
     - www.gestimum.com: 'Aide/7/SiteInternet.md'
+  - Ergonomie:
+    - 'Ergonomie/1/Ergonomie.md'
+    - Listes doubles: 'Ergonomie/2/ListesDoubles.md'
+    - Listes doubles de sélection de journaux: 'Ergonomie/2/ListesDoublesSelectionJournaux.md'
+    - Raccourcis clavier: 'Ergonomie/3/RaccourcisClavier.md'
+    - Multi-sélection: 'Ergonomie/3/Multi-selection.md'
+    - Traçabilité: 'Ergonomie/4/Tracabilite.md'
+    - Saisie d'informations: 
+      - 'Ergonomie/5/SaisieInformations.md'
+      - Champ avec liste déroulante: 'Ergonomie/5/ChampAvecListeDeroulante.md' 
+      - Champ avec appel de la liste: 'Ergonomie/5/ChampAvecAppelListe.md'
+      - Fonctions de la grille de saisie: 'Ergonomie/5/FonctionsGrilleSaisie.md'
+    - Rapport de traitement: 'Ergonomie/6/RapportTraitement.md'
+    - Listes: 
+      - 'Listes/1/Listes.md'
+      - Tri dans les listes: 'Listes/Tri/TriListes.md'
+      - Onglets et colonnes des listes: 'Listes/OngletsColonnes/OngletsColonnesListes.md'
+      - Menu contextuel des listes: 
+        - 'Listes/Menu/MenuContextuelListes.md'
+        - Eléments en sommeil: 'Listes/Menu/Sommeil/ElementsSommeilListes.md'
+        - Copier la cellule: 'Listes/Menu/Copier/CopierCellule.md'
+        - Export d'une liste: 
+          - Exporter une liste: 'Exports/ExportListe/0/ExportListe.md'
+          - Texte: 
+            - Export de liste au format texte: 'Exports/ExportListe/1/ExportListeFormatTexte.md'
+            - Paramètres de l'export de liste au format CSV: 'Exports/ExportListe/1/ParametresExportListeFormatCSV.md'
+            - Aperçu du fichier texte: 'Exports/ExportListe/1/ApercuFichierTexte.md'
+          - Excel: 
+            - Export de liste au format Excel: 'Exports/ExportListe/2/ExportListeFormatExcel.md'
+          - XML: 
+            - Export de liste au format XML: 'Exports/ExportListe/3/ExportListeFormatXML.md'
+        - Impression d'une liste: 'Listes/Menu/Impression/ImpressionListe.md'
+        - Recherche dans les listes: '/Listes/Menu/Recherche/RechercheListes.md'
+        - Personnalisation d'une liste: 
+          - 'Listes/Menu/Personnalisation/PersonnalisationListe.md'
+          - Personnalisation des colonnes:  'Listes/Menu/Personnalisation/PersonnalisationColonnes.md'
+          - Personnalisation des filtres: 'Listes/Menu/Personnalisation/PersonnalisationFiltres.md'
+        - Sélection de critères, champs, données: 'Listes/Z/SelectionCriteresChampsDonnees.md'
