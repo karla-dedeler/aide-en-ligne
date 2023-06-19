@@ -1425,7 +1425,7 @@ nav:
         - Événements: 'ReportBuilder/OngletCalculs/Evenements.md'
         - Ordre d'exécution des événements: 'ReportBuilder/OngletCalculs/OrdreExecutionEvenements.md'
       - Comment faire ?: 
-        - Comment ajouter une image dans une impression ?: 'CommentFaire/CommentAjouterImage.md'
+        - Comment ajouter une image dans une impression ?: 'ReportBuilder/CommentFaire/CommentAjouterImage.md'
   - AFFICHAGE: 
     - Menu AFFICHAGE: 'Affichage/1/MenuAFFICHAGE.md'
     - Barre d'outils: 'Affichage/2/BarreOutils.md'

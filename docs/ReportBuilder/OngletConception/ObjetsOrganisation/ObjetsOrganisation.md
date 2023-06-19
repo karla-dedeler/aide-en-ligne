@@ -35,7 +35,7 @@ Vous avez la possibilité d'ajouter les objets suivants :
 |  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Conserver ensemble => Faire en sorte que toute la zone reste sur la même page
 * HauteurParent => Appliquer la hauteur de la bande
-* LargeurParent => Appliquer la largeur de la page �
+* LargeurParent => Appliquer la largeur de la page 
 * Position => Déplacer finement l'objet dans la bande et gérer la taille de l'objet
 * ImprimeSurDépassement => Réimprimer le champ sur ma page suivante en cas de changement de page
 * DéplacementRelatifA => Déplacer l'objet par rapport à un autre objet
