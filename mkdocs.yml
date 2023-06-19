@@ -709,8 +709,359 @@ nav:
         - Entrée de numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/6/EntreeNumerosSeries.md'
       - Création d'une ligne dans le stock d'un article: '+GestionCommerciale/Stocks/Trier/CreationLigneStockArticle.md'
       - Zone de sélection d'un ou plusieurs articles: '+GestionCommerciale/Stocks/Trier/ZoneSelectionUnPlusieursArticles.md'
-  #  - TIERS: 
-  #  - VENTES: 
+    
+    - TIERS: 
+      - Prospects, clients et fournisseurs:
+        - Introduction: '+GestionCommerciale/Tiers/1/Introduction.md'
+        - Liste des tiers: '+GestionCommerciale/Tiers/1/ListeTiers.md'
+        - Prospects:
+          - Introduction: '+GestionCommerciale/Tiers/2/Introduction.md'
+          - Nouveau prospect: '+GestionCommerciale/Tiers/2/NouveauProspect.md'
+          - Liste des prospects: '+GestionCommerciale/Tiers/2/ListeProspects.md'
+          - Prospect: 
+            - '+GestionCommerciale/Tiers/2/Prospect/Prospect.md'
+            - Entête: '+GestionCommerciale/Tiers/2/Prospect/ProspectEntete.md'
+            - Adresses: '+GestionCommerciale/Tiers/2/Prospect/ProspectOngletAdresses.md'
+            - Identité: '+GestionCommerciale/Tiers/2/Prospect/ProspectOngletIdentité.md'
+            - Commercial: '+GestionCommerciale/Tiers/2/Prospect/ProspectOngletCommercial.md'
+            - EDI: '+GestionCommerciale/Tiers/2/Prospect/ProspectOngletEDI.md'
+            - Compta: '+GestionCommerciale/Tiers/2/Prospect/ProspectOngletCompta.md'
+            - Banques: '+GestionCommerciale/Tiers/2/Prospect/ProspectOngletBanques.md'
+            - Contacts: +GestionCommerciale/Tiers/2/Prospect/ProspectOngletContacts.md
+            - Affaires: '+GestionCommerciale/Tiers/2/Prospect/ProspectOngletAffaires.md'
+            - Actions: '+GestionCommerciale/Tiers/2/Prospect/ProspectOngletActions.md'
+            - Infos: '+GestionCommerciale/Tiers/2/Prospect/ProspectOngletInfos.md'
+            - Personnalisé: '+GestionCommerciale/Tiers/2/Prospect/ProspectOngletPersonnalise.md'
+          #- Import: 
+          #  - Import de prospects:
+          #  - Type de fichier: 
+          #  - Structure du fichier de prospects:
+          #  - Exemple:
+          #    - Exemple de fichier de prospects: 
+          #    - Exemple d'import de prospects:
+          - Transformation d'un prospect en client: '+GestionCommerciale/Tiers/2/TransformationProspectClient.md'
+        - Clients: 
+          - Introduction: '+GestionCommerciale/Tiers/3/Introduction.md'
+          - Nouveau client: '+GestionCommerciale/Tiers/3/NouveauClient.md'
+          - Liste des clients: '+GestionCommerciale/Tiers/3/ListeClients.md'
+          - Client: 
+            - '+GestionCommerciale/Tiers/3/Client/Client.md'
+            - Entête: '+GestionCommerciale/Tiers/3/Client/ClientEntete.md'
+            - Adresses: '+GestionCommerciale/Tiers/3/Client/ClientOngletAdresses.md'
+            - Identité: '+GestionCommerciale/Tiers/3/Client/ClientOngletIdentite.md'
+            - Commercial: '+GestionCommerciale/Tiers/3/Client/ClientOngletCommercial.md'
+            - EDI: '+GestionCommerciale/Tiers/3/Client/ClientOngletEDI.md'
+            - Compta: '+GestionCommerciale/Tiers/3/Client/ClientOngletCompta.md'
+            - Banques: '+GestionCommerciale/Tiers/3/Client/ClientOngletBanques.md'
+            - Contacts: '+GestionCommerciale/Tiers/3/Client/ClientOngletContacts.md'
+            - Affaires: '+GestionCommerciale/Tiers/3/Client/ClientOngletAffaires.md'
+            - Actions: '+GestionCommerciale/Tiers/3/Client/ClientOngletActions.md'
+            - Infos: '+GestionCommerciale/Tiers/3/Client/ClientOngletInfos.md'
+            - Personnalisé: '+GestionCommerciale/Tiers/3/Client/ClientOngletPersonnalise.md'
+          - Numéro NII: '+GestionCommerciale/Tiers/3/NumeroNII.md'
+          #- Import: 
+          #  - Import de clients:
+          #  - Type de fichier: 
+          #  - Structure du fichier de clients:
+          #  - Exemple:
+          #    - Exemple de fichier de clients: 
+          #    - Exemple d'import de clients:
+          #  - Attribution d'une nouvelle grille de tarifs à l'ensemble des clients:
+        - Fournisseurs: 
+          - Introduction: '+GestionCommerciale/Tiers/4/Introduction.md'
+          - Nouveau fournisseur: '+GestionCommerciale/Tiers/4/NouveauFournisseur.md'
+          - Liste des fournisseurs: '+GestionCommerciale/Tiers/4/ListeFournisseurs.md'
+          - Fournisseur: 
+            - '+GestionCommerciale/Tiers/4/Fournisseur/Fournisseur.md'
+            - Entête: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurEntete.md'
+            - Adresses: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletAdresses.md'
+            - Identité: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletIdentité.md'
+            - Commercial: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletCommercial.md'
+            - Articles: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletArticles.md'
+            - Remises: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletRemises.md'
+            - Compta: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletCompta.md'
+            - Banques: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletBanques.md'
+            - Contacts: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletContacts.md'
+            - Affaires: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletAffaires.md'
+            - Actions: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletActions.md'
+            - Infos: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletInfos.md'
+            - Personnalisé: '+GestionCommerciale/Tiers/4/Fournisseur/FournisseurOngletPersonnalisé.md'
+          #- Import: 
+          #  - Import de fournisseurs:
+          #  - Type de fichier: 
+          #  - Structure du fichier de fournisseurs:
+          #  - Exemple:
+          #    - Exemple de fichier de fournisseurs: 
+          #    - Exemple d'import de fournisseurs:
+        - Messages d'erreurs: 
+          - La racine comptable "%s" n'est pas définie: '+GestionCommerciale/Tiers/5/Messages/RacineComptableNonDefinie.md'
+          - Vous n'avez pas saisi de compte comptable: '+GestionCommerciale/Tiers/5/Messages/MessageCompteComptableNonSaisi.md'
+        - Liste déroulante des tiers: 
+          - '+GestionCommerciale/Tiers/5/ListeDeroulante/ListeDeroulanteTiers.md'
+          - Sélection du type de tiers: '+GestionCommerciale/Tiers/5/ListeDeroulante/SelectionTypeTiers.md'
+        #- Import des adresses:
+        #  - Import d'adresses de tiers: 
+        #  - Type de fichier: 
+        #  - Structure du fichier d'adresses de tiers: 
+        #  - Exemple: 
+        #    - Exemple de fichier d'adresses de tiers: 
+        #    - Exemple d'import d'adresses de tiers: 
+        #    - Résultat:
+        #- Import des coordonnées bancaires:
+        #  - Import de banques de tiers: 
+        #  - Type de fichier: 
+        #  - Structure du fichier de banques de tiers: 
+        #  - Types de coordonnées bancaires:
+        #  - Exemple: 
+        #    - Exemple de fichier de banques de tiers: 
+        #    - Exemple d'import de banques de tiers: 
+        #    - Résultat:
+        - Impression des tiers: '+GestionCommerciale/Tiers/5/Impression/ImpressionTiers.md'
+        - Impression d'étiquettes: '+GestionCommerciale/Tiers/5/ImpressionEtiquettes/ImpressionEtiquettes.md'
+        - Modification ou réimputation d'un code tiers: '+GestionCommerciale/Tiers/6/Reimputation/ModificationReimputationTiers.md'
+        - Recalcul des encours des tiers: '+GestionCommerciale/Tiers/6/RecalculEncours/RecalculEncoursTiers.md'
+        - Mise à jour des tiers: 
+          - Mise à jour des tiers: '+GestionCommerciale/Tiers/8/MiseJourTiers.md'
+          - Recherche des tiers: '+GestionCommerciale/Tiers/8/MiseJourTiersRecherche.md'
+          - Sélection des tiers: '+GestionCommerciale/Tiers/8/MiseJourTiersSelectionTiers.md'
+          - Sélection des champs: '+GestionCommerciale/Tiers/8/MiseJourTiersSelectionChamps.md'
+          - Mise à jour des tiers de A à Z: '+GestionCommerciale/Tiers/8/MiseJourTiersAZ.md'
+        - Recherche: 
+          - Recherche de tiers: '+GestionCommerciale/Tiers/9/Recherche.md'
+          - Général: '+GestionCommerciale/Tiers/9/OngletGeneral/TiersRechercheOngletGeneral.md'
+          - Complément: '+GestionCommerciale/Tiers/9/OngletComplement/TiersRechercheOngletComplement.md'
+          - Options: '+GestionCommerciale/Tiers/9/OngletOptions/TiersRechercheOngletOptions.md'
+        - Familles de tiers: 
+          - Objectif: '+GestionCommerciale/Tiers/7/Objectif.md'
+          - Liste des familles de tiers: '+GestionCommerciale/Tiers/7/ListeFamillesTiers.md'
+          - Famille de tiers: 
+            - '+GestionCommerciale/Tiers/7/Famille/FamilleTiers.md'
+            - Commercial: '+GestionCommerciale/Tiers/7/Famille/FamilleTiersOngletCommercial.md'
+            - Compta: '+GestionCommerciale/Tiers/7/Famille/FamilleTiersOngletCompta.md'
+            - Personnalisé: '+GestionCommerciale/Tiers/7/Famille/FamilleTiersOngletPersonnalise.md'
+          - Impression des familles de tiers: '+GestionCommerciale/Tiers/7/Impression/ImpressionFamilles.md'
+          - Mise à jour des tiers après modification d'une famille de tiers:
+            - Méthode de mise à jour des tiers de la famille: '+GestionCommerciale/Tiers/7/MiseJour/MethodeMiseJourTiersFamille.md'
+            - Mise à jour manuelle des champs des tiers de la famille: +GestionCommerciale/Tiers/7/MiseJour/MiseJourManuelleChampsTiersFamille.md
+        - Sous-familles de tiers:
+          - Liste des sous-familles de tiers: '+GestionCommerciale/Tiers/7/ListeSousFamillesTiers.md'
+          - Sous-famille de tiers: 
+            - '+GestionCommerciale/Tiers/7/SousFamille/SousFamilleTiers.md'
+            - Commercial: '+GestionCommerciale/Tiers/7/SousFamille/SousFamilleTiersOngletCommercial.md'
+            - Compta: '+GestionCommerciale/Tiers/7/SousFamille/SousFamilleTiersOngletCompta.md'
+            - Personnalisé: '+GestionCommerciale/Tiers/7/SousFamille/SousFamilleTiersOngletPersonnalise.md'
+          - Impression des sous-familles de tiers: '+GestionCommerciale/Tiers/7/Impression2/ImpressionSousFamilles.md'
+          - Mise à jour des tiers après modification d'une sous-famille de tiers: 
+            - Méthode de mise à jour des tiers de la sous-famille: '+GestionCommerciale/Tiers/7/MiseJour/MethodeMiseJourTiersSousFamille.md'
+            - Mise à jour manuelle des champs des tiers de la sous-famille: '+GestionCommerciale/Tiers/7/MiseJour/MiseJourManuelleChampsTiersSousFamille.md'
+      - Contacts:
+        - Définition: '+GestionCommerciale/Tiers/Contacts/1/Définition.md'
+        - Nouveau contact: '+GestionCommerciale/Tiers/Contacts/2/NouveauContact.md'
+        - Liste des contacts: '+GestionCommerciale/Tiers/Contacts/3/Lliste.md'
+        - Contact: 
+          - '+GestionCommerciale/Tiers/Contacts/4/Contact.md'
+          - Général: '+GestionCommerciale/Tiers/Contacts/4/OngletGeneral.md'
+          - Adresses: '+GestionCommerciale/Tiers/Contacts/4/OngletAdresses.md'
+          - Actions: '+GestionCommerciale/Tiers/Contacts/4/OngletActions.md'
+          - Personnalisé: '+GestionCommerciale/Tiers/Contacts/4/OngletPersonnalise.md'
+        #- Import: 
+        #  - Import de contacts:
+        #  - Type de fichier: 
+        #  - Structure du fichier de contacts:
+        #  - Exemple:
+        #    - Exemple de fichier de contacts: 
+        #    - Exemple d'import de contacts:
+        - Impression des contacts: '+GestionCommerciale/Tiers/Contacts/5/Impression.md'
+      - Actions: 
+        - Liste des actions: '+GestionCommerciale/Tiers/Actions/1/ListeActions.md'
+        - Nouvelle action: '+GestionCommerciale/Tiers/Actions/2/NouvelleAction.md'
+        - Action: '+GestionCommerciale/Tiers/Actions/3/Action.md'
+        #- Import: 
+        #  - Import d'actions:
+        #  - Type de fichier: 
+        #  - Structure du fichier d'actions:
+        #  - Exemple:
+        #    - Exemple de fichier d'actions: 
+        #    - Exemple d'import d'actions:
+        - Impression des actions: '+GestionCommerciale/Tiers/Actions/4/ImpressionActions.md'
+        - Impression d'une action: '+GestionCommerciale/Tiers/Actions/5/Impression1.md'
+        - Rappels: '+GestionCommerciale/Tiers/Actions/6/Rappels.md'
+        - Prospection: '+GestionCommerciale/Tiers/Actions/7/Prospection.md'
+        - Actions de A à Z: '+GestionCommerciale/Tiers/Actions/8/ActionsAZ.md'
+    - VENTES: 
+      - Menu VENTES: '+GestionCommerciale/Ventes/MenuVENTES.md'
+      - Documents: 
+        - Nouveau document de vente: 
+          - '+GestionCommerciale/Ventes/Documents/Nouveau/NouveauDocumentVente.md'
+          - Types de documents de vente: 
+            - Pro-forma: '+GestionCommerciale/Ventes/Documents/Nouveau/Types/NouvelleProForma.md'
+            - Devis: '+GestionCommerciale/Ventes/Documents/Nouveau/Types/NouveauDevis.md'
+            - Accusé de réception: '+GestionCommerciale/Ventes/Documents/Nouveau/Types/NouvelAccuseReception.md'
+            - Bon de livraison: '+GestionCommerciale/Ventes/Documents/Nouveau/Types/NouveauBonLivraison.md'
+            - Bon de retour: '+GestionCommerciale/Ventes/Documents/Nouveau/Types/NouveauBonRetour.md'
+            - Facture: '+GestionCommerciale/Ventes/Documents/Nouveau/Types/NouvelleFacture.md'
+            - Avoir: '+GestionCommerciale/Ventes/Documents/Nouveau/Types/NouvelAvoir.md'
+            - Avoir financier: '+GestionCommerciale/Ventes/Documents/Nouveau/Types/NouvelAvoirFinancier.md'
+            - Facture financière: '+GestionCommerciale/Ventes/Documents/Nouveau/Types/NouvelleFactureFinanciere.md'
+        - Liste des documents de vente: 
+          - Liste des documents de vente: '+GestionCommerciale/Ventes/Documents/Liste/1/ListeDocumentsVente.md'
+          - Modification ou consultation d'un document de vente: '+GestionCommerciale/Ventes/Documents/Liste/2/ModificationConsultationDocument.md'
+          - Multi-sélection dans la liste des documents d'achat et vente: '+GestionCommerciale/Ventes/Documents/Liste/3/MultiSélectionDocumentsAchatVente.md'
+          - Suppression d'un document de vente à l'état "Reliquat": '+GestionCommerciale/Ventes/Documents/Liste/4/SuppressionDocumentVenteEtatReliquat.md'
+        - Document de vente: 
+          - Entête:
+            - '+GestionCommerciale/Ventes/Documents/Fiche/0Entete/Entête.md'
+            - En TTC: '+GestionCommerciale/Ventes/Documents/Fiche/0Entete/EnTTC.md'
+            - Référence du document: '+GestionCommerciale/Ventes/Documents/Fiche/0Entete/ReferenceDocument.md'
+            - Date de réception: '+GestionCommerciale/Ventes/Documents/Fiche/0Entete/DateReception.md'
+            - Mode de règlement du tiers: '+GestionCommerciale/Ventes/Documents/Fiche/0Entete/ModeReglementTiers.md'
+            - Commercial du document de vente: '+GestionCommerciale/Ventes/Documents/Fiche/0Entete/CommercialDocumentVente.md'
+          - Général: '+GestionCommerciale/Ventes/Documents/Fiche/1General/OngletGeneral.md'
+          - Adresses: '+GestionCommerciale/Ventes/Documents/Fiche/2Adresses/OngletAdresses.md'
+          - Corps: 
+            - '+GestionCommerciale/Ventes/Documents/Fiche/3Corps/OngletCorps.md'
+            - Prix en devise: '+GestionCommerciale/Ventes/Documents/Fiche/3Corps/PrixDevise.md'
+            - Lots multiples à la ligne de documents: '+GestionCommerciale/Ventes/Documents/Fiche/3Corps/Lots/LotsMultiplesLigneDocuments.md'
+            - Composition de la nomenclature ou du forfait: '+GestionCommerciale/Ventes/Documents/Fiche/3Corps/CompositionNomenclatureForfait.md'
+            - Sélection à partir du stock d'un article: '+GestionCommerciale/Ventes/Documents/Fiche/3Corps/SelectionPartirStockArticle.md'
+          - Pied: '+GestionCommerciale/Ventes/Documents/Fiche/4Pied/OngletPied.md'
+          - Échéances et acomptes:
+            - '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/OngletEcheancesAcomptes.md'
+            - Schémas de fonctionnements des échéances et documents d'acompte: 
+              - Schéma de fonctionnement des échéances et acomptes: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/SchemaFonctionnementEcheancesAcomptes.md'
+              - Transfert de document: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/TransfertDocument.md'
+              - Transfert partiel de document avec des frais: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/TransfertPartielDocumentFrais.md'
+              - Abandon de reliquat: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/AbandonReliquat.md'
+              - Regroupement de BL en Facture: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/RegroupementBLFacture.md'
+              - Regroupement d'AR en AR: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/RegroupementARAR.md'
+              - Regroupement d'AR en BL: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/RegroupementARBL.md'
+              - Regroupement de BL en Facture avec un AR à l'état Transféré partiellement: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/RegroupementAvecDocumentAcompte.md'
+              - Association d'un document d'acompte: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/AssociationDocumentAcompte.md'
+              - Dissociation d'un document d'acompte: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/DissociationDocumentAcompte.md'
+              - Transfert de document avec un document d'acompte: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/TransfertAvecDocumentAcompte.md'
+              - Regroupement de document avec un document d'acompte: '+GestionCommerciale/Ventes/Documents/Fiche/5EcheancesAcomptes/SchemaFonctionnementEcheances/RegroupementAvecDocumentAcompte.md'
+          - Autre: '+GestionCommerciale/Ventes/Documents/Fiche/6Autre/OngletAutre.md'
+          - EDI: '+GestionCommerciale/Ventes/Documents/Fiche/7EDI/OngletEDI.md'
+          - Personnalisé: '+GestionCommerciale/Ventes/Documents/Fiche/8Personnalise/OngletPersonnalise.md'
+        - Impression: 
+          - Impression d'un document de vente: '+GestionCommerciale/Ventes/Documents/Impression/1/ImpressionDocumentVente.md'
+          - Impression d'un ensemble de documents de vente: '+GestionCommerciale/Ventes/Documents/Impression/2/ImpressionEnsembleDocumentsVente.md'
+          - Impression d'autres documents de vente: '+GestionCommerciale/Ventes/Documents/Impression/3/ImpressionAutresDocuments.md'
+          - Impression du journal des ventes: '+GestionCommerciale/Ventes/Documents/Impression/4/ImpressionJournalVentes.md'
+          - Impression des factures de vente et fichiers liés: '+GestionCommerciale/Ventes/Documents/Impression/5/ImpressionFacturesVenteFichiersLies.md'
+          - Impression d'un relevé de factures de vente et fichiers liés: '+GestionCommerciale/Ventes/Documents/Impression/6/ImpressionReleveFacturesVenteFichiersLies.md'
+        - Documents d'acompte de vente: 
+          - Nouveau document d'acompte de vente: '+GestionCommerciale/Ventes/Documents/Acomptes/NouveauDocumentAcompteVente.md'
+          - Liste des documents d'acompte de vente: '+GestionCommerciale/Ventes/Documents/Acomptes/Liste.md'
+          - Document d'acompte de vente: '+GestionCommerciale/Ventes/Documents/Acomptes/Fiche.md'
+          - Impression des documents d'acompte de vente: '+GestionCommerciale/Ventes/Documents/Acomptes/Impression.md'
+        #- Import: 
+        #  - Import de documents de vente: 
+        #  - Type de fichier: 
+        #  - Structure du fichier de documents de vente: 
+        #  - Ordre des lignes: 
+        #  - Exemple:
+        #    - Exemple de fichier de documents de vente: 
+        #    - Exemple d'import de documents de vente:
+        #  - Lignes: 
+        #    - Import de lignes de documents d'achat et vente: 
+        #    - Structure du fichier de lignes de documents d'achat et vente: 
+        #    - Exemple de fichier de lignes de document d'achat et vente:
+        #  - Quantité à transférer:
+        #    - Import de quantités à transférer: 
+        #    - Structure du fichier de quantités à transférer: 
+        #    - Exemple de fichier de quantités à transférer:
+        #- Export: 
+        #  - Export des factures et avoirs clients au format CSV: 
+        #    - 
+        #    - Structure des fichiers CSV générés: 
+        #    - Exemple de fichiers CSV générés: 
+        #  - Export des factures et avoirs clients au format XML: 
+        #    - 
+        #    - Structure du fichier XML généré: 
+        #    - Exemple de fichier XML généré:
+        - Détail des ventes par article: 
+          - Détail des ventes et achats par article: '+GestionCommerciale/Ventes/Documents/DetailVentesArticles/1/Detail.md'
+          - Impression du détail des ventes et achats par article: '+GestionCommerciale/Ventes/Documents/DetailVentesArticles/2/Impression.md'
+        - Détail des ventes par tiers: 
+          - Détail des ventes et des achats par tiers: '+GestionCommerciale/Ventes/Documents/DetailVentesTiers/1/Detail.md'
+          - Impression du détail des ventes et achats par tiers: '+GestionCommerciale/Ventes/Documents/DetailVentesTiers/2/Impression.md'
+        - Transfert, regroupement, duplication: 
+          - Transfert Duplication Document: 
+            - Duplication d'un document d'achat ou vente: '+GestionCommerciale/Ventes/Documents/TransfertDuplicationDocument/1/Duplication.md'
+            - Transfert d'un document d'achat ou vente: 
+              - '+GestionCommerciale/Ventes/Documents/TransfertDuplicationDocument/2/Transfert.md'
+              - Transfert d'un article gamme ou lot dans un document: '+GestionCommerciale/Ventes/Documents/TransfertDuplicationDocument/2/TraitementGammeLot.md'
+              - Transfert partiel d'un document de vente: '+GestionCommerciale/Ventes/Documents/TransfertDuplicationDocument/2/TransfertPartielDocumentVente.md'
+              - Rapport de fin de traitement: '+GestionCommerciale/Ventes/Documents/TransfertDuplicationDocument/2/RapportFinTraitement.md'
+              - Transfert des lignes en multi sélection dans un document: '+GestionCommerciale/Ventes/Documents/TransfertDuplicationDocument/2/TransfertLignesDocument.md'
+            - Sélection des lignes et quantités en duplication ou transfert: '+GestionCommerciale/Ventes/Documents/TransfertDuplicationDocument/3/SelectionLignesQuantitesDuplicationTransfert.md'
+            - Fenêtre d'affectation d'une gamme et/ou d'un numéro de lot: '+GestionCommerciale/Ventes/Documents/TransfertDuplicationDocument/4/AffectationGammeLot.md'
+            - Exemple d'affectation de gamme ou de numéro de lot: '+GestionCommerciale/Ventes/Documents/TransfertDuplicationDocument/4/ExempleAffectationGammeLot.md'
+            - Création d'un article lors de la duplication ou du transfert: '+GestionCommerciale/Ventes/Documents/TransfertDuplicationDocument/5/CréationArticleDuplicationTransfert.md'
+          - Transfert des commandes clients: 
+            - Transfert automatique des commandes clients: '+GestionCommerciale/Ventes/Documents/TransfertCommandesClients/1/Transfert.md'
+            - Sélection des commandes: '+GestionCommerciale/Ventes/Documents/TransfertCommandesClients/2/SelectionCommandes.md'
+            - Tri des commandes: '+GestionCommerciale/Ventes/Documents/TransfertCommandesClients/2/TriCommandes.md'
+            - Liste des commandes à transférer: '+GestionCommerciale/Ventes/Documents/TransfertCommandesClients/2/ListeCommandesTransferer.md'
+            - Options de création de BL: '+GestionCommerciale/Ventes/Documents/TransfertCommandesClients/2/OptionsCreationBL.md'
+            - Traitement: '+GestionCommerciale/Ventes/Documents/TransfertCommandesClients/2/Traitement.md'
+            - Rapport de transfert: '+GestionCommerciale/Ventes/Documents/TransfertCommandesClients/2/RapportTransfert.md'
+          - Portefeuille des commandes clients: '+GestionCommerciale/Ventes/Documents/Portefeuille/1/PortefeuilleCommandes.md'
+          - Regroupement de BL: 
+            - Regroupement manuel des commandes et livraisons clients: '+GestionCommerciale/Ventes/Documents/Regroupement/1/RegroupementManuel.md'
+            - Regroupement en masse des livraisons clients: '+GestionCommerciale/Ventes/Documents/Regroupement/3/RegroupementMasseLivraisonsReceptions.md'
+          - Abandon des reliquats: '+GestionCommerciale/Ventes/Documents/AbandonReliquat/AbandonReliquats.md'
+        - Stock des articles des lignes d'une commande: '+GestionCommerciale/Ventes/Documents/StockArticleLigneCommande/1/StockArticlesLignesCommande.md'
+        - Archivage de documents de vente :
+          - Archivage: 
+            - Archivage de documents d'achat, vente ou stock: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/1/Archivage.md'
+            - Documents d'achat et vente archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/2/DocumentsAchatVenteArchives.md'
+            - Documents d'achat archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/2/DocumentsAchatArchives.md'
+            - Documents de vente archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/2/DocumentsVenteArchives.md'
+            - Documents de stock archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/2/DocumentsStockArchives.md'
+          - Purge: 
+            - Purge des documents d'achat, vente ou stock archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/3/Purge.md'
+            - Fichiers textes générés par la purge: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/3/FichiersTexteGeneresPurge.md'
+            - Exemples de situations de purge: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/3/ExemplesSituationsPurge.md'
+      - Abonnements: 
+        - Introduction: '+GestionCommerciale/Ventes/Abonnements/1/Introduction.md'
+        - Liste des abonnements clients: '+GestionCommerciale/Ventes/Abonnements/1/ListeAbonnementsClients.md'
+        - Abonnement client: '+GestionCommerciale/Ventes/Abonnements/1/AbonnementClient.md'
+        - Impression des abonnements clients: '+GestionCommerciale/Ventes/Abonnements/3/Impression.md'
+        - Préférences de gestion: '+GestionCommerciale/Ventes/Abonnements/2/PreferencesGestion.md'
+        - Echéances: 
+          - Echéances d'abonnements clients: '+GestionCommerciale/Ventes/Abonnements/2/Echeances.md'
+          - Liste des factures d'abonnements: '+GestionCommerciale/Ventes/Abonnements/2/ListeFactures.md'
+          - Génération des factures d'abonnements: '+GestionCommerciale/Ventes/Abonnements/2/GenerationFactures.md'
+      - Commissions: 
+        - Paramétrage des commissions sur les ventes: '+GestionCommerciale/Ventes/Commissions/1/Parametrage.md'
+        - Calcul des commissions sur les ventes: '+GestionCommerciale/Ventes/Commissions/2/Calcul.md'
+      - Déclaration d'échange de biens: 
+        - Présentation: '+GestionCommerciale/Ventes/DEB/1/Presentation.md'
+        - Paramétrages: 
+          - Paramétrage des utilisateurs: '+GestionCommerciale/Ventes/DEB/2/ParametrageUtilisateurs.md'
+          - Paramétrage de la société: '+GestionCommerciale/Ventes/DEB/2/ParametrageSociété.md'
+          - Paramétrage des tables de référence: '+GestionCommerciale/Ventes/DEB/2/ParametrageTablesRéférence.md'
+          - Paramétrage des pays: '+GestionCommerciale/Ventes/DEB/2/ParametragePays.md'
+          - Paramétrage des tiers: '+GestionCommerciale/Ventes/DEB/2/ParametrageTiers.md'
+          - Paramétrage des articles: '+GestionCommerciale/Ventes/DEB/2/ParametrageArticles.md'
+          - Paramétrage des frais: '+GestionCommerciale/Ventes/DEB/2/ParametrageFrais.md'
+        - Déclaration d'échanges de biens: 
+          - Préparation de la déclaration d'échanges de biens: '+GestionCommerciale/Ventes/DEB/3/Preparation.md'
+          - Entête de l'état préparatoire: '+GestionCommerciale/Ventes/DEB/3/EnteteEtatPreparatoire.md'
+          - Lignes de l'état préparatoire: '+GestionCommerciale/Ventes/DEB/3/LignesEtatPreparatoire.md'
+          - Codes Régimes: '+GestionCommerciale/Ventes/DEB/3/CodesRegimes.md'
+          - Seuils de déclaration: '+GestionCommerciale/Ventes/DEB/3/SeuilsDeclaration.md'
+          - Codes Pays: '+GestionCommerciale/Ventes/DEB/3/CodesPays.md'
+          - Calcul de la masse nette: '+GestionCommerciale/Ventes/DEB/3/CalculMasseNette.md'
+        - Exporter l'état préparatoire: '+GestionCommerciale/Ventes/DEB/4/ExporterEtatPréparatoire.md'
+        - Lexique: '+GestionCommerciale/Ventes/DEB/5/Lexique.md'
+        - Impression de la DEB: '+GestionCommerciale/Ventes/DEB/ImpressionDEB.md'
+      - Taxes Parafiscales: 
+        - Taxes sur les alcools: '+GestionCommerciale/Ventes/TaxesParafiscales/1/TaxesAlcools.md'
+        - Taxes sur les alcools dans Gestimum ERP: '+GestionCommerciale/Ventes/TaxesParafiscales/2/GestimumERP.md'
+        - Formules de calculs des taxes parafiscales: '+GestionCommerciale/Ventes/TaxesParafiscales/3/FormulesCalculsTaxesParafiscales.md'
   #  - ACHATS: 
   #  - Impression de l'échéancier: 
   #  - Impression d'un relevé de factures:
