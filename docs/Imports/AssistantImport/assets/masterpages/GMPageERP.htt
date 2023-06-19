@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="topic-comment" content=""/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>GMPageERP</title>
+<link rel="StyleSheet" href="../../css/GMStyles.css" type="text/css"/>
+</head>
+
+<body>
+<div data-region="header">
+	<div data-type="breadcrumbs" style=" text-align: left;" class="breadcrumbs">
+        <ol>
+          <li style="display: inline">
+            <span class="label">  </span>
+            <a href="#" style="text-decoration: none; color: inherit" data-home="true"><span class="homepage">Accueil</span></a>
+            <span class="separator" data-type="separator">|</span>
+          </li>
+        </ol>
+      </div>
+	<table class="Tableau-d-entete-de-page" style="border-spacing:0px;width:100%;left: 0px; top: 47px;" cellpadding="1">
+		<colgroup><col style="width: 100%;"/>
+		</colgroup><tbody><tr style="height: 5px;">
+			<td style="border-spacing:0px;width: 100%;"><p style="font-size: 18pt;"> </p></td>
+		</tr>
+		<tr style="height: 5px;">
+			<td style="border-spacing:0px;width: 100%;"><p class="En-tête-de-page-ERP"><span data-format="default" data-field="title">GMPageERP</span></p></td>
+		</tr>
+		<tr style="height: 5px;">
+			<td style="border-spacing:0px;width: 100%;"><p style="font-size: 2pt;"> </p></td>
+		</tr>
+	</tbody></table>
+</div>
+<div data-region="topic">
+	<p>Texte par défaut.</p>
+</div>
+<div data-region="footer">
+	<hr style="color: #ee6d0c; background-color: #ee6d0c; margin-bottom: 10px; margin-top: 40px;" align="center"/>
+	<table class="Tableau-de-pied-de-page" style="border-spacing:0px;width:100%;border-collapse:collapse;" cellpadding="1">
+		<colgroup><col style="width: 33.333%;"/>
+		<col style="width: 33.333%;"/>
+		<col style="width: 33.333%;"/>
+		</colgroup><tbody><tr style="">
+			<td style="border-spacing:0px;width: 33.333%;"><p><a href="https://www.gestimum.com"><img src="../images/GMLogoPied.png" alt="" border="0"/></a></p></td>
+			<td style="border-spacing:0px;width: 33.333%;"><p style="text-align: center;">5 rue Joseph Cugnot | 78120 Rambouillet</p></td>
+			<td style="border-spacing:0px;width: 33.333%;"><p style="text-align: center;">+33 (0)1 34 84 09 99</p></td>
+		</tr>
+	</tbody></table>
+</div>
+
+
+</body></html>

@@ -1426,6 +1426,103 @@ nav:
         - Ordre d'exécution des événements: 'ReportBuilder/OngletCalculs/OrdreExecutionEvenements.md'
       - Comment faire ?: 
         - Comment ajouter une image dans une impression ?: 'ReportBuilder/CommentFaire/CommentAjouterImage.md'
+  - OUTILS: 
+    - Calculatrice: 'Calculatrice/1/Calculatrice.md'
+    - Imports: 
+      - Import de données: 'Imports/AssistantImport/1/ImportDonnees.md'
+      - Avertissement: 'Imports/AssistantImport/2/Avertissement.md'
+      - Les étapes de l'import: 
+        - Sélection du fichier à importer et de la table de destination: 'Imports/AssistantImport/1/SelectionFichierTable.md'
+        - Format du fichier: 'Imports/AssistantImport/1/FormatFichier.md'
+        - Séparateur de champs: 'Imports/AssistantImport/1/SeparateurChamps.md'
+        - Mappage des champs: 'Imports/AssistantImport/1/MappageChamps.md'
+        - Aperçu avant import: 'Imports/AssistantImport/1/ApercuAvantImport.md'
+        - Traitement: 'Imports/AssistantImport/1/Traitement.md'
+    - Exports: 
+      - Autres données: 
+        - Export de données au format XML: 'Exports/ExportDonneesXML/1/ExportDonneesFormatXML.md'
+        - Outlook: 
+          - Exporter vers Outlook: 'Exports/ExportOutlook/1/ExporterVersOutlook.md'
+          - Paramétrage du salarié: 'ExportOutlook/2/ParametrageSalarie.md'
+          - Paramétrage de l'envoi vers Outlook®: 'ExportOutlook/3/ParametrageEnvoiOutlook.md'
+          - Synchronisation des données: 'ExportOutlook/4/SynchronisationDonnees.md'
+        - Jeu de données de démonstration: 'Exports/ExportJeuDonneesDemonstration/1/ExportJeuDonneesDemo.md'
+    - EDI: 
+      - 'EDI/EDI/1/EDI.md'
+      - EDICOT:
+        - Présentation: 'EDI/EDICOT/1/Présentation.md'
+        - Paramétrage: 'EDI/EDICOT/2/Paramétrages.md'
+        - Import d'ORDERS: 
+          - 'EDI/EDICOT/3/ImportORDERS.md'
+          - Exemple de fichier ORDERS: 'EDI/EDICOT/3/ExempleFichierORDERS.md'
+          - Structure générale du fichier ORDERS: 'EDI/EDICOT/3/StructureGeneraleFichierORDERS.md'
+        - Export d'ORDRSP: 
+          - 'EDI/EDICOT/4/ExportORDRSP.md'
+          - Exemple de fichier ORDRSP: 'EDI/EDICOT/4/ExempleFichierORDRSP.md'
+          - Structure générale du fichier ORDRSP: 'EDI/EDICOT/4/StructureGeneraleFichierORDRSP.md'
+          - Structure détaillée du fichier ORDRSP: 'EDI/EDICOT/4/StructureDetailleeFichierORDRSP.md'
+        - Export d'HANMOV:
+          - 'EDI/EDICOT/5/ExportHANMOV.md'
+          - Exemple de fichier HANMOV: 'EDI/EDICOT/5/ExempleFichierHANMOV.md'
+          - Structure générale du fichier HANMOV: 'EDI/EDICOT/5/StructureGeneraleFichierHANMOV.md'
+          - Structure détaillée du fichier HANMOV: 'EDI/EDICOT/5/StructureDetailleeFichierHANMOV.md'
+        - Import de DESADV:
+          - 'EDI/EDICOT/6/ImportDESADV.md'
+          - Exemple de fichier DESADV: 'EDI/EDICOT/6/ExempleFichierDESADV.md'
+          - Structure générale du fichier DESADV: 'EDI/EDICOT/6/StructureGeneraleFichierDESADV.md'
+        - Export d'INVOIC: 
+          - 'EDI/EDICOT/7/ExportINVOIC.md'
+          - Exemple de fichier INVOIC: 'EDI/EDICOT/7/ExempleFichierINVOIC.md'
+          - Structure générale du fichier INVOIC: 'EDI/EDICOT/7/StructureGeneraleFichierINVOIC.md'
+          - Structure détaillée du fichier INVOIC: 'EDI/EDICOT/7/StructureDetailleeFichierINVOIC.md'
+        - Format @GP: 
+          - Export de facture client au format @GP: 'EDI/ATGP/1/ExportFactureClientATGP.md'
+          - Export d'avoir client au format @GP: 'EDI/ATGP/2/ExportAvoirClientATGP.md'
+          - Spécifications: 
+            - Format de facture version 3.00.000: 'EDI/ATGP/3/FormatFactureVersion300000.md'
+            - Exemples: 'EDI/ATGP/3/Exemples.md'
+            - Tables: 'EDI/ATGP/3/Tables.md'
+        - EDIPHARM-EDIFACT: 
+          - Présentation: 'EDI/EDIPHARMEDIFACT/1/Présentation.md'
+          - Import de commandes EDIPHARM: 'EDI/EDIPHARMEDIFACT/2/ImportCommandesEDIPHARM.md'
+          - Spécifications: 'EDI/EDIPHARMEDIFACT/3/Spécifications.md'
+        - Chorus: 
+          - Présentation: 'EDI/Chorus/1/Présentation.md'
+          - Paramétrage: 
+            - Préférences: 'EDI/Chorus/2/ParametragePreferences.md'
+            - Compte bancaire: 'EDI/Chorus/2/ParametrageClients.md'
+            - Clients: 'EDI/Chorus/2/ParametrageCompteBancaire.md'
+            - Unités de conditionnement: 'EDI/Chorus/2/ParametrageUnitesConditionnement.md'
+            - Factures et avoirs clients: 'EDI/Chorus/2/ParametrageFacturesAvoirsClients.md'
+          - Export des factures et avoirs clients: 'EDI/Chorus/3/ExportFacturesAvoirsClients.md'
+          - Export d'une seule facture ou d'un seul avoir client: 'EDI/Chorus/4/ExportFactureAvoirClient.md'
+          - Structure générale du fichier généré: 'EDI/Chorus/5/StructureGeneraleFichierGenere.md'
+          - Structure détaillée du fichier généré: 'EDI/Chorus/5/StructureDetailleeFichierGenere.md'
+          - Exemple de fichier généré: 'EDI/Chorus/6/ExempleFichierGenere.md'
+          - Automatisation de l'export: 'EDI/Chorus/7/AutomatisationExport.md'
+    - Transfert comptable: 
+      - Introduction: 'TransfertComptable/1/Introduction.md'
+      - Paramétrages: 'TransfertComptable/2/Parametrages.md'
+      - Données à transférer: 'TransfertComptable/3/DonneesTransferer.md'
+      - Sélection des données: 'TransfertComptable/3/SelectionDonnees.md'
+      - Options de transfert: 
+        - Destinations: 'TransfertComptable/4/Destinations.md'
+        - Gestimum Gestion Comptable: 'TransfertComptable/5/GestimumGestionComptable.md' 
+        - Fichier: 
+          - Fichier Gestimum Gestion Comptable à largeur variable: 'TransfertComptable/5/FichierGestimumGestionComptableLargeurVariable.md'
+          - Fichier Gestimum Gestion Comptable à largeur fixe: 'TransfertComptable/5/FichierGestimumGestionComptableLargeurFixe.md'
+          - Fichier Gestimum Gestion Commerciale 1.5 à largeur variable: 'TransfertComptable/5/FichierGestimumGestionCommerciale15.md'
+          - Fichier CEGID Business Comptabilité 8 à largeur fixe: 'TransfertComptable/5/FichierCEGIDBusinessComptabilite8.md'
+          - Fichier Sage Comptabilité à largeur variable: 'TransfertComptable/5/FichierSageComptabilite.md'
+          - Fichier CEGI Compta First à largeur fixe: 'TransfertComptable/5/FichierCEGIComptaFirst.md'
+          - Fichier QuadraCOMPTA à largeur fixe: 'TransfertComptable/5/FichierQuadraCOMPTA.md'
+          - Fichier EBP 200X et 5 à largeur variable: 'TransfertComptable/5/FichierEBP200X5.md'
+          - Fichier EBP 3 à largeur variable: '/TransfertComptable/5/FichierEBP3.md'
+      - Transfert comptable: 'TransfertComptable/6/TransfertComptable.md'
+      - Rapport du transfert comptable: 'TransfertComptable/7/RapportTransfertComptable.md'
+      - Résultat du transfert Gestimum Gestion Comptable: 'TransfertComptable/8/ResultatTransfertGestimumGestionComptable.md'
+    #- Clôture annuelle: 
+    #- Administration de la base de données: 
   - AFFICHAGE: 
     - Menu AFFICHAGE: 'Affichage/1/MenuAFFICHAGE.md'
     - Barre d'outils: 'Affichage/2/BarreOutils.md'
