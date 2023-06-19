@@ -1,0 +1,328 @@
+/*Créé avec Adobe RoboHelp 2017.*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+	background-color: #ffffff;
+	font-family: "Open Sans Light", "Trebuchet MS", Arial, "MS Sans Serif";
+}
+h1 {
+	font-size: 24.0pt;
+	font-family: "Segoe UI";
+}
+h2 {
+	font-weight: bold;
+	font-size: 18.0pt;
+}
+h3 {
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+h4 {
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+h5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+h6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+p {
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Calibri;
+}
+a.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+span.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+a.dropspot {
+	cursor: hand;
+	color: #008000;
+	font-style: italic;
+	text-decoration: none;
+}
+a.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+span.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+ol,
+ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+p.En-tête-de-page {
+	font-size: 24.0pt;
+	text-align: left;
+	padding-bottom: 8px;
+	border-bottom-style: None;
+	color: #ffffff;
+	background-color: #f47920;
+	font-family: "Segoe UI";
+}
+table.Tableau-d-entete-de-page {
+	background-color: #ff7f00;
+}
+table.Tableau-de-pied-de-page {
+	x-border-spacing: 0px;
+	background-color: #ffffff;
+	padding-top: 0px;
+	padding-bottom: 8px;
+	border-top-style: None;
+	border-top-width: 4px;
+	border-top-color: #ed6b0a;
+}
+p.JSON {
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Consolas;
+	background-color: #f0f0f0;
+	font-size: 12pt;
+}
+p.URL {
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Consolas;
+	background-color: #f0f0f0;
+	border-left-style: Solid;
+	border-left-width: 1px;
+}
+p.Méthode {
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Consolas;
+	background-color: #f0f0f0;
+}
+table.G-Tableau {
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	background-color: #ffffff;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #ed6b0a;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #ed6b0a;
+}
+table.G-Tableau tr.t1st td {
+	font-family: "Open Sans Light", "Trebuchet MS", Arial, "MS Sans Serif";
+	font-size: 12pt;
+	color: #ffffff;
+	border-bottom-style: None;
+	border-bottom-width: 1px;
+	border-bottom-color: #ffffff;
+	background-color: #ed6b0a;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #ed6b0a;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #ed6b0a;
+}
+table.G-Tableau tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #ed6b0a;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ed6b0a;
+}
+table.G-Tableau tr.t1Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #ed6b0a;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ed6b0a;
+}
+table.Tableau-sans-entete tr.t1st td {
+	font-family: "Open Sans Light", "Trebuchet MS", Arial, "MS Sans Serif";
+	font-size: 12pt;
+	color: #ffffff;
+	border-bottom-style: None;
+	border-bottom-width: 1px;
+	border-bottom-color: #ffffff;
+	background-color: #ed6b0a;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #ed6b0a;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #ed6b0a;
+}
+table.Tableau-sans-entete tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #ed6b0a;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ed6b0a;
+}
+table.Tableau-sans-entete tr.t1Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #ed6b0a;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ed6b0a;
+}
+table.Tableau-sans-entete {
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	background-color: #ffffff;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #ed6b0a;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #ed6b0a;
+}
+table.Tableau-avec-entete tr.t1st td {
+	font-family: "Open Sans Light", "Trebuchet MS", Arial, "MS Sans Serif";
+	font-size: 12pt;
+	color: #ffffff;
+	border-bottom-style: None;
+	border-bottom-width: 1px;
+	border-bottom-color: #ffffff;
+	background-color: #ed6b0a;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #ed6b0a;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #ed6b0a;
+}
+table.Tableau-avec-entete tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #ed6b0a;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ed6b0a;
+}
+table.Tableau-avec-entete tr.t1Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #ed6b0a;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ed6b0a;
+}
+table.Tableau-avec-entete {
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	background-color: #ffffff;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #ed6b0a;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #ed6b0a;
+}
+p.SQL {
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Consolas;
+	background-color: #f0f0f0;
+	font-size: 12pt;
+}
+p.INI {
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Consolas;
+	background-color: #f0f0f0;
+	font-size: 12pt;
+}
+h3.Ticket_Modules_GesCo {
+	font-size: 14.0pt;
+	text-align: center;
+	background-color: #ffe8c6;
+	color: #f2771e;
+	font-family: "Segoe UI";
+	font-weight: normal;
+	x-next-class: ;
+	x-next-type: h3;
+}
+h3.Ticket_Module_GesCo {
+	font-size: 14.0pt;
+	text-align: center;
+	background-color: #f2771e;
+	color: #ffffff;
+	font-family: "Segoe UI";
+	font-weight: normal;
+	x-next-class: ;
+	x-next-type: h3;
+}
+h3.Ticket_G-CHANGE {
+	font-size: 14.0pt;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4ca0c1;
+	font-family: "Segoe UI";
+	font-weight: normal;
+	x-next-class: ;
+	x-next-type: h3;
+}
+h3.Ticket_COMPTA {
+	font-size: 14.0pt;
+	text-align: center;
+	color: #ffffff;
+	background-color: #5e6060;
+	font-family: "Segoe UI";
+	font-weight: normal;
+	x-next-class: ;
+	x-next-type: h3;
+}
+h3.Ticket_Module_COMPTA {
+	font-size: 14.0pt;
+	text-align: center;
+	color: #ffffff;
+	background-color: #c4c4c4;
+	x-next-class: ;
+	x-next-type: h3;
+}
+h1.Titre_Bienvenue {
+	font-size: 15.5;
+	margin-top: 6pt;
+	color: #f2771e;
+	font-family: Calibri;
+}
+ul.Circle{
+	list-style-type: circle;
+}
+ul.Disc{
+	list-style-type: disc;
+}

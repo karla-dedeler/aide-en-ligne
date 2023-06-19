@@ -1,0 +1,26 @@
+# Impression d'une remise en banque 2
+
+Toutes les fenêtre d’impression ont un fonctionnement commun.
+
+
+ 
+
+
+L’icône Imprimer ou la commande Remise en banque du menu Impression 
+ permet de réimprimer un ou plusieurs bordereaux de remise.
+
+
+ 
+
+
+[Voir aussi](javascript:RelatedTopic0.Click())
+
+
+--&
+Voir aussi (espace réservé)
+ 
+
+1. [Liste des rubriques](#)
+
+
+

@@ -578,7 +578,7 @@ nav:
         - Outils sur les lignes de grilles de tarifs et promotions:
           - '+GestionCommerciale/Articles/GrillesTarifsPromotions/3/OutilsLignesGrillesTarifsPromotions.md'
           - Ajouter des lignes de grilles de tarifs et promotions: '+GestionCommerciale/Articles/GrillesTarifsPromotions/3/AjouterLignesGrillesTarifsPromotions.md'
-          - Filtrer les lignes de grilles de tarifs et promotions: '''+GestionCommerciale/Articles/GrillesTarifsPromotions/3/AnnulerFiltreLignesGrillesTarifsPromotions.md'
+          - Filtrer les lignes de grilles de tarifs et promotions: '+GestionCommerciale/Articles/GrillesTarifsPromotions/3/AnnulerFiltreLignesGrillesTarifsPromotions.md'
           - Annuler le filtre sur les lignes de grilles de tarifs et promotions: '+GestionCommerciale/Articles/GrillesTarifsPromotions/3/AnnulerFiltreLignesGrillesTarifsPromotions.md'
           - Modifier les lignes de grilles de tarifs et promotions : '+GestionCommerciale/Articles/GrillesTarifsPromotions/3/ModifierLignesGrillesTarifsPromotions.md'
         - Tarifs: 
@@ -587,7 +587,6 @@ nav:
           - Impression des tarifs des articles: '+GestionCommerciale/Articles/GrillesTarifsPromotions/4/Impression/ImpressionTarifsArticles.md'
         - Documents d'achat et vente:
           - Réappliquer automatiquement les grilles de tarifs et promotions lors de l'enregistrement: '+GestionCommerciale/Articles/GrillesTarifsPromotions/5/AppliquerGrillePromotionQtesCumuleesDoc.md'
-
     - STOCKS:
       - Introduction: '+GestionCommerciale/Stocks/1/Introduction.md'
       - Documents de stock: 
@@ -709,7 +708,6 @@ nav:
         - Entrée de numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/6/EntreeNumerosSeries.md'
       - Création d'une ligne dans le stock d'un article: '+GestionCommerciale/Stocks/Trier/CreationLigneStockArticle.md'
       - Zone de sélection d'un ou plusieurs articles: '+GestionCommerciale/Stocks/Trier/ZoneSelectionUnPlusieursArticles.md'
-    
     - TIERS: 
       - Prospects, clients et fournisseurs:
         - Introduction: '+GestionCommerciale/Tiers/1/Introduction.md'
@@ -1062,10 +1060,278 @@ nav:
         - Taxes sur les alcools: '+GestionCommerciale/Ventes/TaxesParafiscales/1/TaxesAlcools.md'
         - Taxes sur les alcools dans Gestimum ERP: '+GestionCommerciale/Ventes/TaxesParafiscales/2/GestimumERP.md'
         - Formules de calculs des taxes parafiscales: '+GestionCommerciale/Ventes/TaxesParafiscales/3/FormulesCalculsTaxesParafiscales.md'
-  #  - ACHATS: 
-  #  - Impression de l'échéancier: 
-  #  - Impression d'un relevé de factures:
-  #  - AFFAIRES:
+    - ACHATS: 
+      - Menu ACHATS: '+GestionCommerciale/Achats/MenuACHATS.md'
+      - Documents: 
+        - Nouveau document d'achat: 
+          - '+GestionCommerciale/Achats/Documents/Nouveau/NouveauDocumentAchat.md'
+          - Types de documents d'achat: 
+            - Demande de prix: '+GestionCommerciale/Achats/Documents/Nouveau/Types/NouvelleDemandePrix.md'
+            - Bon de commande: '+GestionCommerciale/Achats/Documents/Nouveau/Types/NouveauBonCommande.md'
+            - Bon de réception: '+GestionCommerciale/Achats/Documents/Nouveau/Types/NouveauBonReception.md'
+            - Bon de retour: '+GestionCommerciale/Achats/Documents/Nouveau/Types/NouveauBonRetour.md'
+            - Facture: '+GestionCommerciale/Achats/Documents/Nouveau/Types/NouvelleFacture.md'
+            - Avoir: '+GestionCommerciale/Achats/Documents/Nouveau/Types/NouvelAvoir.md'
+            - Avoir financier: '+GestionCommerciale/Achats/Documents/Nouveau/Types/NouvelAvoirFinancier.md'
+            - Facture financière: '+GestionCommerciale/Achats/Documents/Nouveau/Types/NouvelleFactureFinanciere.md'
+        - Liste des documents d'achat: 
+          - Liste des documents d'achat: '+GestionCommerciale/Achats/Documents/Liste/1/ListeDocumentsAchat.md'
+          - Modification ou consultation d'un document d'achat: '+GestionCommerciale/Achats/Documents/Liste/2/ModificationConsultationDocument.md'
+          - Multi-sélection dans la liste des documents d'achat: '+GestionCommerciale/Achats/Documents/Liste/3/MultiSélectionDocumentsAchat.md'
+        - Document d'achat: 
+          - Entête: 
+            - '+GestionCommerciale/Achats/Documents/Fiche/0Entete/Entête.md'
+            - En TTC: '+GestionCommerciale/Achats/Documents/Fiche/0Entete/EnTTC.md'
+            - Référence du document: '+GestionCommerciale/Achats/Documents/Fiche/0Entete/ReferenceDocument.md'
+            - Date de réception: '+GestionCommerciale/Achats/Documents/Fiche/0Entete/DateReception.md'
+            - Mode de règlement du tiers: '+GestionCommerciale/Achats/Documents/Fiche/0Entete/ModeReglementTiers.md'
+            - Commercial du document de vente: '+GestionCommerciale/Achats/Documents/Fiche/0Entete/CommercialDocumentVente.md'
+          - Général: '+GestionCommerciale/Achats/Documents/Fiche/1General/OngletGeneral.md'
+          - Adresses: '+GestionCommerciale/Achats/Documents/Fiche/2Adresses/OngletAdresses.md'
+          - Corps:
+            - '+GestionCommerciale/Achats/Documents/Fiche/3Corps/OngletCorps.md'
+            - Prix en devise: '+GestionCommerciale/Achats/Documents/Fiche/3Corps/PrixDevise.md'
+            - Lots multiples à la ligne de documents: '+GestionCommerciale/Achats/Documents/Fiche/3Corps/Lots/LotsMultiplesLigneDocuments.md'
+            - Composition de la nomenclature ou du forfait: '+GestionCommerciale/Achats/Documents/Fiche/3Corps/CompositionNomenclatureForfait.md'
+          - Pied: 
+            - '+GestionCommerciale/Achats/Documents/Fiche/4Pied/OngletPied.md'
+            - Règlement depuis le document de vente: '+GestionCommerciale/Achats/Documents/Fiche/4Pied/ReglementDepuisDocumentVente.md'
+            - Régler un acompte depuis le document de vente: '+GestionCommerciale/Achats/Documents/Fiche/4Pied/ReglerAcompteDepuisDocumentVente.md'
+          - Échéances et acomptes: '+GestionCommerciale/Achats/Documents/Fiche/5EcheancesAcomptes/OngletEcheancesAcomptes.md'
+          - Autre: '+GestionCommerciale/Achats/Documents/Fiche/6Autre/OngletAutre.md'
+          - Personnalisé: '+GestionCommerciale/Achats/Documents/Fiche/7Personnalise/OngletPersonnalise.md'
+        - Impressions: 
+          - Impression d'un document d'achat: '+GestionCommerciale/Achats/Documents/Impression/1/ImpressionDocumentAchat.md'
+          - Impression d'un ensemble de documents d'achat: '+GestionCommerciale/Achats/Documents/Impression/2/ImpressionEnsembleDocumentsAchat.md'
+          - Impression d'autres documents d'achat: '+GestionCommerciale/Achats/Documents/Impression/3/ImpressionAutresDocumentsAchat.md'
+          - Impression du journal des achats: '+GestionCommerciale/Achats/Documents/Impression/4/ImpressionJournalAchats.md'
+        - Documents d'acompte d'achat: 
+          - Nouveau document d'acompte d'achat: '+GestionCommerciale/Achats/Documents/Acomptes/NouveauDocumentAcompteAchat.md'
+          - Liste des documents d'acompte d'achat: '+GestionCommerciale/Achats/Documents/Acomptes/Liste.md'
+          - Document d'acompte d'achat: '+GestionCommerciale/Achats/Documents/Acomptes/Fiche.md'
+          - Impression des documents d'acompte d'achat: '+GestionCommerciale/Achats/Documents/Acomptes/Impression.md'
+        #- Import: 
+        #  - Import de documents d'achat: 
+        #  - Type de fichier: 
+        #  - Structure du fichier de documents d'achat: 
+        #  - Ordre des lignes: 
+        #  - Exemple:
+        #    - Exemple de fichier de documents d'achat: 
+        #    - Exemple d'import de documents d'achat:
+        - Détail des achats par article: 
+          - Détail des ventes et achats par article: '+GestionCommerciale/Achats/Documents/DetailAchatsArticles/1/Detail.md'
+          - Impression du détail des ventes et achats par article: '+GestionCommerciale/Achats/Documents/DetailAchatsArticles/2/Impression.md'
+        - Détail des achats par tiers: 
+          - Détail des ventes et des achats par tiers: '+GestionCommerciale/Achats/Documents/DetailAchatsTiers/1/Detail.md'
+          - Impression du détail des ventes et achats par tiers: '+GestionCommerciale/Achats/Documents/DetailAchatsTiers/2/Impression.md'
+        - Transfert, regroupement, duplication: 
+          - Transfert Duplication Document: 
+            - Duplication d'un document d'achat: '+GestionCommerciale/Achats/Documents/TransfertDuplicationDocument/1/Duplication.md'
+            - Transfert d'un document d'achat ou vente:
+              - Transfert d'un document d'achat ou vente: '+GestionCommerciale/Achats/Documents/TransfertDuplicationDocument/2/Transfert.md'
+              - Transfert d'un article gamme ou lot dans un document: '+GestionCommerciale/Achats/Documents/TransfertDuplicationDocument/2/TraitementGammeLot.md'
+              - Transfert partiel d'un document de vente: '+GestionCommerciale/Achats/Documents/TransfertDuplicationDocument/2/TransfertPartielDocumentVente.md'
+              - Rapport de fin de traitement: '+GestionCommerciale/Achats/Documents/TransfertDuplicationDocument/2/RapportFinTraitement.md'
+            - Sélection des lignes et quantités en duplication ou transfert: '+GestionCommerciale/Achats/Documents/TransfertDuplicationDocument/3/SelectionLignesQuantitesDuplicationTransfert.md'
+            - Fenêtre d'affectation d'une gamme et/ou d'un numéro de lot: '+GestionCommerciale/Achats/Documents/TransfertDuplicationDocument/4/AffectationGammeLot.md'
+            - Exemple d'affectation de gamme ou de numéro de lot: '+GestionCommerciale/Achats/Documents/TransfertDuplicationDocument/4/ExempleAffectationGammeLot.md'
+            - Création d'un article lors de la duplication ou du transfert: '+GestionCommerciale/Achats/Documents/TransfertDuplicationDocument/5/CréationArticleDuplicationTransfert.md'
+          - Portefeuille des commandes fournisseurs: 
+            - Portefeuille des commandes: '+GestionCommerciale/Achats/Documents/Portefeuille/1/PortefeuilleCommandes.md'
+          - Regroupement de BR: 
+              - Regroupement manuel des commandes et réceptions fournisseurs: '+GestionCommerciale/Achats/Documents/Regroupement/2/RegroupementManuelCommandesReceptionsFournisseurs.md'
+              - Regroupement en masse des réceptions fournisseurs: '+GestionCommerciale/Achats/Documents/Regroupement/3/RegroupementMasseLivraisonsReceptions.md'
+        - Stock des articles des lignes d'une commande: '+GestionCommerciale/Achats/Documents/StockArticleLigneCommande/1/StockArticlesLignesCommande.md'
+        - Archivage de documents d'achat: 
+          - Archivage: 
+            - Archivage de documents d'achat, vente ou stock: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/1/Archivage.md'
+            - Documents d'achat et vente archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/2/DocumentsAchatVenteArchives.md'
+            - Documents d'achat archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/2/DocumentsAchatArchives.md'
+            - Documents de vente archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/2/DocumentsVenteArchives.md'
+            - Documents de stock archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/2/DocumentsStockArchives.md'
+          - Purge: 
+            - Purge des documents d'achat, vente ou stock archivés: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/3/Purge.md'
+            - Fichiers textes générés par la purge: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/3/FichiersTexteGeneresPurge.md'
+            - Exemples de situations de purge: '+GestionCommerciale/ArchivageDocumentsAchatVenteStock/3/ExemplesSituationsPurge.md'
+      - Abonnements: 
+        - Introduction: '+GestionCommerciale/Achats/Abonnements/1/Introduction.md'
+        - Liste des abonnements fournisseurs: '+GestionCommerciale/Achats/Abonnements/1/ListeAbonnementsFournisseurs.md'
+        - Abonnement fournisseur: '+GestionCommerciale/Achats/Abonnements/1/AbonnementFournisseur.md'
+        - Impression des abonnements fournisseurs: '+GestionCommerciale/Achats/Abonnements/3/Impression.md'
+        - Préférences de gestion: '+GestionCommerciale/Achats/Abonnements/1/PreferencesGestion.md'
+        - Echéances: 
+          - Echéances d'abonnements fournisseurs: '+GestionCommerciale/Achats/Abonnements/2/Echéances.md'
+          - Liste des factures d'abonnements: '+GestionCommerciale/Achats/Abonnements/2/ListeFactures.md'
+          - Génération des factures d'abonnements: '+GestionCommerciale/Achats/Abonnements/2/GenerationFactures.md'
+      - Réapprovisionnement: 
+        - Calculer le réapprovisionnement: '+GestionCommerciale/Achats/Reapprovisionnement/1/Calculer.md'
+        - Commander le réapprovisionnement: '+GestionCommerciale/Achats/Reapprovisionnement/2/Commander.md'
+        - Impression du réapprovisionnement: '+GestionCommerciale/Achats/Reapprovisionnement/3/Impression.md'
+      - Taxes Parafiscales: 
+        - Taxes sur les alcools: '+GestionCommerciale/Achats/TaxesParafiscales/1/TaxesAlcools.md'
+        - Taxes sur les alcools dans Gestimum ERP: '+GestionCommerciale/Achats/TaxesParafiscales/2/GestimumERP.md'
+        - Formules de calculs des taxes parafiscales: '+GestionCommerciale/Achats/TaxesParafiscales/3/FormulesCalculsTaxesParafiscales.md'
+    - Impression de l'échéancier: '+GestionCommerciale/ImpressionEcheancier/ImpressionEcheancier.md'
+    - Impression d'un relevé de factures: '+GestionCommerciale/ImpressionReleveFactures/ImpressionReleveFactures.md'
+    - AFFAIRES:
+      - Objectif: 'Affaires/1/Objectif.md'
+      - Paramétrage: 'Affaires/2/Parametrage.md'
+      - Affaires: 
+        - Nouvelle affaire: 'Affaires/3/NouvelleAffaire.md'
+        - Liste des affaires: 'Affaires/3/ListeAffaires.md'
+        - Affaire:
+          - 'Affaires/3/Affaire/Fiche.md'
+          - Général: 'Affaires/3/Affaire/General/FicheOngletGeneral.md'
+          - Compta: 'Affaires/3/Affaire/Compta/FicheOngletCompta.md'
+          - Actions: 'Affaires/3/Affaire/Actions/FicheOngletActions.md'
+          - Budgété: 
+            - 'Affaires/3/Affaire/Budgete/FicheOngletBudgete.md'
+            - Frais budgétés: 'Affaires/3/Affaire/Budgete/FicheOngletBudgeteFrais.md'
+            - Main d'oeuvre budgétée: 'Affaires/3/Affaire/Budgete/FicheOngletBudgeteMainOeuvre.md'
+            - Achats budgétés: 'Affaires/3/Affaire/Budgete/FicheOngletBudgeteAchats.md'
+            - Ventes budgétées: 'Affaires/3/Affaire/Budgete/FicheOngletBudgeteVentes.md'
+          - Planning: 'Affaires/3/Affaire/Planning/FicheOngletPlanning.md' 
+          - Réalisé: 
+            - 'Affaires/3/Affaire/Realise/FicheOngletRealise.md'
+            - Frais réalisés: 'Affaires/3/Affaire/Realise/Frais/FicheOngletRealiseFrais.md'
+            - Main d'oeuvre réalisée: 'Affaires/3/Affaire/Realise/MainOeuvre/FicheOngletRealiseMainOeuvre.md'
+            - Documents d'achats et ventes réalisés: 'Affaires/3/Affaire/Realise/DocumentAchatVente/FicheOngletRealiseAchatsVentes.md'
+            - Rattacher les documents d'achat, vente, stock: 'Affaires/3/Affaire/Realise/DocumentAchatVente/RattacherDocumentsAchatVenteStock.md'
+            - Affaire du document d'achat, vente et stock dans le calcul du résultat: 'Affaires/3/Affaire/Realise/Resultats/AffaireDocAchVteStkCalculResultat.md'
+            - Documents de stocks réalisés: 'Affaires/3/Affaire/Realise/DocumentsStock/FicheOngletRealiseStocks.md'
+            - Mouvements de stock: 'Affaires/3/Affaire/Realise/DocumentsStock/ColonneTableauBordAffaireMouvementsStock.md'
+            - Résultats réalisés: 'Affaires/3/Affaire/Realise/Resultats/FicheOngletRealiseResultats.md'
+          - Tableau de bord: 'Affaires/3/Affaire/TableauBord/FicheOngletTableauBord.md'
+          - Personnalisé: 'Affaires/3/Affaire/Personnalise/FicheOngletPersonnalise.md'
+        - Modifier le code d'une affaire: 'Affaires/3/ModificationCode/ModifierCodeAffaire.md'
+        - Recalcul des résultats des affaires: 'Affaires/3/Impression/RecalculResultatsAffaires.md'
+        #- Import: 
+        #  - Import d'affaires:
+        #  - Type de fichier:
+        #  - Structure du fichier d'affaires: 
+        #  - Exemple: 
+        #    - Exemple de fichier d'affaires: 
+        #    - Exemple d'import d'affaires:
+        - Impression des affaires: 'Affaires/3/Impression/ImpressionAaffaires.md'
+        - Impression des lignes d'affaires: 'Affaires/3/Impression/ImpressionLignesAffaires.md'
+      - Planning: 
+        - Paramétrage du planning des affaires: 'Affaires/5/ParametragePlanningAffaires.md'
+        - Planning des affaires: 'Affaires/4/PlanningAffaires.md'
+      #- Saisie externalisée de la main d'oeuvre:
+        #- Introduction: 
+        #- Connexion: 
+        #- Utilisation: 
+        #- Résultat:
+  - ENCAISSEMENTS: 
+    - Échéances: 
+      - Échéances clients: 'EncaissementsDecaissements/Encaissements/Echeances/EchéancesClients.md'
+      - Échéance client: 'EncaissementsDecaissements/Encaissements/Echeances/EcheanceClient.md'
+      - Impression des échéances clients: 'EncaissementsDecaissements/Encaissements/Echeances/Impressions/1/ImpressionEcheancesClients.md'
+      - Échéances à recevoir: 'EncaissementsDecaissements/Encaissements/Echeances/EcheanceRecevoir.md'
+      - Échéance à recevoir: 'EncaissementsDecaissements/Encaissements/Echeances/EchéancesRecevoir.md'
+      - Impression des échéances à recevoir: 'EncaissementsDecaissements/Encaissements/Echeances/Impressions/2/ImpressionEcheancesRecevoir.md'
+      - Nouvelle échéance: 'EncaissementsDecaissements/Encaissements/Echeances/NouvelleEcheance.md'
+      - Solder une échéance avec une autre: 'EncaissementsDecaissements/Encaissements/Echeances/SolderEcheanceAvecUneAutre.md'
+    - Non payés et différés: 
+      - Non payés et différés: 'EncaissementsDecaissements/Encaissements/Echeances/NonPayesDifferes.md'
+      - Impression des non payés et différés: 'EncaissementsDecaissements/Encaissements/Echeances/Impressions/3/ImpressionNonPayesDifferes.md'
+    - Relances: 
+      - Relancer: 
+        - 'EncaissementsDecaissements/Encaissements/Relancer/Relancer.md'
+        - Échéances à relancer: 'EncaissementsDecaissements/Encaissements/Relancer/EcheancesRelancer.md'
+        - Nombre de jours de dépassement: 'EncaissementsDecaissements/Encaissements/Relancer/NombreJoursDepassement.md'
+        - Modifier une échéance à relancer: 'EncaissementsDecaissements/Encaissements/Relancer/ModifierEcheanceRelancer.md'
+        - Repousser une échéance à relancer: 'EncaissementsDecaissements/Encaissements/Relancer/RepousserEcheanceRelancer.md'
+        - Nouvelle relance: 'EncaissementsDecaissements/Encaissements/Relancer/NouvelleRelance.md'
+        - Impression de la sélection des tiers à relancer: 'EncaissementsDecaissements/Encaissements/Relancer/Impressions/2/ImpressionSelectionTiersRelancer.md'
+        - Impression des relances: 'EncaissementsDecaissements/Encaissements/Relancer/Impressions/1/ImpressionRelances.md'
+        - Lettres de relances RTF: 'EncaissementsDecaissements/Encaissements/Relancer/Impressions/RTF/LettresRelancesRTF.md'
+      - Relances effectuées: 
+        - 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/RelancesEffectuees.md'
+        - Relance effectuée: 
+          - 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/RelanceEffectuee.md'
+          - Échéances: 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/RelanceEffectueeOngletEcheances.md'
+          - Clients : 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/RelanceEffectueeOngletClients.md'
+          - Echéances relancées par client: 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/EcheancesRelanceesParClient.md'
+          - Commentaires: 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/RelanceEffectueeOngletCommentaires.md'
+          - Commentaire par client: 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/CommentaireParClient.md'
+          - Réponse par client: 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/ReponseParClient.md'
+        - Impression des relances effectuées: 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/Impressions/ImpressionRelancesEffectuees.md'
+        - Relances de A à Z: 'EncaissementsDecaissements/Encaissements/Relances/RelancesAZ/RelancesAZ.md'
+    - Règlements: 
+      - Enregistrement d'un règlement: 'EncaissementsDecaissements/Encaissements/Reglements/EnregistrementReglement.md'
+      - Réceptionner les règlements: 
+        - 'EncaissementsDecaissements/Encaissements/Reglements/Receptionner/ReceptionnerReglements.md'
+        - Rechercher une échéance: 'EncaissementsDecaissements/Encaissements/Reglements/Receptionner/RechercherEcheance/RechercherEcheance.md'
+        - Échéancier du règlement: 'EncaissementsDecaissements/Encaissements/Reglements/Receptionner/EcheancierReglement.md'
+        - Écarts de règlement: 'EncaissementsDecaissements/Encaissements/Reglements/Receptionner/EcartsReglement.md'
+        - Coordonnées bancaires: 'EncaissementsDecaissements/Encaissements/Reglements/Receptionner/ModificationCoordonneesBancaires.md'
+        - Sélection des coordonnées bancaires: 'EncaissementsDecaissements/Encaissements/Reglements/Receptionner/SelectionCoordonneesBancaires.md'
+      - Régler depuis les échéances: 
+        - Règlement d'une échéance: 'EncaissementsDecaissements/Encaissements/Reglements/Regler/ReglementEcheance.md'
+        - Règlement: 'EncaissementsDecaissements/Encaissements/Reglements/Regler/ReglementEcheanceOngletReglement.md'
+        - Coordonnées bancaires: 'EncaissementsDecaissements/Encaissements/Reglements/Regler/ReglementEcheanceOngletCoordonneesBancaires.md'
+      - Règlements reçus: 'EncaissementsDecaissements/Encaissements/Reglements/ReglementsRecus.md'
+      - Impression des règlements reçus: 'EncaissementsDecaissements/Encaissements/Reglements/Impressions/ImpressionReglementsReçus.md'
+    - Remises en banque: 
+      - Remises en banque: 'EncaissementsDecaissements/Encaissements/Remises/RemisesBanque.md'
+      - Remise en banque: 'EncaissementsDecaissements/Encaissements/Remises/RemiseBanque.md'
+      - Impression d'une remise en banque: 'EncaissementsDecaissements/Encaissements/Remises/Impressions/1/ImpressionRemiseBanque.md'
+      - Impression d'une remise en banque 2: 'EncaissementsDecaissements/Encaissements/Remises/Impressions/1/ImpressionRemiseBanque2.md'
+      - Impression des remises en banque: 'EncaissementsDecaissements/Encaissements/Remises/Impressions/N/ImpressionRemisesBanque.md'
+      - Fichiers bancaires: 
+        - Fichiers bancaires au format ETEBAC: 'EncaissementsDecaissements/Encaissements/Fichiers/ETEBAC/FichiersBancairesETEBAC.md'
+        - Spécifications des fichiers bancaires au format ETEBAC: 'EncaissementsDecaissements/Encaissements/Fichiers/ETEBAC/SpecificationsFichiersBancairesETEBAC.md'
+        - Fichiers bancaires au format SEPA: 'EncaissementsDecaissements/Encaissements/Fichiers/SEPA/FichiersBancairesSEPA.md'
+        - Spécifications des fichiers bancaires au format SEPA: 'EncaissementsDecaissements/Encaissements/Fichiers/SEPA/SpecificationsFichiersBancairesSEPA.md'
+        - Fichiers bancaires de virements aux formats SEPA et ETEBAC: 'EncaissementsDecaissements/Encaissements/Fichiers/Trier/FichiersBancairesVirementsSEPAETEBAC.md'
+    - Règlements et remises: 
+      - Règlements et remises: 'EncaissementsDecaissements/Encaissements/ReglementsRemises/ReglementsEtRemises.md'
+      - Règlement par compte bancaire: 'EncaissementsDecaissements/Encaissements/ReglementsRemises/ReglementParCompteBancaire.md'
+      - Exemple de répartition: 'EncaissementsDecaissements/Encaissements/ReglementsRemises/ExempleRepartition.md'
+      - Avertissement sur les échéances sans mode sans type: 'EncaissementsDecaissements/Encaissements/ReglementsRemises/AvertissementEcheancesSansModeSansType.md'
+      - Echéances affectées par compte bancaire: 'EncaissementsDecaissements/Encaissements/ReglementsRemises/EcheancesAffecteesComptesBancaires.md'
+      - Impression d'une échéance: 'EncaissementsDecaissements/Encaissements/ReglementsRemises/Impressions/1/ImpressionEcheance.md'
+      - Impression de la liste des échéances: 'EncaissementsDecaissements/Encaissements/ReglementsRemises/Impressions/N/ImpressionEcheances.md'
+    - Impayés: 
+      - Enregistrer un impayé: 'EncaissementsDecaissements/Encaissements/Impayes/EnregistrerImpaye.md'
+      - Impayés enregistrés: 'EncaissementsDecaissements/Encaissements/Impayes/ImpayésEnregistrés.md'
+      - Impression des impayés enregistrés: 'EncaissementsDecaissements/Encaissements/Impayes/Impressions/ImpressionImpayesEnregistres.md'
+      - Impayé: 'EncaissementsDecaissements/Encaissements/Impayes/FicheImpaye.md'
+      - Impayés de A à Z: 'EncaissementsDecaissements/Encaissements/Impayes/ImpayesAZ.md'
+    - Effets: 
+      - Encaissements et escomptes: 'EncaissementsDecaissements/Encaissements/Effets/EncaissementsEscomptes.md'
+      - Effets de commerce: 'EncaissementsDecaissements/Encaissements/Effets/EffetsCommerce.md'
+      - Effets à recevoir (LCR) de A à Z: 'EncaissementsDecaissements/Encaissements/Effets/EffetsRecevoirLCRAZ.md'
+      - Portefeuille des effets: 
+        - 'EncaissementsDecaissements/Encaissements/Effets/Portefeuille/PortefeuilleEffets.md'
+        - Mise en portefeuille des effets: 'EncaissementsDecaissements/Encaissements/Effets/Portefeuille/MisePortefeuilleEffets.md'
+        - Annulation de la mise en portefeuille des effets: 'EncaissementsDecaissements/Encaissements/Effets/Portefeuille/AnnulationMisePortefeuilleEffets.md'
+        - Impression du portefeuille des effets: 'EncaissementsDecaissements/Encaissements/Effets/Portefeuille/Impressions/ImpressionPortefeuilleEffets.md'
+      - Remises à l'encaissement: 
+        - Remise à l'encaissement: 'EncaissementsDecaissements/Encaissements/Effets/RemiseEncaissement/RemiseEncaissement.md'
+        - Remises à l'encaissement: 'EncaissementsDecaissements/Encaissements/Effets/RemisesEncaissement/RemisesEncaissement.md'
+        - Impression d'une remise à l'encaissement: 'EncaissementsDecaissements/Encaissements/Effets/RemiseEncaissement/ImpressionRemiseEncaissement.md'
+        - Impression des remises à l'encaissement: 'EncaissementsDecaissements/Encaissements/Effets/RemisesEncaissement/ImpressionRemisesEncaissement.md'
+      - Remises à l'escompte: 
+        - Remise à l'escompte: 'EncaissementsDecaissements/Encaissements/Effets/RemisesEscompte/RemiseEscompte.md'
+        - Remises à l'escompte: 'EncaissementsDecaissements/Encaissements/Effets/RemiseEscompte/RemisesEscompte.md'
+        - Impression d'une remise à l'escompte: 'EncaissementsDecaissements/Encaissements/Effets/RemiseEscompte/ImpressionRemiseEscompte.md'
+        - Impression des remises à l'escompte: 'EncaissementsDecaissements/Encaissements/Effets/RemisesEscompte/ImpressionRemisesEscompte.md'
+      - Avis d'encaissement: 
+        - Effet à l'encaissement: 'EncaissementsDecaissements/Encaissements/Effets/AvisEncaissement/EffetEncaissement.md'
+        - Nouvel avis d'encaissement: 'EncaissementsDecaissements/Encaissements/Effets/AvisEncaissement/NouvelAvisEncaissement.md'
+        - Avis d'encaissement: 'EncaissementsDecaissements/Encaissements/Effets/AvisEncaissement/AvisEncaissement.md'
+        - Avis d'encaissement reçus: 'EncaissementsDecaissements/Encaissements/Effets/AvisEncaissement/AvisEncaissementRecus.md'
+        - Impression des avis d'encaissement reçus: 'EncaissementsDecaissements/Encaissements/Effets/AvisEncaissement/Impressions/ImpressionAvisEncaissementRecus.md'
+        - Avis d'encaissement de A à Z: 'EncaissementsDecaissements/Encaissements/Effets/AvisEncaissementAZ/AvisEncaissementAZ.md'
+      - Avis d'escompte: 
+        - Nouvel avis d'escompte: 'EncaissementsDecaissements/Encaissements/Effets/AvisEscompte/NouvelAvisEscompte.md'
+        - Effet à l'escompte: 'EncaissementsDecaissements/Encaissements/Effets/AvisEscompte/EffetEscompte.md'
+        - Avis d'escompte: 'EncaissementsDecaissements/Encaissements/Effets/AvisEscompte/AvisEscompte.md'
+        - Avis d'escompte reçus: 'EncaissementsDecaissements/Encaissements/Effets/AvisEscompte/AvisEscompteRecus.md'
+        - Impression des avis d'escompte reçus: 'EncaissementsDecaissements/Encaissements/Effets/AvisEscompte/Impressions/ImpressionAvisEscompteRecus.md'
+        - Avis d'escompte de A à Z: 'EncaissementsDecaissements/Encaissements/Effets/AvisEscompteAZ/AvisEscompteAZ.md'
   - AFFICHAGE: 
     - Menu AFFICHAGE: 'Affichage/1/MenuAFFICHAGE.md'
     - Barre d'outils: 'Affichage/2/BarreOutils.md'
