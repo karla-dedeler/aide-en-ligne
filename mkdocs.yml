@@ -1642,7 +1642,47 @@ nav:
         - Impression d'un budget: '+GestionComptable/Budgets/Impression/Budget/ImpressionBudget.md'
         - Impression des budgets: '+GestionComptable/Budgets/Impression/Budgets/ImpressionBudgets.md'
         - Budgets de A à Z: '+GestionComptable/Budgets/BudgetsAZ/BudgetsAZ.md'
-    #- IMMOS:
+    - IMMOS:
+      - Introduction: 'Immobilisations/Introduction/Introduction.md'
+      - Familles d'immobilisations: 
+        - Liste des familles d'immobilisations: 'Immobilisations/Familles/ListeFamillesImmobilisations.md'
+        - Famille d'immobilisations: 'Immobilisations/Familles/FamilleImmobilisations.md'
+        - Impression des familles d'immobilisations: 'Immobilisations/Familles/ImpressionFamillesImmobilisations.md'
+      - Lieux d'immobilisations: 
+        - Liste des lieux d'immobilisations: 'Immobilisations/Lieux/ListeLieuxImmobilisations.md'
+        - Lieu d'immobilisations: 'Immobilisations/Lieux/LieuImmobilisations.md'
+        - Impression des lieux d'immobilisations: 'Immobilisations/Lieux/ImpressionLieuxImmobilisations.md'
+      - Immobilisations: 
+        - Liste des immobilisations: 'Immobilisations/Immobilisations/ListeImmobilisations.md'
+        - Immobilisation: 
+          - 'Immobilisations/Immobilisations/Immobilisation.md'
+          - Entête: 'Immobilisations/Immobilisations/Immobilisation/Entete.md'
+          - Général: 'Immobilisations/Immobilisations/Immobilisation/OngletGeneral.md'
+          - Entrée: 'Immobilisations/Immobilisations/Immobilisation/OngletEntree.md'
+          - Amortissement: 'Immobilisations/Immobilisations/Immobilisation/OngletAmortissement.md'
+          - Dépréciation: 'Immobilisations/Immobilisations/Immobilisation/OngletDepreciation.md'
+          - Sortie: 'Immobilisations/Immobilisations/Immobilisation/OngletSortie.md'
+          - Analytique: 'Immobilisations/Immobilisations/Immobilisation/OngletAnalytique.md' 
+          - Commentaires: 'Immobilisations/Immobilisations/Immobilisation/OngletCommentaires.md'
+          - Image: 'Immobilisations/Immobilisations/Immobilisation/OngletImage.md'
+          - Personnalisé: 'Immobilisations/Immobilisations/Immobilisation/OngletPersonnalisé.md'
+        - Import d'immobilisations: 
+          - 'Imports/ImportAutresDonnees/ImportImmobilisations/1/ImportImmobilisations.md'
+          - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+          - Structure du fichier d'immobilisations: 'Imports/ImportAutresDonnees/StructureFichierImmobilisations/1/StructureFichierImmobilisations.md'
+          - Exemples: 
+            - Exemple de fichier d'immobilisations: 'Imports/ImportAutresDonnees/ImportImmobilisations/2/ExempleFichierImmobilisations.md'
+            - Exemple d'import d'immobilisations: 'Imports/ImportAutresDonnees/ImportImmobilisations/2/ExempleImportImmobilisations.md'
+        - Reprise d'immobilisations: 'Immobilisations/Immobilisations/RepriseImmobilisations.md'
+        - Création d'une immobilisation depuis la saisie d'écritures comptables: 'Immobilisations/SaisieEcritures/CreationDepuisEcritureComptable.md'
+        - Impression des immobilisations: 'Immobilisations/Impressions/ImpressionImmobilisations.md'
+        - Impression des dotations: 'Immobilisations/Impressions/ImpressionDotations.md'
+        - Préférences: 'Immobilisations/Préférences/Préférences.md'
+      - Ecritures comptables: 
+        - Paramétrages comptables: 'Immobilisations/Comptabilisation/ParametragesComptables.md'
+        - Génération des écritures comptables: 'Immobilisations/Comptabilisation/GenerationEcrituresComptables.md'
+        - Outils de comptabilisation en masse: 'Immobilisations/Comptabilisation/OutilsComptabilisationMasse.md'
+      - Immobilisations de A à Z: 'Immobilisations/Immobilisations-de-A-Z/ImmobilisationsAZ.md'
 
   - DÉCISIONNEL: 
     - Statistiques de vente: 
