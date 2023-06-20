@@ -874,13 +874,13 @@ nav:
         - Liste des actions: '+GestionCommerciale/Tiers/Actions/1/ListeActions.md'
         - Nouvelle action: '+GestionCommerciale/Tiers/Actions/2/NouvelleAction.md'
         - Action: '+GestionCommerciale/Tiers/Actions/3/Action.md'
-        #- Import: 
-        #  - Import d'actions:
-        #  - Type de fichier: 
-        #  - Structure du fichier d'actions:
-        #  - Exemple:
-        #    - Exemple de fichier d'actions: 
-        #    - Exemple d'import d'actions:
+        - Import d'actions:
+          - 'Imports/ImportAutresDonnees/ImportActions/1/ImportActions.md'
+          - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+          - Structure du fichier d'actions: 'Imports/ImportAutresDonnees/StructureFichierActions/1/StructureFichierActions.md'
+          - Exemple:
+            - Exemple de fichier d'actions: 'Imports/ImportAutresDonnees/ImportActions/2/ExempleFichierActions.md'
+            - Exemple d'import d'actions: 'Imports/ImportAutresDonnees/ImportActions/2/ExempleImportAffaires.md'
         - Impression des actions: '+GestionCommerciale/Tiers/Actions/4/ImpressionActions.md'
         - Impression d'une action: '+GestionCommerciale/Tiers/Actions/5/Impression1.md'
         - Rappels: '+GestionCommerciale/Tiers/Actions/6/Rappels.md'
@@ -1683,7 +1683,6 @@ nav:
         - Génération des écritures comptables: 'Immobilisations/Comptabilisation/GenerationEcrituresComptables.md'
         - Outils de comptabilisation en masse: 'Immobilisations/Comptabilisation/OutilsComptabilisationMasse.md'
       - Immobilisations de A à Z: 'Immobilisations/Immobilisations-de-A-Z/ImmobilisationsAZ.md'
-
   - DÉCISIONNEL: 
     - Statistiques de vente: 
       - Statistiques: 
@@ -1900,6 +1899,83 @@ nav:
     - Me rappeler à la fin de la période d'assistance: 'Aide/5/MeRappelerFinPeriodeAssistance.md'
     - Assistance en ligne: 'Aide/6/AssistanceLigne.md'
     - www.gestimum.com: 'Aide/7/SiteInternet.md'
+  - G-Change: 
+    - Tâches en ligne de commande: 
+      - Présentation: 'Taches/1/Presentation.md'
+      - Tâches disponibles: 'Taches/1/ListeTachesDisponibles.md'
+      - Fichier de paramétrage d'une tâche: 'Taches/1/FichierParametrageTache.md'
+      - Description d'une tâche via /Descriptiontache : 'Taches/1/DescriptionTache.md'
+      - Exécution: 
+        - Exécution d'une tâche via /Tache: 'Taches/1/ExecutionTache.md'
+        - Exemple d'exécution d'une tâche: 'Taches/2/ExempleExecutionTache.md'
+        - Exécution de plusieurs tâches: 'Taches/2/ExecutionPlusieursTaches.md'
+        - Interactions avec les autres utilisateurs: 'Taches/2/InteractionsAutresUtilisateurs.md'
+        - Automatisation à l'aide du planificateur de tâche Windows: 'Taches/3/AutomatisationPlanificateurTachesWindows.md'
+        - Lancement depuis un langage de programmation: 'Taches/2/LancementLangageProgrammation.md'
+      - Tâches: 
+        - AfficherMessageTest: 'Taches/4/AfficherMessageTest.md'
+        - CreerFichierDemo: 'Taches/4/CreerFichierDemo.md'
+        - ExporterDescriptionBaseDonnees: 'Taches/4/ExporterDescriptionBaseDonnees.md'
+        - ExporterFacturesChorus: 'Taches/4/ExporterFacturesChorus.md'
+        - ExporterFacturesClientsCSV: 'Taches/4/ExporterFacturesClientsCSV.md'
+        - ExporterFacturesClientsXML: 'Taches/4/ExporterFacturesClientsXML.md'
+        - ExporterRequeteBaseDonnees: 'Taches/4/ExporterRequeteBaseDonnees.md'
+        - ImporterActions: 
+          - 'Taches/4/ImporterActions.md'
+          - Import d'actions:
+            - 'Imports/ImportAutresDonnees/ImportActions/1/ImportActions.md'
+            - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+            - Structure du fichier d'actions: 'Imports/ImportAutresDonnees/StructureFichierActions/1/StructureFichierActions.md'
+            - Exemple:
+              - Exemple de fichier d'actions: 'Imports/ImportAutresDonnees/ImportActions/2/ExempleFichierActions.md'
+              - Exemple d'import d'actions: 'Imports/ImportAutresDonnees/ImportActions/2/ExempleImportAffaires.md'
+        - ImporterAdressesTiers: 
+          - 'Taches/4/ImporterAdressesTiers.md'
+          - Import d'adresses de tiers:
+            - 'Imports/ImportRelationTiers/ImportAdressesTiers/1/ImportAdressesTiers.md'
+            - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+            - Structure du fichier d'adresses de tiers: 'Imports/ImportRelationTiers/StructureFichierAdressesTiers/1/StructureFichierAdressesTiers.md'
+            - Exemple:
+              - Exemple de fichier d'adresses de tiers: 'Imports/ImportRelationTiers/ImportAdressesTiers/2/ExempleFichierAdressesTiers.md'
+              - Exemple d'import d'adresses de tiers: 'Imports/ImportRelationTiers/ImportAdressesTiers/2/ExempleImportAdressesTiers.md'
+              - Résultat: 
+        - ImporterAffaires: 
+        - ImporterArticles: 
+        - ImporterBanquesTiers: 
+        - ImporterClients: 
+        - ImporterCommerciaux: 
+        - ImporterComptes: 
+        - ImporterComptesReporting: 
+        - ImporterComposantsNomenclatures: 
+        - ImporterContacts: 
+        - ImporterDevises: 
+        - ImporterDocumentsAchat: 
+        - ImporterDocumentsVente: 
+        - ImporterDocumentsStock: 
+        - ImporterEcritures: 
+        - ImporterEquivalencesArticles: 
+        - ImporterFamillesArticles: 
+        - ImporterFournisseurs: 
+        - ImporterGlossaires: 
+        - ImporterGrillesTarifs: 
+        - ImporterImmobilisations: 
+        - ImporterModesReglements: 
+        - ImporterNaturesComptables: 
+        - ImporterPays: 
+        - ImporterProspects: 
+        - ImporterReferencesClientsArticles: 
+        - ImporterSalaries: 
+        - ImporterSectionsAnalytiques: 
+        - ImporterSousFamillesArticles: 
+        - ImporterTarifsArticles: 
+        - ImporterTarifsFournisseursArticles: 
+        - ImporterUtilisateurs: 
+        - ImporterVilles: 
+        - ImprimerDocumentAchat: 
+        - ImprimerDocumentVente: 
+        - ImprimerDocumentStock: 
+        - RecalculerStock: 
+        - TransfererDocumentsAchVte:
   - Ergonomie:
     - 'Ergonomie/1/Ergonomie.md'
     - Listes doubles: 'Ergonomie/2/ListesDoubles.md'
