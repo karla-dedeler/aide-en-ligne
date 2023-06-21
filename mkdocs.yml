@@ -5,6 +5,10 @@ theme:
   features : 
   - search
   - search.highlight
+  - navigation.instant
+  - navigation.top
+  font:
+    text: Roboto
   highlightjs: True
   prev_next_buttons_location: top
   titles_only: True
