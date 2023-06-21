@@ -1,0 +1,8 @@
+# Exemple de fichier de clients
+
+PCF\_CODE;CPT\_NUMERO;PCF\_RS;PCF\_RUE;PCF\_COMP;PCF\_CP;PCF\_VILLE
+
+
+C20;411C20;SPORT25;5 rue Cugnot;ZA Du Pâtis;78120;RAMBOUILLET
+
+

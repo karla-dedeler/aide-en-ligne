@@ -1,0 +1,7 @@
+# Exemple de fichier de commerciaux
+REP\_CODE;REP\_CIVILE;REP\_PRENOM;REP\_NOM;REP\_TELB;REP\_TELM
+
+
+GLE;Monsieur;Grégoire;LETERTRE;0134840984;0613257896
+
+
