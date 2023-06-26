@@ -43,6 +43,7 @@ Les tables recopiées sont les suivantes :
 
 
 | Source | Destination |
+| --- | --- |
 | Familles de tiers | Sous-familles de tiers |
 | Familles de tiers | Tiers |
 | Sous-famille de tiers | Tiers |

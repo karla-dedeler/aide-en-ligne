@@ -1,16 +1,13 @@
 # Ouvrir la liste
 
-1. [Accueil](#)
-|
 
 
 
 
 
 
-|   |
-| Ouvrir la liste |
-|   |
+
+ Ouvrir la liste 
 
 
 
@@ -19,17 +16,6 @@
 
 
 
-
----
-
-
-
-
-
-
-
-|  | 5 rue Joseph Cugnot | 78120 
- Rambouillet | +33 (0)1 34 84 09 99 |
 
 
 

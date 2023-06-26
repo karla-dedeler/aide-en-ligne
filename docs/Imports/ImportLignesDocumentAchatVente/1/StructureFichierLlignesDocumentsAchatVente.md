@@ -14,8 +14,8 @@ S'il n'y a pas de numéro de lot ou un seul par ligne :
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Présence | Exemple |
+| Champ | Description | Type | Longueur maximale | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | ART\_CODE | Code de l'article | Texte | 30 |   |   |
 | ART\_GAMME | Codes des valeurs de gamme, séparés par un \ | Texte | 98 |   |   |
 | LIG\_NUMLOT | Numéro de lot | Texte |   |   |   |
@@ -50,8 +50,8 @@ S'il y plusieurs numéros de lots par ligne :
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Présence | Exemple |
+| Champ | Description | Type | Longueur maximale | Présence | Exemple |
+|---|---|---|---|---|---|
 | ART\_CODE | Code de l'article | Texte | 30 |   |   |
 | ART\_GAMME | Codes des valeurs de gamme, séparés par un \ | Texte | 98 |   |   |
 | LLD\_NUMLOT | Numéros de lots, séparés par un | | Texte | 25 |   |   |

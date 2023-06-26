@@ -36,8 +36,8 @@ Le fichier contient uniquement des lignes d'écritures.
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale | Format | Présence | Exemple |
+| Ordre | Champ | Type | Longueur maximale | Format | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | 1 | Code journal | Texte | 10 | Entre guillemets | Obligatoire | "VTE" |
 | 2 | Date de l'écriture | Date |   | Format : JJMMAA ou JJMMAAAA | Obligatoire | 14/01/2003 |
 | 3 | Numéro de compte | Texte | 10 | Entre guillemets | Obligatoire | "411020002" |

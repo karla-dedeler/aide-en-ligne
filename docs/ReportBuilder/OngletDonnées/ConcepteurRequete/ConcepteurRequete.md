@@ -88,7 +88,8 @@ Sur l'onglet Calculs, vous avez la possibilité de faire des calcules dans la re
 
 
 
-
+|Action|Fonction|
+|---|---|
 | Compter | COUNT |
 | Somme | SUM |
 | Maximum | MAX |
@@ -223,15 +224,15 @@ Les icônes dans l'entête de la vue correspondent aux différents onglets du De
 
 
 
-
-|  | Aperçu : il permet de visualiser les données qui sont remontées par la vue |
-|  | Onglet Tables |
-|  | Onglet Champs |
-|  | Onglet Calculs |
-|  | Onglet Groupe |
-|  | Onglet Recherche |
-|  | Onglet Tri |
-|  | [Lien vers une autre vue](../LiensEntreVues/LiensEntreVues.md) |
-|  | Onglet SQL |
-
+|Icône|Onglet|
+|---|---|
+| ![](../ConcepteurRequete/IconeAperçu.png) | Aperçu : il permet de visualiser les données qui sont remontées par la vue |
+| ![](../ConcepteurRequete/IconeTables.png) | Onglet Tables |
+| ![](../ConcepteurRequete/Iconechamps.png) | Onglet Champs |
+| ![](../ConcepteurRequete/IconeCalculs.png) | Onglet Calculs |
+| ![](../ConcepteurRequete/IconeGroupes.png) | Onglet Groupe |
+| ![](../ConcepteurRequete/IconeRecherche.png) | Onglet Recherche |
+| ![](../ConcepteurRequete/IconeTri.png) | Onglet Tri |
+| ![](../ConcepteurRequete/IconeLien.png) | [Lien vers une autre vue](../LiensEntreVues/LiensEntreVues.md) |
+| ![](../ConcepteurRequete/IconeSQL.png) | Onglet SQL |
 

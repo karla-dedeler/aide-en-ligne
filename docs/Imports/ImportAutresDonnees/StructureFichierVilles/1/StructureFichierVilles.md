@@ -8,8 +8,8 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Présence | Exemple |
+| Champ | Description | Type | Longueur maximale | Présence | Exemple |
+|---|---|---|---|---|---|
 | VIL\_CODE | Code postal | Texte | 10 | Obligatoire |   |
 | VIL\_NOM | Nom | Texte | 200 | Obligatoire |   |
 | VIL\_COMMUN | Code commune | Texte | 5 | Facultatif |   |

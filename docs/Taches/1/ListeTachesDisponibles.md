@@ -30,6 +30,7 @@ Pour obtenir les tâches de Gestimum Gestion Comptable, exécutez la commande su
 
 
 | Nom | Description |
+|---|---|
 | [ImporterActions](../4/ImporterActions.md) | Crée des actions par import de fichier texte |
 | [ImporterAdressesTiers](../4/ImporterAdressesTiers.md) | Crée des adresses par import de fichier texte |
 | [ImporterAffaires](../4/ImporterAffaires.md) | Crée des affaires par import de fichier texte |
@@ -75,6 +76,7 @@ Pour obtenir les tâches de Gestimum Gestion Comptable, exécutez la commande su
 
 
 | Nom | Description |
+|---|---|
 | [ImporterComptesReporting](../4/ImporterComptesReporting.md) | Crée des comptes de reporting par import de fichier texte |
 | [ImporterEcritures](../4/ImporterEcritures.md) | Créé des écritures par import de fichier texte |
 | [ImporterImmobilisations](../4/ImporterImmobilisations.md) | Crée des immobilisations par import de fichier texte |
@@ -89,6 +91,7 @@ Pour obtenir les tâches de Gestimum Gestion Comptable, exécutez la commande su
 
 
 | Nom | Description |
+|---|---|
 | [ImporterBanquesTiers](../4/ImporterBanquesTiers.md) | Crée des banques par import de fichier texte |
 | [ImporterComptes](../4/ImporterComptes.md) | Crée des comptes par import de fichier texte |
 | [ImporterDevises](../4/ImporterDevises.md) | Crée des devises par import de fichier texte |
@@ -109,9 +112,9 @@ Pour obtenir les tâches de Gestimum Gestion Comptable, exécutez la commande su
 
 
 | Nom | Description |
+|---|---|
 | [AfficherMessageTest](../4/AfficherMessageTest.md) | Tâche à des fins de test. Ne fait qu'écrire "Message de test" dans le journal |
-| [CreerFichierDemo](../4/CreerFichierDemo.md) | Exporte les données d'une société dans le fichier binaire D:\Development\Gestimum\Application\Bin\Bases\Demo
-Ce fichier est utilisé par l'assistant de création de société lorsqu'on coche l'option "Créer une société de démonstration" |
+| [CreerFichierDemo](../4/CreerFichierDemo.md) | Exporte les données d'une société dans le fichier binaire D:\Development\Gestimum\Application\Bin\Bases\Demo <br>Ce fichier est utilisé par l'assistant de création de société lorsqu'on coche l'option "Créer une société de démonstration" |
 | [ExporterDescriptionBaseDonnees](../4/ExporterDescriptionBaseDonnees.md) | Exporte la description des tables, des champs, des clés primaires, des clés secondaires et des procédures stockées de la base de données dans un fichier XML avec une feuille de style XLS |
 | [ExporterRequeteBaseDonnees](../4/ExporterRequeteBaseDonnees.md) | Exporte le contenu des tables de la base de données dans un fichier CSV |
 

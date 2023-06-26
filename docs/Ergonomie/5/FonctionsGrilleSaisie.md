@@ -11,6 +11,7 @@ Dans toutes les grilles (saisie d'articles dans le corps de documents, saisie d'
 
 
 | Inser | Insertion d'une nouvelle ligne au dessus de la ligne courante |
+| --- | --- |
 | Double-clic | Ouverture de la liste de données de la cellule courante |
 | Touches de direction | Déplacement de colonne en colonne, de ligne en ligne |
 | F2 | Modification d'une cellule |

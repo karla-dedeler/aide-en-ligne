@@ -47,8 +47,8 @@ La seule différence entre les versions 3 et les versions 5 et 2000X est le form
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale | Format | Présence |
+| Ordre | Champ | Type | Longueur maximale | Format | Présence |
+|---|---|---|---|---|---|
 | 1 | Numéro de ligne | Texte |   |   | Facultatif |
 | 2 | Date d'écriture | Date |   | Format : JJMMAA ou JJMMAAAA | Obligatoire |
 | 3 | Code journal | Texte | 4 |   | Obligatoire |
@@ -57,13 +57,9 @@ maximale | Format | Présence |
 | 6 | Libellé | Texte | 40 | Entre guillemets | Obligatoire \* |
 | 7 | Numéro de pièce | Texte | 10 | Entre guillemets | Obligatoire \*\* |
 | 8 | Montant | Montant |   | Séparateur décimal : point | Obligatoire |
-| 9 | Sens | Texte | 1 | Valeurs possibles :
-D : Débit
-C : Crédit | Facultatif |
+| 9 | Sens | Texte | 1 | Valeurs possibles : <br>D : Débit <br>C : Crédit | Facultatif |
 | 10 | Date d'échéance | Date |   | Format : JJMMAA ou JJMMAAAA | Facultatif |
-| 11 | Nature de TVA | Texte | 1 | Valeurs possibles :
-E : Encaissement
-D : Débit | Facultatif |
+| 11 | Nature de TVA | Texte | 1 | Valeurs possibles : <br>E : Encaissement <br>D : Débit | Facultatif |
 | 12 | Code mode de règlement  de la 1è échéance | Texte | 8 |   | Facultatif |
 
 
@@ -81,9 +77,9 @@ D : Débit | Facultatif |
 
 Exemple :
 
-
+````
 1,010103,VE,411ART,FA, "Ventes d’ordinateur ", "123 ",75.00,D,010303
-
+````
 
 ## Structure des échéances
 
@@ -98,11 +94,10 @@ Exemple :
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale | Format | Présence | Exemple |
+| Ordre | Champ | Type | Longueur maximale | Format | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | 1 | Type d'enregistrement : E | Texte | 1 |   | Obligatoire | E |
-| 2 | Date d'échéance | Date |   | Format : JJMMAA ou JJMMAAAA
-ou JJ/MM/AA ou JJ/MM/AAAA | Obligatoire | 10/03/2017 |
+| 2 | Date d'échéance | Date |   | Format : JJMMAA ou JJMMAAAA iou JJ/MM/AA ou JJ/MM/AAAA | Obligatoire | 10/03/2017 |
 | 3 | Montant de l'échéance | Montant |   | Séparateur décimal : point | Obligatoire | 120.50 |
 | 4 | Code mode de règlement | Texte | 8 |   | Facultatif | CHQ |
 
@@ -124,12 +119,11 @@ Si le montant total des échéances n'est pas égal au montant de la ligne d'éc
 
 Exemple :
 
-
+````
 1,010103,VE,411ART,, "Ventes d’ordinateur ", "123 ",75.00,D,010303,D,EUR
 
-
 E010303,75.00,T060
-
+````
 
 ## Structure des ventilations analytiques
 
@@ -144,8 +138,8 @@ E010303,75.00,T060
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale | Format | Présence | Exemple |
+| Ordre | Champ | Type | Longueur maximale | Format | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | 1 | Type d'enregistrement : > | Texte | 1 |   | Obligatoire | > |
 | 2 | Code section analytique | Texte | 15 |   | Obligatoire | S1 |
 | 3 | Pourcentage du montant de la ligne d’écriture | Nombre à virgule |   | Séparateur décimal : point | Facultatif | 100.00 |
@@ -163,12 +157,10 @@ Si le montant total des ventilations analytiques n'est pas égal au montant de l
 
 Exemple :
 
-
+````
 1,01102013,VTE,707101,,"VIDAL","FAC12-0000168",23920.00,D,01102013,D,,EUR
-
-
 >POSTE1,100.00,75.00
-
+````
 
 ## Structure des comptes
 
@@ -188,8 +180,8 @@ L'import d'écritures comptables est capable de créer les comptes avant de cré
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale | Format | Présence |
+| Ordre | Champ | Type | Longueur maximale | Format | Présence |
+|---|---|---|---|---|---|---|
 | 1 | Numéro de compte | Texte | 15 |   | Obligatoire |
 | 2 | Intitulé du compte | Texte | 60 | Format : JJMMAA ou JJMMAAAA | Obligatoire |
 | 3 | Raison sociale | Texte | 30 |   | Facultatif |
@@ -207,9 +199,9 @@ maximale | Format | Présence |
 
 Exemple :
 
-
+````
 411DUPOND,DUPOND,,21 rue du bois,78120,Rambouillet,France,,0135698475,0135698475
-
+````
 
  
 

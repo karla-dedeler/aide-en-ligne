@@ -31,6 +31,7 @@ Les incoterms sont les seuls termes commerciaux internationaux acceptés par les
 
 
 |   | Description |
+|---|---|
 | Condition de vente |   |
 | Condition de paiement |   |
 | Origine |   |
@@ -73,6 +74,7 @@ La saisie d’un commentaire général sur le document permet d’éditer celui-
 
 
 | Traitement | Code |
+|---|---|
 | Abonnements | ABO |
 | Contremarque | CON |
 | Duplication | DUP |

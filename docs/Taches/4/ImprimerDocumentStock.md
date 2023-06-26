@@ -24,6 +24,7 @@ Imprime un document de stock
 
 
 | Nom | Description | Valeurs possibles | Présence | Valeur par défaut |
+|---|---|---|---|---|
 | NumeroInterne | Numéro interne de document à imprimer |   | Obligatoire \* |   |
 | NumeroPiece | Numéro de pièce de document à imprimer |   | Obligatoire \* |   |
 | NomModele | Nom complet du modèle |   | Obligatoire |   |
@@ -46,40 +47,17 @@ Non | Facultatif | Non |
 
 ## Exemple
 
-
+````
 [Tâche]
-
-
 Nom=ImprimerDocumentStock
-
-
 Journal=ImprimerDocumentStock.log
 
-
- 
-
-
 [Société]
-
-
 Fichier=C:\ProgramData\Gestimum\DEMO.Gestimum
-
-
 Utilisateur=DEMO
 
-
- 
-
-
 [Paramètres]
-
-
 NumeroInterne=0004544785
-
-
 NomModele=Entrees.DocStocks.rpm
-
-
 ImprimerVers=Microsoft Print to PDF
-
-
+````

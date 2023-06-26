@@ -9,8 +9,8 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Présence | Exemple |
+| Champ | Description | Type | Longueur maximale | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | TAR\_CODE | Code de la grille de tarifs | Texte | 30 | Obligatoire |   |
 | TAR\_LIB | Libellé de la grille de tarifs | Texte | 40 | Obligatoire \* |   |
 | FAR\_CODE | Code famille d'articles de la ligne de grille de tarifs | Texte | 10 | Obligatoire \*\* |   |

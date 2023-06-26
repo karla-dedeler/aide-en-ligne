@@ -34,21 +34,13 @@ Chaque ligne d'échéance commence par le caractère "E". Chaque
 
 ## Exemple de fichier
 
-
+````
 1,090415,VTE,411C30,FA,"DUBOIS","FAC15-00021",1394.64,D,090415,D,,EUR
-
-
 2,090415,VTE,4457220,FA,"DUBOIS","FAC15-00021",232.44,C,,D,,EUR
-
-
 3,090415,VTE,707100,FA,"DUBOIS","FAC15-00021",1162.20,C,,D,,EUR
-
-
 >A1S3,50,00,0.00
-
-
 >A2S3,50,00,1162.20
-
+````
 
 ## Structure des lignes d'écritures
 
@@ -61,8 +53,8 @@ Chaque ligne d'échéance commence par le caractère "E". Chaque
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale |   | Exemple |
+| Ordre | Champ | Type | Longueur maximale |   | Exemple |
+| --- | --- | --- | --- | --- | --- |
 | 1 | Numéro de ligne | Numéro |   |   |   |
 | 2 | Date d'écriture | Date |   | Format : JJMMAA |   |
 | 3 | Code journal | Texte | 4 |   |   |
@@ -88,8 +80,8 @@ maximale |   | Exemple |
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale |   | Exemple |
+| Ordre | Champ | Type | Longueur maximale |   | Exemple |
+| --- | --- | --- | --- | --- | --- |
 | 1 | Type d'enregistrement : E | Texte | 1 |   | E |
 | 2 | Date | Date |   | Format : JJMMAA | 100317 |
 | 3 | Montant | Montant |   | Séparateur décimal : Point | 120.50 |
@@ -107,8 +99,8 @@ maximale |   | Exemple |
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale |   | Exemple |
+| Ordre | Champ | Type | Longueur maximale |   | Exemple |
+| --- | --- | --- | --- | --- | --- |
 | 1 | Type d'enregistrement : > | Texte | 1 |   | > |
 | 2 | Code section analytique | Texte | 15 |   | S1 |
 | 3 | Pourcentage du montant de la ligne d’écriture | Nombre à virgule |   | Séparateur décimal : Point | 100.00 |
@@ -129,5 +121,3 @@ Il y a 2 différences entre le fichier "EBP 3 à largeur variable"
 - un libellé automatique FA ou AV est 
  présent dans la ligne d'écriture du premier, mais pas dans la ligne d'écriture 
  du second
-
-

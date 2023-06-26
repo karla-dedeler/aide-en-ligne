@@ -19,14 +19,15 @@ Vous avez la possibilité d'ajouter les objets suivants :
 
 
 | Nom | Icône | Description | Visualisation |
-| Label |  | Texte limité à 255 caractères |  |
-| Memo |  | Texte illimité avec une seule mise en forme |  |
-| RichText |  | Texte illimité avec la possibilité d'appliquer une mise en forme sur chaque mot |  |
-| Variable système |  |   |  |
-| Variable |  |   |  |
-| Image |  |   |  |
-| Forme et trait |  |   |  |
-| Code-barres |  |   |  |
+|---|---|---|---|
+| Label | ![](IconeLabel.png) | Texte limité à 255 caractères | ![](VisualisationLabel.png) |
+| Memo | ![](IconeMemo.png) | Texte illimité avec une seule mise en forme | ![](VisualisationMemo.png) |
+| RichText | ![](IconeRichText.png) | Texte illimité avec la possibilité d'appliquer une mise en forme sur chaque mot | ![](VisualisationRichText.png) |
+| Variable système | ![](IconeVariableSysteme.png) |   | ![](VisualisationVariableSystemeDate.png) |
+| Variable | ![](IconeVariable.png) |   | ![](VisualisationVariable.png) |
+| Image |![](IconeImages.png)  |   | ![](VisualisationImage.png) |
+| Forme et trait | ![](IconeFormeTrait.png) |   | ![](VisualisationTraitHorizontal.png) |
+| Code-barres | ![](IconeCodeBarre.png) |   | ![](VisualisationCodeBarres.png) |
 
 
 ## Label
@@ -47,9 +48,9 @@ Dans le menu contextuel du label, vous pourrez :
 
 
 
+![](MenuContextuelLabel.png)
 
-
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Mise en forme auto => Faire en sorte que la taille de l'objet s'adapte au contenu
 * RegarderEnAvant => Cette option permet de mettre le contenu avec la valeur la plus récente lors de la génération de l'impression
 * HauteurParent => Appliquer la hauteur de la bande
@@ -61,7 +62,7 @@ Dans le menu contextuel du label, vous pourrez :
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
 * Retour à la ligne sur mot => Revenir à la ligne sur un mot entier (Attention il faut que l'objet soit configuré pour afficher 2 lignes)
- |
+
 
 
 ## Memo
@@ -81,10 +82,10 @@ Pour saisir le contenu d'un objet mémo, il faut passer par le menu contextuel e
 
 
 
+![](MenuContextuelMemo.png)
 
 
-
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Retour à la ligne sur caractère => Adapter le retour à la ligne
 * Justification forcée => Forcer l'alignement sur Justifier
 * Conserver ensemble => Faire en sorte que toute la zone reste sur la même page
@@ -96,7 +97,7 @@ Pour saisir le contenu d'un objet mémo, il faut passer par le menu contextuel e
 * Étirer => Augmenter la hauteur de l'objet en fonction du contenu
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
- |
+
 
 
 ## Texte enrichi
@@ -120,12 +121,12 @@ Dans le menu contextuel, vous avez accès aux éléments suivants :
  
 
 
+![](MenuContextuelRichText.png)
 
 
 
 
-
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Edition => Éditer le contenu de l'objet
 * Conserver ensemble => Faire en sorte que toute la zone reste sur la même page
 * Publipostage => Permet remplacer des éléments dans le texte par des données d'une vue
@@ -136,7 +137,6 @@ Dans le menu contextuel, vous avez accès aux éléments suivants :
 * Étirer => Augmenter la hauteur de l'objet en fonction du contenu
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
- |
 
 
 ## Variable système
@@ -159,13 +159,12 @@ Le menu contextuel :
 
  
 
+![](MenuContextuelVariable.png)
 
 
 
 
-
-
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Mise en forme auto => Faire en sorte que la taille de l'objet s'adapte au contenu
 * Format d'affichage => Gérer le format d'affichage de la donnée. Par exemple : avoir la date avec le mois en toute lettre
 * RegarderEnAvant => Cette option permet de mettre le contenu avec la valeur la plus récente lors de la génération de l'impression
@@ -178,7 +177,6 @@ Le menu contextuel :
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
 * Retour à la ligne sur mot => Revenir à la ligne sur un mot entier (Attention il faut que l'objet soit configuré pour afficher 2 lignes)
- |
 
 
 ## Variable
@@ -215,11 +213,11 @@ Le menu contextuel :
 
 
 
+![](MenuContextuelVariable.png)
 
 
 
-
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Mise en forme auto => Faire en sorte que la taille de l'objet s'adapte au contenu
 * Calculs => Ouvrir l'éditeur de formule
 * RegarderEnAvant => Cette option permet de mettre le contenu avec la valeur la plus récente lors de la génération de l'impression
@@ -233,7 +231,6 @@ Le menu contextuel :
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
 * Retour à la ligne sur mot => Revenir à la ligne sur un mot entier (Attention il faut que l'objet soit configuré pour afficher 2 lignes)
- |
 
 
 ## Image
@@ -254,7 +251,7 @@ Pour sélectionner une image à afficher dans le modèle, vous devez cliquer sur
 Le menu contextuel :
 
 
- 
+ ![](MenuContextuelImage.png)
 
 
 
@@ -262,7 +259,7 @@ Le menu contextuel :
 
 
 
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Mise en forme auto => Faire en sorte que la taille de l'objet s'adapte au contenu
 * Centrer => Centrer l'image dans l'objet
 * Dessin direct => Cette option permet de mettre le contenu avec la valeur la plus récente lors de la génération de l'impression
@@ -274,7 +271,6 @@ Le menu contextuel :
 * Étirer => Augmenter la hauteur de l'objet en fonction de celle de la bande
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
- |
 
 
 ## Forme et trait
@@ -298,12 +294,12 @@ Pour sélectionner la forme que vous voulez afficher, il faut déployer le menu 
  
 
 
+![](MenuContextuelForme.png)
 
 
 
 
-
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * HauteurParent => Appliquer la hauteur de la bande
 * LargeurParent => Appliquer la largeur de la page
 * Position => Déplacer finement l'objet dans la bande et gérer la taille de l'objet
@@ -311,7 +307,7 @@ Pour sélectionner la forme que vous voulez afficher, il faut déployer le menu 
 * DéplacerAvecParent => Déplacer l'objet avec la bande
 * EtirerAvecParent => Augmenter la hauteur de l'objet en fonction de celle de la bande
 * Visible => Rendre le champ invisible à l'impression
- |
+
 
 
  
@@ -331,10 +327,10 @@ Pour sélectionner le positionnement du trait sur l'objet, il faut déployer le 
 
 
 
+![](MenuContextuelTrait.png)
 
 
-
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Double / Simple => Permet de faire un trait simple ou double
 * HauteurParent => Appliquer la hauteur de la bande
 * LargeurParent => Appliquer la largeur de la page
@@ -343,7 +339,7 @@ Pour sélectionner le positionnement du trait sur l'objet, il faut déployer le 
 * DéplacerAvecParent => Déplacer l'objet avec la bande
 * EtirerAvecParent => Augmenter la hauteur de l'objet en fonction de celle de la bande
 * Visible => Rendre le champ invisible à l'impression
- |
+
 
 
 ## Code-barres
@@ -393,10 +389,10 @@ Vous aurez accès aux éléments suivants :
 
 
 
+![](MenuContextuelCodeBarres.png)
 
 
-
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Mise en forme auto => Faire en sorte que la taille de l'objet s'adapte au contenu
 * PoliceGrandeurAutomatique => Gérer la taille de la police du code barre en fonction des données
 * Configurer => Appliquer la hauteur de la bande
@@ -406,6 +402,6 @@ Vous aurez accès aux éléments suivants :
 * DéplacerAvecParent => Déplacer l'objet avec la bande
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
- |
+
 
 

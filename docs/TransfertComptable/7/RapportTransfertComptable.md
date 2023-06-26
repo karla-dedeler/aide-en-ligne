@@ -22,11 +22,12 @@ Ces rapports listent les succès ou échecs et varient en fonction des boutons s
 
 
 |   | OK | Tester | Imprimer | Aperçu |
-| Succès : |   |   |   |   |
+|---|---|---|---|---|
+| **Succès :** |   |   |   |   |
 | Nombre de documents transférés | OUI | NON | NON | NON |
 | Nombre de documents corrects | NON | OUI | OUI | OUI |
 | Nombre de pièces et d'écritures créées (par centralisateur) | OUI | NON | NON | NON |
-| Échecs : |   |   |   |   |
+| **Échecs :** |   |   |   |   |
 | Nombre de documents non transférés ou refusés car anomalie | OUI | OUI | OUI | OUI |
 | Détail des documents non transférés avec l'anomalie associée | OUI | OUI | OUI | OUI |
 

@@ -24,6 +24,7 @@ Crée des banques de tiers par import de fichier texte.
 
 
 | Nom | Description | Valeurs possibles | Présence | Valeur par défaut |
+|---|---|---|---|---|
 | FichierImporter | Fichier à importer |   | Obligatoire |   |
 | SeparateurChamps | Séparateur de champs |   | Facultatif | ; |
 | IdentificateurTexte | Identificateur de début et de fin de texte |   | Facultatif |   |
@@ -37,33 +38,16 @@ Non | Facultatif | Non |
 ## Exemple
 
 
+````
 [Tâche]
-
-
 Nom=ImporterBanquesTiers
-
-
 Journal=ImporterBanquesTiers.log
 
-
- 
-
-
 [Société]
-
-
 Fichier=C:\ProgramData\Gestimum\DEMO.Gestimum
-
-
 Utilisateur=DEMO
 
-
- 
-
-
 [Paramètres]
-
-
 FichierImporter=ImporterBanquesTiers.txt
-
+````
 

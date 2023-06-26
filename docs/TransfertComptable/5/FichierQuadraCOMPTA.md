@@ -34,81 +34,29 @@ Chaque ligne commence par un caractère spécifique identifiant le type
 
 ## Exemple de fichier
 
+````
+C01CLIENTClient1                       CLIENT10000000000000000000000000000000000000000000000000000411000                                                                                                                                    CNCA                            67890123451234567890111                                                                                                          France                                                 FR76             BTC
 
-C01CLIENTClient1                       CLIENT10000000000000000000000000000000000000000000000000000411000 
-                                                                                                                                    CNCA                            67890123451234567890111 
-                                                                                                          France 
-                                                 FR76 
-             BTC
+C01CLIENTClient1                       CLIENT10000000000000000000000000000000000000000000000000000411000                                                                                                                                    CNBNP                           67890123451234567890112                                                                                                          France                                                 FR76             BTC
 
+C01CLIENTClient1                       CLIENT10000000000000000000000000000000000000000000000000000411000                                                                                                                                    CNLCL                           67890123451234567890113                                                                                                          France                                                 FR76             BTC
 
-C01CLIENTClient1                       CLIENT10000000000000000000000000000000000000000000000000000411000 
-                                                                                                                                    CNBNP                           67890123451234567890112 
-                                                                                                          France 
-                                                 FR76 
-             BTC
+C01EXEMPLExemple1                      EXEMPLE0000000000000000000000000000000000000000000000000000411000  5 rue Cugnot                                                78120Rambouillet                                                      CNCA                            67890123451234567890112                                                                                                          France                                                 FR76AGRIFRPP78   BTC
 
+C01EXEMPLExemple1                      EXEMPLE0000000000000000000000000000000000000000000000000000411000  5 rue Cugnot                                                78120Rambouillet                                                      CNBNP                           67890123451234567890112                                                                                                          France                                                 FR76BNPPFRPP75   BTC
 
-C01CLIENTClient1                       CLIENT10000000000000000000000000000000000000000000000000000411000 
-                                                                                                                                    CNLCL                           67890123451234567890113 
-                                                                                                          France 
-                                                 FR76 
-             BTC
+C01EXEMPLExemple1                      EXEMPLE0000000000000000000000000000000000000000000000000000411000  5 rue Cugnot                                                78120Rambouillet                                                      CNLCL                           67890123451234567890112                                                                                                          France                                                 FR76LCLFFRPP92   BTC
 
+M01C30   VT000090415 DUBOIS              D+000000139464411000  090415     FAC15                    FAC15-00   VTEN                                  FAC15-0002          +000000139464                                    08112019100837
 
-C01EXEMPLExemple1                      EXEMPLE0000000000000000000000000000000000000000000000000000411000 
-  5 rue Cugnot                                                78120Rambouillet 
-                                                      CNCA                            67890123451234567890112 
-                                                                                                          France 
-                                                 FR76AGRIFRPP78 
-   BTC
+M4457220 VT000090415 DUBOIS              C+0000000232444457220            FAC15                    FAC15-00   VTEN                                  FAC15-0002          +000000023244                                    08112019100837
 
+M707100  VT000090415 DUBOIS              C+000000116220707100             FAC15                    FAC15-00   VTEN                                  FAC15-0002          +000000116220                                    08112019100837
 
-C01EXEMPLExemple1                      EXEMPLE0000000000000000000000000000000000000000000000000000411000 
-  5 rue Cugnot                                                78120Rambouillet 
-                                                      CNBNP                           67890123451234567890112 
-                                                                                                          France 
-                                                 FR76BNPPFRPP75 
-   BTC
+I   50+000000000000A1S3      S         
 
-
-C01EXEMPLExemple1                      EXEMPLE0000000000000000000000000000000000000000000000000000411000 
-  5 rue Cugnot                                                78120Rambouillet 
-                                                      CNLCL                           67890123451234567890112 
-                                                                                                          France 
-                                                 FR76LCLFFRPP92 
-   BTC
-
-
-M01C30   VT000090415 DUBOIS              D+000000139464411000 
-  090415     FAC15                    FAC15-00 
-   VTEN                                  FAC15-0002 
-          +000000139464                                    08112019100837 
- 
-
-
-M4457220 VT000090415 DUBOIS              C+0000000232444457220 
-            FAC15 
-                    FAC15-00 
-   VTEN                                  FAC15-0002 
-          +000000023244                                    08112019100837 
- 
-
-
-M707100  VT000090415 DUBOIS              C+000000116220707100 
-             FAC15 
-                    FAC15-00 
-   VTEN                                  FAC15-0002 
-          +000000116220                                    08112019100837 
- 
-
-
-I   50+000000000000A1S3      S 
-         
-
-
-I   50+000000116220A2S3      S 
-         
+I   50+000000116220A2S3      S  
+````
 
 
 ## Structure des comptes
@@ -120,6 +68,7 @@ I   50+000000116220A2S3      S
 
 
 | Position | Champ | Longueur |
+|---|---|---|
 | 1 | Type d'enregistrement : C | 1 |
 | 2 | Numéro de compte | 8 |
 | 10 | Libellé de compte | 30 |
@@ -165,8 +114,7 @@ I   50+000000116220A2S3      S
  
 
 
-Les comptes ne seront exportés que s'ils ont été modifiés depuis le 
- dernier export.
+Les comptes ne seront exportés que s'ils ont été modifiés depuis le dernier export.
 
 
 ## Structure des plans analytiques
@@ -178,6 +126,7 @@ Les comptes ne seront exportés que s'ils ont été modifiés depuis le
 
 
 | Position | Champ | Longueur |
+|---|---|---|
 | 1 | Type d'enregistrement : N | 1 |
 | 2 | Code du plan analytique | 10 |
 | 12 | Libellé du plan analytique | 30 |
@@ -199,6 +148,7 @@ Les plans analytiques ne seront exportés que s'ils ont été modifiés
 
 
 | Position | Champ | Longueur |
+|---|---|---|
 | 1 | Type d'enregistrement : A | 1 |
 | 2 | Code de la section analytique | 10 |
 | 12 | Libellé du plan analytique | 30 |
@@ -207,8 +157,7 @@ Les plans analytiques ne seront exportés que s'ils ont été modifiés
  
 
 
-Les sections analytiques ne seront exportées que si elles ont été modifiées 
- depuis le dernier export.
+Les sections analytiques ne seront exportées que si elles ont été modifiées depuis le dernier export.
 
 
 ## Structure des lignes d'écritures
@@ -220,6 +169,7 @@ Les sections analytiques ne seront exportées que si elles ont été modifiées
 
 
 | Position | Champ | Longueur |
+|---|---|---|
 | 1 | Type d'enregistrement : M | 1 |
 | 2 | Numéro de compte | 8 |
 | 10 | Code journal | 2 |
@@ -263,6 +213,7 @@ Les sections analytiques ne seront exportées que si elles ont été modifiées
 
 
 | Position | Champ | Longueur |
+|---|---|---|
 | 1 | Type d'enregistrement : I | 1 |
 | 2 | Pourcentage | 5 |
 | 7 | Montant | 13 |
@@ -279,6 +230,7 @@ Les sections analytiques ne seront exportées que si elles ont été modifiées
 
 
 | Position | Champ | Longueur |
+|---|---|---|
 | 1 | Type d'enregistrement : R | 1 |
 | 2 | Date d'échéance au format JJMMAA | 6 |
 | 8 | Montant de l'échéance | 13 |

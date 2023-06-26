@@ -8,8 +8,8 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Présence | Exemple |
+| Champ | Description | Type | Longueur maximale | Présence | Exemple |
+|---|---|---|---|---|---|
 | PAY\_CODE | Code pays | Texte | 3 | Obligatoire |   |
 | PAY\_NOM | Nom | Texte | 60 | Obligatoire |   |
 | PAY\_NOMLG | Nom dans la langue | Texte | 60 | Facultatif |   |

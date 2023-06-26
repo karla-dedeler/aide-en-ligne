@@ -30,6 +30,7 @@ Nous décrivons ci-dessous le comportement de votre logiciel en fonction
 
 
 |   | Mode Rapide | Mode SQL |
+| --- | --- | --- |
 | Disponibilité des modes de fonctionnement | Toujours | Toujours |
 | Fonctionnement en réseau | Conseillé | Conseillé |
 | Gestion des données en mode Liste | Oui | Non |
@@ -39,11 +40,8 @@ Nous décrivons ci-dessous le comportement de votre logiciel en fonction
 | Champs avec appel de liste image\Gest0117_wmf.gif | Oui | Non |
 | Accès à la liste complète | Avec image\Gest0119_wmf.gif | Avec l’icône Ouvrir sur une fiche |
 | Recherche dans une liste | En majuscule sur le code puis sur le libellé | En majuscule sur le code puis sur le libellé |
-| Résultat d’une recherche dans une liste | Extraction : Les données répondant à cette recherche sont 
- extraites | Extraction : Les données répondant à cette recherche sont 
- extraites |
-| Utilisation du signe % pour indiquer une partie inconnue 
- (voir exemple) | Non | Oui |
+| Résultat d’une recherche dans une liste | Extraction : Les données répondant à cette recherche sont extraites | Extraction : Les données répondant à cette recherche sont extraites |
+| Utilisation du signe % pour indiquer une partie inconnue (voir exemple) | Non | Oui |
 | Filtre avec la condition "Contient" | Non | Oui |
 
 

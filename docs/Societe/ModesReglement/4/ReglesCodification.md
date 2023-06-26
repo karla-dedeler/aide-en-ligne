@@ -10,26 +10,11 @@ Voici une codification que nous vous conseillons d’appliquer pour la création
 
 
 | CODE | DÉFINITION |
-| 1er caractère : | C = Chèque
-V = Virement
-L = L.C.R.
-T = Traite |
-| 2ème caractère : | Nombre de mois
-0 = chiffre qui suit est égal au nombre de jours
-1 (30)
-2 (60)
-3 (90)
-(120)… |
-| 3,4ème caractère : | Le  si le 2ème caractère différent de 0 sinon nombre de jours.
-05
-10
-15
-20
-25
-99 = Fin de mois |
-| 5, 6ème caractère : | Caractères complémentaires
-A pour accepté
-R pour relevé ... |
+| --- | --- |
+| 1er caractère : | C = Chèque <br>V = Virement <br>L = L.C.R. <br>T = Traite |
+| 2ème caractère : | Nombre de mois: <br>0 = chiffre qui suit est égal au nombre de jours <br>1 (30) <br>2 (60) <br> 3 (90) <br>(120)… |
+| 3,4ème caractère : | Le  si le 2ème caractère différent de 0 sinon nombre de jours. <br>05 <br>10 <br>15 <br>20 <br>25 <br>99 = Fin de mois |
+| 5, 6ème caractère : | Caractères complémentaires <br>A pour accepté <br>R pour relevé ... |
 
 
  

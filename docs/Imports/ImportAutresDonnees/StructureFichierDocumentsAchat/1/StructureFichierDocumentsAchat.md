@@ -9,50 +9,30 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Format | Présence | Valeur par défaut |
-| DOC\_STYPE | Sous-type de document de vente | Texte | 1 | Valeurs possibles :
-D = Demande de prix
-C = Commande
-B = Livraison
-R = Retour
-F = Facture
-A = Avoir
-0 = Avoir financier
-1 = Facture financière | Obligatoire |   |
-| PCF\_CODE | Code tiers | Texte | 20 |   | Obligatoire |   |
-| DOC\_PIECE | N° de pièce | Texte | 15 |   | Facultatif |   |
-| DOC\_PIECE2 | N° de pièce complémentaire | Texte | 60 |   | Facultatif |   |
-| DOC\_DATE | Date de document | Date |   | Format : JJ/MM/AAAA | Facultatif | Date du jour |
-| DOC\_DT\_PRV  | Date de réception | Date |   | Format : JJ/MM/AAAA | Facultatif |   |
-| DOC\_EN\_TTC  | Prix en TTC ? | Case à cocher |   |   | Facultatif |   |
-| PRJ\_CODE | Code affaire | Texte | 40 |   | Facultatif |   |
-| REP\_CODE | Code commercial | Texte | 3 |   | Facultatif |   |
-| DEP\_CODE | Code dépôt  | Texte | 3 |   | Facultatif |   |
-| REG\_CODE | Code du mode de règlement | Texte | 8 |   | Facultatif | Mode de règlement du tiers |
-| DOC\_REFPCF | Référence | Texte | 100 |   | Facultatif |   |
-| TRP\_CODE | Code transporteur | Texte | 3 |   | Facultatif |   |
-| DOC\_REMFAC | Montant de remise exceptionnelle | Montant |   | Séparateur décimal : point ou virgule | Facultatif |   |
-| DOC\_TXRFAC | Pourcentage de remise exceptionnelle | Nombre à virgule |   | Séparateur décimal : point ou virgule | Facultatif |   |
-| DOC\_FPYEUR | Adresse de facturation au payeur ? | Case à cocher |   |   | Facultatif |   |
-| DOC\_F\_TITL | Titre de l'adresse de facturation | Texte | 60 |   | Facultatif |   |
-| DOC\_F\_RS | Raison sociale de l'adresse de facturation | Texte | 60 |   | Facultatif |   |
-| DOC\_F\_RS2 | Complément de raison sociale de l'adresse de facturation | Texte | 60 |   | Facultatif |   |
-| DOC\_F\_RUE | Rue de l'adresse de facturation | Texte | 60 |   | Facultatif |   |
-| DOC\_F\_COMP | Complément de rue de l'adresse de facturation | Texte | 60 |   | Facultatif |   |
-| DOC\_F\_ETAT | Etat de l'adresse de facturation | Texte | 100 |   | Facultatif |   |
-| DOC\_F\_REG | Région de l'adresse de facturation | Texte | 100 |   | Facultatif |   |
-| DOC\_F\_CP | Code postal de l'adresse de facturation | Texte | 10 |   | Facultatif |   |
-| DOC\_F\_VILL | Ville de l'adresse de facturation | Texte | 200 |   | Facultatif |   |
-| PAY\_CODE | Code pays de l'adresse de facturation | Texte | 3 |   | Facultatif |   |
-| DOC\_F\_CBAR | Code-barres de l'adresse de facturation | Texte | 30 |   | Facultatif |   |
-| DOC\_F\_SIRET | N° SIRET de l'adresse de facturation | Texte | 14 |   | Facultatif |   |
-| DOC\_F\_MEMO | Commentaires de l'adresse de facturation | Texte illimité |   |   | Facultatif |   |
-| DOC\_L\_TITL | Titre de l'adresse de livraison | Texte | 60 |   | Facultatif |   |
-| DOC\_L\_RS | Raison sociale de l'adresse de livraison | Texte | 60 |   | Facultatif |   |
-| DOC\_L\_RS2 | Complément de raison sociale de l'adresse de livraison | Texte | 60 |   | Facultatif |   |
-| DOC\_L\_RUE | Rue de l'adresse de livraison | Texte | 60 |   | Facultatif |   |
-| DOC\_L\_COMP | Complément de rue de l'adresse de livraison | Texte | 60 |   | Facultatif |   |
+| Champ       | Description                                   | Type             | Longueur maximale | Format                        | Présence    | Valeur par défaut |
+|-------------|-----------------------------------------------|------------------|--------------------|-------------------------------|-------------|------------------|
+| DOC_STYPE   | Sous-type de document de vente                 | Texte            | 1                  | D = Demande de prix, C = Commande, B = Livraison, R = Retour, F = Facture, A = Avoir, 0 = Avoir financier, 1 = Facture financière     | Obligatoire |                  |
+| PCF_CODE    | Code tiers                                    | Texte            | 20                 |                               | Obligatoire |                  |
+| DOC_PIECE   | N° de pièce                                   | Texte            | 15                 |                               | Facultatif  |                  |
+| DOC_PIECE2  | N° de pièce complémentaire                     | Texte            | 60                 |                               | Facultatif  |                  |
+| DOC_DATE    | Date de document                              | Date             |                    | JJ/MM/AAAA                    | Facultatif  | Date du jour     |
+| DOC_DT_PRV  | Date de réception                             | Date             |                    | JJ/MM/AAAA                    | Facultatif  |                  |
+| DOC_EN_TTC  | Prix en TTC ?                                 | Case à cocher    |                    |                               | Facultatif  |                  |
+| PRJ_CODE    | Code affaire                                  | Texte            | 40                 |                               | Facultatif  |                  |
+| REP_CODE    | Code commercial                               | Texte            | 3                  |                               | Facultatif  |                  |
+| DEP_CODE    | Code dépôt                                    | Texte            | 3                  |                               | Facultatif  |                  |
+| REG_CODE    | Code du mode de règlement                     | Texte            | 8                  |                               | Facultatif  | Mode de règlement du tiers |
+| DOC_REFPCF  | Référence                                     | Texte            | 100                |                               | Facultatif  |                  |
+| TRP_CODE    | Code transporteur                             | Texte            | 3                  |                               | Facultatif  |                  |
+| DOC_REMFAC  | Montant de remise exceptionnelle              | Montant          |                    | Séparateur décimal : point ou virgule | Facultatif  |                  |
+| DOC_TXRFAC  | Pourcentage de remise exceptionnelle          | Nombre à virgule |                    | Séparateur décimal : point ou virgule | Facultatif  |                  |
+| DOC_FPYEUR  | Adresse de facturation au payeur ?             | Case à cocher    |                    |                               | Facultatif  |                  |
+| DOC_F_TITL  | Titre de l'adresse de facturation              | Texte            | 60                 |                               | Facultatif  |                  |
+| DOC_F_RS    | Raison sociale de l'adresse de facturation     | Texte            | 60                 |                               | Facultatif  |                  |
+| DOC_F_RS2   | Complément de raison sociale de l'adresse de facturation | Texte            | 60                 |                               | Facultatif  |                  |
+| DOC_F_RUE   | Rue de l'adresse de facturation                | Texte            | 60                 |                               | Facultatif  |                  |
+| DOC_F_COMP  | Complément de rue de l'adresse de facturation  | Texte            | 60                 |                               | Facultatif  |                  |
+| DOC_F_ETAT  | Etat de l'adresse de
 | DOC\_L\_ETAT | Etat de l'adresse de livraison | Texte | 100 |   | Facultatif |   |
 | DOC\_L\_REG | Région de l'adresse de livraison | Texte | 100 |   | Facultatif |   |
 | DOC\_L\_CP | Code postal de l'adresse de livraison | Texte | 10 |   | Facultatif |   |

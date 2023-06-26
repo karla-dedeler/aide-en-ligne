@@ -9,8 +9,8 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Présence | Exemple |
+| Champ | Description | Type | Longueur maximale | Présence | Exemple |
+|---|---|---|---|---|---|
 | CCT\_CODE | Code | Texte | 15 | Obligatoire |   |
 | CCT\_NOM | Nom | Texte | 30 | Obligatoire |   |
 | CCT\_ORIGIN | Code tiers | Texte | 20 | Facultatif |   |

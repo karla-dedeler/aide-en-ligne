@@ -38,10 +38,12 @@ Différentes informations vous permettent de suivre l’évolution de votre
 
 
 
-| Solde comptable du compte à rapprocher | B |
-| Solde des écritures à rapprocher | C = B - A |
-| Solde des écritures non rapprochées | D |
-| Écart de solde | C - D |
+| Formule                            | Description                                         |
+|------------------------------------|-----------------------------------------------------|
+| Solde comptable du compte à rapprocher | B                                                   |
+| Solde des écritures à rapprocher   | C = B - A                                           |
+| Solde des écritures non rapprochées | D                                                   |
+| Écart de solde                     | C - D                                               |
 
 
 ## Précédent
@@ -66,9 +68,11 @@ Différentes informations vous permettent de suivre l’évolution de votre
 
 
 
-| Solde des écritures à rapprocher | F = A - E |
-| Solde des écritures rapprochées | G |
-| Écart de solde | F - G |
+| Formule                            | Description                                         |
+|------------------------------------|-----------------------------------------------------|
+| Solde des écritures à rapprocher   | F = A - E                                           |
+| Solde des écritures rapprochées    | G                                                   |
+| Écart de solde                     | F - G                                               |
 
 
 ## Par défaut

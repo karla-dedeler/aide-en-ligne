@@ -9,8 +9,8 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Valeurs possibles | Description des valeurs possibles | Présence |
+| Champ | Description | Type | Longueur maximale | Valeurs possibles | Description des valeurs possibles | Présence |
+|--------------|--------------------------------------------|----------------|-------------------|----------------------------------------------|-----------------------------------|-------------|
 | ART\_CODE | Code article | Texte | 30 |   |   | Obligatoire \* |
 | ART\_LIB | Libellé | Texte | 250 |   |   | Obligatoire |
 | ART\_TGAMME | Type de gamme | Texte | 10 |   |   | Facultatif |
@@ -19,26 +19,8 @@ maximale | Valeurs possibles | Description des valeurs possibles | Présence |
 | ART\_FARNAT |   | Texte | 10 |   |   | Facultatif |
 | SFA\_CODE | Code sous-famille | Texte | 10 |   |   | Facultatif |
 | ART\_SFANAT |   | Texte | 10 |   |   | Facultatif |
-| ART\_TYPE | Type d'article | Texte | 1 | P
-C
-N
-F
-V | Pièce
-Consigne
-Nomenclature
-Forfait
-Service | Facultatif |
-| ART\_CATEG | Catégorie | Texte | 1 | F
-S
-M
-O
-T
-A | Produits finis
-Produits semi-finis
-Matières premières
-Main d'oeuvre
-Sous-traitance
-Autre | Facultatif |
+| ART\_TYPE | Type d'article | Texte | 1 | P C N F V | Pièce, Consigne, Nomenclature, Forfait, Service | Facultatif |
+| ART\_CATEG | Catégorie | Texte | 1 | F S M O T A | Produits finis, Produits semi-finis, Matières premières, Main d'oeuvre, Sous-traitance, Autre | Facultatif |
 | ART\_QTEDFT | Quantité par défaut | Nombre à virgule |   |   |   | Facultatif |
 | ART\_PRIXAU | Par combien ? | Nombre à virgule |   |   |   | Facultatif |
 | ART\_T\_APP | Formule de frais d'approche de vente 1 | Texte | 15 |   |   | Facultatif |
@@ -53,28 +35,10 @@ Autre | Facultatif |
 | ART\_F\_ACH2 | Frais d'approche d'achat 2 | Montant |   |   |   | Facultatif |
 | ART\_T\_ACH3 | Formule de frais d'approche d'achat 3 | Texte | 15 |   |   | Facultatif |
 | ART\_F\_ACH3 | Frais d'approche d'achat 3 | Montant |   |   |   | Facultatif |
-| ART\_M\_PRV | Calcul du prix de revient | Texte | 1 | M
-P
-A
-D | Manuel
-Dans le dépot principal
-Dans tous les dépots
-Celui du dernier mouvement d'entrée | Facultatif |
-| ART\_I\_PRV | Si modification prix de revient | Texte | 1 | P
-C | Recalcul du prix de vente
-Recalcul du coefficient | Facultatif |
+| ART\_M\_PRV | Calcul du prix de revient | Texte | 1 | M P A D | Manuel, Dans le dépot principal, Dans tous les dépots, Celui du dernier mouvement d'entrée | Facultatif |
+| ART\_I\_PRV | Si modification prix de revient | Texte | 1 | P C | Recalcul du prix de vente, Recalcul du coefficient | Facultatif |
 | ART\_V\_ARR | Arrondir à | Nombre à virgule |   |   |   | Facultatif |
-| ART\_T\_ARR | Type d'arrondi | Texte | 1 | 1
-2
-3
-4
-5
-6 | Inférieur
-Proche
-Supérieur
-Fixe inférieur
-Fixe proche
-Fixe supérieur | Facultatif |
+| ART\_T\_ARR | Type d'arrondi | Texte | 1 | 1 2 3 4 5 6 | Inférieur, Proche, Supérieur, Fixe inférieur, Fixe proche, Fixe supérieur | Facultatif |
 | ART\_REMMAX | Pourcentage de remise maximum | Montant |   |   |   | Facultatif |
 | ART\_RMXDOC | Pourcentage de remise maximum au document ? | Case à cocher |   |   |   | Facultatif |
 | ART\_TRENDU | Type de frais rendus | Texte | 15 |   |   | Facultatif |
@@ -88,28 +52,8 @@ Fixe supérieur | Facultatif |
 | ART\_CBAR | Code-barres | Texte | 30 |   |   | Facultatif |
 | ART\_REF | Référence constructeur | Texte | 30 |   |   | Facultatif |
 | ART\_NII | Nomenclature DEB | Texte | 14 |   |   | Facultatif |
-| ART\_MFACT | Facturation à la vente | Texte | 1 |  
-D
-B
-V
-L
-P |  
-Au débit unitaire
-Au débit total
-Au volume unitaire
-Au volume total
-Au poids | Facultatif |
-| ART\_MACHAT | Facturation à l'achat | Texte | 1 |  
-D
-B
-V
-L
-P |  
-Au débit unitaire
-Au débit total
-Au volume unitaire
-Au volume total
-Au poids | Facultatif |
+| ART\_MFACT | Facturation à la vente | Texte | 1 | D B V L P | Au débit unitaire, Au débit total, Au volume unitaire, Au volume total, Au poids | Facultatif |
+| ART\_MACHAT | Facturation à l'achat | Texte | 1 | D B V L P | Au débit unitaire, Au débit total, Au volume unitaire, Au volume total, Au poids | Facultatif |
 | ART\_DELAI | Délai de livraison | Entier |   |   |   | Facultatif |
 | ART\_CONSIG | Consigne | Texte | 30 |   |   | Facultatif |
 | GAR\_CODE | Garantie | Texte | 3 |   |   | Facultatif |
@@ -148,33 +92,14 @@ Au poids | Facultatif |
 | ART\_PACHUB | Prix d'achat unitaire en unité de base | Case à cocher |   |   |   | Facultatif |
 | ART\_PVTEUB | Prix de vente unitaire exprimé en unité de base | Case à cocher |   |   |   | Facultatif |
 | ART\_PV\_MAN | Prix de vente de la nomenclature manuel | Case à cocher |   |   |   | Facultatif |
-| ART\_STOCK | Type de stock | Texte | 1 | N
-C
-M
-X
-A
-I
-F | Non géré
-Non valorisé
-Prix moyen pondéré
-Prix moyen d'achat
-Dernier prix d'achat
-FIFO/FEFO
-LIFO | Facultatif |
-| ART\_TLOT | Lot ou série | Texte | 1 |  
-S
-L |  
-Série
-Lot | Facultatif |
+| ART\_STOCK | Type de stock | Texte | 1 | N C M X A I F | Non géré, Non valorisé, Prix moyen pondéré, Prix moyen d'achat, Dernier prix d'achat, FIFO/FEFO, LIFO | Facultatif |
+| ART\_TLOT | Lot ou série | Texte | 1 | S L | Série, Lot | Facultatif |
 | ART\_LCSNSH | Limiter les n° de série aux caractères hexadécimaux (0123456789ABCDEF) | Case à cocher |   |   |   | Facultatif |
 | ART\_PERIMA | Lot périssable | Case à cocher |   |   |   | Facultatif |
 | ART\_DELCOM | Délai de commercialisation du lot en jours | Entier |   |   |   | Facultatif |
-| ART\_S\_PRV | Mise à jour du prix de revient dans les stocks | Texte | 1 | A
-M | Automatique
+| ART\_S\_PRV | Mise à jour du prix de revient dans les stocks | Texte | 1 | A M | Automatique
 Manuelle | Facultatif |
-| ART\_D\_PRV | Prix de revient dans les documents de vente | Texte | 1 | A
-S | Prix de revient commercial de l'onglet "Général"
-Prix de revient unitaire de l'onglet "Stock" | Facultatif |
+| ART\_D\_PRV | Prix de revient dans les documents de vente | Texte | 1 | A S | Prix de revient commercial de l'onglet "Général", Prix de revient unitaire de l'onglet "Stock" | Facultatif |
 | ART\_GROUPE | Groupe d'équivalence | Texte | 10 |   |   | Facultatif |
 | ART\_REMPL | Article de rempl. | Texte | 30 |   |   | Facultatif |
 | ART\_AUCFS | Acheter uniquement chez les fournisseurs sélectionnés | Case à cocher |   |   |   | Facultatif |

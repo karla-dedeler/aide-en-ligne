@@ -17,6 +17,7 @@ Voici les options de ligne de commande disponibles :
 
 
 | Tâche |   |
+|---|---|
 | OuvrirTiers | [Ouverture de tiers par code](../2/OuvertureTiersParCode.md) |
 | OuvrirTiersParTelephone | [Ouverture de tiers par numéro de téléphone](../2/OuvertureTiersParNumeroTelephone.md) |
 | OuvrirTiersParEmail | [Ouverture de tiers par adresse email](../2/OuvertureTiersParAdresseEmail.md) |

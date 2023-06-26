@@ -42,6 +42,7 @@ Suite au transfert des pièces, dans la colonne "Libellé" de la saisie standard
 
 
 | Paramétrage des préférences de la société | Paramétrage du journal | Résultat |
+|---|---|---|
 | A saisir | A saisir | Rien |
 | Reprendre libellé compte saisi | A saisir | Libellé compte |
 | Reprendre libellé 1ère écriture | A saisir | Libellé 1ère écriture |

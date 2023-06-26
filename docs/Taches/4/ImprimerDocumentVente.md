@@ -24,6 +24,7 @@ Imprime un document de vente
 
 
 | Nom | Description | Valeurs possibles | Présence | Valeur par défaut |
+|---|---|---|---|---|
 | NumeroInterne | Numéro interne de document à imprimer |   | Obligatoire \* |   |
 | NumeroPiece | Numéro de pièce de document à imprimer |   | Obligatoire \* |   |
 | NomModele | Nom complet du modèle |   | Obligatoire |   |
@@ -46,40 +47,17 @@ Non | Facultatif | Non |
 
 ## Exemple
 
-
+````
 [Tâche]
-
-
 Nom=ImprimerDocumentVente
-
-
 Journal=ImprimerDocumentVente.log
 
-
- 
-
-
 [Société]
-
-
 Fichier=C:\ProgramData\Gestimum\DEMO.Gestimum
-
-
 Utilisateur=DEMO
 
-
- 
-
-
 [Paramètres]
-
-
 NumeroPiece=BL 79700154
-
-
 NomModele=Facture couleur.DocVentes.rtm
-
-
 ImprimerVers=Microsoft Print to PDF
-
-
+````

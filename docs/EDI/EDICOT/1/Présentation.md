@@ -61,16 +61,16 @@ Ci-dessous, le schéma complet :
 
 
 
-
-| Gestimum | EDICOT | 
- |
+| Gestimum | EDICOT | Description |
+| --- | --- | --- |
 | ORDERS | ORDERS | Commande |
 | ORDRSP | ORDRSP | Accusé de réception de commande |
 | HANMOV | HANMOV | Bon de préparation, de livraison |
-| DESADV | DESADV | Avis d’expédition |
+| DESADV | DESADV | Avis d'expédition |
 | INVOIC | INVOIC | Facture |
 | PRICAT | PRICAT | Fichiers des articles |
 | PARTIN | PARTIN | Fichiers des Partenaires |
-|   | IFCSUM | Demande enlèvement aux transporteurs |
+|   | IFCSUM | Demande enlèvement aux transporteurs |
+
 
 

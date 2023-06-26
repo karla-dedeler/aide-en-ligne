@@ -29,30 +29,12 @@ Chaque ligne d'écriture commence par un numéro de compte. Chaque ligne
 
 ## Exemple de fichier
 
+````
+C1C30       090415FAC15-00021 VTEDUBOIS     139464+D    O090415     FAC15-00021                                                                                      
+4457220     090415FAC15-00021 VTEDUBOIS     23244+C     0+CAA1S3 
 
-C1C30       090415FAC15-00021 
- VTEDUBOIS                                                 139464+D 
-              O090415 
-   FAC15-00021                                                                                      
-
-
-4457220     090415FAC15-00021 
- VTEDUBOIS                                                  23244+C 
-                                                                                                                         
-
-
-707100      090415FAC15-00021 
- VTEDUBOIS                                                 116220+CO 
-                                                                                                                        
-
-
-                                                                                             0+CAA1S3 
-        
-
-
-                                                                                             0+CAA2S3 
-        
-
+707100      090415FAC15-00021 VTEDUBOIS     116220+CO   0+CAA2S3       
+````
 
 ## Structure des lignes d'écritures
 
@@ -64,6 +46,7 @@ C1C30       090415FAC15-00021
 
 
 | Position | Champ | Longueur | Format |
+| --- | --- | --- | --- |
 | 1 | Numéro de compte | 12 | Alpha |
 | 13 | Date d'écriture | 6 | JJMMAA |
 | 19 | Numéro de pièce | 12 | Numérique |
@@ -85,6 +68,7 @@ C1C30       090415FAC15-00021
 
 
 | Position | Champ | Longueur | Format |
+| --- | --- | --- | --- |
 | 1 |   | 83 |   |
 | 84 | Montant | 11 | Numérique |
 | 95 | Signe : + ou - | 1 | Alpha |
@@ -103,6 +87,7 @@ C1C30       090415FAC15-00021
 
 
 | Position | Champ | Longueur | Format |
+| --- | --- | --- | --- |
 | 1 |   | 83 |   |
 | 84 | Montant | 11 | Numérique |
 | 95 | Signe : + ou - | 1 | Alpha |

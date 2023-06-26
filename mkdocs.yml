@@ -2,6 +2,7 @@ site_name: Aide en ligne
 
 theme:
   name: material
+  logo : logo.png
   features : 
   - search
   - search.highlight
@@ -9,10 +10,10 @@ theme:
   - navigation.top
   font:
     text: Roboto
+  palette: 
+    primary : deep orange
   highlightjs: True
-  prev_next_buttons_location: top
-  titles_only: True
-  sticky_navigation: False
+  toc: True
 
 plugins:
   - search
@@ -25,6 +26,7 @@ plugins:
 
 markdown_extensions:
   - admonition
+
 
 nav:
   - Bienvenue: 'index.md'

@@ -25,23 +25,18 @@ Les barres d'outils gèrent les éléments suivants :
 
 
 | Barre d'outils | Objets | Objectif |
-|  | Statiques | Mettre des textes, des images, des formes fixes |
-|  | Dynamiques | Afficher des données provenant des vues |
-|  | Organisation | Regrouper les objets dans des régions
-Créer des sous-rapports notamment pour les vues qui sont liées à une autre
-Provoquer des sauts de page
-Créer un tableau croisé |
-|  |   | Afficher les différents objets présents dans le modèle |
-|  |   | Afficher toutes les vues de l'onglet Données ainsi que les champs qu'elles contiennent.
-Les vues sont hiérarchisées en fonction des liaisons faites entre elle. |
-|  |   | Créer, ouvrir et enregistrer un modèle
-Gérer la mise en page, imprimer et voir l'aperçu
-Couper, copier et coller |
-|  |   | Gérer les formes et les traits |
-|  |   | Gérer les alignements et les espaces entre les objets |
-|  |   | Mettre en forme les zones de texte et gérer les différentes niveaux des objets |
-|  |   | Agrandir les objets |
-|  |   | Déplacer les objets |
+|---|---|---|
+| ![](ObjetsStatiques.png) | Statiques | Mettre des textes, des images, des formes fixes |
+| ![](ObjetsDynamiques.png) | Dynamiques | Afficher des données provenant des vues |
+| ![](ObjetsMiseEnForme.png) | Organisation | Regrouper les objets dans des régions <br>Créer des sous-rapports notamment pour les vues qui sont liées à une autre <br>Provoquer des sauts de page <br>Créer un tableau croisé |
+| ![](ListeObjets.png) |   | Afficher les différents objets présents dans le modèle |
+| ![](ListeChampsVues.png) |   | Afficher toutes les vues de l'onglet Données ainsi que les champs qu'elles contiennent.Les vues sont hiérarchisées en fonction des liaisons faites entre elle. |
+| ![](OutilsStandard.png) |   | Créer, ouvrir et enregistrer un modèle <br>Gérer la mise en page, imprimer et voir l'aperçu <br>Couper, copier et coller |
+| ![](OutilsDessin.png) |   | Gérer les formes et les traits |
+| ![](OutilsAlignement.png) |   | Gérer les alignements et les espaces entre les objets |
+| ![](OutilsFormat.png) |   | Mettre en forme les zones de texte et gérer les différentes niveaux des objets |
+| ![](OutilsGrandeur.png) |   | Agrandir les objets |
+| ![](OutilsDeplacement.png) |   | Déplacer les objets |
 
 
  

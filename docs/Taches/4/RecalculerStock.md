@@ -25,6 +25,7 @@ Recalcule le stock.
 
 
 | Nom | Description | Valeurs possibles | Présence | Valeur par défaut | Exemple |
+|---|---|---|---|---|---|
 | Depots | Dépôts dans lesquels le stock est à recalculer, séparés par des ";"
 ou alors \* si le stock est à recalculer dans l'ensemble des dépôts |   | Obligatoire |   | DEP1;DEP2;DEP5 |
 | Article1 | Premier article de l'intervalle d'articles dont il faut recalculer le stock |   | Facultatif |   |   |
@@ -38,59 +39,28 @@ ou alors \* si le stock est à recalculer dans l'ensemble des dépôts |   | Ob
 | Categorie | Catégorie des articles dont il faut recalculer le stock |   | Facultatif |   |   |
 | ModeGestion | Mode de gestion des articles dont il faut recalculer le stock |   | Facultatif |   |   |
 | GroupeEquivalences | Groupe d'équivalence des articles dont il faut recalculer le stock |   | Facultatif |   |   |
-| MouvementsStock | Mettre à jour les mouvements de stock | Oui
-Non | Facultatif | Non |   |
-| NumerosSeriesReserves | Supprimer la réservation des numéros de séries | Oui
-Non | Facultatif | Non |   |
-| EpurerArticles | Épurer les articles | Oui
-Non | Facultatif | Non |   |
-| EpurerGammes | Épurer les gammes | Oui
-Non | Facultatif | Non |   |
-| EpurerNumerosLots | Épurer les numéros de lots | Oui
-Non | Facultatif | Non |   |
-| EpurerNumerosSeries | Épurer les numéros de séries | Oui
-Non | Facultatif | Non |   |
+| MouvementsStock | Mettre à jour les mouvements de stock | Oui <br>Non | Facultatif | Non |   |
+| NumerosSeriesReserves | Supprimer la réservation des numéros de séries | Oui <br>Non | Facultatif | Non |   |
+| EpurerArticles | Épurer les articles | Oui <br>Non | Facultatif | Non |   |
+| EpurerGammes | Épurer les gammes | Oui <br>Non | Facultatif | Non |   |
+| EpurerNumerosLots | Épurer les numéros de lots | Oui <br>Non | Facultatif | Non |   |
+| EpurerNumerosSeries | Épurer les numéros de séries | Oui <br>Non | Facultatif | Non |   |
 
 
 ## Exemple
 
-
+````
 [Tâche]
-
-
 Nom=RecalculerStock
-
-
 Journal=RecalculerStock.log
 
-
- 
-
-
 [Société]
-
-
 Fichier=C:\ProgramData\Gestimum\DEMO.Gestimum
-
-
 Utilisateur=DEMO
 
-
- 
-
-
 [Paramètres]
-
-
 Dépots=001;002;SAV
-
-
 Article1=ELS
-
-
 Article2=EPE
-
-
 MouvementsStock=Oui
-
-
+````

@@ -9,12 +9,10 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Présence | Exemple |
+| Champ | Description | Type | Longueur maximale | Présence | Exemple |
+|---|---|---|---|---|---|
 | ADR\_CODE | Code tiers | Texte | 20 | Obligatoire |   |
-| ADR\_NUMERO | N° d'adresse
-L'adresse dont le numéro est 001 est l’adresse de facturation.
-Celles dont le numéro va de 002 à 999 sont les adresses de livraison et réception. | Texte | 3 | Obligatoire | 001 |
+| ADR\_NUMERO | N° d'adresse: L'adresse dont le numéro est 001 est l’adresse de facturation.Celles dont le numéro va de 002 à 999 sont les adresses de livraison et réception. | Texte | 3 | Obligatoire | 001 |
 | ADR\_TITLE | Raison sociale | Texte | 60 | Facultatif |   |
 | ADR\_NPAI | N'habite pas à l'adresse indiquée | Case à cocher |   | Facultatif |   |
 | ADR\_RS | Raison sociale | Texte | 60 | Facultatif |   |

@@ -135,14 +135,14 @@ Si aucune fenêtre n'est active, le logiciel traite automatiquement les document
 
 
 
-|  |  |
-| --- | --- |
-| Création d'une nouvelle fiche ou pièce | Création d'une nouvelle fiche ou pièce |
+| Action                                         | Raccourci clavier      |
+|------------------------------------------------|------------------------|
+| Création d'une nouvelle fiche ou pièce          |                        |
 | Consultation/modification de la fiche ou de la pièce | Ctrl + O ou double-clic ou Entrée (dans les listes) |
-| En mode Fiche, ouverture de la liste | Ctrl + O |
-| Duplication d'une pièce ou d'une fiche | Duplication d'une pièce ou d'une fiche |
-| Impression du fichier de données ou de la pièce courante | Ctrl + P |
-| Suppression de la ligne courante ou de la fiche courante | Ctrl + Suppr |
-| Pour enregistrer les informations saisies sur une fiche ou une pièce | Ctrl + S |
+| En mode Fiche, ouverture de la liste            | Ctrl + O               |
+| Duplication d'une pièce ou d'une fiche          |                        |
+| Impression du fichier de données ou de la pièce courante | Ctrl + P               |
+| Suppression de la ligne courante ou de la fiche courante | Ctrl + Suppr           |
+| Pour enregistrer les informations saisies sur une fiche ou une pièce | Ctrl + S               |
 
 

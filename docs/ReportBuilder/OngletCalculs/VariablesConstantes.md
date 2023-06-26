@@ -13,12 +13,10 @@ La syntaxe de base de la déclaration d'une variable est :
 
  
 
-
+```
 var
-
-
   Variable: type;
-
+```
 
  
 
@@ -28,12 +26,10 @@ Par exemple :
 
  
 
-
+```
 var
-
-
   I: Integer;
-
+```
 
  
 
@@ -49,12 +45,10 @@ et :
 
  
 
-
+```
 var
-
-
   X: Double;
-
+```
 
  
 
@@ -67,33 +61,17 @@ déclare une variable X de type Double.
 
 Dans des déclarations de variables consécutives, il n'est pas nécessaire de répéter le mot réservé var :
 
-
+```
 var
-
-
   X: Double;
-
-
   Y: Double;
-
-
   Z: Double;
-
-
   I: Integer;
-
-
   J: Integer;
-
-
   K: Integer;
-
-
   S: string;
-
-
   OK: Boolean;
-
+```
 
 ### Règles de nommage des variables
 
@@ -105,6 +83,7 @@ var
 
 
 |   | Exemple d'identificateur incorrect | Exemple d'identificateur correct |
+|---|---|---|
 | Ne peut commencer par un chiffre | 1nom | nom1 |
 | Les points ne sont pas autorisés | nom.2 | nom\_2 |
 | Les tirets ne sont pas autorisés | -nom-3 |  \_nom\_3 |
@@ -121,7 +100,7 @@ Vous pouvez fixer une valeur à une variable à tout moment dans le programme ou
 
  
 
-
+```
 procedure AssignerVariable;
 
 
@@ -144,7 +123,7 @@ begin
 
 
 end.
-
+```
 
 ## Constantes
 
@@ -160,7 +139,7 @@ Pour déclarer une constante, il faut les déclarer après le mot réservé cons
 
  
 
-
+```
 procedure DeclarerConstante;
 
 
@@ -180,5 +159,5 @@ begin
 
 
 end.
-
+```
 

@@ -29,6 +29,7 @@ Aujourd'hui, les demandes d'actions possibles sont les suivantes :
 
 
 | Demande de tâche | Identifiant |
+|---|---|
 | [Ouverture de tiers par code](../2/OuvertureTiersParCode.md) | 1000 |
 | [Ouverture de tiers par numéro de téléphone](../2/OuvertureTiersParNumeroTelephone.md) | 1001 |
 | [Ouverture de tiers par adresse email](../2/OuvertureTiersParAdresseEmail.md) | 1002 |

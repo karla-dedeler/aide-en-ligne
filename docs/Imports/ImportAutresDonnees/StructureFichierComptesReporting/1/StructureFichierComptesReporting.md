@@ -9,11 +9,9 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Valeurs possibles | Présence | Exemple |
-| RPT\_COMPTE | Numéro de compte de reporting | Texte | 15 |   | Obligatoire |   |
-| RPT\_LIB | Libellé | Texte | 40 |   | Obligatoire |   |
-| RPT\_TYPE | Type | Texte | 1 | G : Général
-R : Regroupement | Obligatoire |   |
-
+| Champ      | Description                         | Type  | Longueur maximale | Valeurs possibles       | Présence    | Exemple    |
+|------------|-------------------------------------|-------|--------------------|------------------------|-------------|------------|
+| RPT_COMPTE | Numéro de compte de reporting        | Texte | 15                 |                        | Obligatoire |            |
+| RPT_LIB    | Libellé                             | Texte | 40                 |                        | Obligatoire |            |
+| RPT_TYPE   | Type                                | Texte | 1                  | G : Général, R : Regroupement | Obligatoire |            |
 

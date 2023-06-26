@@ -24,6 +24,7 @@ Crée des clients par import de fichier texte.
 
 
 | Nom | Description | Valeurs possibles | Présence | Valeur par défaut |
+|---|---|---|---|---|
 | FichierImporter | Fichier à importer |  | Obligatoire |   |
 | SeparateurChamps | Séparateur de champs |  | Facultatif | ; |
 | IdentificateurTexte | Identificateur de début et de fin de texte |  | Facultatif |  |
@@ -34,40 +35,22 @@ Non | Facultatif | Oui |
 Non | Facultatif | Non |
 | CalculerCodeTiers | Calculer le code tiers en fonction des préférences | Oui
 Non | Facultatif | Non |
-| CalculerNumeroCompte | Claculer le numéro de compte en fonction des préférences | Oui
-Non | Facultatif | Non |
+| CalculerNumeroCompte | Claculer le numéro de compte en fonction des préférences | Oui <br>Non | Facultatif | Non |
 
 
 ## Exemple
 
 
+````
 [Tâche]
-
-
 Nom=ImporterClients
-
-
 Journal=ImporterClients.log
 
-
- 
-
-
 [Société]
-
-
 Fichier=C:\ProgramData\Gestimum\DEMO.Gestimum
-
-
 Utilisateur=DEMO
 
-
- 
-
-
 [Paramètres]
-
-
 FichierImporter=ImporterClients.txt
-
+````
 

@@ -209,9 +209,11 @@ Pour arrondir le prix à la valeur entière la plus proche, il suffit
 
 
 
-| Prix | Arrondi à | Proche | Inférieur | Supérieur |
-| 12,82 | 1 | 13 | 12 | 13 |
-| 12,82 | 0,1 | 12,8 | 12,8 | 12,9 |
+| Prix  | Arrondi à | Proche | Inférieur | Supérieur |
+|-------|-----------|--------|-----------|-----------|
+| 12,82 | 1         | 13     | 12        | 13        |
+| 12,82 | 0,1       | 12,8   | 12,8      | 12,9      |
+
 
 
  
@@ -236,9 +238,10 @@ Pour que le prix se termine toujours par le ou les même(s) chiffre(s),
 
 
 
-| Prix | Arrondi à | Fixe inférieur | Fixe Supérieur | Fixe Proche |
-| 12,82 | 0,90 | 11,90 | 12,90 | 12,90 |
-| 22,82 | 9,99 | 19,99 | 29,99 | 19,99 |
+| Prix  | Arrondi à | Fixe inférieur | Fixe Supérieur | Fixe Proche |
+|-------|-----------|----------------|----------------|-------------|
+| 12,82 | 0,90      | 11,90          | 12,90          | 12,90       |
+| 22,82 | 9,99      | 19,99          | 29,99          | 19,99       |
 
 
 ### Grille des Prix de l’article
@@ -264,8 +267,7 @@ A la création de l’article le prix d’achat saisi correspond soit à une
 En création de la fiche article, il peut être saisi ou être calculé 
  automatiquement à partir du prix d’achat. Lorsque le prix de revient est 
  saisi, il correspond soit à une unité de vente soit à une unité de vente 
- de base (en fonction de l’option Exprimé en UB 
- + PV).
+ de base (en fonction de l’option Exprimé en UB + PV).
 
 
  

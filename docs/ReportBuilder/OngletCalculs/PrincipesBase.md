@@ -45,7 +45,8 @@ Dans ReportBuilder, nous pouvons utiliser les types de données suivants :
 
 
 
-
+| Types de données | Description |
+|---|---|
 | Boolean | pour stocker une valeur qui ne prend que 2 états True ou False |
 | Currency | pour stocker un nombre de type monétaire avec 4 décimales |
 | Double | pour stocker un nombre à virgule flottante avec une précision pouvant aller jusqu'à 15 décimales |
@@ -74,7 +75,8 @@ Nous avons les opérateurs suivants :
 
 
 
-
+| Action | Opérateur|
+|---|---|
 | pour assigner une valeur | := |
 | pour faire des associations de type Boolean | and, not, or, xor |
 | pour faire des calculs mathématiques | -, +, \*, /, div, mod |
@@ -102,7 +104,7 @@ On peut faire par exemple :
 
  
 
-
+```
 if Variable = 50 then
 
 
@@ -114,7 +116,7 @@ else
 
   Value := Variable \* 1.20;
 
-
+```
  
 
 
@@ -129,7 +131,7 @@ Par exemple :
 
  
 
-
+```
 if Variable = 50 then
 
 
@@ -158,7 +160,7 @@ begin
 
 
 end
-
+```
 
  
 
@@ -174,7 +176,7 @@ Par exemple :
 
  
 
-
+```
 if Variable = 50 then
 
 
@@ -191,7 +193,7 @@ else
 
 
   Value := Variable \* 1.20;
-
+```
 
  
 
@@ -207,7 +209,7 @@ Par exemple :
 
  
 
-
+```
 if (Variable = 50) and (Variable = 60) then
 
 
@@ -224,7 +226,7 @@ else
 
 
   Value := Variable \* 1.20;
-
+```
 
  
 
@@ -240,7 +242,7 @@ Par exemple :
 
  
 
-
+```
 case Variable of
 
 
@@ -257,7 +259,7 @@ case Variable of
 
 
 end
-
+```
 
 ### Boucles
 
@@ -284,7 +286,7 @@ La boucle for spécifie à l'avance le nombre de répétition grâce a une varia
 
  
 
-
+```
 for I := 1 to 5 do
 
 
@@ -295,7 +297,7 @@ begin
 
 
 end;
-
+```
 
  
 
@@ -305,7 +307,7 @@ La boucle while exprime une condition de continuation de la boucle. Les répéti
 
  
 
-
+```
 I := 1;
 
 
@@ -322,7 +324,7 @@ begin
 
 
 end;
-
+```
 
  
 
@@ -332,7 +334,7 @@ La boucle repeat until contient également une expression conditionnelle de cont
 
  
 
-
+```
 I := 1;
 
 
@@ -346,5 +348,5 @@ repeat
 
 
 until I = 5;
-
+```
 

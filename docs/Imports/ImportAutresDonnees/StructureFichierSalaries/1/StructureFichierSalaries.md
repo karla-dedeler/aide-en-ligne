@@ -8,8 +8,8 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Présence | Exemple |
+| Champ | Description | Type | Longueur maximale | Présence | Exemple |
+|---|---|---|---|---|---|
 | SAL\_CODE | Code salarié | Texte | 3 | Obligatoire |   |
 | SAL\_CIVILE | Civilité | Texte | 25 | Facultatif |   |
 | SAL\_PRENOM | Prénom | Texte | 20 | Facultatif |   |

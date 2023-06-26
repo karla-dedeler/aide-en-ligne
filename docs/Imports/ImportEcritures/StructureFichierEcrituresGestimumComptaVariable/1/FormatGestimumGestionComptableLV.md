@@ -27,23 +27,13 @@ Chaque ligne d'échéance doit commencer par le lettre "E". Chaque ligne d'analy
 
 ## Exemple de fichier
 
-
+````
 1,31/12/2019,VTE,411070001,FA12,"Vente d'ordinateurs FAC19-000482",42,EUR,120.00,C,,,0,,"TEST","test variable"
-
-
 E31/12/2019,CB,0,120.00,125
-
-
 2,31/12/2019,VTE,445710,FA12,"Vente d'ordinateur FAC19-000482",42,EUR,20.00,D,,,0,,"TEST","test variable"
-
-
 3,31/12/2019,VTE,707100,FA12,"Vente d'ordinateurs FAC19-000482",42,EUR,100.00,D,,,0,,"TEST","test variable"
-
-
 >P1,S1,100,100.00,100,1.0
-
-
- 
+````
 
 
 Ce fichier contient une écriture de 3 lignes :
@@ -71,11 +61,10 @@ Ce fichier contient une écriture de 3 lignes :
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale | Format | Présence | Exemple |
+| Ordre | Champ | Type | Longueur maximale | Format | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | 1 | Numéro de ligne | Numéro |   |   | Facultatif | 1 |
-| 2 | Date d'écriture | Date |   | Format :  JJMMAA ou JJMMAAAA
-ou JJ/MM/AA ou JJ/MM/AAAA | Obligatoire | 10/03/2017 |
+| 2 | Date d'écriture | Date |   | Format :  JJMMAA ou JJMMAAAA ou JJ/MM/AA ou JJ/MM/AAAA | Obligatoire | 10/03/2017 |
 | 3 | Code journal | Texte | 10 |   | Obligatoire | VTE |
 | 4 | Numéro de compte | Texte | 25 |   | Obligatoire | 411160001 |
 | 5 | Code libellé automatique | Texte | 15 |   | Facultatif | FAC |
@@ -83,18 +72,14 @@ ou JJ/MM/AA ou JJ/MM/AAAA | Obligatoire | 10/03/2017 |
 | 7 | Numéro de pièce | Texte | 15 | Entre guillemets | Obligatoire \*\* | 25115 |
 | 8 | Code devise | Texte | 3 |   | Facultatif | EUR |
 | 9 | Montant | Montant |   | Séparateur décimal : point | Obligatoire | 120 |
-| 10 | Sens | Texte | 1 | Valeurs possibles :
-D : Débit
-C : Crédit | Facultatif | D |
+| 10 | Sens | Texte | 1 | Valeurs possibles : <br>D : Débit <br>C : Crédit | Facultatif | D |
 | 11 | Code lettrage | Texte | 3 |   | Facultatif | AAB |
-| 12 | Date d'échéance | Date |   | Format :  JJMMAA ou JJMMAAAA
-ou JJ/MM/AA ou JJ/MM/AAAA | Facultatif | 10/03/2017 |
+| 12 | Date d'échéance | Date |   | Format :  JJMMAA ou JJMMAAAAou JJ/MM/AA ou JJ/MM/AAAA | Facultatif | 10/03/2017 |
 | 13 | Quantité | Nombre à virgule |   |   | Facultatif |   |
 | 14 | Code mode de règlement | Texte | 8 |   | Facultatif | CHQ |
 | 15 | Numéro de pièce complémentaire | Texte | 15 | Entre guillemets | Facultatif |   |
 | 16 | Référence | Texte | 60 | Entre guillemets | Facultatif |   |
-| 17 | Date de pièce complémentaire | Date |   | Format :  JJMMAA ou JJMMAAAA
-ou JJ/MM/AA ou JJ/MM/AAAA | Facultatif |   |
+| 17 | Date de pièce complémentaire | Date |   | Format :  JJMMAA ou JJMMAAAA ou JJ/MM/AA ou JJ/MM/AAAA | Facultatif |   |
 
 
  
@@ -119,11 +104,10 @@ ou JJ/MM/AA ou JJ/MM/AAAA | Facultatif |   |
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale | Format | Présence | Exemple |
+| Ordre | Champ | Type | Longueur maximale | Format | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | 1 | Type d'enregistrement : E | Texte | 1 |   | Obligatoire |   |
-| 2 | Date | Date |   | Format : JJMMAA ou JJMMAAAA
-ou JJ/MM/AA ou JJ/MM/AAAA | Obligatoire | 10/03/2017 |
+| 2 | Date | Date |   | Format : JJMMAA ou JJMMAAAA ou JJ/MM/AA ou JJ/MM/AAAA | Obligatoire | 10/03/2017 |
 | 3 | Code mode de règlement | Texte | 8 |   | Facultatif | CHQ |
 | 4 | Pourcentage | Nombre à virgule |   | Séparateur décimal : point | Facultatif | 100 |
 | 5 | Montant | Montant |   | Séparateur décimal : point | Facultatif | 120 |
@@ -155,8 +139,8 @@ Si le montant total des échéances n'est pas égal au montant de la ligne d'éc
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale | Format | Présence | Exemple |
+| Ordre | Champ | Type | Longueur maximale | Format | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | 1 | Type d'enregistrement : > | Texte | 1 |   | Obligatoire |   |
 | 2 | Code plan analytique | Texte | 15 |   | Obligatoire | P1 |
 | 3 | Code section analytique | Texte | 15 |   | Obligatoire | S1 |

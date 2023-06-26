@@ -11,6 +11,7 @@
 
 
 | Type | Code | Longueur | Préfixe | Zone 1 | Zone 2 | Zone 3 | Zone 4 |
+|---|---|---|---|---|---|---|---|
 | Générique | GEN | 34 |   |   |   | 34 |   |
 | Allemagne | DE | 22 | 4 | 8 |   |  10 |   |
 | Andorre | AD | 24 | 4 | 4 |  4 |  12 |   |

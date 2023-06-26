@@ -107,24 +107,25 @@ La dernière ligne contient un double anti-slash suivi du texte : "// Fin du fic
 
 
 
-| Code | Libellé |
-| GDE\_CODE | Code du guide, défini dans l'entête du guide. (1) |
-| GDE\_LIB | Libellé du guide, défini dans l'entête du guide. (1) |
-| JRN\_TYPE | Type de journal, défini dans l'entête du guide (V, A, T, O) pour les Ventes, Achats, Trésorerie et OD. (1) |
-| GDE\_LIBA | Libellé automatique par défaut, défini dans le pied du guide. Ce code (et non le libellé) est issu des tables de références/libellé automatique). (1) |
-| GDE\_SENS | Sens dans l'entête. Il peut être laissé à C ou D par défaut. (1) |
-| CPT\_NUMERO | Compte comptable figurant dans la première ligne du guide. (1) |
-| JRN\_CODE | Journal par défaut. Il s'agit du code. (1) |
-| GDE\_CONTRE | Gestion de la contrepartie (0 si faux et 1 si vrai). (1) |
-| GDL\_NUMERO | N° de ligne du guide (Maxi 4 caractères). Toutes les lignes d'un guide doivent être numérotées dans un ordre ascendant. Exemple : 0001, 0002, 0003 |
-| CPT\_NUMERO | Compte comptable pour chaque ligne du guide. Il s'agit d'un compte comptable défini ou d'un compte de regroupement. Ils doivent exister dans le plan comptable. |
-| GDL\_LIB | Libellé de l'écriture. Il s'agit d'un texte saisi, d'un signe égal (=) à partir de la deuxième ligne du guide, ou vide. |
-| GDL\_SENS | Sens du montant dans chaque ligne d'écriture (C ou D). |
-| GDL\_FORMUL | Montant ou Formule de la ligne d'écriture. Il peut être vide, ou en forme de formule, par exemple #1 - (#1 / (1 + $TV3)) |
-| GDL\_QTE | Qte (valeur numérique qui sera proposée par défaut) |
-| GDL\_LIBSS | Libellé saisissable (0 si faux et 1 si vrai) |
-| GDL\_FORMSS | Montant / Formule saisissable (0 si faux et 1 si vrai) |
-| GDL\_QTESS | Qté saisissable (0 si faux et 1 si vrai) |
+| Code         | Libellé   |
+|--------------|-----------|
+| GDE_CODE     | Guide code, defined in the guide header. (1) |
+| GDE_LIB      | Guide label, defined in the guide header. (1) |
+| JRN_TYPE     | Journal type, defined in the guide header (V, A, T, O) for Sales, Purchases, Treasury, and General Ledger. (1) |
+| GDE_LIBA     | Default automatic label, defined in the guide footer. This code (not the label) is derived from reference tables/automatic label). (1) |
+| GDE_SENS     | Header direction. It can be left as C or D by default. (1) |
+| CPT_NUMERO   | Account number appearing in the first line of the guide. (1) |
+| JRN_CODE     | Default journal code. (1) |
+| GDE_CONTRE   | Counterparty management (0 if false and 1 if true). (1) |
+| GDL_NUMERO   | Guide line number (maximum 4 characters). All lines in a guide must be numbered in ascending order. Example: 0001, 0002, 0003 |
+| CPT_NUMERO   | Account number for each guide line. It can be a defined account or a grouping account. They must exist in the chart of accounts. |
+| GDL_LIB      | Writing label. It can be entered text or an equal sign (=) starting from the second line of the guide, or left empty. |
+| GDL_SENS     | Amount direction in each writing line (C or D). |
+| GDL_FORMUL   | Amount or formula for the writing line. It can be empty or in the form of a formula, for example, #1 - (#1 / (1 + $TV3)) |
+| GDL_QTE      | Quantity (numerical value that will be proposed by default) |
+| GDL_LIBSS    | Editable label (0 if false and 1 if true) |
+| GDL_FORMSS   | Editable Amount/Formula (0 if false and 1 if true) |
+| GDL_QTESS    | Editable Quantity (0 if false and 1 if true) |
 
 
 #### Remarque

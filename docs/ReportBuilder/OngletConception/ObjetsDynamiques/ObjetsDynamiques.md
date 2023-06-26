@@ -20,12 +20,13 @@ Vous avez la possibilité d'ajouter les objets suivants :
 
 
 | Nom | Icône | Description | Visualisation |
-| DBText |  | Texte limité à 255 caractères |  |
-| DBMemo |  | Texte illimité avec une seule mise en forme |  |
-| DBRichText |  | Texte illimité avec la possibilité d'appliquer une mise en forme sur chaque mot |  |
-| DBCalc |  | Variable |  |
-| DBImage |  | Image |  |
-| DBBarCode |  | Code-barres |  |
+|---|---|---|---|
+| DBText | ![](IconeLabel.png) | Texte limité à 255 caractères | ![](DBText.png) |
+| DBMemo | ![](IconeMemo.png) | Texte illimité avec une seule mise en forme | ![](DBMemo.png) |
+| DBRichText | ![](IconeTexteEnrichie.png) | Texte illimité avec la possibilité d'appliquer une mise en forme sur chaque mot | ![](DBRichText.png)  |
+| DBCalc | ![](IconeCalcul.png) | Variable |  ![](Variable.png) |
+| DBImage | ![](IconeImage.png) | Image | ![](DBImage.png) |
+| DBBarCode | ![](IconeCodeBarre.png) | Code-barres | ![](DBBarCode.png) |
 
 
  
@@ -62,11 +63,11 @@ Pour affecter un champ d'une vue à un objet, vous devez d'abord sélectionner l
 
 
 
+![](MenuDBText.png)
 
 
 
-
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Mise en forme auto => Faire en sorte que la taille de l'objet s'adapte au contenu
 * Vide si zéro => ne pas afficher le zéro (seulement pour les champs chiffrés)
 * Format d'affichage => formater les données en fonction d'un masque (Par exemple pour une date dd/mm/yyyy)
@@ -79,18 +80,19 @@ Pour affecter un champ d'une vue à un objet, vous devez d'abord sélectionner l
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
 * Retour à la ligne sur mot => Revenir à la ligne sur un mot entier (Attention il faut que l'objet soit configuré pour afficher 2 lignes)
- |
+
 
 
 ## DBMemo
 
 
+![](MenuDBMemo.png)
 
 
 
 
 
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * AutoAffichage => La valeur de la propriété AutoDisplay détermine s'il faut afficher automatiquement le contenu d'un objet BLOB dans un champ de base de données dans un objet DBMemo ou DBImage.
 * Retour à la ligne sur caractère => Adapter le retour à la ligne
 * Justification forcée => Forcer l'alignement sur Justifier
@@ -103,18 +105,18 @@ Pour affecter un champ d'une vue à un objet, vous devez d'abord sélectionner l
 * SupprimerValeursRépétées => Le contenu ne sera affiché qu'une seule fois. Par exemple dans les lignes d'un document, s'il y a plusieurs fois le même code article, seul le premier sera affiché/imprimé
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
- |
 
 
 ## DBRichText
 
+![](MenuDBRichText.png)
 
 
 
 
 
 
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Conserver ensemble => Faire en sorte que toute la zone reste sur la même page
 * Position => Déplacer finement l'objet dans la bande
 * ImprimerSurDépassement => Réimprimer le champ sur ma page suivante en cas de changement de page
@@ -123,7 +125,6 @@ Pour affecter un champ d'une vue à un objet, vous devez d'abord sélectionner l
 * Étirer => Augmenter la hauteur de l'objet en fonction du contenu
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
- |
 
 
 ## DBCalc
@@ -163,9 +164,10 @@ Les types de calcul disponible sont :
 
 
 
+![](MenuCalculs.png)
 
 
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Mise en forme auto => Faire en sorte que la taille de l'objet s'adapte au contenu
 * Vide si zéro => ne pas afficher le zéro
 * Calculs => Ouvrir l'éditeur de formule
@@ -181,18 +183,17 @@ Les types de calcul disponible sont :
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
 * Retour à la ligne sur mot => Revenir à la ligne sur un mot entier (Attention il faut que l'objet soit configuré pour afficher 2 lignes)
- |
 
 
 ## DBImage
 
 
 
+![](MenuDBImage.png)
 
 
 
-
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Mise en forme auto => Faire en sorte que la taille de l'objet s'adapte au contenu
 * Centrer => Centrer l'image dans l'objet
 * Dessin direct => Cette option permet de mettre le contenu avec la valeur la plus récente lors de la génération de l'impression
@@ -205,11 +206,9 @@ Les types de calcul disponible sont :
 * Étirer => Augmenter la hauteur de l'objet en fonction de celle de la bande
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
- |
 
 
 ## DBBarCode
-
 
 Pour gérer configurer le code barre, il faut cliquer sur "Configurer" dans le menu contextuel de l'objet.
 
@@ -234,13 +233,13 @@ Vous aurez accès aux éléments suivants :
 
  
 
+![](MenuDBCodeBarre.png)
 
 
 
 
 
-
-|  | * Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
+* Amener vers l'avant / Envoyer vers l'arrière => Agir sur la superposition
 * Mise en forme auto => Faire en sorte que la taille de l'objet s'adapte au contenu
 * PoliceGrandeurAutomatique => Gérer la taille de la police du code barre en fonction des données
 * Configurer => Appliquer la hauteur de la bande
@@ -250,6 +249,3 @@ Vous aurez accès aux éléments suivants :
 * DéplacerAvecParent => Déplacer l'objet avec la bande
 * Transparent => Rendre transparent le champ
 * Visible => Rendre le champ invisible à l'impression
- |
-
-

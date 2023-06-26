@@ -58,8 +58,8 @@ Les boissons alcoolisées sont, par ailleurs, soumises à la TVA
 
 
 
-
 | Catégorie fiscale | Tarif 2018 |
+|-------------------|------------|
 | Vins tranquilles (art 438 2° a et a bis du CGI) | 3,78 €/hl |
 | Boissons fermentées autres que le vin et la bière (art. 438 2° b et c du CGI) | 3,78 €/hl |
 | Vins mousseux (art. 438 1° du CGI) | 9,35 €/hl |
@@ -72,7 +72,7 @@ Les boissons alcoolisées sont, par ailleurs, soumises à la TVA
 | 10 000 hl < petites brasseries ≤ 50 000 hl (art. 520 A I a du CGI) | 3,71 €/degré/hl |
 | 50 000 hl < petites brasseries ≤ 200 000 hl (art. 520 A I a du CGI) | 3,71 €/degré/hl |
 | Rhums des DOM (art. 403 I 1° du CGI) | 871,01 €/hlap |
-| Autres alcools (art. 403 I 12° du CGI) | 1741,04 €/hlap |
+| Autres alcools (art. 403 I 12° du CGI) | 1741,04 €/hlap |
 | Droit réduit bouilleurs (art. 317 du CGI) | 870,53 €/hlap |
 
 
@@ -96,10 +96,11 @@ Taxe sur les Premix : 11 euros par décilitre d’alcool pur
 
 
 
-|   | Tarif 2018 |
+|            | Tarif 2018 |
+|------------|------------|
 | Droit spécifique sur les boissons non alcooliques (article 520 A I b du CGI) | 0,54 €/hl |
 | Contributions sur les boissons édulcorées (article 1613 quater du CGI) y compris à Mayotte | 7,55 €/hl |
-| Contributions sur les boissons sucrées (article 1613 ter du CGI) y compris à Mayotte  | 7,55 €/hl |
+| Contributions sur les boissons sucrées (article 1613 ter du CGI) y compris à Mayotte | 7,55 €/hl |
 
 
  

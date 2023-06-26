@@ -106,12 +106,14 @@ Du domaine du barème dépend le déclenchement du calcul de la commission :
 
 
 
-| Domaine | Déclenchement du calcul de la commission |
-| Facturation | Factures et avoirs |
-| Commande | Commandes et tout autre document résultant de leur transfert. |
-| Livraison | Bons de livraison, Bons de retour, Factures et Avoirs (transférés ou non) |
-| Encaissement | Au moment du règlement sur les commandes, bons de livraison et factures. |
-| Échéance | A la date d’échéance des factures et des avoirs |
+| Domaine      | Déclenchement du calcul de la commission                                          |
+|--------------|-------------------------------------------------------------------------------------|
+| Facturation  | Factures et avoirs                                                                 |
+| Commande     | Commandes et tout autre document résultant de leur transfert.                       |
+| Livraison    | Bons de livraison, Bons de retour, Factures et Avoirs (transférés ou non)            |
+| Encaissement | Au moment du règlement sur les commandes, bons de livraison et factures.             |
+| Échéance     | A la date d’échéance des factures et des avoirs                                      |
+
 
 
 ### Commission Globale

@@ -8,8 +8,8 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Présence | Exemple |
+| Champ | Description | Type | Longueur maximale | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | ART\_CODE | Code de l'article | Texte | 30 |   |   |
 | ART\_GAMME | Codes des valeurs de gamme, séparés par un \ | Texte | 98 |   |   |
 | MVT\_QTE | Quantité |   |   |   |   |

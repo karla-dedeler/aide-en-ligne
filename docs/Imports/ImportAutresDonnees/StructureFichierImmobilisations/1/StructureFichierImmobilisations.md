@@ -10,33 +10,15 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Valeurs possibles | Description des valeurs possibles | Présence | Exemple |
+| Champ        | Description                     | Type           | Longueur maximale | Valeurs possibles               | Description des valeurs possibles | Présence      | Exemple |
+|--------------|---------------------------------|----------------|-------------------|--------------------------------|-----------------------------------|---------------|---------|
 | IMO\_CODE | Code immobilisation | Texte | 15 |   |   | Obligatoire |   |
 | IMO\_LIB | Libellé | Texte | 60 |   |   | Obligatoire |   |
 | IMO\_LIBLON | Description longue | Texte | 200 |   |   | Facultatif |   |
 | FAI\_CODE | Code famille d'immobilisation | Texte | 10 |   |   | Facultatif |   |
-| IMO\_ETAT | Etat | Texte | 1 |  
-E
-A
-S | Non amortie
-En cours
-Amortie
-Sortie | Facultatif |   |
-| IMO\_TYPE | Type | Texte | 1 | A
-B
-C
-L | Aucun
-Bien
-Crédit-bail
-Location | Facultatif |   |
-| IMO\_CAT | Catégorie | Texte | 1 | A
-I
-C
-F | Aucune
-Incorporelle
-Corporelle
-Financière | Facultatif |   |
+| IMO\_ETAT | Etat | Texte | 1 | E <br> A <br> S | Non amortie <br> En cours <br> Amortie <br> Sortie | Facultatif |   |
+| IMO\_TYPE | Type | Texte | 1 | A <br> B <br> C <br> L | Aucun <br> Bien <br> Crédit-bail <br> Location | Facultatif |   |
+| IMO\_CAT | Catégorie | Texte | 1 | A <br> I <br> C <br> F | Aucune <br> Incorporelle <br> Corporelle <br> Financière | Facultatif |   |
 | LII\_CODE | Code lieu d'immobilisation | Texte | 3 |   |   | Facultatif |   |
 | IMO\_CBAR | Code-barres | Texte | 30 |   |   | Facultatif |   |
 | IMO\_SERIE | N° de série | Texte | 30 |   |   | Facultatif |   |
@@ -57,17 +39,11 @@ Financière | Facultatif |   |
 | IMO\_CPT | Compte d'immobilisation | Texte | 25 |   |   | Facultatif |   |
 | IMO\_CPTVAA | Compte de TVA sur les achats | Texte | 25 |   |   | Facultatif |   |
 | IMO\_CPTFRN | Compte fournisseur | Texte | 25 |   |   | Facultatif |   |
-| IMO\_MDAMO | Mode d'amortissement | Texte | 1 |  
-L
-D | Aucun
-Linéaire
-Dégressif | Facultatif |   |
+| IMO\_MDAMO | Mode d'amortissement | Texte | 1 | L <br> D | Aucun <br> Linéaire <br> Dégressif | Facultatif |   |
 | IMO\_BSEAMO | Base amortissable | Montant |   |   |   | Facultatif |   |
 | IMO\_VALVTE | Valeur de revente | Montant |   |   |   | Facultatif |   |
 | IMO\_DREAMO | Durée en mois de l'amortissement | Nombre entier |   |   |   | Facultatif |   |
-| IMO\_NBJAMO | Nombre de jours dans une année pour l'amortissement | Texte | 3 | 360
-365 | 360 jours
-365 jours | Facultatif |   |
+| IMO\_NBJAMO | Nombre de jours dans une année pour l'amortissement | Texte | 3 | 360 <br> 365 | 360 jours <br> 365 jours | Facultatif |   |
 | IMO\_DTFINA | Date de fin d'amortissement | Date |   |   |   | Facultatif |   |
 | IMO\_COAMDE | Coefficient d'amortissement dégressif | Nombre à virgule |   |   |   | Facultatif |   |
 | IMO\_JRNDOT | Code journal de dotations aux amortissements | Texte | 10 |   |   | Facultatif |   |
@@ -75,11 +51,7 @@ Dégressif | Facultatif |   |
 | IMO\_CPTAM | Compte d'amortissement | Texte | 25 |   |   | Facultatif |   |
 | IMO\_CPTDEP | Compte de dépréciation | Texte | 25 |   |   | Facultatif |   |
 | IMO\_CPTDDE | Compte de dotations aux dépréciations | Texte | 25 |   |   | Facultatif |   |
-| IMO\_TYPSOR | Type de cession | Texte | 1 |  
-C
-R | Aucun
-Cession
-Mise au rebut | Facultatif |   |
+| IMO\_TYPSOR | Type de cession | Texte | 1 | C <br> R | Aucun <br> Cession <br> Mise au rebut | Facultatif |   |
 | IMO\_DTSOR | Date de cession | Date |   |   |   | Facultatif |   |
 | IMO\_PIESOR | N° de pièce de la sortie | Texte | 15 |   |   | Facultatif |   |
 | IMO\_PRXVTE | Prix de vente | Montant |   |   |   | Facultatif |   |

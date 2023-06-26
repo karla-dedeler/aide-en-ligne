@@ -105,6 +105,7 @@ Les fonctions suivantes sont utilisables :
 
 
 | Nom | Description |
+|---|---|
 | Abs(Value) | Retourne la valeur absolue du nombre |
 | Distance(X1, Y1, X2, Y2) | Retourne la distance en pixels entre 2 points, par la formule 
  de Taylor |
@@ -123,12 +124,7 @@ Les fonctions suivantes sont utilisables :
 | Pi | Retourne la valeur du nom Pi |
 | Power(Value, N) | Retourne la multiplication du nombre par lui même répétée N 
  fois |
-| Round(Value) | Retourne l'arrondi du nombre à l'entier le plus 
- proche.
-Si le nombre se trouve à mi chemin 
- entre les deux nombres entiers les plus proches,
-alors le résultat sera le nombre 
- entier pair le plus proche. |
+| Round(Value) | Retourne l'arrondi du nombre à l'entier le plus proche. <br>Si le nombre se trouve à mi chemin entre les deux nombres entiers les plus proches, alors le résultat sera le nombre entier pair le plus proche. |
 | Sqr(Value) | Retourne le carré du nombre |
 | Sqrt(Value) | Retourne la racine carré du nombre |
 | Trunc(Value) | Retourne la partie entière du nombre |
@@ -142,23 +138,18 @@ alors le résultat sera le nombre
 
 
 | Nom | Description |
+|---|---|
 | Copy(Text\_Value, StartIndex, Count) | Retourne une partie de la chaîne de caractères |
 | FloatToText(Value) | Transforme le nombre à virgule en chaîne de caractères |
 | IntToText(Value) | Transforme le nombre entier en chaîne de caractères |
 | Length(Text\_Value) | Retourne la taille de la chaîne de caractères |
 | LowerCase(Text\_Value) | Retourne la chaîne de caractères en minuscules |
-| Pos(SubText, Text\_Value) | Retourne l'index de la première occurrence de la sous-chaîne 
- dans la chaîne de caractères |
-| PosEx(SubText, Text\_Value, Offset) | Retourne l'index de la première occurrence d'une sous-chaîne 
- dans la chaîne de caractères |
+| Pos(SubText, Text\_Value) | Retourne l'index de la première occurrence de la sous-chaîne dans la chaîne de caractères |
+| PosEx(SubText, Text\_Value, Offset) | Retourne l'index de la première occurrence d'une sous-chaîne dans la chaîne de caractères |
 | TextToFloat(Text\_Value) | Transforme la chaîne de caractères en nombre à virgule |
-| TextToFloatDef(Text\_Value, DefaultResult) | Transforme la chaîne de caractères en nombre à virgule 
- avec la possibilité de passer une valeur par 
- défaut en cas d'erreur |
+| TextToFloatDef(Text\_Value, DefaultResult) | Transforme la chaîne de caractères en nombre à virgule avec la possibilité de passer une valeur par défaut en cas d'erreur |
 | TextToInt(Value) | Transforme la chaîne de caractères en nombre entier |
-| TextToIntDef(Value, DefaultResult) | Transforme un chaîne de caractères en nombre entier  
- avec la possibilité de passer une valeur par 
- défaut en cas d'erreur |
+| TextToIntDef(Value, DefaultResult) | Transforme un chaîne de caractères en nombre entier  avec la possibilité de passer une valeur par défaut en cas d'erreur |
 | Trim(Text\_Value) | Supprime les espaces de début et de fin de la chaîne de caractère |
 | UpperCase(Text\_Value) | Retourne la chaîne de caractères en majuscules |
 
@@ -171,6 +162,7 @@ alors le résultat sera le nombre
 
 
 | Nom | Description |
+|---|---|
 | ArcCos(Value) | Retourne le cosinus inverse de la valeur |
 | ArcCosh(Value) | Retourne le cosinus hyperbolique inverse de la valeur |
 | ArcSin(Value) | Retourne le sinus inverse de la valeur |
@@ -197,11 +189,10 @@ Renvoie les 2 premiers caractères du code postal.
 
 
  
-
-
+```
 If((#PAY\_CODE = "FR") and (#FAT\_CODE = "FA3"), 
  "A traiter", "")
-
+```
 
 Condition qui vérifie le code et le code famille du tiers et qui renseigne 
  un texte quand ces 2 codes ont la valeur "FR" et "FA3".

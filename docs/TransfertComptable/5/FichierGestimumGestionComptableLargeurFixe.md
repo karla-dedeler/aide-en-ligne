@@ -20,27 +20,14 @@ Le fichier est constitué de lignes d'écritures uniquement.
 ## Exemple de fichier
 
 
-    1VTE       2015040920150409FAC15-00021 
-    411C30                   DUBOIS 
-                                                            1394.64D 
-                  DUBOIS 
-                                                      
+```
+1VTE       2015040920150409FAC15-00021    411C30                   DUBOIS                                                            1394.64D                  DUBOIS                                                      
 
+1VTE       20150409        FAC15-00021    4457220                  DUBOIS                                                             232.44C                  TVA 20 % collectée sur les débits                           
 
-    1VTE       20150409 
-        FAC15-00021    4457220 
-                  DUBOIS 
-                                                             232.44C 
-                  TVA 
- 20 % collectée sur les débits                           
+1VTE       20150409        FAC15-00021    707100                   DUBOIS                                                            1162.20C                  Marchandise (ou groupe) A - France 
+````
 
-
-    1VTE       20150409 
-        FAC15-00021    707100 
-                   DUBOIS 
-                                                            1162.20C 
-                  Marchandise 
- (ou groupe) A - France                          
 
 
 ## Structure des lignes d'écritures
@@ -54,6 +41,7 @@ Le fichier est constitué de lignes d'écritures uniquement.
 
 
 | Position | Champ | Type | Longueur |   |
+|---|---|---|---|---|
 | 1 | Numéro de ligne | Numéro | 5 |   |
 | 6 | Code journal | Texte | 10 |   |
 | 16 | Date d'écriture | Date | 8 | Format : AAAAMMJJ |

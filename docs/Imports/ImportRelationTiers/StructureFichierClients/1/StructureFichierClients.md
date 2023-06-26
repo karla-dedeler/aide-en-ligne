@@ -10,8 +10,8 @@
 
 
 
-| Champ | Description | Type | Longueur
-maximale | Valeurs possibles | Présence | Exemple |
+| Champ | Description | Type | Longueur maximale | Valeurs possibles | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | PCF\_CODE | Code client | Texte | 20 |   | Obligatoire |   |
 | PCF\_RS | Raison sociale | Texte | 60 |   | Obligatoire |   |
 | PCF\_CIVILE | Civilité | Texte | 25 |   | Facultatif |   |
@@ -67,16 +67,7 @@ maximale | Valeurs possibles | Présence | Exemple |
 | FC3\_CODE | Code critère 3 | Texte | 15 |   | Facultatif |   |
 | FC4\_CODE | Code critère 4 | Texte | 15 |   | Facultatif |   |
 | FC5\_CODE | Code critère 5 | Texte | 15 |   | Facultatif |   |
-| PCF\_URGENT | Priorité | Texte | 1 | 0
-1
-2
-3
-4
-5
-6
-7
-8
-9 | Facultatif |   |
+| PCF\_URGENT | Priorité | Texte | 1 | 0 <br>1 <br>2 <br>3 <br>4 <br>5 <br>6 <br>7 <br>8 <br>9 | Facultatif |   |
 | TAR\_CODE | Code grille de tarifs | Texte | 30 |   | Facultatif |   |
 | PCF\_FPT\_01 | Code frais de port | Texte | 3 |   | Facultatif |   |
 | PCF\_FPT\_02 | Code autres frais | Texte | 3 |   | Facultatif |   |
@@ -88,17 +79,11 @@ maximale | Valeurs possibles | Présence | Exemple |
 | PCF\_NMCHRS | N° de marché Chorus | Texte | 50 |   | Facultatif |   |
 | CPT\_NUMERO | N° de compte | Texte | 25 |   | Obligatoire |   |
 | NAT\_CODE | Code nature comptable | Texte | 3 |   | Facultatif |   |
-| PCF\_PAYEUR | Code payeur | Texte | 20 |   | Facultatif |   |
+| PCF\_PAYEUR | Code payeur | Texte | 20 |   | Facultatif |   | 
 | REG\_CODE | Code mode de règlement | Texte | 8 |   | Facultatif |   |
 | DEV\_CODE | Code devise | Texte | 3 |   | Facultatif |   |
-| PCF\_TC\_DA | Document administratif pour les douanes | Texte | 3 |  
-DSA
-DAA | Facultatif |   |
-| PCF\_REGBL | Règle de regroupement des bons de livraisons ou réceptions | Texte | 1 | T : Tous
-1 : Un seul
-C : Par commande
-D : Par décade
-M : Par mois | Facultatif |   |
+| PCF\_TC\_DA | Document administratif pour les douanes | Texte | 3 |  DSA <br>DAA | Facultatif |   |
+| PCF\_REGBL | Règle de regroupement des bons de livraisons ou réceptions | Texte | 1 | T : Tous <br>1 : Un seul <br>C : Par commande <br>D : Par décade <br>M : Par mois | Facultatif |   |
 | PCF\_PERIOD | Code périodicité de regroupement des bons de livraison | Texte | 15 |   | Facultatif |   |
 | PCF\_EXCMDE | Nombre d'exemplaires d'impression pour les commandes | Texte | 1 |   | Facultatif |   |
 | PCF\_EXBL | Nombre d'exemplaires d'impression pour les livraisons | Texte | 1 |   | Facultatif |   |

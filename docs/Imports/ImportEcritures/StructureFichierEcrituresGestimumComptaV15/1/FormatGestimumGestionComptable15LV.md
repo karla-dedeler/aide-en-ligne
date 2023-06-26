@@ -20,9 +20,9 @@ Le fichier contient uniquement des lignes d'écritures.
 
 ## Exemple de fichier
 
-
+````
 1 VT2003092020020930FA000013 707100 Vente client Durand 45.73 C
-
+````
 
 ## Structure des lignes d'écritures
 
@@ -38,6 +38,7 @@ Le fichier contient uniquement des lignes d'écritures.
 
 
 | Position | Champ | Type | Longueur | Format | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | 1 | Code journal | Texte | 3 |   | Obligatoire |   |
 | 4 | Date d'écriture | Date | 8 | Format : JJMMAA ou JJMMAAAA | Obligatoire |   |
 | 12 | Numéro de pièce | Texte | 8 |   | Obligatoire \* |   |

@@ -25,18 +25,15 @@ Le fichier est constitué de lignes d'écritures uniquement.
 
 ## Exemple de fichier
 
-
-VTE 09/04/15 411000 C30 DUBOIS 09/04/15 1394,64 0,00 
- FAC15-00021
-
-
-VTE 09/04/15 4457220 DUBOIS 09/04/15 0,00 232,44 
- FAC15-00021
+````
+VTE 09/04/15 411000 C30 DUBOIS 09/04/15 1394,64 0,00 FAC15-00021
 
 
-VTE 09/04/15 707100 DUBOIS 09/04/15 0,00 1162,20 
- FAC15-00021
+VTE 09/04/15 4457220 DUBOIS 09/04/15 0,00 232,44 FAC15-00021
 
+
+VTE 09/04/15 707100 DUBOIS 09/04/15 0,00 1162,20 FAC15-00021
+````
 
 ## Structure des lignes d'écritures
 
@@ -49,8 +46,8 @@ VTE 09/04/15 707100 DUBOIS 09/04/15 0,00 1162,20
 
 
 
-| Ordre | Champ | Type | Longueur
-maximale |   | Exemple |
+| Ordre | Champ | Type | Longueur maximale |   | Exemple |
+|---|---|---|---|---|---|
 | 1 | Code journal | Texte | 10 |   | VTE |
 | 2 | Date de pièce | Date | 6 | Format : JJ/MM/AA | 09/04/15 |
 | 3 | Numéro de compte | Texte | 13 |   | 411000 |
