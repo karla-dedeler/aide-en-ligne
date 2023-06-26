@@ -346,7 +346,7 @@ Les icônes dans l'entête de la vue correspondent aux différents onglets du co
 |---|---|
 | ![](../ConcepteurRequete/IconeAperçu.png) | Aperçu : il permet de visualiser les données qui sont remontées par la vue |
 | ![](../ConcepteurRequete/IconeTables.png) | Onglet Tables |
-| ![](../ConcepteurRequete/Iconechamps.png) | Onglet Champs |
+| ![](../ConcepteurRequete/IconeChamps.png) | Onglet Champs |
 | ![](../ConcepteurRequete/IconeCalculs.png) | Onglet Calculs |
 | ![](../ConcepteurRequete/IconeGroupes.png) | Onglet Groupe |
 | ![](../ConcepteurRequete/IconeRecherche.png) | Onglet Recherche |
