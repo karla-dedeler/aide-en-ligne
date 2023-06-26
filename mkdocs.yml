@@ -1,17 +1,21 @@
-site_name: Aide en ligne
+site_name: Gestimum ERP 9.5
 
 theme:
   name: material
   logo : logo.png
+  custom_dir: overrides
+  language: fr
   features : 
   - search
   - search.highlight
+  - navigation.footer
   - navigation.instant
   - navigation.top
   font:
     text: Roboto
   palette: 
-    primary : deep orange
+    primary : custom
+    accent : custom
   highlightjs: True
   toc: True
 
@@ -27,6 +31,8 @@ plugins:
 markdown_extensions:
   - admonition
 
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Bienvenue: 'index.md'

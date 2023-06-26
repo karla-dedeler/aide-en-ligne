@@ -1,0 +1,8 @@
+:root {
+    --md-primary-fg-color:        #acacac;
+    --md-accent-fg-color:         #df6800;
+}
+
+.md-content {
+    --md-typeset-a-color: #df6800;
+  }
