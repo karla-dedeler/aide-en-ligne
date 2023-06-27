@@ -2,7 +2,7 @@ site_name: Gestimum ERP 9.5
 
 theme:
   name: material
-  logo : logo.png
+  logo : "https://www.gestimum.com/wp-content/uploads/2018/07/Gestimum-logo-2015.png"
   custom_dir: overrides
   language: fr
   features : 
@@ -44,7 +44,13 @@ nav:
     - Dénomination des versions: 'NotesVersion/Racine/DenominationVersion.md'
     - Développement sur mesure: 'NotesVersion/Racine/PFD.md'
     - Préconisations d'utilisation et d'installation: 'NotesVersion/Racine/PreconisationsUtilisationInstallation8.md'
-    - Version 9 build 1026 du 30/06/2020: 'NotesVersion/Version9/Version_9_build_1026_du_30_06_2020.md'
+    #- Version 9.5 build 1155 du 19/06/2023:
+    - Version 9: 
+      - Version 9.4 build 1153 du 17/10/2022: 'NotesVersion/Version9/Version_9.4.md'
+      - Version 9.3 build 1067 du 23/12/2020: 'NotesVersion/Version9/Version_930.md'
+      - Version 9.2 build 1061 du 11/12/2020: 'NotesVersion/Version9/Version_920_B_1061.md'
+      - Version 9.1 build 1051 du 15/10/2020: 'NotesVersion/Version9/Version_9.1_build_1051.md'
+      - Version 9 build 1026 du 30/06/2020: 'NotesVersion/Version9/Version_9_build_1026_du_30_06_2020.md'
     - Version 8: 
       - Préconisations d'utilisation et d'installation: 'NotesVersion/Version8/CopiersurPreconisations_d_utilisation_et_d_installation.md'
       - Version 8.4.2 build 860 du 27/11/2019: 'NotesVersion/Version8/NotesVersion842.md'
@@ -62,20 +68,6 @@ nav:
       - Version 7.0.2 build 772 du 31/01/2018: 'NotesVersion/Version7/NotesVersion702.md'
       - Version 7.0.1 build 771 du 19/01/2018: NotesVersion/Version7/NotesVersion701.md
       - Version 7.0.0 build 766 du 28/11/2017: 'NotesVersion/Version7/NotesVersion700.md'
-    - Version 6:
-      - Préconisations d'utilisation et d'installation: 'NotesVersion/Version6/PreconisationsUtilisationInstallation6.md'
-      - Version 6.1.0 build 753 du 12/07/2017: 'NotesVersion/Version6/NotesVersion610.md'
-      - Version 6.0.0 build 750 du 20/04/2017: 'NotesVersion/Version6/NotesVersion600.md'
-    - Versions antérieures: 
-      - Préconisations d'utilisation et d'installation: 'NotesVersion/Version5/PreconisationsUtilisationInstallation5.md'
-      - Version 5.9.1 build 737 du 25/01/2017: 'NotesVersion/Version5/NotesVersion591.md'
-      #- Version 5.8.5 build 727 du 06/09/2016: 
-      - Version 5.7.0 du 14/01/2016: 'NotesVersion/Version5/NotesVersion570.md'
-      - Version 5.6.6 build 707 du 03/12/2015: 'NotesVersion/Version5/NotesVersion566.md'
-      - Version 5.5.4 build 684 du 20/04/2015: 'NotesVersion/Version5/NotesVersion554.md'
-      - Version 5.1.0 du 01/08/2014: 'NotesVersion/Version5/NotesVersion510.md'
-      #- Versions 4.8 à 5.5.4: 
-      - Version 4.7.13 build 568 du 26/03/2013: NotesVersion/Version4/NotesVersion4713.md
   - SOCIETE:
     - Menu Société: 'Societe/Menu/Menu_SOCIETE.md'
     - Nouvelle société: 
@@ -1299,7 +1291,6 @@ nav:
       - Objectif: 'Affaires/1/Objectif.md'
       - Paramétrage: 'Affaires/2/Parametrage.md'
       - Affaires: 
-        - Nouvelle affaire: 'Affaires/3/NouvelleAffaire.md'
         - Liste des affaires: 'Affaires/3/ListeAffaires.md'
         - Affaire:
           - 'Affaires/3/Affaire/Fiche.md'
@@ -1326,7 +1317,6 @@ nav:
           - Tableau de bord: 'Affaires/3/Affaire/TableauBord/FicheOngletTableauBord.md'
           - Personnalisé: 'Affaires/3/Affaire/Personnalise/FicheOngletPersonnalise.md'
         - Modifier le code d'une affaire: 'Affaires/3/ModificationCode/ModifierCodeAffaire.md'
-        - Recalcul des résultats des affaires: 'Affaires/3/Impression/RecalculResultatsAffaires.md'
         - Import: 
           - Import d'affaires: 'Imports/ImportAutresDonnees/ImportAffaires/Import.md'
           - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
@@ -1334,23 +1324,47 @@ nav:
           - Exemple:
             - Exemple de fichier d'affaires: 'Imports/ImportAutresDonnees/ImportAffaires/ExempleFichier.md'
             - Exemple d'import d'affaires: 'Imports/ImportAutresDonnees/ImportAffaires/ExempleImport.md'
+        - Import de frais budgétés seuls:
+          - Import de frais budgétés d'affaires: 'Imports/ImportAutresDonnees/ImportFraisBudgetesAffaires/Import.md'
+          - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+          - Structure du fichier de frais budgétés d'affaires: 'Imports/ImportAutresDonnees/StructureFichierFraisBudgetesAffaires/StructureFichier.md'
+          - Exemple: 
+            - Exemple de fichier de frais budgétés d'affaires: 'Imports/ImportAutresDonnees/ImportFraisBudgetesAffaires/ExempleFichier.md'
+            - Exemple d'import de frais budgétés d'affaires : 'Imports/ImportAutresDonnees/ImportFraisBudgetesAffaires/ExempleImport.md'
+        - Import de main d'oeuvre budgétée seule:
+          - Import de main d'oeuvre budgétée d'affaires: 'Imports/ImportAutresDonnees/ImportMainOeuvreBudgeteeAffaires/Import.md'
+          - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+          - Structure du fichier de main d'oeuvre budgétée d'affaires: 'Imports/ImportAutresDonnees/StructureFichierMainOeuvreBudgeteeAffaires/StructureFichier.md'
+          - Exemple: 
+            - Exemple de fichier de main d'oeuvre budgétée d'affaires: 'Imports/ImportAutresDonnees/ImportMainOeuvreBudgeteeAffaires/ExempleFichier.md'
+            - Exemple d'import de main d'oeuvre budgétée d'affaires: 'Imports/ImportAutresDonnees/ImportMainOeuvreBudgeteeAffaires/ExempleImport.md'
+        - Import de frais réalisés seuls:
+          - Import de frais réalisés d'affaires: 'Imports/ImportAutresDonnees/ImportFraisRealisesAffaires/Import.md'
+          - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+          - Structure du fichier de frais réalisés d'affaires: 'Imports/ImportAutresDonnees/StructureFichierFraisRealisesAffaires/StructureFichier.md'
+          - Exemple: 
+            - Exemple de fichier de frais réalisés d'affaires: 'Imports/ImportAutresDonnees/ImportFraisRealisesAffaires/ExempleFichier.md'
+            - Exemple d'import de frais réalisés d'affaires: 'Imports/ImportAutresDonnees/ImportFraisRealisesAffaires/ExempleImport.md'
+        - Import de main d'oeuvre réalisée seule: 
+          - Import de main d'oeuvre réalisée d'affaires: 'Imports/ImportAutresDonnees/ImportMainOeuvreRealiseeAffaires/Import.md'
+          - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+          - Structure du fichier de main d'oeuvre réalisée d'affaires: 'Imports/ImportAutresDonnees/StructureFichierMainOeuvreRealiseeAffaires/StructureFichier.md' 
+          - Exemple: 
+            - Exemple de fichier de main d'oeuvre réalisée d'affaires: 'Imports/ImportAutresDonnees/ImportMainOeuvreRealiseeAffaires/ExempleFichier.md'
+            - Exemple d'import de main d'oeuvre réalisée d'affaires: 'Imports/ImportAutresDonnees/ImportMainOeuvreRealiseeAffaires/ExempleImport.md'        
         - Impression des affaires: 'Affaires/3/Impression/ImpressionAaffaires.md'
-        - Impression des lignes d'affaires: 'Affaires/3/Impression/ImpressionLignesAffaires.md'
       - Planning: 
         - Paramétrage du planning des affaires: 'Affaires/5/ParametragePlanningAffaires.md'
         - Planning des affaires: 'Affaires/4/PlanningAffaires.md'
       #- Saisie externalisée de la main d'oeuvre:
-        #- Introduction: 
         #- Connexion: 
         #- Utilisation: 
         #- Résultat:
   - ENCAISSEMENTS: 
     - Échéances: 
       - Échéances clients: 'EncaissementsDecaissements/Encaissements/Echeances/EchéancesClients.md'
-      - Échéance client: 'EncaissementsDecaissements/Encaissements/Echeances/EcheanceClient.md'
       - Impression des échéances clients: 'EncaissementsDecaissements/Encaissements/Echeances/Impressions/1/ImpressionEcheancesClients.md'
       - Échéances à recevoir: 'EncaissementsDecaissements/Encaissements/Echeances/EcheanceRecevoir.md'
-      - Échéance à recevoir: 'EncaissementsDecaissements/Encaissements/Echeances/EchéancesRecevoir.md'
       - Impression des échéances à recevoir: 'EncaissementsDecaissements/Encaissements/Echeances/Impressions/2/ImpressionEcheancesRecevoir.md'
       - Nouvelle échéance: 'EncaissementsDecaissements/Encaissements/Echeances/NouvelleEcheance.md'
       - Solder une échéance avec une autre: 'EncaissementsDecaissements/Encaissements/Echeances/SolderEcheanceAvecUneAutre.md'
@@ -1379,7 +1393,7 @@ nav:
           - Commentaire par client: 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/CommentaireParClient.md'
           - Réponse par client: 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/ReponseParClient.md'
         - Impression des relances effectuées: 'EncaissementsDecaissements/Encaissements/Relances/RelancesEffectuees/Impressions/ImpressionRelancesEffectuees.md'
-        - Relances de A à Z: 'EncaissementsDecaissements/Encaissements/Relances/RelancesAZ/RelancesAZ.md'
+      - Relances de A à Z: 'EncaissementsDecaissements/Encaissements/Relances/RelancesAZ/RelancesAZ.md'
     - Règlements: 
       - Enregistrement d'un règlement: 'EncaissementsDecaissements/Encaissements/Reglements/EnregistrementReglement.md'
       - Réceptionner les règlements: 
@@ -1397,18 +1411,13 @@ nav:
       - Impression des règlements reçus: 'EncaissementsDecaissements/Encaissements/Reglements/Impressions/ImpressionReglementsReçus.md'
     - Remises en banque: 
       - Remises en banque: 'EncaissementsDecaissements/Encaissements/Remises/RemisesBanque.md'
-      - Remise en banque: 'EncaissementsDecaissements/Encaissements/Remises/RemiseBanque.md'
       - Impression d'une remise en banque: 'EncaissementsDecaissements/Encaissements/Remises/Impressions/1/ImpressionRemiseBanque.md'
       - Impression d'une remise en banque 2: 'EncaissementsDecaissements/Encaissements/Remises/Impressions/1/ImpressionRemiseBanque2.md'
       - Impression des remises en banque: 'EncaissementsDecaissements/Encaissements/Remises/Impressions/N/ImpressionRemisesBanque.md'
       - Fichiers bancaires: 
         - Fichiers bancaires au format ETEBAC: 'EncaissementsDecaissements/Encaissements/Fichiers/ETEBAC/FichiersBancairesETEBAC.md'
         - Spécifications des fichiers bancaires au format ETEBAC: 'EncaissementsDecaissements/Encaissements/Fichiers/ETEBAC/SpecificationsFichiersBancairesETEBAC.md'
-        - Fichiers bancaires au format SEPA: 'EncaissementsDecaissements/Encaissements/Fichiers/SEPA/FichiersBancairesSEPA.md'
-        - Spécifications des fichiers bancaires au format SEPA: 'EncaissementsDecaissements/Encaissements/Fichiers/SEPA/SpecificationsFichiersBancairesSEPA.md'
-        - Fichiers bancaires de virements aux formats SEPA et ETEBAC: 'EncaissementsDecaissements/Encaissements/Fichiers/Trier/FichiersBancairesVirementsSEPAETEBAC.md'
     - Règlements et remises: 
-      - Règlements et remises: 'EncaissementsDecaissements/Encaissements/ReglementsRemises/ReglementsEtRemises.md'
       - Règlement par compte bancaire: 'EncaissementsDecaissements/Encaissements/ReglementsRemises/ReglementParCompteBancaire.md'
       - Exemple de répartition: 'EncaissementsDecaissements/Encaissements/ReglementsRemises/ExempleRepartition.md'
       - Avertissement sur les échéances sans mode sans type: 'EncaissementsDecaissements/Encaissements/ReglementsRemises/AvertissementEcheancesSansModeSansType.md'
@@ -1457,10 +1466,8 @@ nav:
   - DÉCAISSEMENTS: 
     - Échéances: 
       - Échéances fournisseurs: 'EncaissementsDecaissements/Décaissements/Echéances/EcheancesFournisseurs.md'
-      - Échéance fournisseur: 'EncaissementsDecaissements/Décaissements/Echéances/EcheanceFournisseur.md'
       - Impression des échéances fournisseurs: 'EncaissementsDecaissements/Décaissements/Echéances/ImpressionEcheancesFournisseurs.md'
       - Échéances à payer: 'EncaissementsDecaissements/Décaissements/Echéances/EcheancesPayer.md'
-      - Échéance à payer: 'EncaissementsDecaissements/Décaissements/Echéances/EcheancePayer.md'
       - Impression des échéances à payer: 'EncaissementsDecaissements/Décaissements/Echéances/ImpressionEcheancesPayer.md'
     - Paiements: 
       - Payer depuis les échéances: 
@@ -1473,7 +1480,6 @@ nav:
       - Impression des paiements préparés: 'EncaissementsDecaissements/Décaissements/Paiements/Impressions/ImpressionPaiementsPrepares.md'
     - Émissions de paiements: 
       - Émissions de paiements: 'EncaissementsDecaissements/Décaissements/Emissions/EmissionsPaiements.md'
-      - Émission de paiements: 'EncaissementsDecaissements/Décaissements/Emissions/EmissionPaimentsFiche.md'
       - Fichier bancaire de virement international: 'EncaissementsDecaissements/Décaissements/Emissions/FichierBancaireVirementInternational.md'
       - Impression d'une émission de paiements: 'EncaissementsDecaissements/Décaissements/Emissions/Impressions/1/ImpressionEmissionPaiements.md'
       - Impression des émissions de paiements: 'EncaissementsDecaissements/Décaissements/Emissions/Impressions/N/ImpressionEmissionsPaiements.md'
@@ -1519,7 +1525,6 @@ nav:
             - Cumuls: '+GestionComptable/PlanComptable/4/CompteClientOngletCumuls.md'
             - Commentaires: '+GestionComptable/PlanComptable/4/CompteClientOngletCommentaires.md'
             - Personnalisé : '+GestionComptable/PlanComptable/4/CompteClientOngletPersonnalise.md'
-          - Impression du plan comptable clients: '+GestionComptable/PlanComptable/4/Impression/ImpressionPlanComptableClients.md'
         - Plan comptable fournisseurs: 
           - '+GestionComptable/PlanComptable/5/PlanComptableFournisseurs.md'
           - Compte fournisseur: 
@@ -1532,7 +1537,6 @@ nav:
             - Cumuls: '+GestionComptable/PlanComptable/5/CompteFournisseurOngletCumuls.md'
             - Commentaires: '+GestionComptable/PlanComptable/5/CompteFournisseurOngletCommentaires.md'
             - Personnalisé : '+GestionComptable/PlanComptable/5/CompteFournisseurOngletPersonnalise.md'
-          - Impression du plan comptable clients: '+GestionComptable/PlanComptable/5/Impression/ImpressionPlanComptableFournisseurs.md'
         - Liste déroulante des Comptes: 
           - '+GestionComptable/PlanComptable/6/ListeDeroulanteComptes.md'
           - Sélection du type de compte: '+GestionComptable/PlanComptable/6/SélectionTypeCompte.md'
@@ -1561,14 +1565,12 @@ nav:
           - Général: '+GestionComptable/Journaux/3/JournalOngletGeneral.md'
           - Appels de comptes: '+GestionComptable/Journaux/3/JournalOngletAppelsComptes.md'
           - Ecritures automatiques: '+GestionComptable/Journaux/3/JournalOngletEcrituresAutomatiques.md'
-          - Personnalisé: '+GestionComptable/Journaux/3/JournalOngletPersonnalise.md'
         - Impression des journaux: '+GestionComptable/Journaux/4/ImpressionJournaux.md'
         - Sélection des journaux: '+GestionComptable/Journaux/5/SelectionJournaux.md'
       - Guides d'écritures: 
         - Introduction: '+GestionComptable/Guides/1/Introduction.md'
         - Liste des guides d'écritures: '+GestionComptable/Guides/2/ListeGuidesEcritures.md'
         - Guide: '+GestionComptable/Guides/3/Guide.md'
-        - Guide2: '+GestionComptable/Guides/Trier1/Guide2.md'
         - Impression des guides d'écritures: '+GestionComptable/Guides/4/ImpressionGuidesEcritures.md'
         - Structure du guide pré-paramétré: '+GestionComptable/Guides/Trier2/StructureGuidePréparamétré.md'
       - Abonnements d'écritures: 
@@ -1579,7 +1581,6 @@ nav:
         - Impression des abonnements: '+GestionComptable/AbonnementsEcritures/5/ImpressionAbonnements.md'
       - Sections analytiques: 
         - Gestion analytique: '+GestionComptable/SectionsAnalytiques/1/GestionAnalytique.md'
-        - Liste des sections analytiques: '+GestionComptable/SectionsAnalytiques/2/ListeSectionsAnalytiques.md'
         - Section analytique: '+GestionComptable/SectionsAnalytiques/2/SectionAnalytique.md'
         - Exemple de plan analytique: '+GestionComptable/SectionsAnalytiques/1/ExemplePlanAnalytique.md'
         - Import: 
@@ -1590,7 +1591,6 @@ nav:
             - Exemple de fichier de sections analytiques: 'Imports/ImportAutresDonnees/ImportSectionsAnalytiques/2/ExempleFichierSectionsAnalytiques.md'
             - Exemple d'import de sections analytiques: 'Imports/ImportAutresDonnees/ImportSectionsAnalytiques/2/ExempleImportSectionsAnalytiques.md'
         - Impression des sections analytiques: '+GestionComptable/SectionsAnalytiques/3/ImpressionSectionsAnalytiques.md'
-        - Paramétrage de l'analytique dans la gestion commerciale: '+GestionComptable/SectionsAnalytiques/Trier/ParametrageAnalytiqueGestionCommerciale.md'
       - Modèles analytiques:
         - '+GestionComptable/ModelesAnalytiques/1/Liste.md'
         - Modèle analytique: '+GestionComptable/ModelesAnalytiques/2/Fiche.md'
@@ -1611,7 +1611,6 @@ nav:
         - Saisie standard: 
           - '+GestionComptable/Ecritures/Saisie/Standard/SaisieStandard.md'
           - Zones de la saisie standard: '+GestionComptable/Ecritures/Saisie/Standard/ZonesSaisieStandard.md'
-          - Échéancier: '+GestionComptable/Ecritures/Saisie/Standard/Echeancier.md'
           - Répartition analytique: '+GestionComptable/Ecritures/Saisie/Standard/RepartitionAnalytique.md'
           - Menu contextuel de la saisie standard: '+GestionComptable/Ecritures/Saisie/Standard/MenuContextuelSaisieStandard.md'
           - Codes de traitements créant les écritures: '+GestionComptable/Ecritures/Saisie/Standard/CodesTraitementsCreantEcritures.md'
@@ -1638,7 +1637,6 @@ nav:
           - Paramétrage des comptes: 'Imports/ImportEcritures/ImportEcritures/1/ParametrageComptes.md'
           - Création des sections analytiques: 'Imports/ImportEcritures/ImportEcritures/1/CreationSectionsAnalytiques.md'
           - Options supplémentaires: 'Imports/ImportEcritures/ImportEcritures/1/OptionsSupplementaires.md'
-          - Traitement de l'import: 'Imports/ImportEcritures/ImportEcritures/1/TraitementImport.md'
         - Format Gestimum Gestion Comptable à largeur variable: 'Imports/ImportEcritures/StructureFichierEcrituresGestimumComptaVariable/1/FormatGestimumGestionComptableLV.md'
         - Format Gestimum Gestion Comptable avec longueurs fixes: 'Imports/ImportEcritures/StructureFichierEcrituresGestimumComptaFixe/1/FormatGestimumGestionComptableLongueursFixes.md'
         - Format Gestimum Gestion Comptable 1.5 à largeur fixe: 'Imports/ImportEcritures/StructureFichierEcrituresGestimumComptaV15/1/FormatGestimumGestionComptable15LV.md'
@@ -1649,7 +1647,6 @@ nav:
         - 'Exports/ExportEcritures/1/ExportEcritures.md'
         - Export d'écritures pour l'administration fiscale: 'Exports/ExportEcritures/2/ExportEcrituresAdministrationFiscale.md'
         - Export de la balance pour EBP États Financiers: 'Exports/ExportEcritures/3/ExportBalance.md'
-      - Créer les écritures en simulation: '+GestionComptable/Ecritures/Simulation/CreerEcrituresSimulation.md'
       - Sélection des journaux: '+GestionComptable/Ecritures/Journaux/SelectionJournaux.md'
       - Centralisateurs: '+GestionComptable/Ecritures/Centralisateurs/Centralisateurs2.md'
       - Extraits de comptes: 
@@ -1668,7 +1665,6 @@ nav:
         - Remplacer une section analytique: '+GestionComptable/Ecritures/Outils/Sections/RemplacerSectionAnalytique.md'
         - Traiter les écritures de simulation: '+GestionComptable/Ecritures/Outils/Simulation/TraiterEcrituresSimulation.md'
         - Copier des écritures de journal à journal: '+GestionComptable/Ecritures/Outils/Copie/CopierEcrituresJournalJournal.md'
-        - Numérotation de pièce lors de la copie d'écritures: '+GestionComptable/Ecritures/Outils/Copie/NumerotationPieceCopieEcritures.md'
         - Supprimer des écritures d'un ou plusieurs journaux: '+GestionComptable/Ecritures/Outils/Suppression/SupprimerEcrituresUnPlusieursJournaux.md'
         - Réordonnancer les écritures: '+GestionComptable/Ecritures/Outils/Ordre/ReordonnancerEcritures.md'
         - Recalculer les totaux par compte et par journal: '+GestionComptable/Ecritures/Outils/Totaux/RecalculerTotauxCompteJournal.md'
@@ -1677,16 +1673,10 @@ nav:
       - Impressions:
         - Contrôle préalable des écritures avant impression: '+GestionComptable/Ecritures/Impressions/Ecritures/ControlePrealableEcrituresAvantImpression.md'
         - Journal des écritures: '+GestionComptable/Ecritures/Impressions/Ecritures/ImpressionJournalEcritures.md'
-        - Extrait de compte: '+GestionComptable/Ecritures/Impressions/Ecritures/ImpressionExtraitCompte.md'
-        - Justificatifs de solde: '+GestionComptable/Ecritures/Impressions/Ecritures/ImpressionJustificatifsSolde.md'
         - Grand livre: '+GestionComptable/Ecritures/Impressions/Ecritures/ImpressionGrandLivre.md'
         - Balance: '+GestionComptable/Ecritures/Impressions/Ecritures/ImpressionBalance.md'
-        - Balance âgée: '+GestionComptable/Ecritures/Impressions/Ecritures/ImpressionBalanceAgée.md'
-        - Centralisateurs: '+GestionComptable/Ecritures/Impressions/Ecritures/ImpressionCentralisateurs.md'
         - Analytique: 
           - Journal analytique: '+GestionComptable/Ecritures/Impressions/Analytique/ImpressionJournalAnalytique.md'
-          - Extrait analytique: '+GestionComptable/Ecritures/Impressions/Analytique/ImpressionExtraitAnalytique.md'
-          - Grand livre analytique: '+GestionComptable/Ecritures/Impressions/Analytique/ImpressionGrandLivreAnalytique.md'
           - Balance analytique: '+GestionComptable/Ecritures/Impressions/Analytique/ImpressionBalanceAnalytique.md'
         - Reporting: 
           - Edition du reporting: '+GestionComptable/Ecritures/Impressions/Reporting/ImpressionReporting.md'
@@ -1699,6 +1689,58 @@ nav:
           - Compte de résultat: 'EtatsFinanciers/1/CompteRésultat.md'
           - Bilan:  'EtatsFinanciers/2/Bilan.md'
         - Échéancier: '+GestionComptable/Ecritures/Echeancier/Echeancier.md'
+    - IMMOS:
+      - Introduction: 'Immobilisations/Introduction/Introduction.md'
+      - Familles d'immobilisations: 
+        - Liste des familles d'immobilisations: 'Immobilisations/Familles/ListeFamillesImmobilisations.md'
+        - Famille d'immobilisations: 'Immobilisations/Familles/FamilleImmobilisations.md'
+        - Impression des familles d'immobilisations: 'Immobilisations/Familles/ImpressionFamillesImmobilisations.md'
+      - Lieux d'immobilisations: 
+        - Liste des lieux d'immobilisations: 'Immobilisations/Lieux/ListeLieuxImmobilisations.md'
+        - Lieu d'immobilisations: 'Immobilisations/Lieux/LieuImmobilisations.md'
+        - Impression des lieux d'immobilisations: 'Immobilisations/Lieux/ImpressionLieuxImmobilisations.md'
+      - Immobilisations: 
+        - Liste des immobilisations: 'Immobilisations/Immobilisations/ListeImmobilisations.md'
+        - Immobilisation: 
+          - 'Immobilisations/Immobilisations/Immobilisation.md'
+          - Entête: 'Immobilisations/Immobilisations/Immobilisation/Entete.md'
+          - Général: 'Immobilisations/Immobilisations/Immobilisation/OngletGeneral.md'
+          - Entrée: 'Immobilisations/Immobilisations/Immobilisation/OngletEntree.md'
+          - Amortissement: 'Immobilisations/Immobilisations/Immobilisation/OngletAmortissement.md'
+          - Dépréciation: 'Immobilisations/Immobilisations/Immobilisation/OngletDepreciation.md'
+          - Sortie: 'Immobilisations/Immobilisations/Immobilisation/OngletSortie.md'
+          - Analytique: 'Immobilisations/Immobilisations/Immobilisation/OngletAnalytique.md' 
+          - Commentaires: 'Immobilisations/Immobilisations/Immobilisation/OngletCommentaires.md'
+          - Personnalisé: 'Immobilisations/Immobilisations/Immobilisation/OngletPersonnalisé.md'
+        - Reprise d'immobilisations: 'Immobilisations/Immobilisations/RepriseImmobilisations.md'
+        - Import d'immobilisations: 
+          - 'Imports/ImportAutresDonnees/ImportImmobilisations/1/ImportImmobilisations.md'
+          - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+          - Structure du fichier d'immobilisations: 'Imports/ImportAutresDonnees/StructureFichierImmobilisations/1/StructureFichierImmobilisations.md'
+          - Exemples: 
+            - Exemple de fichier d'immobilisations: 'Imports/ImportAutresDonnees/ImportImmobilisations/2/ExempleFichierImmobilisations.md'
+            - Exemple d'import d'immobilisations: 'Imports/ImportAutresDonnees/ImportImmobilisations/2/ExempleImportImmobilisations.md'
+        - Import des lignes d'amortissement: 
+          - 'Imports/ImportAutresDonnees/ImportLignesAmortissement/1/ImportLignesAmortissement.md'
+          - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+          - Structure du fichier de lignes d'amortissement: 'Imports/ImportAutresDonnees/StructureFichierLignesAmortissement/StructureFichier.md'
+          - Exemple: 
+            - Exemple de fichier des lignes d'amortissement: 'Imports/ImportAutresDonnees/ImportLignesAmortissement/2/ExempleFichierLignesAmortissement.md'
+            - Exemple d'import des lignes d'amortissement: 'Imports/ImportAutresDonnees/ImportLignesAmortissement/2/ExempleImportLignesAmortissement.md'
+        - Impression des immobilisations: 'Immobilisations/Impressions/ImpressionImmobilisations.md'
+        - Impression des acquisitions de l'exercice: 'Immobilisations\Impressions\Impression_des_acquisition_de_l_exercice.md'
+        - Impression des dotations: 'Immobilisations/Impressions/ImpressionDotations.md'
+        - Impression de l'état des immobilisations: 'Immobilisations\Impressions\ImpressionEtatImmobilisations.md'
+        - Impression des sorties d'immobilisations: 'Immobilisations\Impressions\Impression_des_sorties_d_immombilisations.md'
+      - Méthodes de calculs: 
+        - Amortissement Linéaire: 'Immobilisations\Immobilisations\MéthodesCalculs\Méthodes_de_calcul.md'
+        - Amortissement Dégressif: 'Immobilisations\Immobilisations\MéthodesCalculs\AmortissementDégressif.md'
+        - Plus ou moins values: 'Immobilisations\Immobilisations\MéthodesCalculs\PlusMoinsValues.md'
+      - Ecritures comptables: 
+        - Paramétrages comptables: 'Immobilisations/Comptabilisation/ParametragesComptables.md'
+        - Génération des écritures comptables: 'Immobilisations/Comptabilisation/GenerationEcrituresComptables.md'
+        - Outils de comptabilisation en masse: 'Immobilisations/Comptabilisation/OutilsComptabilisationMasse.md'
+      - Immobilisations de A à Z: 'Immobilisations/Immobilisations-de-A-Z/ImmobilisationsAZ.md'
     - TRAITEMENTS: 
       - Lettrage: 
         - Introduction: '+GestionComptable/Lettrage/1/Introduction.md'
@@ -1777,47 +1819,6 @@ nav:
         - Impression d'un budget: '+GestionComptable/Budgets/Impression/Budget/ImpressionBudget.md'
         - Impression des budgets: '+GestionComptable/Budgets/Impression/Budgets/ImpressionBudgets.md'
         - Budgets de A à Z: '+GestionComptable/Budgets/BudgetsAZ/BudgetsAZ.md'
-    - IMMOS:
-      - Introduction: 'Immobilisations/Introduction/Introduction.md'
-      - Familles d'immobilisations: 
-        - Liste des familles d'immobilisations: 'Immobilisations/Familles/ListeFamillesImmobilisations.md'
-        - Famille d'immobilisations: 'Immobilisations/Familles/FamilleImmobilisations.md'
-        - Impression des familles d'immobilisations: 'Immobilisations/Familles/ImpressionFamillesImmobilisations.md'
-      - Lieux d'immobilisations: 
-        - Liste des lieux d'immobilisations: 'Immobilisations/Lieux/ListeLieuxImmobilisations.md'
-        - Lieu d'immobilisations: 'Immobilisations/Lieux/LieuImmobilisations.md'
-        - Impression des lieux d'immobilisations: 'Immobilisations/Lieux/ImpressionLieuxImmobilisations.md'
-      - Immobilisations: 
-        - Liste des immobilisations: 'Immobilisations/Immobilisations/ListeImmobilisations.md'
-        - Immobilisation: 
-          - 'Immobilisations/Immobilisations/Immobilisation.md'
-          - Entête: 'Immobilisations/Immobilisations/Immobilisation/Entete.md'
-          - Général: 'Immobilisations/Immobilisations/Immobilisation/OngletGeneral.md'
-          - Entrée: 'Immobilisations/Immobilisations/Immobilisation/OngletEntree.md'
-          - Amortissement: 'Immobilisations/Immobilisations/Immobilisation/OngletAmortissement.md'
-          - Dépréciation: 'Immobilisations/Immobilisations/Immobilisation/OngletDepreciation.md'
-          - Sortie: 'Immobilisations/Immobilisations/Immobilisation/OngletSortie.md'
-          - Analytique: 'Immobilisations/Immobilisations/Immobilisation/OngletAnalytique.md' 
-          - Commentaires: 'Immobilisations/Immobilisations/Immobilisation/OngletCommentaires.md'
-          - Image: 'Immobilisations/Immobilisations/Immobilisation/OngletImage.md'
-          - Personnalisé: 'Immobilisations/Immobilisations/Immobilisation/OngletPersonnalisé.md'
-        - Import d'immobilisations: 
-          - 'Imports/ImportAutresDonnees/ImportImmobilisations/1/ImportImmobilisations.md'
-          - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
-          - Structure du fichier d'immobilisations: 'Imports/ImportAutresDonnees/StructureFichierImmobilisations/1/StructureFichierImmobilisations.md'
-          - Exemples: 
-            - Exemple de fichier d'immobilisations: 'Imports/ImportAutresDonnees/ImportImmobilisations/2/ExempleFichierImmobilisations.md'
-            - Exemple d'import d'immobilisations: 'Imports/ImportAutresDonnees/ImportImmobilisations/2/ExempleImportImmobilisations.md'
-        - Reprise d'immobilisations: 'Immobilisations/Immobilisations/RepriseImmobilisations.md'
-        - Création d'une immobilisation depuis la saisie d'écritures comptables: 'Immobilisations/SaisieEcritures/CreationDepuisEcritureComptable.md'
-        - Impression des immobilisations: 'Immobilisations/Impressions/ImpressionImmobilisations.md'
-        - Impression des dotations: 'Immobilisations/Impressions/ImpressionDotations.md'
-        - Préférences: 'Immobilisations/Préférences/Préférences.md'
-      - Ecritures comptables: 
-        - Paramétrages comptables: 'Immobilisations/Comptabilisation/ParametragesComptables.md'
-        - Génération des écritures comptables: 'Immobilisations/Comptabilisation/GenerationEcrituresComptables.md'
-        - Outils de comptabilisation en masse: 'Immobilisations/Comptabilisation/OutilsComptabilisationMasse.md'
-      - Immobilisations de A à Z: 'Immobilisations/Immobilisations-de-A-Z/ImmobilisationsAZ.md'
   - DÉCISIONNEL: 
     - Statistiques de vente: 
       - Statistiques: 
@@ -1853,9 +1854,6 @@ nav:
       - Exemple d'utilisation: 'Decisionnel/TableauxBord/2/ExempleUtilisation.md'
       - Pack Décisionnel: 'Decisionnel/TableauxBord/4/PackDécisionnel.md'
   - IMPRESSIONS: 
-    - Aperçu avant impression: 
-      - Aperçu avant impression: 'Impressions/1/ApercuAvantImpression.md'
-      - Impression de l'aperçu: 'Impressions/1/ImpressionApercu.md'
     - Impressions: 'Impressions/2/Impressions.md'
     - Nouveau modèle d'impression: 'Impressions/3/NouveauModeleImpression.md'
     - Impressions personnalisées: 'Impressions/4/ImpressionsPersonnalisees1.md'
@@ -1868,11 +1866,13 @@ nav:
     - ReportBuilder: 
       - Introduction: 'ReportBuilder/Introduction/Introduction.md'
       - Onglet "Données": 
+        - 'ReportBuilder\OngletDonnées\OngletDonnees.md'
         - Assistant de requête: 'ReportBuilder/OngletDonnées/AssistantRequete/AssistantRequete.md'
         - Concepteur de requête: 'ReportBuilder/OngletDonnées/ConcepteurRequete/ConcepteurRequete.md'
         - Jointures SQL: 'ReportBuilder/OngletDonnées/JointuresSQL/JointuresSQL.md'
         - Liens entre les vues: 'ReportBuilder/OngletDonnées/LiensEntreVues/LiensEntreVues.md'
       - Onglet "Conception":
+        - 'ReportBuilder\OngletConception\OngletConception.md'
         - Groupes: 'ReportBuilder/OngletConception/Groupes/Groupes.md'
         - Barres d'outils: 'ReportBuilder/OngletConception/BarresOutils/BarresOutils.md'
         - Objets statiques: 'ReportBuilder/OngletConception/ObjetsStatiques/ObjetsStatiques.md'
@@ -1880,6 +1880,7 @@ nav:
         - Objets d'organisation: 'ReportBuilder/OngletConception/ObjetsOrganisation/ObjetsOrganisation.md'
         - Options de mise en page: 'ReportBuilder/OngletConception/OptionsMisePage/OptionsMisePage.md'
       - Onglet "Calculs": 
+        - 'ReportBuilder\OngletCalculs\OngletCalculs.md'
         - Principes de base: 'ReportBuilder/OngletCalculs/PrincipesBase.md'
         - Variables et constantes: 'ReportBuilder/OngletCalculs/VariablesConstantes.md'
         - Fonctions et procédures: 'ReportBuilder/OngletCalculs/FonctionsProcedures.md'
@@ -1888,18 +1889,19 @@ nav:
         - Ordre d'exécution des événements: 'ReportBuilder/OngletCalculs/OrdreExecutionEvenements.md'
       - Comment faire ?: 
         - Comment ajouter une image dans une impression ?: 'ReportBuilder/CommentFaire/CommentAjouterImage.md'
+        - Vidéo d'exemple de modification: 'ReportBuilder\CommentFaire\VideoExempleModification.md'
   - OUTILS: 
     - Calculatrice: 'Calculatrice/1/Calculatrice.md'
     - Imports: 
-      - Import de données: 'Imports/AssistantImport/1/ImportDonnees.md'
-      - Avertissement: 'Imports/AssistantImport/2/Avertissement.md'
       - Les étapes de l'import: 
+        - Import de données: 'Imports/AssistantImport/1/ImportDonnees.md'
         - Sélection du fichier à importer et de la table de destination: 'Imports/AssistantImport/1/SelectionFichierTable.md'
         - Format du fichier: 'Imports/AssistantImport/1/FormatFichier.md'
         - Séparateur de champs: 'Imports/AssistantImport/1/SeparateurChamps.md'
         - Mappage des champs: 'Imports/AssistantImport/1/MappageChamps.md'
         - Aperçu avant import: 'Imports/AssistantImport/1/ApercuAvantImport.md'
         - Traitement: 'Imports/AssistantImport/1/Traitement.md'
+      - Avertissement: 'Imports/AssistantImport/2/Avertissement.md'
     - Exports: 
       - Autres données: 
         - Export de données au format XML: 'Exports/ExportDonneesXML/1/ExportDonneesFormatXML.md'
@@ -1992,6 +1994,8 @@ nav:
       - Rapport de clôture annuelle: 'Cloture/ClotureAnnuelleComptable/2/RapportClotureAnnuelle.md'
       - Exemple de rapport - Clôture: 'Cloture/ClotureAnnuelleComptable/2/ExempleRapportClotureAnnuelle.md'
       - Regénérer les écritures d'à-nouveaux: 'Cloture/ClotureAnnuelleComptable/3/RegenererEcrituresAnouveaux.md'
+      - Comment faire ?: 
+        - La clôture comptable de A à Z: 'Cloture\ClotureAnnuelleComptable\CommentFaire\VideoClotureComptableAZ.md'
     - Administration de la base de données: 
       - Introduction: 'AdministrationBaseDonnees/Introduction/Introduction.md'
       - Informations sur la base de données: 'AdministrationBaseDonnees/Informations/InformationsBaseDonnees.md'
@@ -2242,6 +2246,24 @@ nav:
             - Exemple:
               - Exemple de fichier de fournisseurs: 'Imports/ImportRelationTiers/ImportFournisseurs/2/ExempleFichierFournisseurs.md'
               - Exemple d'import de fournisseurs: 'Imports/ImportRelationTiers/ImportFournisseurs/2/ExempleImportFournisseurs.md'
+        - ImporterFraisBudgetesAffaires: 
+          - 'Taches\4\ImporterFraisBudgetesAffaires.md'
+          - Import de frais budgétés d'affaires: 
+            - 'Imports/ImportAutresDonnees/ImportFraisBudgetesAffaires/Import.md'
+            - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+            - Structure du fichier de frais budgétés d'affaires: 'Imports/ImportAutresDonnees/StructureFichierFraisBudgetesAffaires/StructureFichier.md'
+            - Exemple: 
+              - Exemple de fichier de frais budgétés d'affaires: 'Imports/ImportAutresDonnees/ImportFraisBudgetesAffaires/ExempleFichier.md'
+              - Exemple d'import de frais budgétés d'affaires : 'Imports/ImportAutresDonnees/ImportFraisBudgetesAffaires/ExempleImport.md'
+        - ImporterFraisRealisesAffaires:
+          - 'Taches\4\ImporterFraisRealisesAffaires.md'
+          - Import de frais réalisés d'affaires: 
+            - 'Imports/ImportAutresDonnees/ImportFraisRealisesAffaires/Import.md'
+            - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+            - Structure du fichier de frais réalisés d'affaires: 'Imports/ImportAutresDonnees/StructureFichierFraisRealisesAffaires/StructureFichier.md'
+            - Exemple: 
+              - Exemple de fichier de frais réalisés d'affaires: 'Imports/ImportAutresDonnees/ImportFraisRealisesAffaires/ExempleFichier.md'
+              - Exemple d'import de frais réalisés d'affaires: 'Imports/ImportAutresDonnees/ImportFraisRealisesAffaires/ExempleImport.md'
         - ImporterGlossaires: 
           - 'Taches/4/ImporterGlossaires.md'
           - Import de glossaires: 
@@ -2269,6 +2291,24 @@ nav:
             - Exemples: 
               - Exemple de fichier d'immobilisations: 'Imports/ImportAutresDonnees/ImportImmobilisations/2/ExempleFichierImmobilisations.md'
               - Exemple d'import d'immobilisations: 'Imports/ImportAutresDonnees/ImportImmobilisations/2/ExempleImportImmobilisations.md'
+        - ImporterMainOeuvreBudgeteeAffaires : 
+          - 'Taches\4\ImporterMainOeuvreBudgeteeAffaires.md'
+          - Import de main d'oeuvre budgétée d'affaires: 
+            - 'Imports/ImportAutresDonnees/ImportMainOeuvreBudgeteeAffaires/Import.md'
+            - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+            - Structure du fichier de main d'oeuvre budgétée d'affaires: 'Imports/ImportAutresDonnees/StructureFichierMainOeuvreBudgeteeAffaires/StructureFichier.md'
+            - Exemple: 
+              - Exemple de fichier de main d'oeuvre budgétée d'affaires: 'Imports/ImportAutresDonnees/ImportMainOeuvreBudgeteeAffaires/ExempleFichier.md'
+              - Exemple d'import de main d'oeuvre budgétée d'affaires: 'Imports/ImportAutresDonnees/ImportMainOeuvreBudgeteeAffaires/ExempleImport.md'
+        - ImporterMainOeuvreRealiseeAffaires: 
+          - 'Taches\4\ImporterMainOeuvreRealiseeAffaires.md'
+          - Import de main d'oeuvre réalisée d'affaires: 
+            - 'Imports/ImportAutresDonnees/ImportMainOeuvreRealiseeAffaires/Import.md'
+            - Type de fichier: 'Imports/TypeFichierImport/TypeFichier.md'
+            - Structure du fichier de main d'oeuvre réalisée d'affaires: 'Imports/ImportAutresDonnees/StructureFichierMainOeuvreRealiseeAffaires/StructureFichier.md' 
+            - Exemple: 
+              - Exemple de fichier de main d'oeuvre réalisée d'affaires: 'Imports/ImportAutresDonnees/ImportMainOeuvreRealiseeAffaires/ExempleFichier.md'
+              - Exemple d'import de main d'oeuvre réalisée d'affaires: 'Imports/ImportAutresDonnees/ImportMainOeuvreRealiseeAffaires/ExempleImport.md'
         - ImporterModesReglements: 
           - 'Taches/4/ImporterModesReglements.md'
           - Import de modes de règlements: 
@@ -2419,7 +2459,6 @@ nav:
           - Application "Exemple de réception de tâches via message WM_COPYDATA": 'MessageCopyData/8/ApplicationExempleReceptionTaches.md'
   - Ergonomie:
     - 'Ergonomie/1/Ergonomie.md'
-    - Listes doubles: 'Ergonomie/2/ListesDoubles.md'
     - Listes doubles de sélection de journaux: 'Ergonomie/2/ListesDoublesSelectionJournaux.md'
     - Raccourcis clavier: 'Ergonomie/3/RaccourcisClavier.md'
     - Multi-sélection: 'Ergonomie/3/Multi-selection.md'
@@ -2454,9 +2493,8 @@ nav:
           - 'Listes/Menu/Personnalisation/PersonnalisationListe.md'
           - Personnalisation des colonnes:  'Listes/Menu/Personnalisation/PersonnalisationColonnes.md'
           - Personnalisation des filtres: 'Listes/Menu/Personnalisation/PersonnalisationFiltres.md'
-        - Sélection de critères, champs, données: 'Listes/Z/SelectionCriteresChampsDonnees.md'
+      - Sélection de critères, champs, données: 'Listes/Z/SelectionCriteresChampsDonnees.md'
   - Vidéos: 
-    - Introduction: 'Videos/1/Introduction.md'
     - Affaires: 'Videos/3/Affaires.md'
     - Articles gammés: 'Videos/3/ArticlesGammes.md'
     - Articles lottés: 'Videos/3/ArticlesLottes.md'
@@ -2473,7 +2511,6 @@ nav:
     - Natures comptables: 'Videos/3/NaturesComptables.md'
     - Piloter votre activité commerciale: 'Videos/3/PiloterVotreActiviteCommerciale.md'
     - Personnalisation de Gestimum Comptabilité: 'Videos/4/PersonnalisableGestimumComptabilite.md'
-    #- PrestaShop: 
     - Règlements clients et fournisseurs: 'Videos/2/ReglementsClientsFournisseurs.md'
     - Saisie décentralisée des temps: 'Videos/3/SaisieDecentraliseeTemps.md'
     - Statistiques de vente: 'Videos/3/StatistiquesVente.md'

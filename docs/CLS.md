@@ -19,7 +19,7 @@ Il définit les conditions dans lesquelles GESTIMUM licencie ses PROGICIELS et f
 Les CLS prévalent sur tout documents émis par les clients.
 
 
-Le présent contrat est soumis aux Conditions Générales de Ventes (CGV), consultables : [http://ww.gestimum.com/fr/cgv.pdf](http://www.gestimum.com/fr/cgv.pdf).
+Le présent contrat est soumis aux Conditions Générales de Ventes (CGV), consultables : [http://www.gestimum.com/fr/cgv.pdf](http://www.gestimum.com/fr/cgv.pdf).
 
 
 ## DEFINITIONS
