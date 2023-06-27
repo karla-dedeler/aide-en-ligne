@@ -2,7 +2,7 @@
   footer {
     display: flex;
     background-color: #acacac;
-    color: #000000;
+    color: #fff;
     align-items: center; /* Centrer verticalement les éléments */
     padding: 10px; /* Espacement intérieur */
   }
@@ -11,12 +11,18 @@
     flex: 1; /* Permet aux éléments de prendre une part égale de l'espace disponible */
     text-align: center; /* Centrer horizontalement le contenu */
   }
+
+  .footer-part p {
+    font-size: 18px; /* Taille du texte en pixels */
+    font-weight: bold; /* Texte en gras */
+    color: #fff; /* Couleur du texte en blanc */
+  }
 </style>
 
 
 <footer>
   <div class="footer-part">
-    <a href="https://www.gestimum.com/"><img src="logo.png" alt="Logo"></a>
+    <a href="https://www.gestimum.com/"><img src="./logo.png" alt="Logo"></a>
   </div>
    <div class="footer-part">
     <p>5 rue Joseph Cugnot | 78120 Rambouillet</p>
