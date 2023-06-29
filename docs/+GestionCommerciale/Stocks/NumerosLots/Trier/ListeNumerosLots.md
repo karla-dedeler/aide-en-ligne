@@ -116,7 +116,3 @@ Il ne vous est pas interdit de créer un numéro
 
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

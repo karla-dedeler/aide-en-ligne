@@ -29,7 +29,3 @@ De plus, il est possible de visualiser les lots périmés ou non par une
  les propriétés de la grille).
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

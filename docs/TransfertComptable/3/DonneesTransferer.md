@@ -102,10 +102,3 @@ Ces documents seront ignorés par le transfert.
 
 Dans la fenêtre de [sélection des données une par une](SelectionDonnees.md), les données verrouillées sont grisées, en italique et barrées.
 
-
-
- //<![CDATA[
- if (typeof(FilePopupInit) != 'function') FilePopupInit = new Function();
- FilePopupInit('a1');
- //]]>
- 

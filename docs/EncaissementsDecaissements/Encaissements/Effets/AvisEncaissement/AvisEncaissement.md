@@ -56,7 +56,3 @@ Cette fenêtre permet de visualiser :
  de trésorerie (Règlements - Frais - TVA).
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

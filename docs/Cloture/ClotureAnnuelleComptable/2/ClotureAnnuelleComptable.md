@@ -275,7 +275,3 @@ Vous devez vérifier différents points avant de poursuivre votre activité
 
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

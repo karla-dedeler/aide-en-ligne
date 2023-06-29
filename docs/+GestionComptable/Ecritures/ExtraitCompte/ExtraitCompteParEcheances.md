@@ -126,7 +126,3 @@ Le pied affiche des informations de totalisation suivantes pour la période
  du compte.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

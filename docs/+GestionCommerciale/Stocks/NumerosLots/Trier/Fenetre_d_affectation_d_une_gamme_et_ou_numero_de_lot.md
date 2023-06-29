@@ -189,8 +189,3 @@ Pour une duplication de document : vous resterez
 
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
-//]]>

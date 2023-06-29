@@ -14,7 +14,3 @@ Si des lignes de stock existent pour cet article, vous pourrez transformer
  est renseignée sur toutes les lignes.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

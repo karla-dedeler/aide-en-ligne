@@ -244,8 +244,3 @@ En réalisation de document, le tarif sera appliqué suivant la devise
  de celui-ci.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
-//]]>

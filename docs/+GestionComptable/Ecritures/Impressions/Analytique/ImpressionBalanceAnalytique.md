@@ -168,7 +168,3 @@ Lors de la demande d’édition de la balance analytique, vous devez sélectionn
  le plan analytique pour lequel vous souhaitez réaliser les éditions.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

@@ -141,7 +141,3 @@ En comptabilité, la suppression de l’avis d’escompte supprimera les
  pour un prochain avis d’escompte.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

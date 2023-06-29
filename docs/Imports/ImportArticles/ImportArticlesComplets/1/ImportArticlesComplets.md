@@ -86,7 +86,3 @@ A la fin du traitement, vous avez la possibilité d’afficher un rapport
  d’import qui contient les anomalies et erreurs de l’import.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

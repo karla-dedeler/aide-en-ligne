@@ -34,7 +34,3 @@ Le logiciel vous informe
  de chacune des deux pièces et vous demande la confirmation.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('A1');
-//]]>

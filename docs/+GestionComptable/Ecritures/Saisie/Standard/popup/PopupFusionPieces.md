@@ -31,7 +31,3 @@ Si la sélection est correcte,
  vous obtiendrez une seule pièce.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('A1');
-//]]>

@@ -105,8 +105,3 @@ En cliquant sur le bouton Annuler, vous pouvez arrêter la sélection
  à partir du stock de l’article.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
-//]]>

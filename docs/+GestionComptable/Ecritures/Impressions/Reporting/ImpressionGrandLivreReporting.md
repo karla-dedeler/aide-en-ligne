@@ -117,7 +117,3 @@ Une option supplémentaire vous permet d’éditer que les comptes généraux
  pour lesquels un compte de reporting est renseigné.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

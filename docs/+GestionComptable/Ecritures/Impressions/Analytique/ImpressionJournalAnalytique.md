@@ -104,7 +104,3 @@ Lors de la demande d’édition d’un journal analytique, vous devez sélection
  le plan analytique pour lequel vous souhaitez faire les éditions.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

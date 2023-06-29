@@ -15,8 +15,3 @@ La gestion des [encaissements](AvisEncaissement/EffetEncaissement.md) ou [escomp
  l’historique des avis d’encaissement ou l’historique des avis d’escompte.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
-//]]>

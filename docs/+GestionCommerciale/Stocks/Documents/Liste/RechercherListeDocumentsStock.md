@@ -22,7 +22,3 @@ Un double-clic sur un document permet d’ouvrir le document pour le modifier
  n’est plus modifiable.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

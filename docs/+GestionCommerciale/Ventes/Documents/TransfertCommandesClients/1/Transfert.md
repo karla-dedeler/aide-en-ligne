@@ -304,7 +304,3 @@ A la fin du traitement, vous avez la possibilité de visualiser et d’enregistr
 Pour avoir un exemple de rapport cliquez ici .
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

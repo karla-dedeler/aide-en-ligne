@@ -137,8 +137,3 @@ Le menu contextuel (clic droit) de cette grille vous permet :
  les fonctions générales d'une grille.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
-//]]>

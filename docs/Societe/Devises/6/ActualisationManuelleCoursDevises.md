@@ -50,9 +50,4 @@ Le [bouton Outils](OutilActualisationCertainIncertain.md) donne accès à un uti
 
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
-//]]>
 

@@ -87,7 +87,3 @@ Pour avoir le détail de ce menu contextuel, cliquez [ici](MenuContextuelSaisieS
 Voir [Détail du journal](ZonesSaisieStandard.md).
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

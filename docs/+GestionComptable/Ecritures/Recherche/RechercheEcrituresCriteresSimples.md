@@ -50,7 +50,3 @@ La recherche d’écriture à partir de cet onglet est efficace dans certains
 
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

@@ -98,7 +98,3 @@ Il vous est possible à tout moment d’annuler le paramétrage de cet enregistr
 Vous avoir un exemple de rapport cliquez [ici](ExempleRapportClotureAnnuelle.md).
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

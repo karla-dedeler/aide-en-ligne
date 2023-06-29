@@ -68,7 +68,3 @@ Le menu contextuel de cette grille permet de :
  générales des grilles
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

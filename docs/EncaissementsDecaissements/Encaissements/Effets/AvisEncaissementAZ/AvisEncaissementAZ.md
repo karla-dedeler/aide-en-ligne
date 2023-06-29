@@ -142,7 +142,3 @@ En comptabilité, la suppression de l’avis d’encaissement supprimera
  pour un prochain avis d’encaissement.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

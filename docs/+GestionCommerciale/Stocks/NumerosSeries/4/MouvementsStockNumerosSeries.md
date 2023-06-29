@@ -173,10 +173,3 @@ Le menu contextuel permet également cette manipulation (Ouvrir la pièce)
 
 
 
-
-
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
-//]]>

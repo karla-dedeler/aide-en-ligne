@@ -60,14 +60,3 @@ La saisie d’une gamme est obligatoire sur les document suivants :
 La gamme reste modifiable après validation de la ligne article.
 
 
- 
-
-
-
-
-
-
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>

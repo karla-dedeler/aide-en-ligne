@@ -42,9 +42,3 @@ La saisie de ce délai est possible à partir :
 Lorsqu’il est saisi dans les préférences ou famille ou sous famille 
  d’article, à la création de la fiche article avec un mode de gestion "lot", 
  il sera affecté par défaut.
-
-
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
-//]]>
