@@ -35,7 +35,6 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Sommaire: 'sommaire.md'
   - Bienvenue: 'index.md'
   - Conditions de licence des progiciels GESTIMUM et d'utilisation des services associés au 15/11/2019: 'CLS.md'
   - Notes de Version:
