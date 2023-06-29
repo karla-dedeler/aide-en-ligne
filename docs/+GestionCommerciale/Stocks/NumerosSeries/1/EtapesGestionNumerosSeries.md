@@ -14,13 +14,7 @@ La gestion des numéros de série se réalise en différentes étapes:
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

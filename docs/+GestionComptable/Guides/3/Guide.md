@@ -214,13 +214,7 @@ Si vous sélectionnez le champ GDL\_QTESS, la saisie des quantités lors
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

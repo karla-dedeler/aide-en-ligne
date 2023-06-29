@@ -112,13 +112,7 @@ Il ne vous est pas interdit de créer un numéro
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

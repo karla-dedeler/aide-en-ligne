@@ -16,22 +16,3 @@ Vous pouvez également préciser :
 
 
  
-
-
-[Voir aussi](javascript:RelatedTopic0.Click()).
-
-
-
-Voir aussi (espace réservé)
-
-
-1. [Liste des rubriques](#)
-
-
-
-
- //<![CDATA[
- if (typeof(FilePopupInit) != 'function') FilePopupInit = new Function();
- FilePopupInit('a1');
- //]]>
- 

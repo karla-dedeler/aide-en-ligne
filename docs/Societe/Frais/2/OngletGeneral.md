@@ -82,13 +82,7 @@ Si le montant du document est 50.01, Le frais sera de 80
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

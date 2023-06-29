@@ -63,13 +63,7 @@ La gamme reste modifiable après validation de la ligne article.
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

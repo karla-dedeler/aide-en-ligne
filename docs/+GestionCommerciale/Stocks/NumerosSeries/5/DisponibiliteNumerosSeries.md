@@ -151,13 +151,7 @@ Lorsque l’option n’est pas verrouillée, la fenêtre des disponibilités
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

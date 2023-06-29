@@ -39,16 +39,3 @@
 |          |                                                       | Un inventaire complet (2) dépôt 1                                                                  |
 |          |                                                       | Demande purge date inventaire (2) + 1 jour, purge des documents archivés et en état Archivés et    |
 |          |                                                       | des mouvements du dépôt 1 jusqu’à la date d’inventaire (document d’inventaire (2) exclu)          |
-
-
-[Voir aussi](javascript:RelatedTopic0.Click())
-
-
-
-Voir aussi (espace réservé)
-
-
-1. [Liste des rubriques](#)
-
-
-

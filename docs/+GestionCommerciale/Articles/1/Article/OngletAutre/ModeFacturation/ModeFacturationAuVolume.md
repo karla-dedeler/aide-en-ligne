@@ -35,12 +35,7 @@ Volume unitaire = Longueur \*
 En facturation, le prix d’une unité de vente sera égal à :
 
 
-Prix \* Quantité 
- (Qté)
-
-
- 
-
+Prix \* Quantité (Qté)
 
 Quantité (Qté) = Volume
 
@@ -54,20 +49,8 @@ Volume = Surface \* hauteur
 Ou
 
 
-Volume = Longueur \* Largeur 
- \* Hauteur
+Volume = Longueur \* Largeur  \* Hauteur
 
-
- 
-
-
-[Voir aussi](javascript:RelatedTopic0.Click())
-
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

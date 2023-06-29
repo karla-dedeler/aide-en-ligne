@@ -52,15 +52,3 @@ Ces fichiers sont répartis en trois groupes :
 	+ LIG\_SERIE Lignes 
 	 des numéros de série des articles sérialisés dont les documents 
 	 sont extraits
-
-
-[Voir aussi](javascript:RelatedTopic0.Click())
-
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
-
-
-

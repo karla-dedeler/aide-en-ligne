@@ -102,16 +102,3 @@ La date d’opération et la date de valeur doivent obligatoirement être
 Une fois ce paramétrage effectué, vous pouvez commencer à [rapprocher vos écritures](RapprochementEcritures.md).
 
 
- 
-
-
-[Voir aussi](javascript:RelatedTopic0.Click()).
-
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
-
-
-

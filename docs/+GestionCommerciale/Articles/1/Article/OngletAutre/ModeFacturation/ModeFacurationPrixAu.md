@@ -17,13 +17,4 @@ En facturation, le prix d’une unité de vente sera égal à : Qté
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
-
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
-
-
 

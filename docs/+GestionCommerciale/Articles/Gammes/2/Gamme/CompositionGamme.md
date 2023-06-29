@@ -55,13 +55,7 @@ Pour avoir un exemple de la fenêtre de sélection des gammes élémentaires
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

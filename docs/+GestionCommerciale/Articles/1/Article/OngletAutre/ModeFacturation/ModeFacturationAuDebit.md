@@ -46,12 +46,10 @@ Prenons l’exemple suivant : la vente de l’article Carreau (de 20 \* 20
 En facturation, le prix d’une unité de vente sera égal à :
 
 
-Qté \* Prix 
- net
+Qté \* Prix net
 
 
-Quantité (Qté) = Longueur \* 
- Largeur
+Quantité (Qté) = Longueur \* Largeur
 
 
 Et
@@ -61,15 +59,4 @@ Quantité (Qté) = Surface
 
 
  
-
-
-[Voir aussi](javascript:RelatedTopic0.Click())
-
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
-
-
 

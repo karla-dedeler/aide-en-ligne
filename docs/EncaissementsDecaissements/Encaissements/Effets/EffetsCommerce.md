@@ -157,13 +157,7 @@ Il est possible d’imprimer la liste des échéances (Bouton Imprimer liste)
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

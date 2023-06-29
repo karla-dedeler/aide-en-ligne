@@ -46,13 +46,7 @@ La recherche d’écriture à partir de cet onglet est efficace dans certains
  
 
 
-[Voir Aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

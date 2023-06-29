@@ -171,13 +171,7 @@ Le menu contextuel permet également cette manipulation (Ouvrir la pièce)
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

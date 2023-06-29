@@ -160,17 +160,3 @@ La Ventilation sur CA des montants de vos comptes de produits et de
 
 Pour avoir un exemple de création dans les tables cliquez [ici](ExempleParametrageCompteChargesProduits.md).
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
-
-
-
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
- FilePopupInit('a3');
-//]]>

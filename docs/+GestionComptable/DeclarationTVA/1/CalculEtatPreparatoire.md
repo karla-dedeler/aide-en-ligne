@@ -125,7 +125,3 @@ Le logiciel ouvre alors l’application Excel et crée une feuille contenant
 
  
 
-
-[Voir aussi](javascript:RelatedTopic0.Click())
-
-

@@ -40,14 +40,7 @@ La gestion des Lots peut être sélectionnée sur les nomenclatures gérées en 
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-
-Voir aussi (espace réservé)
-
-
-1. [Liste des rubriques](#)
 
 
 

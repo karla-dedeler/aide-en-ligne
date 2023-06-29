@@ -61,14 +61,6 @@ Le numéro de lot reste modifiable après validation
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
-
-
---
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

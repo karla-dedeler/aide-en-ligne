@@ -106,15 +106,3 @@ Lorsque vous avez terminé de rapprocher les écritures, vous devez [ajourner ou
 
 
  
-
-
-[Voir aussi](javascript:RelatedTopic0.Click()).
-
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
-
-
-

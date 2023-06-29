@@ -141,14 +141,7 @@ En pied de la fenêtre, le logiciel affiche :
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-
-Voir aussi (espace réservé)
-
-
-1. [Liste des rubriques](#)
 
 
 

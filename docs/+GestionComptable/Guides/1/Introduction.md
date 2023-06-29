@@ -47,14 +47,7 @@ Les guides pré-paramétrés lors de la création d'une société.
 Lors de la création de la société, il est possible d'utiliser ou [pré-paramétrer les guides](../Trier2/StructureGuidePréparamétré.md) avant de créer une nouvelle société disponibles dans le fichier Guides du répertoire Bases.
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-
-Voir aussi (espace réservé)
-
-
-1. [Liste des rubriques](#)
 
 
 

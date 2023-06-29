@@ -101,13 +101,7 @@ Le logiciel prend automatiquement le dernier prix à la date de l’inventaire,
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

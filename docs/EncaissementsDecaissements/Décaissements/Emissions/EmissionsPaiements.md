@@ -76,14 +76,7 @@ A partir du menu contextuel de la liste, vous pouvez réaliser une remise magné
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-
-Voir aussi (espace réservé)
-
-
-1. [Liste des rubriques](#)
 
 
 

@@ -170,13 +170,7 @@ La modification d’un règlement est possible pour le type, la date, la
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

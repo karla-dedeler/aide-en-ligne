@@ -26,13 +26,7 @@ Lors de la sortie d’un numéro de série, des boutons supplémentaires
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

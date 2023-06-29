@@ -23,14 +23,6 @@ La gestion des gammes se réalisent en différentes étapes :
 
  
 
-
-[Voir aussi.](javascript:RelatedTopic0.Click())
-
-
-Voir aussi (espace réservé)
  
-
-1. [Liste des rubriques](#)
-
 
 

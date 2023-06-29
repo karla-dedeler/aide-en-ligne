@@ -23,13 +23,3 @@ La gestion sérialisée peut être sélectionnée sur le composé ou les composa
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
-
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
-
-
-

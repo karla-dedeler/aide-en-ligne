@@ -59,7 +59,3 @@ Sans le mot de passe associé à l'utilisateur, la société ne pourra pas
  utilisateurs" du menu SOCIETE et peuvent être modifiés par le menu 
  SOCIETE/Paramétrage + "Changer de mot de passe".
 
-
-[Voir aussi](javascript:RelatedTopic0.Click())
-
-

@@ -44,14 +44,6 @@ Enfin, validez le rapprochement lorsqu'aucun solde ne subsiste.
 
  
 
-
-[Voir aussi.](javascript:RelatedTopic0.Click())
-
-
-Voir aussi (espace réservé)
  
-
-1. [Liste des rubriques](#)
-
 
 

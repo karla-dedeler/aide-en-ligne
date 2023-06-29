@@ -20,13 +20,6 @@ IMPORTANT!! La gestion des données s'effectue soit en mode Fiche (mode
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
-
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

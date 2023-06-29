@@ -13,13 +13,7 @@ La gestion des frais (création, modification, suppression, impression)
 Toutes les listes ont un fonctionnement commun.
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

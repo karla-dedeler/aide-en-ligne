@@ -27,13 +27,7 @@ Le bouton "Effacer…"
  permet de supprimer le filtre de la liste de recherche.
 
 
-[Voir Aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

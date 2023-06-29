@@ -20,14 +20,7 @@
 | 31   | Facturation de matériaux à un donneur d’ouvrage établi dans un autre État membre, les matériaux faisant l’objet d’une prestation de services en France |
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-
-Voir aussi (espace réservé)
-
-
-1. [Liste des rubriques](#)
 
 
 

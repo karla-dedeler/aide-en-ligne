@@ -44,14 +44,7 @@ Ces codes doivent être complétés par la codification afférente au lieu du co
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-
-Voir aussi (espace réservé)
-
-
-1. [Liste des rubriques](#)
 
 
 

@@ -15,15 +15,3 @@ Lorsque vous êtes sur un rapprochement, les boutons "Précédent"
 
 
  
-
-
-[Voir aussi](javascript:RelatedTopic0.Click()).
-
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
-
-
-

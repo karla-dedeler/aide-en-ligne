@@ -87,13 +87,7 @@ La sélection des composantes s’effectue à l'aide de la fenêtre suivante
 
 
 ![image\Gest0073_wmf.gif](SelectionComposantes.gif "image\Gest0073_wmf.gif")
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

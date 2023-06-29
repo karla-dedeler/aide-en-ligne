@@ -77,13 +77,7 @@ Lorsque l’assistant a été complété, cliquez sur le bouton
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

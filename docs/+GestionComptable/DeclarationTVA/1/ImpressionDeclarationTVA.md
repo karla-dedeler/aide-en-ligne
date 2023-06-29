@@ -22,13 +22,7 @@ La fenêtre d’impression de la TVA vous propose uniquement le modèle
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 

@@ -22,13 +22,7 @@ La réalisation de celui-ci s’effectue dans les onglets Ventes et Achats
  
 
 
-[Voir aussi](javascript:RelatedTopic0.Click())
 
-
-Voir aussi (espace réservé)
- 
-
-1. [Liste des rubriques](#)
 
 
 
