@@ -35,6 +35,7 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
+  - Sommaire des aides en ligne: 'sommaire.md'
   - Bienvenue: 'index.md'
   - Conditions de licence des progiciels GESTIMUM et d'utilisation des services associés au 15/11/2019: 'CLS.md'
   - Notes de Version:
@@ -43,7 +44,7 @@ nav:
     - Dénomination des versions: 'NotesVersion/Racine/DenominationVersion.md'
     - Développement sur mesure: 'NotesVersion/Racine/PFD.md'
     - Préconisations d'utilisation et d'installation: 'NotesVersion/Racine/PreconisationsUtilisationInstallation8.md'
-    #- Version 9.5 build 1155 du 19/06/2023:
+    - Version 9.5 build 1155 du 19/06/2023: 'NotesVersion/Version9/Version_9.5.md'
     - Version 9: 
       - Version 9.4 build 1153 du 17/10/2022: 'NotesVersion/Version9/Version_9.4.md'
       - Version 9.3 build 1067 du 23/12/2020: 'NotesVersion/Version9/Version_930.md'
