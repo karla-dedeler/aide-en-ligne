@@ -8,7 +8,7 @@ Le contenu même est dans le dossier `docs/`, tous les fichiers  `*.md` sont des
 ⚙️ **mkdocs.yml** <br>
 Ce fichier est divisé en plusieurs partie. 
 La section `nav` est le sommaire et la structure même du site.
-La section `theme` permet de choisir certains réglages. Le thème principal est [material](https://squidfunk.github.io/mkdocs-material/getting-started/). Ce thème comporte des options qui peuvent être utilisé en important les bon features dans le sous section `features` ou `plugins` selon les cas, se référer à la documentation.
+La section `theme` permet de choisir certains réglages. Le thème principal est [material](https://squidfunk.github.io/mkdocs-material/getting-started/). Ce thème comporte des options qui peuvent être utilisées en les important dans la sous section `features` ou `plugins` selon les cas (se référer à la documentation).
 La section `extra_css` permet d'ajouter de la personnalsiation, modifier le thème de base. Il faut faire les modifications dans le fichier `extra.css` qui se trouve dans `docs/stylesheets/`
 
 

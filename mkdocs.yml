@@ -775,21 +775,8 @@ nav:
         - Inventaire de A à Z: '+GestionCommerciale/Stocks/Inventaire/4/InventaireAZ.md'
         - Inventaire d'articles sérialisés: '+GestionCommerciale/Stocks/Inventaire/5/InventaireArticlesSerialises.md'
       - Numéros de lot: 
-        #- Sélection d'un numéro de lot dans un document: '+GestionCommerciale/Stocks/NumerosLots/Trier/Selection_d_un_numero_de_lot_dans_un_document.md'
-        #- Article lot et péremption: '+GestionCommerciale/Stocks/NumerosLots/Trier/Article_lot_et_peremption.md'
-        #- Article périmé: '+GestionCommerciale/Stocks/NumerosLots/Trier/ArticlePerime.md'
-        #- Article périssable: '+GestionCommerciale/Stocks/NumerosLots/Trier/ArticlePerissable.md'
-        #- Date de péremption: '+GestionCommerciale/Stocks/NumerosLots/Trier/DatePeremption.md'
-        #- Épuration des gammes et/ou numéro de lot: '+GestionCommerciale/Stocks/NumerosLots/Trier/Epuration_des_gammes_et_ou_numero_de_lot.md'
-        #- Fenêtre d'affectation d'une gamme et/ou numéro de lot: '+GestionCommerciale/Stocks/NumerosLots/Trier/Fenetre_d_affectation_d_une_gamme_et_ou_numero_de_lot.md'
-        #- Gestion des lots par ancienneté: '+GestionCommerciale/Stocks/NumerosLots/Trier/Gestion_des_lots_par_anciennete.md'
         - Étapes: '+GestionCommerciale/Stocks/NumerosLots/1/Etapes.md'
         - Numéros de lots de A à Z: '+GestionCommerciale/Stocks/NumerosLots/2/Numéros_de_lots_de_A_à_Z.md'
-        #- Liste des numéros de lots: '+GestionCommerciale/Stocks/NumerosLots/Trier/ListeNumerosLots.md'
-        #- Champs disponibles pour la gestion de la péremption: '+GestionCommerciale/Stocks/NumerosLots/Trier/Champs_disponibles_pour_la_gestion_de_la_p_remption.md'
-        #- Péremption - Champs disponibles dans tous les documents: '+GestionCommerciale/Stocks/NumerosLots/Trier/Peremption_Champs_disponibles_dans_tous_les_documents.md'
-        #- Péremption - Champs disponibles dans les documents de stock: '+GestionCommerciale/Stocks/NumerosLots/Trier/Peremption_Champs_disponibles_dans_les_documents_de_stock.md'
-        #- Document avec message de péremption: '+GestionCommerciale/Stocks/NumerosLots/Trier/Document_avec_message_de_peremption.md'
       - Numéros de série: 
         - Étapes pour la gestion de numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/1/EtapesGestionNumerosSeries.md'
         - Préférences: 
@@ -804,10 +791,6 @@ nav:
         - Affectation des numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/5/AffectationNumerosSeries.md'
         - Affectation des numéros de séries en sortie de stock: '+GestionCommerciale/Stocks/NumerosSeries/5/AffectationNumerosSeriesSortieStock.md'
         - Réservation de numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/6/ReservationNumerosSeries.md'
-        #- Sortie de numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/6/SortieNumerosSeries.md'
-        #- Entrée de numéros de séries: '+GestionCommerciale/Stocks/NumerosSeries/6/EntreeNumerosSeries.md'
-      #- Création d'une ligne dans le stock d'un article: '+GestionCommerciale/Stocks/Trier/CreationLigneStockArticle.md'
-      #- Zone de sélection d'un ou plusieurs articles: '+GestionCommerciale/Stocks/Trier/ZoneSelectionUnPlusieursArticles.md'
     - TIERS: 
       - Prospects, clients et fournisseurs:
         - Introduction: '+GestionCommerciale/Tiers/1/Introduction.md'
@@ -957,7 +940,6 @@ nav:
             - Mise à jour manuelle des champs des tiers de la sous-famille: '+GestionCommerciale/Tiers/7/MiseJour/MiseJourManuelleChampsTiersSousFamille.md'
       - Contacts:
         - Définition: '+GestionCommerciale/Tiers/Contacts/1/Définition.md'
-        #- Nouveau contact: '+GestionCommerciale/Tiers/Contacts/2/NouveauContact.md'
         - Liste des contacts: '+GestionCommerciale/Tiers/Contacts/3/Lliste.md'
         - Contact: 
           - '+GestionCommerciale/Tiers/Contacts/4/Contact.md'
@@ -1356,10 +1338,7 @@ nav:
       - Planning: 
         - Paramétrage du planning des affaires: 'Affaires/5/ParametragePlanningAffaires.md'
         - Planning des affaires: 'Affaires/4/PlanningAffaires.md'
-      #- Saisie externalisée de la main d'oeuvre:
-        #- Connexion: 
-        #- Utilisation: 
-        #- Résultat:
+      - Saisie externalisée de la main d'oeuvre: 'Affaires/6/moa.md'
   - ENCAISSEMENTS: 
     - Échéances: 
       - Échéances clients: 'EncaissementsDecaissements/Encaissements/Echeances/EchéancesClients.md'
@@ -2421,11 +2400,7 @@ nav:
         - ImprimerDocumentStock: 'Taches/4/ImprimerDocumentStock.md'
         - RecalculerStock: 'Taches/4/RecalculerStock.md'
         - TransfererDocumentsAchVte: 'Taches/4/TransfererDocumentsAchVte.md'
-    #- Web Service: 
-    #  - Bienvenue: 
-    #  - Installation: 
-    #  - Utilisation: 
-    #  - Requêtes et paramètres:
+    - Web Service: 'WebService/WebService.md'
     - Message Windows WM_COPYDATA: 
       - Présentation: 'MessageCopyData/1/Presentation.md'
       - Message Windows WM_COPYDATA: 'MessageCopyData/1/MessageWindowsWMCOPYDATA.md'
