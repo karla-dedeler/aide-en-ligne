@@ -1338,7 +1338,10 @@ nav:
       - Planning: 
         - Paramétrage du planning des affaires: 'Affaires/5/ParametragePlanningAffaires.md'
         - Planning des affaires: 'Affaires/4/PlanningAffaires.md'
-      - Saisie externalisée de la main d'oeuvre: 'Affaires/6/moa.md'
+      - Saisie externalisée de la main d'oeuvre: 
+        - Connexion: 'Affaires/6/2/Connexion.md'
+        - Utilisation: 'Affaires/6/3/Utilisation.md'
+        - Résultat: 'Affaires/6/4/Résultat.md'
   - ENCAISSEMENTS: 
     - Échéances: 
       - Échéances clients: 'EncaissementsDecaissements/Encaissements/Echeances/EchéancesClients.md'
@@ -2400,7 +2403,128 @@ nav:
         - ImprimerDocumentStock: 'Taches/4/ImprimerDocumentStock.md'
         - RecalculerStock: 'Taches/4/RecalculerStock.md'
         - TransfererDocumentsAchVte: 'Taches/4/TransfererDocumentsAchVte.md'
-    - Web Service: 'WebService/WebService.md'
+
+    - Web Service: 
+      - Bienvenue: 'WebService/1/Bienvenue.md'
+      - Installation: 
+        - Architecture: 'WebService/2/1/Architecture.md'
+        - Démarrage du serveur: 'WebService/2/2/DemarrageServeur.md'
+        - Démarrage automatique du serveur: 'WebService/2/2/DemarrageAutomatique.md'
+        - Pare-feu Windows: 'WebService/2/3/PareFeuWindows.md'
+      - Utilisation: 
+        - Console embarquée: 'WebService/3/1/ConsoleEmbarquee.md'
+        - Adresses des fonctions: 'WebService/3/2/AdressesFonctions.md'
+      - Requêtes et paramètres: 
+        - Requêtes disponibles: 'WebService/4/RequetesDisponibles.md'
+        - Objet JSON en paramètre des requêtes: 'WebService/4/ObjetJSONParametreRequetes.md'
+        - Création d'actions: 
+          - Requête de création d'actions: 'WebService/4/1/RequeteCreationActions.md'
+          - Structure du fichier d'actions: 'Imports/ImportAutresDonnees/StructureFichierActions/1/StructureFichierActions.md'
+        - Création d'adresses de tiers: 
+          - Requête de création d'adresses de tiers: 'WebService/4/1/RequeteCreationAdressesTiers.md'
+          - Structure du fichier d'adresses de tiers: 'Imports/ImportRelationTiers/StructureFichierAdressesTiers/1/StructureFichierAdressesTiers.md'
+        - Création d'affaires: 
+          - Requête de création d'affaires: 'WebService/4/1/RequeteCreationAffaires.md'
+          - Structure du fichier d'affaires: 'Imports/ImportAutresDonnees/StructureFichierAffaires/StructureFichier.md'
+        - Création d'articles seuls: 
+          - Requête de création d'articles seuls: 'WebService/4/1/RequeteCreationArticlesSeuls.md'
+          - Structure du fichier d'articles seuls: 'Imports/ImportArticles/StructureFichierArticlesSeuls/1/SFAS.md'
+        - Création de banques de tiers: 
+          - Requête de création de banques de tiers: 'WebService/4/3/RequeteCreationBanquesTiers.md'
+          - Structure du fichier de banques de tiers: 'Imports/ImportRelationTiers/StructureBanquesTiers/1/StructureFichierBanquesTiers.md'
+        - Création de clients: 
+          - Requête de création de clients: 'WebService/4/1/RequeteCreationClients.md'
+          - Structure du fichier de clients: 'Imports/ImportRelationTiers/StructureFichierClients/1/StructureFichierClients.md'
+        - Création de commerciaux: 
+          - Requête de création de commerciaux: 'WebService/4/1/RequeteCreationCommerciaux.md'
+          - Structure du fichier de commerciaux: 'Imports/ImportAutresDonnees/StructureFichierCommerciaux/1/StructureFichierCommerciaux.md'
+        - Création de composants d'articles seuls: 
+          - Requête de création de composants d'articles seuls: 'WebService/4/1/RequeteCreationComposantsArticlesSeuls.md'
+          - Structure du fichier de composants seuls: 'Imports/ImportArticles/StructureFichierComposantsArticlesSeuls/1/StructureFichierComposantsSeuls.md'
+        - Création de comptes: 
+          - Requête de création de comptes: 'WebService/4/3/RequeteCreationComptes.md'
+          - Structure du fichier de comptes: 'Imports/ImportRelationTiers/StructureFichierComptes/1/StructureFichierComptes.md'
+        - Création de comptes de reporting: 
+          - Requête de création de comptes de reporting: 'WebService/4/2/RequeteCreationComptesReporting.md'
+          - Structure du fichier de comptes de reporting: 'Imports/ImportAutresDonnees/StructureFichierComptesReporting/1/StructureFichierComptesReporting.md'
+        - Création de contacts: 
+          - Requête de création de contacts: 'WebService/4/1/RequeteCreationContacts.md'
+          - Structure du fichier de contacts: 'Imports/ImportRelationTiers/StructureFichierContacts/1/StructureFichierContacts.md'
+        - Création de devises: 
+          - Requête de création de devises: 'WebService/4/3/RequeteCreationDevises.md'
+          - Structure du fichier de devises: 'Imports/ImportAutresDonnees/StructureFichierDevises/1/StructureFichierDevises.md'
+        - Création de documents d'achat: 
+          - Requête de création de documents d'achat: 'WebService/4/1/RequeteCreationDocumentsAchat.md'
+          - Structure du fichier de documents d'achat: 'Imports/ImportAutresDonnees/StructureFichierDocumentsAchat/1/StructureFichierDocumentsAchat.md'
+        - Création de documents de stock: 
+          - Requête de création de documents de stock: 'WebService/4/1/RequeteCreationDocumentsStock.md'
+          - Structure du fichier de documents de stock: 'Imports/ImportAutresDonnees/StructureFichierDocumentsStock/1/ImportDocumentsStock.md'
+        - Création de documents de vente: 
+          - Requête de création de documents de vente: 'WebService/4/1/RequeteCreationDocumentsVente.md'
+          - Structure du fichier de documents de vente: 'Imports/ImportAutresDonnees/StructureFichierDocumentsVente/1/StructureFichierDocumentsVente.md'
+        - Création d'écritures: 
+          - Requête de création d'écritures: 'WebService/4/2/RequeteCréationEcritures.md'
+          - Format Gestimum Gestion Comptable à largeur variable: 'Imports/ImportEcritures/StructureFichierEcrituresGestimumComptaVariable/1/FormatGestimumGestionComptableLV.md'
+          - Format Gestimum Gestion Comptable avec longueurs fixes: 'Imports/ImportEcritures/StructureFichierEcrituresGestimumComptaFixe/1/FormatGestimumGestionComptableLongueursFixes.md'
+          - Format Gestimum Gestion Comptable 1.5 à largeur fixe: 'Imports/ImportEcritures/StructureFichierEcrituresGestimumComptaV15/1/FormatGestimumGestionComptable15LV.md'
+          - Format Gestimum Gestion Commerciale 1.5 à largeur variable:  'Imports/ImportEcritures/StructureFichierEcrituresGestimumGescomV15/1/FormatGestimumGestionCommerciale15LV.md'
+          - Format EBP versions 200X, 5 et 3 à largeur variable: 'Imports/ImportEcritures/StructureFichierEcrituresEBPV2000V5V3/1/FormatEBP200X53LV.md'
+        - Création d'équivalences d'articles seules: 
+          - Requête de création d'équivalences d'articles seules: 'WebService/4/1/RequeteCreationEquivalencesArticlesSeules.md'
+          - Structure du fichier d'équivalences seules: 'Imports/ImportArticles/StructureFichierEquivalencesArticlesSeules/1/SFES.md'
+        - Création de familles d'articles: 
+          - Requête de création de familles d'articles: 'WebService/4/1/RequeteCreationFamillesArticles.md'
+          - Structure du fichier de familles d'articles: 'Imports/ImportAutresDonnees/StructureFichierFamillesArticles/1/StructureFichierFamillesArticles.md'
+        - Création de fournisseurs: 
+          - Requête de création de fournisseurs: 'WebService/4/1/RequeteCreationFournisseurs.md'
+          - Structure du fichier de fournisseurs: 'Imports/ImportRelationTiers/StructureFichierFournisseurs/1/StructureFichierFournisseurs.md'
+        - Création de glossaires: 
+          - Requête de création de glossaires: 'WebService/4/1/RequeteCreationGlossaires.md'
+          - Structure du fichier de glossaires: 'Imports/ImportAutresDonnees/StructureFichierGlossaires/1/StructureFichierGlossaires.md'
+        - Création de grilles de tarifs: 
+          - Requête de création de grilles de tarifs: 'WebService/4/1/RequeteCreationGrillesTarifs.md'
+          - Structure du fichier de grilles de tarifs: 'Imports/ImportRelationTiers/StructureFichierGrillesTarifs/1/StructureFichierGrillesTarifs.md'
+        - Création d'immobilisations: 
+          - Requête de création d'immobilisations: 'WebService/4/2/RequeteCreationImmobilisations.md'
+          - Structure du fichier d'immobilisations: 'Imports/ImportAutresDonnees/StructureFichierImmobilisations/1/StructureFichierImmobilisations.md'
+        - Création de modes de règlements: 
+          - Requête de création de modes de règlements: 'WebService/4/3/RequeteCreationModesReglements.md'
+          - Structure du fichier de modes de règlements: 'Imports/ImportAutresDonnees/StructureFichierModesReglements/1/StructureFichierModesReglements.md'
+        - Création de natures comptables: 
+          - Requête de création de natures comptables: 'WebService/4/1/RequeteCreationNaturesComptables.md'
+          - Structure du fichier de natures comptables: 'Imports/ImportAutresDonnees/StructureFichierNaturesComptables/1/StructureFichierNaturesComptables.md'
+        - Création de pays: 
+          - Requête de création de pays: 'WebService/4/3/RequeteCreationPays.md'
+        - Structure du fichier de pays: 'Imports/ImportAutresDonnees/StructureFichierPays/1/StructureFichierPays.md'
+        - Création de prospects: 
+          - Requête de création de prospects: 'WebService/4/1/RequeteCreationProspects.md'
+          - Structure du fichier de prospects: 'Imports/ImportRelationTiers/StructureFichierProspects/1/StructureFichierProspects.md'
+        - Création de références clients seules: 
+          - Requête de création de références clients d'articles seules: 'WebService/4/1/RequeteCreationReferencesClientsArticlesSeules.md'
+          - Structure du fichier de références clients seules: 'Imports/ImportArticles/StructureFichierReferencesClientsArticlesSeules/1/SRCS.md'
+        - Création de salariés: 
+          - Requête de création de salariés: 'WebService/4/3/RequeteCreationSalaries.md'
+          - Structure du fichier de salariés: 'Imports/ImportAutresDonnees/StructureFichierSalaries/1/StructureFichierSalaries.md'
+        - Création de sections analytiques: 
+          - Requête de création de sections analytiques: 'WebService/4/3/RequeteCreationSectionsAnalytiques.md'
+          - Structure du fichier de sections analytiques: 'Imports/ImportAutresDonnees/StructureFichierSectionsAnalytiques/1/StructureFichierSectionsAnalytiques.md'
+        - Création de sous-familles d'articles: 
+          - Requête de création de sous-familles d'articles: 'WebService/4/1/RequeteCreationSousFamillesArticles.md'
+          - Structure du fichier de sous-familles d'articles: 'Imports/ImportAutresDonnees/StructureFichierSousFamillesArticles/1/StructureFichierSousFamillesArticles.md'
+        - Création de tarifs articles seuls: 
+          - Requête de création de tarifs articles seuls: 'WebService/4/1/RequeteCreationTarifsArticlesSeuls.md'
+          - Structure du fichier de tarifs seuls: 'Imports/ImportArticles/StructureFichierTarifsArticlesSeuls/1/STAS.md'
+        - Création de tarifs fournisseurs seuls: 
+          - Requête de création de tarifs fournisseurs seuls: 'WebService/4/1/RequeteCreationTarifsFournisseursSeuls.md'
+          - Structure du fichier de tarifs fournisseurs seuls: 'Imports/ImportArticles/StructureFichierTarifsFournisseursArticlesSeuls/1/SFTFS.md'
+        - Création d'utilisateurs:
+          - Requête de création d'utilisateurs: 'WebService/4/3/RequeteCreationUtilisateurs.md'
+          - Structure du fichier d'utilisateurs: 'Imports/ImportAutresDonnees/StructureFichierUtilisateurs/1/StructureFichierUtilisateurs.md'
+        - Création de villes: 
+          - Requête de création de villes: 'WebService/4/3/RequeteCreationVilles.md'
+          - Structure du fichier de villes: 'Imports/ImportAutresDonnees/StructureFichierVilles/1/StructureFichierVilles.md'
+      - Version du web service: 'WebService/4/VersionWebService.md'
+      - Version de l'ERP: 'WebService/4/VersionERP.md'
     - Message Windows WM_COPYDATA: 
       - Présentation: 'MessageCopyData/1/Presentation.md'
       - Message Windows WM_COPYDATA: 'MessageCopyData/1/MessageWindowsWMCOPYDATA.md'
