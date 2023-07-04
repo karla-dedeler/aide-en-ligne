@@ -59,7 +59,7 @@ Le volet de raccourcis (par défaut ancrée à gauche l'écran) comporte plusieu
  
 
 
-[Personnalisez votre barre de raccourcis](VoletRaccourcis.md) avec l'ajout des nouveaux raccourcis, exécutables, documents Word, Excel, HTML, etc.
+Personnalisez votre barre de raccourcis avec l'ajout des nouveaux raccourcis, exécutables, documents Word, Excel, HTML, etc.
 
 
  
