@@ -35,7 +35,6 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Sommaire des aides en ligne: 'sommaire.md'
   - Bienvenue: 'index.md'
   - Conditions de licence des progiciels GESTIMUM et d'utilisation des services associés au 15/11/2019: 'CLS.md'
   - Notes de Version:
@@ -2403,7 +2402,6 @@ nav:
         - ImprimerDocumentStock: 'Taches/4/ImprimerDocumentStock.md'
         - RecalculerStock: 'Taches/4/RecalculerStock.md'
         - TransfererDocumentsAchVte: 'Taches/4/TransfererDocumentsAchVte.md'
-
     - Web Service: 
       - Bienvenue: 'WebService/1/Bienvenue.md'
       - Installation: 

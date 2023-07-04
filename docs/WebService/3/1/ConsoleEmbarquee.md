@@ -6,13 +6,13 @@ Gestimum Web Service 2
  local.
 
 
-†
+
 
 
 ![](Console.png)
 
 
-†
+
 
 
 La page "Server Functions" permet d'ex√©cuter les diff√©rentes 
@@ -20,7 +20,7 @@ La page "Server Functions" permet d'ex√©cuter les diff√©rentes
  :
 
 
-†
+
 
 
 ![](Functions.png)
