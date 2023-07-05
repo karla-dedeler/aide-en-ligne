@@ -3,8 +3,6 @@
  
 
 
-\* Les numéros de tickets en orange 
- correspondent à des évolutions de l'ERP.
 
 
  

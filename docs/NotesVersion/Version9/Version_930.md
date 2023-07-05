@@ -3,7 +3,7 @@
 ### Evolutions & correctifs (n° de ticket)
 
 
-\* Les numéros de tickets en orange correspondent à des évolutions de l'ERP
+
 
 
 #### ENCAISSEMENTS ET DECAISSEMENTS

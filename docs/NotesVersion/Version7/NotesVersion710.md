@@ -3,8 +3,7 @@
  
 
 
-#### LOI ANTI-FRAUDE 
- TVA
+#### LOI ANTI-FRAUDE TVA
 
 
 `#23769` – Le calcul des clés d'inaltérabilité 

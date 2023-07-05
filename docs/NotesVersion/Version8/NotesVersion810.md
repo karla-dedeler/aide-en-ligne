@@ -2,8 +2,7 @@
  
 
 
-\* Les numéro de ticket en orange 
- correspond à des évolutions de l'ERP
+
 
 
  

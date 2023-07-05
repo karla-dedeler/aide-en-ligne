@@ -68,10 +68,6 @@ Pour cela, nous avons revu le visuel de l'échéancier
 ### Autres évolutions & correctifs (n° de ticket)
 
 
-\* Les numéros de tickets en orange 
- correspondent à des évolutions de l'ERP
-
-
 #### DOCUMENTATION ERP
 
 

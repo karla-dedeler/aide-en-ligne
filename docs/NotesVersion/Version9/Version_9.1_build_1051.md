@@ -48,7 +48,7 @@ Vous pouvez désormais activer l'obligation de remplir certains champs standards
 ### Autres évolutions & correctifs (n° de ticket)
 
 
-\* Les numéros de tickets en orange correspondent à des évolutions de l'ERP
+
 
 
 #### ACHAT ET VENTE

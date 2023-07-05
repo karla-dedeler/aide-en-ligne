@@ -12,7 +12,8 @@
 
 
  
-GESTIMUM ERP 9.4 ![](../assets/images/image6.png)
+GESTIMUM ERP 9.5 
+**Juin 2013**
 
 
 ![](../assets/images/Version9/9.4.jpg)
