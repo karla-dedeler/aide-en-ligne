@@ -5,4 +5,13 @@
 
 .md-content {
     --md-typeset-a-color: #df6800;
-  }
+}
+
+.md-nav--primary {
+    overflow-y: auto;
+    max-height: 900px; 
+}
+
+body {
+    padding-bottom: 40px; /* Ajustez cette valeur en fonction de la hauteur de votre pied de page */
+}
