@@ -14,7 +14,7 @@ Ce fichier est divisé en plusieurs parties:
 - La section `extra_css` permet d'ajouter de la personnalisation, modifier le thème de base. Il faut faire les modifications dans le fichier `extra.css` qui se trouve dans `docs/stylesheets/`
 
 ⚙️ **docs/requirements.in** et **docs/requirements.txt** <br>
-Ce sont deux fichiers avec les configurations et imports nécessaires à la bonne compliation. Si modification dans les extensions utiliséees dans `mkdocs.yml`, ajouter selon la documentation la ligne nécessaire dans `*docs/requirements.in` puis lancer la commande présente dans le fichier `*docs/requirements.txt` pour bien mettre à jour le fichier.
+Ce sont deux fichiers avec les configurations et imports nécessaires à la bonne compliation. Si modification dans les extensions utiliséees dans `mkdocs.yml`, ajouter selon la documentation la ligne nécessaire dans `docs/requirements.in` puis lancer la commande présente dans le fichier `docs/requirements.txt` pour bien mettre à jour le fichier.
 
 Modifier / compléter la doc
 ---------------------
