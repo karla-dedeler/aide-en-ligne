@@ -24,7 +24,7 @@ Pour ce faire, effectuer les étapes suivantes :
 - commencer avec un tiret - 
 - écrire le titre de la section (qui apparaîtra dans le sommaire du site). 
 - ajouter deux points :
-- entre '' indiquer le chemin daccès du fichier correspondant. 
+- entre ' indiquer le chemin daccès du fichier correspondant. 
 
 Ce fichier doit se trouver dans le dossier `docs\` et finir en `*.md`. Il sera donc écrit en markdown ([ici un guide avec les bases du markdown](https://www.ionos.fr/digitalguide/sites-internet/developpement-web/markdown/)). Si vous utilisez Visual Studio Code, il y a des extensions pour visualiser ce que cela donne.
 
