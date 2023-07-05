@@ -4,14 +4,16 @@
 }
 
 .md-content {
-    --md-typeset-a-color: #df6800;
+    --md-typeset-a-color: #df6800; /* lien en orange */
 }
 
+/* Menu de navigation avec scrollbar */
 .md-nav--primary {
     overflow-y: auto;
     max-height: 900px; 
 }
 
+/* Pour que la page en elle-même ne soit pas cachée par le pied de page */
 body {
-    padding-bottom: 40px; /* Ajustez cette valeur en fonction de la hauteur de votre pied de page */
+    padding-bottom: 40px;
 }
