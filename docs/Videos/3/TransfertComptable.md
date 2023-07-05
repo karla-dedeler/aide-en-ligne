@@ -1,4 +1,4 @@
 # Transfert comptable
 
-[![Vidéo YouTube](https://www.youtube.com/embed/cx9obargHWo)](https://www.youtube.com/embed/cx9obargHWo)
+[![Vidéo YouTube](http://img.youtube.com/vi/cx9obargHWo/0.jpg)](https://www.youtube.com/embed/cx9obargHWo)
 

@@ -1,4 +1,4 @@
 # Natures comptables
 
-[![Vidéo YouTube](https://www.youtube.com/embed/AkOkloyKM90)](https://www.youtube.com/embed/AkOkloyKM90)
+[![Vidéo YouTube](http://img.youtube.com/vi/AkOkloyKM90/0.jpg)](https://www.youtube.com/embed/AkOkloyKM90)
 

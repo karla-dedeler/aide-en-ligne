@@ -1,4 +1,4 @@
 # Import de relevés bancaires et rapprochement
 
-[![Vidéo YouTube](https://www.youtube.com/embed/kbvroA81cco)](https://www.youtube.com/embed/kbvroA81cco)
+[![Vidéo YouTube](http://img.youtube.com/vi/kbvroA81cco/0.jpg )](https://www.youtube.com/embed/kbvroA81cco)
 

@@ -1,4 +1,4 @@
 # Immobilisations
 
-[![Vidéo YouTube](https://www.youtube.com/embed/KRrjS2SHBnQ)](https://www.youtube.com/embed/KRrjS2SHBnQ)
+[![Vidéo YouTube](http://img.youtube.com/vi/KRrjS2SHBnQ/0.jpg )](https://www.youtube.com/embed/KRrjS2SHBnQ)
 
