@@ -2,7 +2,7 @@ site_name: Gestimum ERP 9.5
 
 theme:
   name: material
-  logo : "https://www.gestimum.com/wp-content/uploads/2018/07/Gestimum-logo-2015.png"
+  logo : "https://www.pagesjaunes.fr/media/agc/a1/ff/63/00/00/10/ad/be/44/b4/5dd2a1ff63000010adbe44b4/5dd2a1ff63000010adbe44b5.png"
   custom_dir: overrides
   language: fr
   features : 
@@ -77,7 +77,7 @@ nav:
       - Paramétrages après la création d'une société: 'Societe/Nouvelle/3/ParametragesApresCreationSociete.md'
     - Ouvrir une société:
       - Ouverture de société: 'Societe/Ouvrir/1/OuvertureSociete.md'
-      - Assistant de création d'unmk  e connexion à une société existante:
+      - Assistant de création d'une connexion à une société existante:
         - Assistant de connexion: 
           - 'Societe/Ouvrir/2/AssistantConnexion.md'
           - Base de données: 'Societe/Ouvrir/2/BaseDonnees.md'
