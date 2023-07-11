@@ -6,6 +6,14 @@
 
 /* ENTETE */
 
+/* Gérer le titre */
+.md-header__title {
+    font-size: xx-large;
+}
+.md-header__topic:first-child {
+    font-weight: 400;
+}
+
 /* Rendre le bandeau d'entête plus couvrant */
 .md-header {
     height: 12em;
@@ -30,10 +38,18 @@
 
 /* CONTENU DE LA PAGE */
 
+.md-content__inner {
+    padding-top: 0rem; 
+}
+
+.md-content__inner:before {
+ height: 0rem;
+}
+
 .md-main__inner {
     display: flex;
     height: 100%;
-    margin-top: 1.5rem;
+    margin-top: .5rem;
 }
 
 .md-grid {
@@ -55,8 +71,8 @@
     background-color:#f5f5f5;
     box-shadow: 0 0 0;
     position: fixed;
-    max-width: 23em;
-    height: 75%;
+    width: 23em;
+    height: 78%;
 }
 
 /* Mise en page des liens */
