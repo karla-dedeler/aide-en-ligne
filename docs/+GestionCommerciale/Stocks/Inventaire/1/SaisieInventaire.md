@@ -387,9 +387,3 @@ L’impression Écarts de stock/Inventaire permet d’obtenir pour chacun
  de l’inventaire ainsi que l’écart.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
- FilePopupInit('a3');
-//]]>

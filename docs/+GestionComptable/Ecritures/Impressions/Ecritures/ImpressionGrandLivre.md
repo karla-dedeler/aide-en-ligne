@@ -112,9 +112,3 @@ Lors de la demande d’édition du Grand-livre, vous devez sélectionner le type
 * Global.
 
 
-
- //<![CDATA[
- if (typeof(FilePopupInit) != 'function') FilePopupInit = new Function();
- FilePopupInit('a1');
- //]]>
- 

@@ -105,13 +105,3 @@ Elle n’est pas saisissable, elle est calculée en fonction de la [date de pér
 
 Le calcul de celle-ci est : Date de péremption - délai de commercialisation
 
-
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
- FilePopupInit('a4');
- FilePopupInit('a5');
- FilePopupInit('a6');
- FilePopupInit('a7');
-//]]>

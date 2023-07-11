@@ -38,20 +38,3 @@ Le menu contextuel de la saisie standard vous donne accès à :
  de la grille
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
- FilePopupInit('a3');
- FilePopupInit('a4');
- FilePopupInit('a5');
- FilePopupInit('a6');
- FilePopupInit('a7');
- FilePopupInit('a8');
- FilePopupInit('a9');
- FilePopupInit('a10');
- FilePopupInit('a11');
- FilePopupInit('a12');
- FilePopupInit('a13');
- FilePopupInit('a14');
-//]]>

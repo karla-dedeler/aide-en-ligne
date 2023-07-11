@@ -216,15 +216,3 @@ Les totaux Débit et Crédit ainsi que les soldes peuvent être :
 * Ceux de la pièce 
  sélectionnée
 
-
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
- FilePopupInit('a3');
- FilePopupInit('a4');
- FilePopupInit('a5');
- FilePopupInit('a6');
- FilePopupInit('a7');
- FilePopupInit('a8');
-//]]>

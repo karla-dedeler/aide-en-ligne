@@ -22,7 +22,7 @@ Les CLS prévalent sur tout documents émis par les clients.
 Le présent contrat est soumis aux Conditions Générales de Ventes (CGV), consultables : [http://www.gestimum.com/fr/cgv.pdf](http://www.gestimum.com/fr/cgv.pdf).
 
 
-## DEFINITIONS
+## Définitions
 
 
 CLS ou CONTRAT : désigne le présent contrat, à l’exclusion de tout autre.
@@ -58,7 +58,7 @@ UTILISATEUR : Désigne les personnes physiques salariés du CLIENT qui utilisent
 INTÉGRATEUR : désigne un professionnel de l’informatique et de la gestion d’entreprise, ayant une relation contractuelle avec les CLIENTS, dont la vocation est entre autre, d’acheter à GESTIMUM des PRODUITS et de les intégrer dans une offre globale de produits et services à destination des CLIENTS.
 
 
-## CONTRAT DE LICENCE
+## Contrat de licence
 
 
 ### Objet
@@ -193,7 +193,7 @@ Le code de débridage fournit par GESTIMUM, et les informations du système d’
 Le CLIENT autorise GESTIMUM à contrôler que l’utilisation faite par le CLIENT des PROGICIELS est conforme au CONTRAT.
 
 
-### Responsabilité du CLIENT / de l’INTÉGRATEUR
+### Responsabilité du client / de l'intégrateur
 
 
 Le CLIENT reconnaît être un professionnel, ou être assisté par un professionnel dont il est seul responsable du choix, et avoir évalué le PROGICIEL de façon approfondie avant sa décision d’achat, notamment avoir vérifié qu’il est en adéquation avec ses besoins.
@@ -223,7 +223,7 @@ Le CLIENT / l’INTÉGRATEUR s’engage à ne pas nuire à la réputation de GES
 L’INTÉGRATEUR s’engage à garantir et indemniser GESTIMUM contre toute réclamation ou action en justice d’un CLIENT à l’encontre de GESTIMUM.
 
 
-### Accessibilité & propriété des données CLIENTS saisies dans les PROGICIELS
+### Accessibilité & propriété des données clients saisies dans les progiciels
 
 
 GESTIMUM s’appuie sur une base de données ouverte Microsoft SQL Server. Toutes les tables et champs contenant des données sont librement accessibles, indépendamment des PROGICIELS. GESTIMUM communique gracieusement aux INTÉGRATEURS et CLIENTS le schéma directeur de la base de données.
@@ -253,7 +253,7 @@ En vertu de l'article L121-1 du Code de la Propriété Intellectuelle, le CLIENT
 GESTIMUM garantit qu'elle est le titulaire légitime de la propriété intellectuelle attachée au PROGICIEL ou le cas échéant qu'elle a acquis les droits suffisants pour en accorder une Licence au CLIENT.
 
 
-## MAINTENANCE
+## Maintenance
 
 
 Le CLIENT / l’INTÉGRATEUR pourra souscrire auprès de GESTIMUM un contrat de MAINTENANCE permettant au CLIENT / INTÉGRATEUR de disposer des éventuelles MISES À JOUR du PROGICIEL et de la documentation correspondante, ainsi que d’une assistance par courriel (G-MAIL) ou téléphonique (G-TEL) assortie éventuellement d’une prise en main à distance (G-WEB) et de services associés : réparations et migrations de bases, formations …
@@ -343,7 +343,7 @@ Le CLIENT doit pouvoir faire appel à un professionnel de l’informatique et de
 Le CLIENT est informé que l’assistance sur site ne fait pas partie de la MANTENANCE, et qu’il est donc de son devoir de faire appel à un professionnel de l’informatique et de la gestion pour dénouer sur site une difficulté technique dont la cause n’aurait pas pu être déterminée ou résolue par l’assistance de GESTIMUM.
 
 
-## PRESTATIONS DE SERVICE
+## Prestations de service
 
 
 Les PRESTATIONS de services suivantes sont habituellement du ressort de l’INTÉGRATEUR, qui pourra si besoin demander le support de GESTIMUM : Etude préalable de mise en œuvre, maquettage, mise au format et intégration de données, aide au démarrage, pilotage, direction de projet, installation, paramétrage, aide au démarrage, formation, intégration, migration ou réparation de bases, création, réalisation ou adaptation d’états, de requêtes ou de déclencheurs.
@@ -373,7 +373,7 @@ Le nombre de jours indiqués dans les devis GESTIMUM pour une tâche donnée, co
 Le CLIENT s’engage à mettre à la disposition de GESTIMUM l’environnement (matériel, logiciel, humain, …) nécessaire à la réalisation de la PRESTATION.
 
 
-## CLAUSES GÉNÉRALES
+## Clauses générales
 
 
 ### Absence de garantie – Limitation de responsabilité

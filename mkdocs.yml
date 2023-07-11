@@ -12,7 +12,7 @@ theme:
   - navigation.instant
   - navigation.top
   font:
-    text: Roboto
+    text: Open Sans
   palette: 
     primary : custom
     accent : custom
@@ -30,9 +30,9 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Bienvenue: 'index.md'
-  - Conditions de licence et d'utilisation: 'CLS.md'
-  - Notes de Version:
+  - BIENVENUE: 'index.md'
+  - CONDITIONS DE LICENCE DE D'UTILISATION: 'CLS.md'
+  - NOTES DE VERSION:
     - Bienvenue: 'NotesVersion/Racine/Bienvenue.md'
     - Mise en Garde: 'NotesVersion/Racine/MiseGarde.md'
     - Dénomination des versions: 'NotesVersion/Racine/DenominationVersion.md'
@@ -62,7 +62,7 @@ nav:
       - Version 7.0.2 build 772 du 31/01/2018: 'NotesVersion/Version7/NotesVersion702.md'
       - Version 7.0.1 build 771 du 19/01/2018: NotesVersion/Version7/NotesVersion701.md
       - Version 7.0.0 build 766 du 28/11/2017: 'NotesVersion/Version7/NotesVersion700.md'
-  - SOCIETE:
+  - SOCIÉTÉ:
     - Menu Société: 'Societe/Menu/Menu_SOCIETE.md'
     - Nouvelle société: 
       - Créer une nouvelle société: 
@@ -421,7 +421,7 @@ nav:
          - Impression des natures comptables: 'Societe/NaturesComptable/3/Impression.md'
          - Utilisation des natures comptables: 'Societe/NaturesComptable/4/Utilisation.md'
     - Quitter: 'Societe/Quitter/Quitter.md'
-  - EDITION:
+  - ÉDITION:
     - Menu EDITION: 'Edition/1/MenuEDITION.md'
     - Nouveau: 
       - 'Edition/2/Nouveau.md'
@@ -439,7 +439,7 @@ nav:
     - Suivant: 'Edition/9/Suivant.md'
     - Actualiser: 'Edition/8/Actualiser.md'
     - Ouvrir la liste: 'Edition/10/OuvrirListe.md'
-  - Gestion Commerciale:
+  - GESTION COMMERCIALE:
     - Gestion Commerciale: '+GestionCommerciale/FenetrePrincipale/GestionCommerciale.md'
     - ARTICLES: 
       - Articles: 
@@ -1460,7 +1460,7 @@ nav:
       - Impression d'une émission de paiements: 'EncaissementsDecaissements/Décaissements/Emissions/Impressions/1/ImpressionEmissionPaiements.md'
       - Impression des émissions de paiements: 'EncaissementsDecaissements/Décaissements/Emissions/Impressions/N/ImpressionEmissionsPaiements.md'
     - Décaissements de A à Z: 'EncaissementsDecaissements/Décaissements/AZ/DecaissementsAZ.md'
-  - Gestion Comptable: 
+  - GESTION COMPTABLE: 
     - Gestion Comptable: '+GestionComptable/FenetrePrincipale/GestionComptable.md'
     - DONNÉES:
       - Plan comptable: 
@@ -2014,7 +2014,7 @@ nav:
     - Me rappeler à la fin de la période d'assistance: 'Aide/5/MeRappelerFinPeriodeAssistance.md'
     - Assistance en ligne: 'Aide/6/AssistanceLigne.md'
     - www.gestimum.com: 'Aide/7/SiteInternet.md'
-  - G-Change: 
+  - G-CHANGE: 
     - Tâches en ligne de commande: 
       - Présentation: 'Taches/1/Presentation.md'
       - Tâches disponibles: 'Taches/1/ListeTachesDisponibles.md'
@@ -2549,7 +2549,7 @@ nav:
           - Tâches en ligne de commande: 'MessageCopyData/7/TachesLigneCommande.md'
         - Réception de tâches via message WM_COPYDATA: 
           - Application "Exemple de réception de tâches via message WM_COPYDATA": 'MessageCopyData/8/ApplicationExempleReceptionTaches.md'
-  - Ergonomie:
+  - ERGONOMIE:
     - 'Ergonomie/1/Ergonomie.md'
     - Listes doubles de sélection de journaux: 'Ergonomie/2/ListesDoublesSelectionJournaux.md'
     - Raccourcis clavier: 'Ergonomie/3/RaccourcisClavier.md'
@@ -2586,7 +2586,7 @@ nav:
           - Personnalisation des colonnes:  'Listes/Menu/Personnalisation/PersonnalisationColonnes.md'
           - Personnalisation des filtres: 'Listes/Menu/Personnalisation/PersonnalisationFiltres.md'
       - Sélection de critères, champs, données: 'Listes/Z/SelectionCriteresChampsDonnees.md'
-  - Vidéos: 
+  - VIDÉOS: 
     - Affaires: 'Videos/3/Affaires.md'
     - Articles gammés: 'Videos/3/ArticlesGammes.md'
     - Articles lottés: 'Videos/3/ArticlesLottes.md'

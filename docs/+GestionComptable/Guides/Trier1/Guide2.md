@@ -54,29 +54,3 @@ Cliquez sur une zone de l’écran pour obtenir une aide détaillée :
 
 
 
-
-
-
-
-
-
-  
-
-
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('area15');
- FilePopupInit('area16');
- FilePopupInit('area17');
- FilePopupInit('area18');
- FilePopupInit('area19');
- FilePopupInit('area20');
- FilePopupInit('area21');
- FilePopupInit('area22');
- FilePopupInit('area23');
- FilePopupInit('area24');
- FilePopupInit('area25');
- FilePopupInit('area26');
- FilePopupInit('area27');
- FilePopupInit('area28');
-//]]>

@@ -216,9 +216,3 @@ Après avoir saisi vos informations, si vous cliquez sur :
  et vous retournerez sur la fenêtre de saisie du document.
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
- FilePopupInit('a3');
-//]]>

@@ -11,10 +11,3 @@ Vous disposez du [réordonnancement des écritures](PopupRéordonnancementEcritu
  de la [fusion 
  de 2 pièces](PopupFusionPieces.md) et de la [scission d'une pièce](PopupScissionPiece.md).
 
-
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('A1');
- FilePopupInit('A2');
- FilePopupInit('A3');
-//]]>

@@ -32,11 +32,3 @@ Vous devez également renseigner toutes les informations relatives :
 
 Si vous ne renseignez pas ces dernières, l’édition de la déclaration 
  de la TVA "CA3" sera impossible.
-
-
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
- FilePopupInit('a3');
-//]]>

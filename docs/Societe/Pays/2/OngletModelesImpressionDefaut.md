@@ -29,10 +29,3 @@ A l’impression d’un document, le logiciel recherche le pays de l’adresse d
 Si aucun modèle n’est défini dans la fiche pays, l’impression des documents s’effectuera suivant le modèle défini dans les préférences de la gestion. Si ces préférences ne sont pas renseignées, l’impression ‘‘suivant les paramètres’’ s’effectuera d’après le modèle par défaut "Générique".
 
 
-
- //<![CDATA[
- if (typeof(FilePopupInit) != 'function') FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
- //]]>
- 

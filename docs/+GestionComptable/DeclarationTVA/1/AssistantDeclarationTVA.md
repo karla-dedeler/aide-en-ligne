@@ -81,9 +81,3 @@ Lorsque l’assistant a été complété, cliquez sur le bouton
 
 
 
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
- FilePopupInit('a3');
-//]]>

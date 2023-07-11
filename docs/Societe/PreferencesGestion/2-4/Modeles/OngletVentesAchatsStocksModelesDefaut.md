@@ -22,12 +22,3 @@ Si des libellés sont définis dans la fiche pays associée au document, l’imp
 
 Si ces préférences ne sont pas renseignées, l’impression "suivant les paramètres" s’effectuera d’après le modèle par défaut de chaque type de document de stocks.
 
-
-
-//<![CDATA[
- if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
- FilePopupInit('a1');
- FilePopupInit('a2');
- FilePopupInit('a3');
-//]]>
-
