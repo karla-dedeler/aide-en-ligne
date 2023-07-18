@@ -12,7 +12,7 @@
 
 
 | Champ | Description | Type | Longueur maximale | Valeurs possibles | Description des valeurs possibles | Présence | Valeur par défaut | Exemple |
-|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|
 | NAT\_TABLE | Code de table d'origine | Texte | 3 | ART <br> FAR <br>FPT<br>SFA<br>SOC | Article<br>Famille d'article<br>Frais<br>Sous-famille d''article<br>Société | Facultatif | SOC |   |
 | NAT\_TYPE | Type ou domaine | Texte | 1 | V<br>A | Ventes Achats | Obligatoire |   |   |
 | NAT\_ORIGIN | Code de la table d'origine | Texte | 30 | Code article<br>Code famille d'articles<br>Code frais<br>Code sous-famille d'articles |   | Facultatif |   |   |

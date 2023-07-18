@@ -1,9 +1,8 @@
 # Menu AFFICHAGE
 
-Le menu Affichage permet à l'utilisateur de modifier et de personnaliser 
+Le Affichage permet à l'utilisateur de modifier et de personnaliser 
  les différentes barres présentes (indiquées par une coche devant) ou non 
  à l'écran lors du lancement du logiciel.
-
 
 ## Accès au menu affichage
 

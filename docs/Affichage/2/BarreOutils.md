@@ -4,7 +4,6 @@
 
 Les icônes de la barre d'outils ont des actions génériques dont le résultat dépend de la fenêtre courante.
 
-
 ## Description des menus et des barres d'outils
 
 
@@ -26,7 +25,7 @@ Une barre d'outils peut contenir deux types de boutons, "liste de choix" ou "sim
 ### Recherche de commandes de menu
 
 
-Pour rechercher une commande de menu qui ne s'affiche pas, cliquez sur les flèches ![](../assets/images/2/FlecheBas.png) en bas du menu. Le menu se développe pour afficher des commandes supplémentaires.
+Pour rechercher une commande de menu qui ne s'affiche pas, cliquez sur les flèches ![](../assets/images/2/FlecheBas.png "") en bas du menu. Le menu se développe pour afficher des commandes supplémentaires.
 
 
 Vous pouvez également développer le menu en double-cliquant dessus. Lorsque vous développez un menu, tous les autres menus sont développés tant que vous ne sélectionnez pas une commande ou réalisez une autre action. Toute commande sur laquelle vous cliquez dans le menu développé est immédiatement ajoutée à la version personnalisée (réduite) du menu. Si vous n'utilisez plus cette commande pendant quelque temps, Gestimum ne l'affiche plus dans la version réduite du menu. Si vous le souhaitez, vous pouvez indiquer à Gestimum de toujours afficher l'ensemble des commandes pour chacun menu.
@@ -37,14 +36,10 @@ Vous pouvez également développer le menu en double-cliquant dessus. Lorsque vo
 
 Lorsque plusieurs barres d'outils sont ancrées sur la même ligne, elles affichent uniquement les boutons que vous avez utilisés le plus récemment. Pour rechercher un bouton qui ne s'affiche pas sur une barre d'outils ancrée cliquez sur Autres boutons ![](../assets/images/2/FlecheDroite.png) à la fin de la barre d'outils.
 
-
- 
-
+![MosaiqueHorizontale.png](..\assets\images\7\MosaiqueHorizontale.png
 
 Lorsque vous utilisez un bouton qui n'est pas affiché sur la barre d'outils, Gestimum déplace ce bouton sur la barre d'outils à la place d'un bouton qui n'a pas été utilisé depuis longtemps et relègue ce dernier dans la liste Autres boutons ![](../assets/images/2/FlecheDroite.png).
 
-
- 
 
 
 Vous pouvez également redimensionner une barre d’outils pour afficher davantage de boutons ou vous pouvez afficher tous les boutons d'une barre d'outils.

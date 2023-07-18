@@ -129,3 +129,9 @@
 body {
     padding-bottom: 5vh;
 }
+
+/* Sépateur dans le tableau*/
+.md-typeset table:not([class]) td:not([align]), .md-typeset table:not([class]) th:not([align]) {
+    text-align: left;
+    border: .05rem solid var(--md-typeset-table-color);
+}

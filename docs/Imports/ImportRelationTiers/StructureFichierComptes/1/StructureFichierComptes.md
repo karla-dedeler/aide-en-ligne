@@ -26,8 +26,7 @@
 | CPT\_SENS | Sens par défaut | Texte | 1 | D : Débit <br>C : Crédit | Facultatif | D |
 | CPT\_ANA | Saisie de l’analytique | Texte | 1 | I : Interdit <br>O : Obligatoire <br>P : Possible | Facultatif | I |
 | CPT\_QTE | Saisie de la quantité | Texte | 1 | I : Interdit <br>O : Obligatoire <br>P : Possible | Facultatif | I |
-| CPT\_SAL | Saisie du salarié | Texte | 1 | I : Interdit
-P : Possible | Facultatif | I |
+| CPT\_SAL | Saisie du salarié | Texte | 1 | I : Interdit<br>P : Possible | Facultatif | I |
 | CPT\_TVA\_NC | Compte de TVA | Texte | 25 |   | Facultatif | 445660 |
 | CPT\_TVA\_L1 | Code ventilation CA | Texte | 15 |   | Facultatif | 33 |
 | CPT\_LIADEB | Code débit liasse fiscale | Texte | 3 |   | Facultatif | 101 |

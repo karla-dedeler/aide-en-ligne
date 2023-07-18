@@ -1,8 +1,7 @@
 # Bienvenue
 
 
-Bienvenue dans la documentation de Gestimum Web Service 2 
- !
+Bienvenue dans la documentation de Gestimum Web Service 2 !
 
 
 

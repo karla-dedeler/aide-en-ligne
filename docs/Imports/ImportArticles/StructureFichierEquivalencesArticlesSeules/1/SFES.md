@@ -10,8 +10,8 @@
 
 
 
-| Ordre | Champ | Description | Type | Longueur
-maximale | Présence | Exemple |
+| Ordre | Champ | Description | Type | Longueur maximale | Présence | Exemple |
+|---|---|---|---|---|---|---|
 | 1 | ART\_CODE | Code article | Texte | 30 | Obligatoire |   |
 | 2 | ART\_PAUTRE | Priorité | Texte | 1 | Obligatoire |   |
 | 3 | ART\_AUTRE | Code article équivalent | Texte | 30 | Obligatoire |   |
