@@ -32,6 +32,31 @@ extra_css:
 nav:
   - BIENVENUE: 'index.md'
   - CONDITIONS DE LICENCE DE D'UTILISATION: 'CLS.md'
+  - INSTALLATION:
+    - Préambule: Installation/01/Preambule.md
+    - Vidéo d'installation étape par étape: Installation/12/VideoInstallationEtapeParEtape.md
+    - Prérequis matériels: Installation/02/PrerequisMateriels.md
+    - Configuration minimale recommandée pour le serveur: Installation/03/ConfigurationMinimaleRecommandeeServeur.md
+    - Configuration minimale recommandée pour les postes clients: Installation/04/ConfigurationMinimaleRecommandeePostesClients.md
+    - Installation de Microsoft SQL Server Express en français: Installation/05/InstallationMicrosoftSQLServerExpressFrancais.md
+    - Installation de Microsoft SQL Server Management Studio (SSMS): Installation/06/InstallationMicrosoftSQLServerManagementStudio.md
+    - Configuration du serveur après l'installation: 
+      - Installation/07/ConfigurationServeurApresInstallation.md
+      - Paramétrage du pare-feu: Installation/07/1/ParametragePareFeu.md
+      - Activation des protocoles réseaux côté serveur: Installation/07/2/ActivationProtocolesReseauxCoteServeur.md
+      - Activation des protocoles réseaux côté client: Installation/07/3/ActivationProtocolesReseauxCoteClient.md
+      - Paramétrage des connexions à Microsoft SQL Server: Installation/07/4/ParametrageConnexionsSQLServer.md
+      - Paramétrage du serveur Microsoft SQL Server: Installation/07/5/ParametrageServeurSQLServer.md
+    - Installation de Gestimum ERP: Installation/08/InstallationGestimumERP.md
+    - Déploiement rapide de Gestimum: Installation/08/Deploiement_rapide_de_Gestimum.md
+    - Création d'une base de données Gestimum ERP: Installation/09/CreationBaseDonneesGestimumERP.md
+    - Connexion à la base de données depuis un poste client: Installation/10/ConnexionBaseDonneesPosteClient.md
+    - Maintenance de la base de données:
+      - Installation/11/MaintenanceBaseDonnees.md
+      - Sauvegarder la base de données: Installation/11/1/SauvegarderBaseDonnees.md
+      - Défragmenter les index de vos tables: Installation/11/2/DefragmenterIndexTables.md
+      - Compacter le fichier LOG de la base de données: Installation/11/3/CompacterFichierLogSQLServer.md
+      - Réparer une base de données: Installation/11/4/ReparerBaseDonnees.md
   - NOTES DE VERSION:
     - Bienvenue: 'NotesVersion/Racine/Bienvenue.md'
     - Mise en Garde: 'NotesVersion/Racine/MiseGarde.md'
