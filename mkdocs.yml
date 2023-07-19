@@ -2,7 +2,7 @@ site_name: Gestimum ERP 9.5
 
 theme:
   name: material
-  logo : "https://www.pagesjaunes.fr/media/agc/a1/ff/63/00/00/10/ad/be/44/b4/5dd2a1ff63000010adbe44b4/5dd2a1ff63000010adbe44b5.png"
+  logo : "logo.png"
   custom_dir: overrides
   language: fr
   features : 
@@ -2006,7 +2006,7 @@ nav:
     - Fermer les fenêtres: 'Affichage/6/FermerFenetres.md'
     - Réorganiser les fenêtres: 'Affichage/7/ReorganiserFenetres.md'
     - Ergonomie et personnalisation: 'Affichage/8/ErgonomiePersonnalisation.md'
-  - AIDE: 
+  - ?: 
     - A propos de: 'Aide/1/About.md'
     - Conseil du jour: 'Aide/2/ConseilJour.md'
     - Partenaire Gestimum: 'Aide/3/PartenaireGestimum.md'
