@@ -1,4 +1,4 @@
-# Paramétrage du serveur {Microsoft\_SQL\_Server}
+# Paramétrage du serveur Microsoft SQL Server
 
 Vous pouvez faire d’autres paramétrages sur votre serveur Microsoft SQL Server.
 

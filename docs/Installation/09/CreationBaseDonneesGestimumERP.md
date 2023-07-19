@@ -1,4 +1,4 @@
-# Création d’une base de données {Gestimum\_ERP}
+# Création d’une base de données Gestimum ERP
 
 
 Pour créer une base de données (BDD) ou société, vous devez dans Gestimum ERP (Gestion Commerciale ou Comptabilité) faire les manipulations suivantes :

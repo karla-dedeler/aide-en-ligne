@@ -1,4 +1,4 @@
-# Installation de {Microsoft\_SQL\_Server\_Express} en français
+# Installation de Microsoft SQL Server Express en français
 
 L’installation de Microsoft SQL Server Express 
  doit être exécutée sur un seul poste avec le compte administrateur 

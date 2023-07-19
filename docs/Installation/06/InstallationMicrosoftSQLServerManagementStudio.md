@@ -1,4 +1,4 @@
-# Installation de {SSMS}
+# Installation de SSMS
 
 Lorsque vous lancerez l’installation, vous aurez tout d’abord cette 
  fenêtre, il faut cliquer sur "Exécuter".

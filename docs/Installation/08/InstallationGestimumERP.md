@@ -1,4 +1,4 @@
-# Installation de {Gestimum\_ERP}
+# Installation de Gestimum ERP
 
 
 Pour installer Gestimum ERP, vous devez passer les étapes suivantes : 
