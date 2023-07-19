@@ -447,7 +447,7 @@ nav:
          - Utilisation des natures comptables: Societe/NaturesComptable/4/Utilisation.md
     - Quitter: Societe/Quitter/Quitter.md
   - ÉDITION:
-    - Menu EDITION: Edition/1/MenuEDITION.md
+    - Menu ÉDITION: Edition/1/MenuEDITION.md
     - Nouveau: 
       - Edition/2/Nouveau.md
       - Choix de type de document: Edition/2/ChoixTypeDocument.md
@@ -466,7 +466,7 @@ nav:
     - Ouvrir la liste: Edition/10/OuvrirListe.md
   - GESTION COMMERCIALE:
     - Gestion Commerciale: +GestionCommerciale/FenetrePrincipale/GestionCommerciale.md
-    - ARTICLES: 
+    - Articles: 
       - Articles: 
         - Introduction: +GestionCommerciale/Articles/1/Introduction.md
         - Nouvel article: +GestionCommerciale/Articles/1/NouvelArticle.md
@@ -710,7 +710,7 @@ nav:
           - Impression des tarifs des articles: +GestionCommerciale/Articles/GrillesTarifsPromotions/4/Impression/ImpressionTarifsArticles.md
         - Documents dachat et vente:
           - Réappliquer automatiquement les grilles de tarifs et promotions lors de lenregistrement: +GestionCommerciale/Articles/GrillesTarifsPromotions/5/AppliquerGrillePromotionQtesCumuleesDoc.md
-    - STOCKS:
+    - Stocks:
       - Introduction: +GestionCommerciale/Stocks/1/Introduction.md
       - Documents de stock: 
         - Nouveau document de stock:
@@ -810,7 +810,7 @@ nav:
         - Affectation des numéros de séries: +GestionCommerciale/Stocks/NumerosSeries/5/AffectationNumerosSeries.md
         - Affectation des numéros de séries en sortie de stock: +GestionCommerciale/Stocks/NumerosSeries/5/AffectationNumerosSeriesSortieStock.md
         - Réservation de numéros de séries: +GestionCommerciale/Stocks/NumerosSeries/6/ReservationNumerosSeries.md
-    - TIERS: 
+    - Tiers: 
       - Prospects, clients et fournisseurs:
         - Introduction: +GestionCommerciale/Tiers/1/Introduction.md
         - Liste des tiers: +GestionCommerciale/Tiers/1/ListeTiers.md
@@ -990,7 +990,7 @@ nav:
         - Rappels: +GestionCommerciale/Tiers/Actions/6/Rappels.md
         - Prospection: +GestionCommerciale/Tiers/Actions/7/Prospection.md
         - Actions de A à Z: +GestionCommerciale/Tiers/Actions/8/ActionsAZ.md
-    - VENTES: 
+    - Ventes: 
       - Menu VENTES: +GestionCommerciale/Ventes/MenuVENTES.md
       - Documents: 
         - Nouveau document de vente: 
@@ -1169,7 +1169,7 @@ nav:
         - Taxes sur les alcools: +GestionCommerciale/Ventes/TaxesParafiscales/1/TaxesAlcools.md
         - Taxes sur les alcools dans Gestimum ERP: +GestionCommerciale/Ventes/TaxesParafiscales/2/GestimumERP.md
         - Formules de calculs des taxes parafiscales: +GestionCommerciale/Ventes/TaxesParafiscales/3/FormulesCalculsTaxesParafiscales.md
-    - ACHATS: 
+    - Achats: 
       - Menu ACHATS: +GestionCommerciale/Achats/MenuACHATS.md
       - Documents dachat: 
         - Nouveau document dachat: 
@@ -1288,7 +1288,7 @@ nav:
         - Formules de calculs des taxes parafiscales: +GestionCommerciale/Achats/TaxesParafiscales/3/FormulesCalculsTaxesParafiscales.md
     - Impression de léchéancier: +GestionCommerciale/ImpressionEcheancier/ImpressionEcheancier.md
     - Impression dun relevé de factures: +GestionCommerciale/ImpressionReleveFactures/ImpressionReleveFactures.md
-    - AFFAIRES:
+    - Affaires:
       - Objectif: Affaires/1/Objectif.md
       - Paramétrage: Affaires/2/Parametrage.md
       - Affaires: 
@@ -1487,7 +1487,7 @@ nav:
     - Décaissements de A à Z: EncaissementsDecaissements/Décaissements/AZ/DecaissementsAZ.md
   - GESTION COMPTABLE: 
     - Gestion Comptable: +GestionComptable/FenetrePrincipale/GestionComptable.md
-    - DONNÉES:
+    - Données:
       - Plan comptable: 
         - Introduction: +GestionComptable/PlanComptable/1/Introduction.md
         - Plan comptable: 
@@ -1607,7 +1607,7 @@ nav:
               - Exemple de fichier de comptes de reporting: Imports/ImportAutresDonnees/ImportComptesReporting/2/ExempleFichierComptesReporting.md
               - Exemple dimport de comptes de reporting: Imports/ImportAutresDonnees/ImportComptesReporting/2/ExempleImportComptesReporting.md
         - Impression des comptes de reporting: +GestionComptable/ComptesReporting/3/ImpressionComptesReporting.md
-    - ECRITURES: 
+    - Écritures: 
       - Saisies décritures: 
         - Saisie standard: 
           - +GestionComptable/Ecritures/Saisie/Standard/SaisieStandard.md
@@ -1690,7 +1690,7 @@ nav:
           - Compte de résultat: EtatsFinanciers/1/CompteRésultat.md
           - Bilan:  EtatsFinanciers/2/Bilan.md
         - Échéancier: +GestionComptable/Ecritures/Echeancier/Echeancier.md
-    - IMMOS:
+    - Immos:
       - Introduction: Immobilisations/Introduction/Introduction.md
       - Familles dimmobilisations: 
         - Liste des familles dimmobilisations: Immobilisations/Familles/ListeFamillesImmobilisations.md
@@ -1742,7 +1742,7 @@ nav:
         - Génération des écritures comptables: Immobilisations/Comptabilisation/GenerationEcrituresComptables.md
         - Outils de comptabilisation en masse: Immobilisations/Comptabilisation/OutilsComptabilisationMasse.md
       - Immobilisations de A à Z: Immobilisations/Immobilisations-de-A-Z/ImmobilisationsAZ.md
-    - TRAITEMENTS: 
+    - Traitements: 
       - Lettrage: 
         - Introduction: +GestionComptable/Lettrage/1/Introduction.md
         - Lettrage automatique: +GestionComptable/Lettrage/3/LettrageAutomatique.md
