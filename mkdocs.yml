@@ -7,7 +7,7 @@ theme:
   language: fr
   features : 
   - search
-  - search.highlight
+  - search.highlight 
   - navigation.footer
   - navigation.instant
   - navigation.top
